@@ -1,0 +1,10 @@
+{
+  "all_statuses_and_logical_signatures_match": true,
+  "capped_signatures_match": true,
+  "passed": true,
+  "proof_summary_counts_match": true,
+  "replica_summary_sha256": "7bb7b9396a5f24c1bafaffc4acb1b1cceae069e22b5403e40df0678511be8534",
+  "separate_validation_not_pooled_with_original_timings": true,
+  "source_summary_sha256": "9cd4a72bc95475af21496d9fb4d5de858887496d5b666d3c2d99fb3349128cb8",
+  "workers": 468
+}

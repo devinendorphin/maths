@@ -1,0 +1,16 @@
+{
+  "all_inputs_have_complete_answers": true,
+  "endpoint_references": 44,
+  "full_reaudit": true,
+  "inputs": 58,
+  "integer_checks": 61797,
+  "interval_bundles": 16,
+  "matched_scale_packings_identical": true,
+  "passed": true,
+  "present_member_hashes": 0,
+  "primary_optimal_noncanonical": 0,
+  "rational_checks": 16695,
+  "vipr_invalid_rejected": 33,
+  "vipr_valid": 33,
+  "workers": 468
+}
