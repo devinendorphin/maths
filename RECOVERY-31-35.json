@@ -1,0 +1,24 @@
+{
+  "archive": "Temporal-proof-experiments-31-35-campaign.zip",
+  "archive_bytes": 176127453,
+  "archive_sha256": "656930b55f767e811089a8b345abb1cbf228559dd13afaf4be770d4c7c4f7b9f",
+  "part_count": 8,
+  "archive_file_members": 8276,
+  "manifest_members_verified": 8275,
+  "all_member_hashes_verified": true,
+  "imported_files": 8276,
+  "large_members_preserved_in_parts": [],
+  "failures": [],
+  "scope": "Byte-integrity recovery only; no experiments rerun or mathematical audits executed.",
+  "imported_member_hashes_verified": 8275,
+  "frozen_members_verified_by_stage": {
+    "31": 25,
+    "32": 29,
+    "33": 30,
+    "34": 32,
+    "35": 33
+  },
+  "prior_stage34_sources_verified": 2,
+  "nested_checkpoint_sha256_verified": "bb2469796172764663afa5e081c2de5b42607c8b30bae8e1333c8cbe93428ad8",
+  "resume_pending_lists_empty": true
+}

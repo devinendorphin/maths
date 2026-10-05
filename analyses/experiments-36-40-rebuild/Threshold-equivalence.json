@@ -1,0 +1,294 @@
+{
+  "comparisons": [
+    {
+      "case_id": "12-154000-random-sparse",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-random-signed",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-random-scale",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-random-harm",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-negative-sparse",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-negative-signed",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-negative-scale",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-negative-harm",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-random-sparse",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-random-signed",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-random-scale",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-random-harm",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-negative-sparse",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-negative-signed",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-negative-scale",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-negative-harm",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-random-sparse",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-random-signed",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-random-scale",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-random-harm",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-negative-sparse",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-negative-signed",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-negative-scale",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-negative-harm",
+      "identical": true,
+      "method": "unpruned",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-random-sparse",
+      "identical": true,
+      "method": "same",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-random-signed",
+      "identical": true,
+      "method": "same",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-random-scale",
+      "identical": true,
+      "method": "same",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-random-harm",
+      "identical": true,
+      "method": "same",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-negative-sparse",
+      "identical": true,
+      "method": "same",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-negative-signed",
+      "identical": true,
+      "method": "same",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-negative-scale",
+      "identical": true,
+      "method": "same",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-negative-harm",
+      "identical": true,
+      "method": "same",
+      "rep": 0
+    },
+    {
+      "case_id": "12-154000-random-sparse",
+      "identical": true,
+      "method": "same",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-random-signed",
+      "identical": true,
+      "method": "same",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-random-scale",
+      "identical": true,
+      "method": "same",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-random-harm",
+      "identical": true,
+      "method": "same",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-negative-sparse",
+      "identical": true,
+      "method": "same",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-negative-signed",
+      "identical": true,
+      "method": "same",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-negative-scale",
+      "identical": true,
+      "method": "same",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-negative-harm",
+      "identical": true,
+      "method": "same",
+      "rep": 1
+    },
+    {
+      "case_id": "12-154000-random-sparse",
+      "identical": true,
+      "method": "same",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-random-signed",
+      "identical": true,
+      "method": "same",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-random-scale",
+      "identical": true,
+      "method": "same",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-random-harm",
+      "identical": true,
+      "method": "same",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-negative-sparse",
+      "identical": true,
+      "method": "same",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-negative-signed",
+      "identical": true,
+      "method": "same",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-negative-scale",
+      "identical": true,
+      "method": "same",
+      "rep": 2
+    },
+    {
+      "case_id": "12-154000-negative-harm",
+      "identical": true,
+      "method": "same",
+      "rep": 2
+    }
+  ],
+  "interpretation": "If identical, different timing scores do not establish a functionally different or uniquely useful threshold",
+  "passed": true
+}

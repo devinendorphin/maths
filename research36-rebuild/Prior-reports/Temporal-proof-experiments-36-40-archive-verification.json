@@ -1,0 +1,25 @@
+{
+  "archive": "Temporal-proof-experiments-36-40-campaign-verified.tar.xz",
+  "archive_bytes": 490898512,
+  "archive_sha256": "a2360b92cfa4df79b33c0107df674f2d54639d0c4dfb28f11392651ae18dec82",
+  "manifest_members": 505483,
+  "archive_file_members": 505484,
+  "uncompressed_file_bytes": 931154572,
+  "all_member_hashes_verified": true,
+  "failures": [],
+  "missing": [],
+  "original_checkpoint_reference": {
+    "filename": "Temporal-proof-experiments-31-35-campaign.zip",
+    "sha256": "656930b55f767e811089a8b345abb1cbf228559dd13afaf4be770d4c7c4f7b9f",
+    "bytes": 176127453,
+    "archive_entries": 8276,
+    "manifest_members": 8275,
+    "source_library_file_id": "libfile_8b0502f3ca388191bc8d5c8e5b9538ee",
+    "source_conversation_file_id": "file_00000000135c81f5b2965e07594a326c",
+    "reference_kind": "explicit byte-identical reference to the unchanged supplied attached checkpoint",
+    "checkpoint_verified_in": "research36/Checkpoint-verification.json",
+    "new_experiments_self_contained": true,
+    "old_campaign_not_replayed": true
+  },
+  "verification_seconds": 47.321839570999146
+}

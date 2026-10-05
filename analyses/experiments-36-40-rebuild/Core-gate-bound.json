@@ -1,0 +1,19 @@
+{
+  "argument": "For every non-normalized core direction, absolute item slopes are at most 3. At prefix j, U-L is at most 3*j, and either gcd is zero (one bin) or it is at least one, so bins are at most 1+3*j. Capacity is at most floor(20*n/3). All four fixed thresholds therefore accept every possible non-normalized core input, regardless of seed. Scale directions are recognized first and skip the gate.",
+  "ceilings": [
+    {
+      "E_ceiling": 20007,
+      "T_ceiling": 34020,
+      "max_capacity": 80,
+      "n": 12
+    },
+    {
+      "E_ceiling": 45475,
+      "T_ceiling": 80464,
+      "max_capacity": 106,
+      "n": 16
+    }
+  ],
+  "passed": true,
+  "scope": "This declared core generator only; excludes stress, other capacities, larger n and larger slopes"
+}

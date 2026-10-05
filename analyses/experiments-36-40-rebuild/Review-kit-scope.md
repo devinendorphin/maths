@@ -1,0 +1,3 @@
+# Small review kit
+
+This contains the new sources and frozen snapshots, original stage-35 kernel modules, all declared inputs, protocols, reports, timing/selection records, aggregate summaries, and supplemental diagnostics/fixture. It excludes the full checkpoint history, detailed unique policy records, construction/event proofs and their hundreds of thousands of audit/checkpoint files. This is a reading/source kit, not the complete evidence archive. Full evidence and the checked primary 69-part archive remain at https://github.com/devinendorphin/maths/tree/main/research36-rebuild . Follow REPRODUCE-36-40.md with the full repository for a fresh complete reproduction.

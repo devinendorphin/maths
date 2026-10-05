@@ -1,0 +1,1961 @@
+{
+  "origin_commit": "9cd9811611606b469ce9a49c7eba3af954c41b6f",
+  "scope": "Byte-identical retained files; Git SHA-1 blob identifiers, not mathematical verification",
+  "files": [
+    {
+      "path": "IMPORT-STATUS.md",
+      "git_blob_sha": "6c52fbb675ca51676e9db7db8dc5d7963127290f",
+      "mode": "100644"
+    },
+    {
+      "path": "RECOVERY-31-35.json",
+      "git_blob_sha": "75dd3e2c851193a7e4789c483b4d142229d92f52",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Archive-verification.json",
+      "git_blob_sha": "6bc40087e94dffaf092740306857e5894d320f5c",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Cohort-diagnostics.json",
+      "git_blob_sha": "e172fff3ef15f5f5d28bb15a1228ccea9c1bd4c5",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Core-gate-bound.json",
+      "git_blob_sha": "82f01bbd9449f10a377a6fe24726e7f495b91763",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Gate-diagnostics.json",
+      "git_blob_sha": "83d9e27dadefd8e2ee1a2911c0242039a53b9e7d",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Interpretation.md",
+      "git_blob_sha": "d508e9f1f01dd76804c8be4e23ffa0a7c3126e0e",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Manifest.json",
+      "git_blob_sha": "9a05a06160a13214fba34e6e49083e42ee8469b6",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Maths-36-40-review-kit.tar.xz",
+      "git_blob_sha": "b33372209fbf2d97251adf32ce8775be93a5f611",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Native-limit-verification.json",
+      "git_blob_sha": "01c8da2f9b2a3f091e501a7277dfab96f9763d27",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Primary-reference.json",
+      "git_blob_sha": "ede396fe99a5d6f9f624428dffed01c971c366f2",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Review-kit-manifest.json",
+      "git_blob_sha": "b455ad803d6f2b5d787daacab742c3ef02d3c172",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Review-kit-scope.md",
+      "git_blob_sha": "a8105df83f388cb7ff0d55f8c77431ab3f6a70be",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Review-kit-verification.json",
+      "git_blob_sha": "086a2fa69d88762d52922e347515b6d5ce1b8c5a",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Supplemental-analysis.tar.xz",
+      "git_blob_sha": "6308ddd43bddc126fc4deaa71dc797fe7c586b56",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/Threshold-equivalence.json",
+      "git_blob_sha": "9c5a0833acdc821d4e9adfd5e1c643a7ff35ad3f",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/analysis_postrun.py",
+      "git_blob_sha": "dccf2a340d01f8ce26c3ded434328a0a3fcad9b7",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/36-development.json",
+      "git_blob_sha": "9d2d02c5b0a7aa7294487df25ab0605e184d12ce",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/36-held.json",
+      "git_blob_sha": "989e1a3d0b1ef2f2a2bac95357b987f7768b9182",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/37-development.json",
+      "git_blob_sha": "ce81fe110619da28599ed73bc080db837d57cee6",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/37-held.json",
+      "git_blob_sha": "5a2303c9763586925441a01916dbdb1cf53c93a9",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/38-development.json",
+      "git_blob_sha": "aefdbc74f18a40112b52c2de8099b4d3382728bd",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/38-held.json",
+      "git_blob_sha": "5502c3c247523c3903a549903fa75dfba3dd65e9",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/39-development.json",
+      "git_blob_sha": "b482bdeace40076cb095f290df54dd9621201bcd",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/39-held.json",
+      "git_blob_sha": "ef8f6e1cbf634913f41d3e5c3c9b9dca1eb2486a",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/40-development.json",
+      "git_blob_sha": "c0d67007bc414ad6e2288ead485042cfc4cbc7bf",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/compact-summaries/40-held.json",
+      "git_blob_sha": "f03419fcc705679e45ac65a80e68cfebdc98b746",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/Audit.json",
+      "git_blob_sha": "7615db0ca4afb90593edd85d8974c7d2bfc84aa9",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/Input.json",
+      "git_blob_sha": "581f448ee4163e3df8d8f5f273d71f37bfcc1520",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/Result.json.gz",
+      "git_blob_sha": "fd9301f70bd528124ad706ff8d43931cb2026c31",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/Validation.json",
+      "git_blob_sha": "3e7fab17bd39a85dd555a4fae94810bdd655f017",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/construction-audit-000.json",
+      "git_blob_sha": "dfb5f674aaba3a5269fb077fe4971bca78da95b6",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/construction-audit-001.json",
+      "git_blob_sha": "f9e90c7836f491be3c5cef907b24738ed8fef430",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/event-audit-0001.json",
+      "git_blob_sha": "4283b88becda828b829d85fc2b0a59b74337904c",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/event-audit-0002.json",
+      "git_blob_sha": "d31f84b8ac6b68ca9b43e0ee05fe5b7eb9984744",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/native-audit-000.json",
+      "git_blob_sha": "9a3b7ac4b398b53f56ded8f5adc8be0ac00f86f3",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/native-audit-001.json",
+      "git_blob_sha": "e18f6d36e568e323834fbf66b69f442f528dd6ae",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0000.json",
+      "git_blob_sha": "2ad3c2488f89cca4cfee90e8b634fb7921ffe707",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0064.json",
+      "git_blob_sha": "f96182c63965911da60b82c298a0e0e9ddfab40a",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0128.json",
+      "git_blob_sha": "dd25bc3a28a96fc36753fb8a8eedbf0c316c4146",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0192.json",
+      "git_blob_sha": "8bc6110dabf8272078c4e4390eba9e128ce622ee",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0256.json",
+      "git_blob_sha": "49a3916c1f40abbdb263c8bdd80accb503a2ff45",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0320.json",
+      "git_blob_sha": "92cbfd50e0ada0759707bdc933d59fb7971d83e4",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0384.json",
+      "git_blob_sha": "4b974535153729f1ec4a55ceb1bce98b99442252",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0448.json",
+      "git_blob_sha": "279a94194bc693f2fad60eafa1669f1ddc98819d",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0512.json",
+      "git_blob_sha": "8bc258a91b7f6af5e34cd6775788f62188cf149b",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0576.json",
+      "git_blob_sha": "2865d93094766474e72371b0acbc4af1d9157ff4",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0640.json",
+      "git_blob_sha": "e9ebb1b7c92d749cbb53bf87a02afe4f8b04263c",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0704.json",
+      "git_blob_sha": "ef7f7db47de19fbb22e576697ae0d76c8bf850c6",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0768.json",
+      "git_blob_sha": "147328db2f126be48e6bd4d9ad73726766664678",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0832.json",
+      "git_blob_sha": "8278a5aadd59322789b384e7e6969d9c7fc49f4b",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0896.json",
+      "git_blob_sha": "7540ac7128ff5f1ff3a6a2cd24aaf0e0068fe98f",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-0960.json",
+      "git_blob_sha": "e395aeb9c929df42206d69314a50cebb069aa7ad",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/objective-audit-1024.json",
+      "git_blob_sha": "79aae2274af7da31d18ba44187a0021dd533c78e",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/segment-audit-0000.json",
+      "git_blob_sha": "ca167675cfae2cc119a5720cd19d4af57da5e933",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/segment-audit-0001.json",
+      "git_blob_sha": "0f961a347ac58a7e20868abc7b5c5509221717f1",
+      "mode": "100644"
+    },
+    {
+      "path": "analyses/experiments-36-40-rebuild/later-window-cap/segment-audit-0002.json",
+      "git_blob_sha": "c8b6918c75b6b50c2699f4ad6216b219e7f1e38a",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/Handoff.md",
+      "git_blob_sha": "5f2a7665cdf666774223f02707e307617ccf9886",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/Mathematical-guarantees.md",
+      "git_blob_sha": "cc519127369f66b6c384fb4f084a53a766d9e90d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/README.md",
+      "git_blob_sha": "994628a9f4316c77aa2c532cfacbaf6ebaf8506b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/Synthesis.md",
+      "git_blob_sha": "56eb3597a19672304a4772469360209cc4010358",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/audit_accounting.py",
+      "git_blob_sha": "2d30aecab27ea68f5a34d35702e9369c63ca6bfe",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/audit_horizon.py",
+      "git_blob_sha": "8da4deaff87bc8af8ddfaac043e36dcd40b4ccce",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/audit_inputs.py",
+      "git_blob_sha": "1d4a3fd496807c84fbc928d11b7248d96963994c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/audit_new.py",
+      "git_blob_sha": "4e290b7ca0f9eb68067af163fbf9374f55fe124d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/audit_renewal.py",
+      "git_blob_sha": "baf6327651bf408f344033e8cc781f64c5088610",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/audit_repeated.py",
+      "git_blob_sha": "c398e2b79f5a848d1972a441984ba961f296ed9c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/campaign.py",
+      "git_blob_sha": "00685fa4f34d272882191d24e03b20a3424908fd",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/check_frontier.py",
+      "git_blob_sha": "519ee1a4ada48d0f96fff0f82fb7e99ce73b3695",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/checkpoint.py",
+      "git_blob_sha": "1a3f3ac1e40259d86157ccb668d2a0425e6397c5",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/compaction.py",
+      "git_blob_sha": "c734e41930a1bc0ddd2fe30f028662d09cc56083",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/continuation.py",
+      "git_blob_sha": "a83409c9a7be048922a886548bd4e12a301c093e",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/diagnostics.py",
+      "git_blob_sha": "b648e92cc5e6a7a9ba8afac553d1f6c102b9cba3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/engine.py",
+      "git_blob_sha": "ef0e934dec44acbf533181cf5c48608779c8653b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/experiment.py",
+      "git_blob_sha": "cde178849726d5aee5dcd57c2c5d7c459e732673",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/extend30.py",
+      "git_blob_sha": "97cac8d30576d2dbc9d6477b75757db20f62792a",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/final_check.py",
+      "git_blob_sha": "b7222f9125271e5794594b55d5d1b5ce10f8d62b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/fixtures.py",
+      "git_blob_sha": "ea3965a0d6e0fd88dcc19ce5b2553f16de836d49",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/flat_baseline.py",
+      "git_blob_sha": "c8e0af7d44cbfdb50727a7049f1abb70a7ff6050",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/frontier.py",
+      "git_blob_sha": "db2936fefcb3b0bf47cacf16baf0b8641b1c7754",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/horizon.py",
+      "git_blob_sha": "0303fc110a66f9dc0d92ec51394c5071a29091c1",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/ledgers.py",
+      "git_blob_sha": "fd47e75d70575a3d28dece5bdae22741f609a0ec",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/payback.py",
+      "git_blob_sha": "a24c323a80395ea3c5425d9a755f24dea1477f39",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/proof_slack_experiment.py",
+      "git_blob_sha": "aa6fe87975a204b65dc743745e544f6c7aa2a9b3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/reconcile.py",
+      "git_blob_sha": "f7817b17fe9afe07b61e06d70c5bbcec34612471",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/recover_evidence.py",
+      "git_blob_sha": "32371d47c89d3548ef2e01c6b1232d96e33320c0",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/refine.py",
+      "git_blob_sha": "5ad38e3e02dcd2e587d598f14ce5716b9e99e598",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/renewal.py",
+      "git_blob_sha": "0f39023857903721d0014363883164d458a51014",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/repeated.py",
+      "git_blob_sha": "d90a1d6be37451dc77d47a542008e0687776e17b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/reproduce.py",
+      "git_blob_sha": "cac57252f993a2f024789e8390f40565ad84c55d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/runner.py",
+      "git_blob_sha": "45ec0d8be16838724b6d164e1bb980a343d825e5",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/source_clean.py",
+      "git_blob_sha": "5ff742e60db418406702e0d42866c44438f56925",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/source_guarded.py",
+      "git_blob_sha": "7bdf33be832d94c834fc40e2b144032d0d04a861",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/code/synthesize.py",
+      "git_blob_sha": "61ed0f96d8e9e73be89d92ccafc8278eadcd1d00",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stage30-extension/Report.md",
+      "git_blob_sha": "bc8a604be6238932bac858cf42685f8783ade913",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/Protocol.md",
+      "git_blob_sha": "a8b8767b1e344cc62f3ae010fb50e6246cefc637",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/Report.md",
+      "git_blob_sha": "2bc82984ee48d186b7df906e8f2b088a3156edcb",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/audit_accounting.py",
+      "git_blob_sha": "2d30aecab27ea68f5a34d35702e9369c63ca6bfe",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/audit_horizon.py",
+      "git_blob_sha": "8da4deaff87bc8af8ddfaac043e36dcd40b4ccce",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/audit_new.py",
+      "git_blob_sha": "4e290b7ca0f9eb68067af163fbf9374f55fe124d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/audit_renewal.py",
+      "git_blob_sha": "baf6327651bf408f344033e8cc781f64c5088610",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/audit_repeated.py",
+      "git_blob_sha": "c398e2b79f5a848d1972a441984ba961f296ed9c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/campaign.py",
+      "git_blob_sha": "00685fa4f34d272882191d24e03b20a3424908fd",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/check_frontier.py",
+      "git_blob_sha": "a5451d577c8f12668bac1cdec60a1888cda7a134",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/compaction.py",
+      "git_blob_sha": "c734e41930a1bc0ddd2fe30f028662d09cc56083",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/continuation.py",
+      "git_blob_sha": "a83409c9a7be048922a886548bd4e12a301c093e",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/engine.py",
+      "git_blob_sha": "6fdd41351081658e86cbfdea34497bfc33948ac0",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/experiment.py",
+      "git_blob_sha": "cde178849726d5aee5dcd57c2c5d7c459e732673",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/extend30.py",
+      "git_blob_sha": "381d9a789e2ae43c1d39165f5535950f18ffd706",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/fixtures.py",
+      "git_blob_sha": "99ba3eb3b522f607c0f40307a2e471c7b89d4a55",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/flat_baseline.py",
+      "git_blob_sha": "c8e0af7d44cbfdb50727a7049f1abb70a7ff6050",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/frontier.py",
+      "git_blob_sha": "3634d6536eea0e0d775265c872bc8c34220ca797",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/horizon.py",
+      "git_blob_sha": "0303fc110a66f9dc0d92ec51394c5071a29091c1",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/payback.py",
+      "git_blob_sha": "a24c323a80395ea3c5425d9a755f24dea1477f39",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/proof_slack_experiment.py",
+      "git_blob_sha": "aa6fe87975a204b65dc743745e544f6c7aa2a9b3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/refine.py",
+      "git_blob_sha": "5ad38e3e02dcd2e587d598f14ce5716b9e99e598",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/renewal.py",
+      "git_blob_sha": "0f39023857903721d0014363883164d458a51014",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/repeated.py",
+      "git_blob_sha": "d90a1d6be37451dc77d47a542008e0687776e17b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/runner.py",
+      "git_blob_sha": "c269db57d8a417dfdb79019106be012f679741a6",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/source_clean.py",
+      "git_blob_sha": "5ff742e60db418406702e0d42866c44438f56925",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/31/code/source_guarded.py",
+      "git_blob_sha": "7bdf33be832d94c834fc40e2b144032d0d04a861",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/Protocol.md",
+      "git_blob_sha": "4ae64336eec10a25e2e1bff8dcce3d69868ad1d2",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/Report.md",
+      "git_blob_sha": "17f83fa7b3e1a8ebf0d1fea8a82c9342b5a4147c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/audit_accounting.py",
+      "git_blob_sha": "2d30aecab27ea68f5a34d35702e9369c63ca6bfe",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/audit_horizon.py",
+      "git_blob_sha": "8da4deaff87bc8af8ddfaac043e36dcd40b4ccce",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/audit_inputs.py",
+      "git_blob_sha": "1d4a3fd496807c84fbc928d11b7248d96963994c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/audit_new.py",
+      "git_blob_sha": "4e290b7ca0f9eb68067af163fbf9374f55fe124d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/audit_renewal.py",
+      "git_blob_sha": "baf6327651bf408f344033e8cc781f64c5088610",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/audit_repeated.py",
+      "git_blob_sha": "c398e2b79f5a848d1972a441984ba961f296ed9c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/campaign.py",
+      "git_blob_sha": "00685fa4f34d272882191d24e03b20a3424908fd",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/check_frontier.py",
+      "git_blob_sha": "a5451d577c8f12668bac1cdec60a1888cda7a134",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/checkpoint.py",
+      "git_blob_sha": "1a3f3ac1e40259d86157ccb668d2a0425e6397c5",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/compaction.py",
+      "git_blob_sha": "c734e41930a1bc0ddd2fe30f028662d09cc56083",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/continuation.py",
+      "git_blob_sha": "a83409c9a7be048922a886548bd4e12a301c093e",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/diagnostics.py",
+      "git_blob_sha": "efda0df3ed349d0611da233880d28f509815ae18",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/engine.py",
+      "git_blob_sha": "2e3de8247366a19927847ffebb24bd5ef8dfcfab",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/experiment.py",
+      "git_blob_sha": "cde178849726d5aee5dcd57c2c5d7c459e732673",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/extend30.py",
+      "git_blob_sha": "97cac8d30576d2dbc9d6477b75757db20f62792a",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/fixtures.py",
+      "git_blob_sha": "ea3965a0d6e0fd88dcc19ce5b2553f16de836d49",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/flat_baseline.py",
+      "git_blob_sha": "c8e0af7d44cbfdb50727a7049f1abb70a7ff6050",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/frontier.py",
+      "git_blob_sha": "b27bf87813e8152f1bec984ddc819f349287390b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/horizon.py",
+      "git_blob_sha": "0303fc110a66f9dc0d92ec51394c5071a29091c1",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/payback.py",
+      "git_blob_sha": "a24c323a80395ea3c5425d9a755f24dea1477f39",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/proof_slack_experiment.py",
+      "git_blob_sha": "aa6fe87975a204b65dc743745e544f6c7aa2a9b3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/refine.py",
+      "git_blob_sha": "5ad38e3e02dcd2e587d598f14ce5716b9e99e598",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/renewal.py",
+      "git_blob_sha": "0f39023857903721d0014363883164d458a51014",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/repeated.py",
+      "git_blob_sha": "d90a1d6be37451dc77d47a542008e0687776e17b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/reproduce.py",
+      "git_blob_sha": "cac57252f993a2f024789e8390f40565ad84c55d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/runner.py",
+      "git_blob_sha": "df946d2dd8e9458240197ab86c5beb08e3ad2c66",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/source_clean.py",
+      "git_blob_sha": "5ff742e60db418406702e0d42866c44438f56925",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/32/code/source_guarded.py",
+      "git_blob_sha": "7bdf33be832d94c834fc40e2b144032d0d04a861",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/Protocol.md",
+      "git_blob_sha": "b410680557a298853b4e149124bc62254fa49c9f",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/Report.md",
+      "git_blob_sha": "26aee3a9e7cdc2e440a57ae98c823ab9252bb553",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/audit_accounting.py",
+      "git_blob_sha": "2d30aecab27ea68f5a34d35702e9369c63ca6bfe",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/audit_horizon.py",
+      "git_blob_sha": "8da4deaff87bc8af8ddfaac043e36dcd40b4ccce",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/audit_inputs.py",
+      "git_blob_sha": "1d4a3fd496807c84fbc928d11b7248d96963994c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/audit_new.py",
+      "git_blob_sha": "4e290b7ca0f9eb68067af163fbf9374f55fe124d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/audit_renewal.py",
+      "git_blob_sha": "baf6327651bf408f344033e8cc781f64c5088610",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/audit_repeated.py",
+      "git_blob_sha": "c398e2b79f5a848d1972a441984ba961f296ed9c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/campaign.py",
+      "git_blob_sha": "00685fa4f34d272882191d24e03b20a3424908fd",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/check_frontier.py",
+      "git_blob_sha": "a5451d577c8f12668bac1cdec60a1888cda7a134",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/checkpoint.py",
+      "git_blob_sha": "1a3f3ac1e40259d86157ccb668d2a0425e6397c5",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/compaction.py",
+      "git_blob_sha": "c734e41930a1bc0ddd2fe30f028662d09cc56083",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/continuation.py",
+      "git_blob_sha": "a83409c9a7be048922a886548bd4e12a301c093e",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/diagnostics.py",
+      "git_blob_sha": "efda0df3ed349d0611da233880d28f509815ae18",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/engine.py",
+      "git_blob_sha": "ef0e934dec44acbf533181cf5c48608779c8653b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/experiment.py",
+      "git_blob_sha": "cde178849726d5aee5dcd57c2c5d7c459e732673",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/extend30.py",
+      "git_blob_sha": "97cac8d30576d2dbc9d6477b75757db20f62792a",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/fixtures.py",
+      "git_blob_sha": "ea3965a0d6e0fd88dcc19ce5b2553f16de836d49",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/flat_baseline.py",
+      "git_blob_sha": "c8e0af7d44cbfdb50727a7049f1abb70a7ff6050",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/frontier.py",
+      "git_blob_sha": "b27bf87813e8152f1bec984ddc819f349287390b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/horizon.py",
+      "git_blob_sha": "0303fc110a66f9dc0d92ec51394c5071a29091c1",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/payback.py",
+      "git_blob_sha": "a24c323a80395ea3c5425d9a755f24dea1477f39",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/proof_slack_experiment.py",
+      "git_blob_sha": "aa6fe87975a204b65dc743745e544f6c7aa2a9b3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/recover_evidence.py",
+      "git_blob_sha": "32371d47c89d3548ef2e01c6b1232d96e33320c0",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/refine.py",
+      "git_blob_sha": "5ad38e3e02dcd2e587d598f14ce5716b9e99e598",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/renewal.py",
+      "git_blob_sha": "0f39023857903721d0014363883164d458a51014",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/repeated.py",
+      "git_blob_sha": "d90a1d6be37451dc77d47a542008e0687776e17b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/reproduce.py",
+      "git_blob_sha": "cac57252f993a2f024789e8390f40565ad84c55d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/runner.py",
+      "git_blob_sha": "e78fecdf838afb59aab48cc96fc5d98faf5b9ea8",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/source_clean.py",
+      "git_blob_sha": "5ff742e60db418406702e0d42866c44438f56925",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/33/code/source_guarded.py",
+      "git_blob_sha": "7bdf33be832d94c834fc40e2b144032d0d04a861",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/Before-amendment-check_frontier.py",
+      "git_blob_sha": "a5451d577c8f12668bac1cdec60a1888cda7a134",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/Before-amendment-runner.py",
+      "git_blob_sha": "e78fecdf838afb59aab48cc96fc5d98faf5b9ea8",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/Protocol.md",
+      "git_blob_sha": "3e23e23d1eda8073bc6966ede69c5f0f98467a84",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/Report.md",
+      "git_blob_sha": "eb7c096afa44ca54f7f3b064b3c36d9f75e3d48b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/audit_accounting.py",
+      "git_blob_sha": "2d30aecab27ea68f5a34d35702e9369c63ca6bfe",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/audit_horizon.py",
+      "git_blob_sha": "8da4deaff87bc8af8ddfaac043e36dcd40b4ccce",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/audit_inputs.py",
+      "git_blob_sha": "1d4a3fd496807c84fbc928d11b7248d96963994c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/audit_new.py",
+      "git_blob_sha": "4e290b7ca0f9eb68067af163fbf9374f55fe124d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/audit_renewal.py",
+      "git_blob_sha": "baf6327651bf408f344033e8cc781f64c5088610",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/audit_repeated.py",
+      "git_blob_sha": "c398e2b79f5a848d1972a441984ba961f296ed9c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/campaign.py",
+      "git_blob_sha": "00685fa4f34d272882191d24e03b20a3424908fd",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/check_frontier.py",
+      "git_blob_sha": "519ee1a4ada48d0f96fff0f82fb7e99ce73b3695",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/checkpoint.py",
+      "git_blob_sha": "1a3f3ac1e40259d86157ccb668d2a0425e6397c5",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/compaction.py",
+      "git_blob_sha": "c734e41930a1bc0ddd2fe30f028662d09cc56083",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/continuation.py",
+      "git_blob_sha": "a83409c9a7be048922a886548bd4e12a301c093e",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/diagnostics.py",
+      "git_blob_sha": "b648e92cc5e6a7a9ba8afac553d1f6c102b9cba3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/engine.py",
+      "git_blob_sha": "ef0e934dec44acbf533181cf5c48608779c8653b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/experiment.py",
+      "git_blob_sha": "cde178849726d5aee5dcd57c2c5d7c459e732673",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/extend30.py",
+      "git_blob_sha": "97cac8d30576d2dbc9d6477b75757db20f62792a",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/final_check.py",
+      "git_blob_sha": "afbde14fb57f7107a16ff9120e943dad1c38728f",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/fixtures.py",
+      "git_blob_sha": "ea3965a0d6e0fd88dcc19ce5b2553f16de836d49",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/flat_baseline.py",
+      "git_blob_sha": "c8e0af7d44cbfdb50727a7049f1abb70a7ff6050",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/frontier.py",
+      "git_blob_sha": "b27bf87813e8152f1bec984ddc819f349287390b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/horizon.py",
+      "git_blob_sha": "0303fc110a66f9dc0d92ec51394c5071a29091c1",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/payback.py",
+      "git_blob_sha": "a24c323a80395ea3c5425d9a755f24dea1477f39",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/proof_slack_experiment.py",
+      "git_blob_sha": "aa6fe87975a204b65dc743745e544f6c7aa2a9b3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/reconcile.py",
+      "git_blob_sha": "984a321deb0d111bc3c901505706817b9ce088e3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/recover_evidence.py",
+      "git_blob_sha": "32371d47c89d3548ef2e01c6b1232d96e33320c0",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/refine.py",
+      "git_blob_sha": "5ad38e3e02dcd2e587d598f14ce5716b9e99e598",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/renewal.py",
+      "git_blob_sha": "0f39023857903721d0014363883164d458a51014",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/repeated.py",
+      "git_blob_sha": "d90a1d6be37451dc77d47a542008e0687776e17b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/reproduce.py",
+      "git_blob_sha": "cac57252f993a2f024789e8390f40565ad84c55d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/runner.py",
+      "git_blob_sha": "b726bbf457484fd96604792a52b370de2e423ce2",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/source_clean.py",
+      "git_blob_sha": "5ff742e60db418406702e0d42866c44438f56925",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/34/code/source_guarded.py",
+      "git_blob_sha": "7bdf33be832d94c834fc40e2b144032d0d04a861",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/Protocol.md",
+      "git_blob_sha": "bd50c329f450820db5e1c99e6fbe6e9cd2bba7c8",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/Report.md",
+      "git_blob_sha": "65774c7ebd0f27687d8e533b121f78448fc0bb82",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/audit_accounting.py",
+      "git_blob_sha": "2d30aecab27ea68f5a34d35702e9369c63ca6bfe",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/audit_horizon.py",
+      "git_blob_sha": "8da4deaff87bc8af8ddfaac043e36dcd40b4ccce",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/audit_inputs.py",
+      "git_blob_sha": "1d4a3fd496807c84fbc928d11b7248d96963994c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/audit_new.py",
+      "git_blob_sha": "4e290b7ca0f9eb68067af163fbf9374f55fe124d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/audit_renewal.py",
+      "git_blob_sha": "baf6327651bf408f344033e8cc781f64c5088610",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/audit_repeated.py",
+      "git_blob_sha": "c398e2b79f5a848d1972a441984ba961f296ed9c",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/campaign.py",
+      "git_blob_sha": "00685fa4f34d272882191d24e03b20a3424908fd",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/check_frontier.py",
+      "git_blob_sha": "519ee1a4ada48d0f96fff0f82fb7e99ce73b3695",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/checkpoint.py",
+      "git_blob_sha": "1a3f3ac1e40259d86157ccb668d2a0425e6397c5",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/compaction.py",
+      "git_blob_sha": "c734e41930a1bc0ddd2fe30f028662d09cc56083",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/continuation.py",
+      "git_blob_sha": "a83409c9a7be048922a886548bd4e12a301c093e",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/diagnostics.py",
+      "git_blob_sha": "b648e92cc5e6a7a9ba8afac553d1f6c102b9cba3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/engine.py",
+      "git_blob_sha": "ef0e934dec44acbf533181cf5c48608779c8653b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/experiment.py",
+      "git_blob_sha": "cde178849726d5aee5dcd57c2c5d7c459e732673",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/extend30.py",
+      "git_blob_sha": "97cac8d30576d2dbc9d6477b75757db20f62792a",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/final_check.py",
+      "git_blob_sha": "afbde14fb57f7107a16ff9120e943dad1c38728f",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/fixtures.py",
+      "git_blob_sha": "ea3965a0d6e0fd88dcc19ce5b2553f16de836d49",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/flat_baseline.py",
+      "git_blob_sha": "c8e0af7d44cbfdb50727a7049f1abb70a7ff6050",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/frontier.py",
+      "git_blob_sha": "db2936fefcb3b0bf47cacf16baf0b8641b1c7754",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/horizon.py",
+      "git_blob_sha": "0303fc110a66f9dc0d92ec51394c5071a29091c1",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/payback.py",
+      "git_blob_sha": "a24c323a80395ea3c5425d9a755f24dea1477f39",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/proof_slack_experiment.py",
+      "git_blob_sha": "aa6fe87975a204b65dc743745e544f6c7aa2a9b3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/reconcile.py",
+      "git_blob_sha": "984a321deb0d111bc3c901505706817b9ce088e3",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/recover_evidence.py",
+      "git_blob_sha": "32371d47c89d3548ef2e01c6b1232d96e33320c0",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/refine.py",
+      "git_blob_sha": "5ad38e3e02dcd2e587d598f14ce5716b9e99e598",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/renewal.py",
+      "git_blob_sha": "0f39023857903721d0014363883164d458a51014",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/repeated.py",
+      "git_blob_sha": "d90a1d6be37451dc77d47a542008e0687776e17b",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/reproduce.py",
+      "git_blob_sha": "cac57252f993a2f024789e8390f40565ad84c55d",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/runner.py",
+      "git_blob_sha": "45ec0d8be16838724b6d164e1bb980a343d825e5",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/source_clean.py",
+      "git_blob_sha": "5ff742e60db418406702e0d42866c44438f56925",
+      "mode": "100644"
+    },
+    {
+      "path": "campaigns/experiments-31-35/research/stages/35/code/source_guarded.py",
+      "git_blob_sha": "7bdf33be832d94c834fc40e2b144032d0d04a861",
+      "mode": "100644"
+    },
+    {
+      "path": "handoffs/Temporal-proof-experiments-36-40-handoff.md",
+      "git_blob_sha": "a2a4b90f9c8d3a5568279e8f683647b3cb8d6528",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Archive-verification.json",
+      "git_blob_sha": "028e16638f6cffd14d444d3f85be01bc85df9815",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Baseline-reference.json",
+      "git_blob_sha": "95b6a38277933dcd426a9b5e42974fc151c42402",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Before-path-resolution-common.py",
+      "git_blob_sha": "2d6cae88508c22692a10af13aa83b2cffd30d432",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Campaign-status.json",
+      "git_blob_sha": "7ceb8a8412be176b8c4f8edd7144ff64162cd9e9",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Checkpoint-verification.json",
+      "git_blob_sha": "2933c653274e2480e9cbf7f3373a43790867e029",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Comparison.json",
+      "git_blob_sha": "8a3ae3d2b81a1b8297b023d03269ae7b49e9444e",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Comparison.md",
+      "git_blob_sha": "f16af6c8a663b0a6835337be664952ea26cc79d5",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Complete.json",
+      "git_blob_sha": "6436432cdddceb7062e8a70f728173a818fbf817",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Development-attempts.md",
+      "git_blob_sha": "dc88137b9a95db5c4f3238d50ba675374bd695e5",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Environment.json",
+      "git_blob_sha": "c8dbe5b3176f8379eaa941bbbb2421cc6ff4610b",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Final-audit.json",
+      "git_blob_sha": "6436432cdddceb7062e8a70f728173a818fbf817",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Handoff.md",
+      "git_blob_sha": "a2a4b90f9c8d3a5568279e8f683647b3cb8d6528",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Inspection.json",
+      "git_blob_sha": "aa010b07a5780c6e452be69bed9324d0b1e073ca",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Prior-reports/Temporal-proof-experiments-36-40-archive-verification.json",
+      "git_blob_sha": "715e499ba6b3a61fa9e6cb64658970899f5031f9",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Prior-reports/Temporal-proof-experiments-36-40-resume-cursors.json",
+      "git_blob_sha": "adbaff36d881471a8706f78932be8196e2a8975b",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Prior-reports/Temporal-proof-experiments-36-40-synthesis.md",
+      "git_blob_sha": "aa8446b16b9ca4914efdaa3e0b2f0e96a40ff93f",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Resume-controller.json",
+      "git_blob_sha": "83b06874532c4dfb383a63cbca2e78c080b20b91",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Resume-cursors.json",
+      "git_blob_sha": "543597a9a671e2f5b8de16eca529dadd1b1de59b",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Synthesis.md",
+      "git_blob_sha": "4522d4183edd8a6bc36be83a982ca1d90675bd4b",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/Verification-fixtures.json",
+      "git_blob_sha": "e949c8e9fea6724129a18f82ef52449fad16638a",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/archive-parts/Parts-manifest.json",
+      "git_blob_sha": "39c5704b9c198a11f5101d074bd87a3339300d12",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/archive-parts/reassemble.py",
+      "git_blob_sha": "3aac752c9556445d3175edd3ca824ba9857b53b1",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/code/audit.py",
+      "git_blob_sha": "5dcc774122c704d38511fa3334fca0e4cbf028a2",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/code/campaign.py",
+      "git_blob_sha": "3ce8841db3894b874e9d8b492d3e08a538905dae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/code/certificates.py",
+      "git_blob_sha": "fa74a9bbf213edce936cd102df57622802dbf709",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/code/common.py",
+      "git_blob_sha": "52be90e10f75728b4d5850bf40b938435d88b35d",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/code/comparison.py",
+      "git_blob_sha": "67fcf4b25d64242c5975b95200ec8f7495d07ffa",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/code/fixtures_new.py",
+      "git_blob_sha": "1e733d05854e7877bafdeb9e82a95f1b8debf8ae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/code/policy.py",
+      "git_blob_sha": "f6579e1e37a0e07f69dcd5795c13264c05ebf303",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Base-kernel-hashes.json",
+      "git_blob_sha": "5bb30a49daa361928283c3ae87956e7766a42aec",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Complete.json",
+      "git_blob_sha": "62d7aa7cb69b4568b38deedffc2fd37703fc7f1b",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Frozen.json",
+      "git_blob_sha": "3cdf634b1fe9c3028e70fb7898df96042ecb968f",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Protocol.md",
+      "git_blob_sha": "7bc7f9f179e82379be01e1d22d11c19f1c6ac62d",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Report.md",
+      "git_blob_sha": "540ad744fc953f20e2ab59d51a161691a4969484",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Resume-cursors.json",
+      "git_blob_sha": "473dd30e437da37d9b66462d4ee12ee5540fd7e3",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Timing-development.json",
+      "git_blob_sha": "523e48813f1db13bd946773d7775c71bcb5eb008",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Timing-held.json",
+      "git_blob_sha": "6f537343a77cdb3ce7118b58139a54a7d64ddaa7",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/Verification.json",
+      "git_blob_sha": "e949c8e9fea6724129a18f82ef52449fad16638a",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/code/audit.py",
+      "git_blob_sha": "5dcc774122c704d38511fa3334fca0e4cbf028a2",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/code/campaign.py",
+      "git_blob_sha": "3ce8841db3894b874e9d8b492d3e08a538905dae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/code/certificates.py",
+      "git_blob_sha": "fa74a9bbf213edce936cd102df57622802dbf709",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/code/common.py",
+      "git_blob_sha": "52be90e10f75728b4d5850bf40b938435d88b35d",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/code/comparison.py",
+      "git_blob_sha": "67fcf4b25d64242c5975b95200ec8f7495d07ffa",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/code/fixtures_new.py",
+      "git_blob_sha": "1e733d05854e7877bafdeb9e82a95f1b8debf8ae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/code/policy.py",
+      "git_blob_sha": "f6579e1e37a0e07f69dcd5795c13264c05ebf303",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/development/Input-verification.json",
+      "git_blob_sha": "220931c585acb9efabd3f2271d4076e67dbc8f16",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/development/Inputs.json",
+      "git_blob_sha": "c3fc6ed1d8ff5809bbc7eebcf59a2221241710d5",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/held/Input-verification.json",
+      "git_blob_sha": "014d5597037c1721cc99ab7535292963625ec970",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/36/held/Inputs.json",
+      "git_blob_sha": "83f5587fdbc79d151bb670e6630a55690845ece1",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Base-kernel-hashes.json",
+      "git_blob_sha": "5bb30a49daa361928283c3ae87956e7766a42aec",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Complete.json",
+      "git_blob_sha": "9c910d5e612b457d99c238c96ff11a1bc2150954",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Frozen.json",
+      "git_blob_sha": "52d8a615c4f9e748b0571c552513c058deda8191",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Indexed-naive-equivalence.json",
+      "git_blob_sha": "651957cb003ade1a50c3554f0e8206614d86f873",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Protocol.md",
+      "git_blob_sha": "df3c3388644b4a47b391cee1fe3b5ad27e97ac51",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Report.md",
+      "git_blob_sha": "a52c1d602f80a019f29cbc73861aa494d58c73fe",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Resume-cursors.json",
+      "git_blob_sha": "473dd30e437da37d9b66462d4ee12ee5540fd7e3",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Timing-development.json",
+      "git_blob_sha": "d017999e7619261caeea9f5b5fdafb29098dd01d",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Timing-held.json",
+      "git_blob_sha": "542dae6d0788163e51606a185481b3540b95aa84",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/Verification.json",
+      "git_blob_sha": "e949c8e9fea6724129a18f82ef52449fad16638a",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/code/audit.py",
+      "git_blob_sha": "5dcc774122c704d38511fa3334fca0e4cbf028a2",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/code/campaign.py",
+      "git_blob_sha": "3ce8841db3894b874e9d8b492d3e08a538905dae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/code/certificates.py",
+      "git_blob_sha": "fa74a9bbf213edce936cd102df57622802dbf709",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/code/common.py",
+      "git_blob_sha": "52be90e10f75728b4d5850bf40b938435d88b35d",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/code/comparison.py",
+      "git_blob_sha": "67fcf4b25d64242c5975b95200ec8f7495d07ffa",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/code/fixtures_new.py",
+      "git_blob_sha": "1e733d05854e7877bafdeb9e82a95f1b8debf8ae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/code/policy.py",
+      "git_blob_sha": "f6579e1e37a0e07f69dcd5795c13264c05ebf303",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/development/Input-verification.json",
+      "git_blob_sha": "31e486cf8695355602e9aac36ecec77b9127d137",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/development/Inputs.json",
+      "git_blob_sha": "ddcd42b33513fe9a49acc8249b2f5b6815850aac",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/held/Input-verification.json",
+      "git_blob_sha": "247ef56fb427b7de5bfb5d80ec4d615cc9b9d626",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/37/held/Inputs.json",
+      "git_blob_sha": "8fd75c53060ea71372d8ba4c0c33a5aeb94fd4f1",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Base-kernel-hashes.json",
+      "git_blob_sha": "5bb30a49daa361928283c3ae87956e7766a42aec",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Complete.json",
+      "git_blob_sha": "5c37afde3abe1098811d0f23132acfef03a63b9a",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Frozen.json",
+      "git_blob_sha": "1312ab94b1ac4b3cb5fd371e6cffd1c353a88d12",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Protocol.md",
+      "git_blob_sha": "4739d4acbf94789da47ca47a0a6e11c5fdc7486f",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Report.md",
+      "git_blob_sha": "453de8fad74d645e2efc950c36bd1d6979a6b092",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Resume-cursors.json",
+      "git_blob_sha": "543597a9a671e2f5b8de16eca529dadd1b1de59b",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Timing-development.json",
+      "git_blob_sha": "f304d0feb78031c14b26a50a208e7134cce4c736",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Timing-held.json",
+      "git_blob_sha": "2e34f9e0560bf3378d894e90068b6d0f66fdada1",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/Verification.json",
+      "git_blob_sha": "e949c8e9fea6724129a18f82ef52449fad16638a",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/code/audit.py",
+      "git_blob_sha": "5dcc774122c704d38511fa3334fca0e4cbf028a2",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/code/campaign.py",
+      "git_blob_sha": "3ce8841db3894b874e9d8b492d3e08a538905dae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/code/certificates.py",
+      "git_blob_sha": "fa74a9bbf213edce936cd102df57622802dbf709",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/code/common.py",
+      "git_blob_sha": "52be90e10f75728b4d5850bf40b938435d88b35d",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/code/comparison.py",
+      "git_blob_sha": "67fcf4b25d64242c5975b95200ec8f7495d07ffa",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/code/fixtures_new.py",
+      "git_blob_sha": "1e733d05854e7877bafdeb9e82a95f1b8debf8ae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/code/policy.py",
+      "git_blob_sha": "f6579e1e37a0e07f69dcd5795c13264c05ebf303",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/development/Input-verification.json",
+      "git_blob_sha": "c7a242b88b207624746bd44bfa2f390dbe98a8ce",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/development/Inputs.json",
+      "git_blob_sha": "597756e29a9172be028b9010599b304335ef5986",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/held/Input-verification.json",
+      "git_blob_sha": "9d2c147005c38c7cad1d0b4026fb9702a2d44457",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/38/held/Inputs.json",
+      "git_blob_sha": "7bcdd5df0fba2cb920a90f2d43eb0ee5032899ef",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Base-kernel-hashes.json",
+      "git_blob_sha": "5bb30a49daa361928283c3ae87956e7766a42aec",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Complete.json",
+      "git_blob_sha": "6121e250cf2b4cea6f08ad5679fea76ffb31e376",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Frozen.json",
+      "git_blob_sha": "b5667bd0e49102fc1734fa7b64a08ccbebcb5f34",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Protocol.md",
+      "git_blob_sha": "1654cf5742c3fb35d88aa7f7843f40172f5cdd24",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Report.md",
+      "git_blob_sha": "f54246b651242d240bb2fdf0760fcf31578b69fd",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Resume-cursors.json",
+      "git_blob_sha": "473dd30e437da37d9b66462d4ee12ee5540fd7e3",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Selection-seal.json",
+      "git_blob_sha": "b4947ca0937f6c31ae99a32db0786f02089d0a5e",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Selection.json",
+      "git_blob_sha": "71acb60c0cf4ed16e3dbac36995fb3b9fe134537",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Timing-development.json",
+      "git_blob_sha": "a32d80d00e5d73bd98830f0e2696feebef18dab0",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Timing-held.json",
+      "git_blob_sha": "781ccf891b44a1d6c399194dadc737e114100397",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Tuning.json",
+      "git_blob_sha": "80588e42f14c9af31c8114327b04d78b668bacca",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/Verification.json",
+      "git_blob_sha": "e949c8e9fea6724129a18f82ef52449fad16638a",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/code/audit.py",
+      "git_blob_sha": "5dcc774122c704d38511fa3334fca0e4cbf028a2",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/code/campaign.py",
+      "git_blob_sha": "3ce8841db3894b874e9d8b492d3e08a538905dae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/code/certificates.py",
+      "git_blob_sha": "fa74a9bbf213edce936cd102df57622802dbf709",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/code/common.py",
+      "git_blob_sha": "52be90e10f75728b4d5850bf40b938435d88b35d",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/code/comparison.py",
+      "git_blob_sha": "67fcf4b25d64242c5975b95200ec8f7495d07ffa",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/code/fixtures_new.py",
+      "git_blob_sha": "1e733d05854e7877bafdeb9e82a95f1b8debf8ae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/code/policy.py",
+      "git_blob_sha": "f6579e1e37a0e07f69dcd5795c13264c05ebf303",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/development/Input-verification.json",
+      "git_blob_sha": "9587cd8e760ec91cd8515af86e5d8e4058ec4ece",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/development/Inputs.json",
+      "git_blob_sha": "2e20a2aaa21e450029d6fa08983af70364fae0fa",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/held/Input-verification.json",
+      "git_blob_sha": "2669138d77465cc8e4e1a7bbb3e67f92b80afc19",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/39/held/Inputs.json",
+      "git_blob_sha": "5e74f80f979df31abfb7dd3498b0a0af817bc026",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Base-kernel-hashes.json",
+      "git_blob_sha": "5bb30a49daa361928283c3ae87956e7766a42aec",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Complete.json",
+      "git_blob_sha": "6121e250cf2b4cea6f08ad5679fea76ffb31e376",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Frozen.json",
+      "git_blob_sha": "cb4ba639a7235a094def1e075ad20ce73a384cb8",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Protocol.md",
+      "git_blob_sha": "5845ecd90fd0681fedaf36357c9aec5560301e33",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Report.md",
+      "git_blob_sha": "06f5e4d2f4585e4c2558f5599ee0366c58e6ba85",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Resume-cursors.json",
+      "git_blob_sha": "473dd30e437da37d9b66462d4ee12ee5540fd7e3",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Selection-seal.json",
+      "git_blob_sha": "b4947ca0937f6c31ae99a32db0786f02089d0a5e",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Selection.json",
+      "git_blob_sha": "71acb60c0cf4ed16e3dbac36995fb3b9fe134537",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Timing-development.json",
+      "git_blob_sha": "1566893b294cf2758493881c00109c9605369b17",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Timing-held.json",
+      "git_blob_sha": "69f0cfdf900d7a13cca492b3f64755cb4664243e",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/Verification.json",
+      "git_blob_sha": "e949c8e9fea6724129a18f82ef52449fad16638a",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/code/audit.py",
+      "git_blob_sha": "5dcc774122c704d38511fa3334fca0e4cbf028a2",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/code/campaign.py",
+      "git_blob_sha": "3ce8841db3894b874e9d8b492d3e08a538905dae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/code/certificates.py",
+      "git_blob_sha": "fa74a9bbf213edce936cd102df57622802dbf709",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/code/common.py",
+      "git_blob_sha": "52be90e10f75728b4d5850bf40b938435d88b35d",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/code/comparison.py",
+      "git_blob_sha": "67fcf4b25d64242c5975b95200ec8f7495d07ffa",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/code/fixtures_new.py",
+      "git_blob_sha": "1e733d05854e7877bafdeb9e82a95f1b8debf8ae",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/code/policy.py",
+      "git_blob_sha": "f6579e1e37a0e07f69dcd5795c13264c05ebf303",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/development/Input-verification.json",
+      "git_blob_sha": "dbf45fc7ec31ecca3df2e7117caaeda1bfcd9932",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/development/Inputs.json",
+      "git_blob_sha": "d46d8c575e1369a9b88008314b83dde18b282272",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/held/Input-verification.json",
+      "git_blob_sha": "0452c0614b74679f2ec5bb23709ed2939235e3eb",
+      "mode": "100644"
+    },
+    {
+      "path": "research36-rebuild/stages/40/held/Inputs.json",
+      "git_blob_sha": "bceeaa01882ec004fb648b4f6052201e8b89e412",
+      "mode": "100644"
+    },
+    {
+      "path": "results/experiments-36-40/Temporal-proof-experiments-36-40-archive-verification.json",
+      "git_blob_sha": "715e499ba6b3a61fa9e6cb64658970899f5031f9",
+      "mode": "100644"
+    },
+    {
+      "path": "results/experiments-36-40/Temporal-proof-experiments-36-40-resume-cursors.json",
+      "git_blob_sha": "adbaff36d881471a8706f78932be8196e2a8975b",
+      "mode": "100644"
+    },
+    {
+      "path": "results/experiments-36-40/Temporal-proof-experiments-36-40-synthesis.md",
+      "git_blob_sha": "aa8446b16b9ca4914efdaa3e0b2f0e96a40ff93f",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/analyse_rebuild.py",
+      "git_blob_sha": "dccf2a340d01f8ce26c3ded434328a0a3fcad9b7",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/recover_campaign_31_35.py",
+      "git_blob_sha": "3f40c27386cda1d115aa09b6321ed5e84d3af975",
+      "mode": "100644"
+    }
+  ]
+}

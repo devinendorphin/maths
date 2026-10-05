@@ -1,0 +1,3 @@
+# Pre-freeze development attempts
+
+Proof fixtures and mutation checks are separate from unique experiment trajectories. The first disk-persistence fixture completed its policy but its audit could not resolve a relative record path; path normalization was corrected before any declared matrix was executed. The failed fixture records are retained, and their CPU is not used in research comparisons. An integration import check also caught the recovered module directory shadowing the new controller's name; module search ordering was corrected before freezing. The subsequent disk-backed worker/audit integration fixture passed. These corrections changed orchestration/persistence, not the mathematical rules, input seeds, native optimizer or resource ceilings.

@@ -1,0 +1,30 @@
+name: Verify compact sources and archive receipts
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-compact.yml'
+      - 'Compact-source-manifest.json'
+      - 'Archive-storage.json'
+      - 'Drive-archive-verification.json'
+      - 'scripts/verify_compact.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify original file identities and complete backup receipts
+        run: python3 scripts/verify_compact.py
+      - name: Save compact size report
+        run: python3 scripts/verify_compact.py > compact-verification.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maths-compact-verification
+          path: compact-verification.json
+          retention-days: 7
+

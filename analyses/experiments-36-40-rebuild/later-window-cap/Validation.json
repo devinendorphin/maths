@@ -1,0 +1,7 @@
+{
+  "forced_auxiliary_guard_on_second_build": 3,
+  "frozen_builder_sha256": "c834b8cd8b7184003e10fd33d0468b1324d3ffed4840e33b5df6020847d56767",
+  "frozen_policy_sha256": "325526c5c0df29cfa5049ae6290560d109809376e45af2219549e86eaeca2536",
+  "not_a_declared_experiment": true,
+  "passed": true
+}

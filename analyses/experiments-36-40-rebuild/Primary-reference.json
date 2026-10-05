@@ -1,0 +1,15 @@
+{
+  "archive": {
+    "all_member_hashes_verified": true,
+    "archive": "Temporal-proof-experiments-36-40-rebuild.tar.xz",
+    "archive_bytes": 1640269628,
+    "archive_in_parts": true,
+    "archive_sha256": "bf22f2b35df53b73a8f5bd3f92a2aa1b7c93af9a32725eeaf37e6c1f477dc2e4",
+    "failures": [],
+    "manifest_members": 566956,
+    "parts": 69
+  },
+  "manifest_sha256": "e1c96b6f00247e93eb3a3c0473d9b8f78295429816a40580b852c4b22c92f045",
+  "path": "research36-rebuild",
+  "scope": "Retrospective diagnostics only; no declared policy executions replayed"
+}

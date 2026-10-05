@@ -1,0 +1,18 @@
+{
+  "operation": "Replace main history with the verified compact snapshot",
+  "owner_explicitly_approved": true,
+  "previous_main": "15e3b3cb8c5d05d45a3d13e557034b331ddaf275",
+  "previous_compact_tree": "2696f6bb17fd74e017be9fd6b924482ef129d362",
+  "executed_at_utc": "2026-10-05T02:48:09.932563+00:00",
+  "unchanged_original_files": 391,
+  "complete_evidence_preserved_in_drive": true,
+  "archive_storage_index": "Archive-storage.json",
+  "archive_verification": "Drive-archive-verification.json",
+  "temporary_branches_to_remove": [
+    "storage/compact-verified",
+    "storage/cleanup-transfer-artifacts",
+    "storage/replace-history"
+  ],
+  "experiments_rerun": false,
+  "github_object_reclamation": "Managed by GitHub; not guaranteed immediately"
+}

@@ -1,0 +1,1 @@
+{"passed":true,"records":[{"key":"layer:0","cpu":4.798999999167108e-06,"checks":{}},{"key":"partial_current","cpu":1.829500000027906e-05,"checks":{"predecessor_witnesses":2}}],"required":["layer:0","partial_current"],"pending":[]}

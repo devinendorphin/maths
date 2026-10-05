@@ -1,0 +1,10 @@
+{
+  "headline_paths": 3328,
+  "maxima": {
+    "native_generator_steps": 22438,
+    "native_returned_cells": 377,
+    "native_wall": 0.013628519000121742
+  },
+  "passed": true,
+  "source_kernel_guard": "steps >= min(max_steps,500000); returned cells <=4096; 30-second construction guard; disposed native store"
+}

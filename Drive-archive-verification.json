@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "source": "Reassembled exclusively from downloaded Google Drive recovery parts",
+  "all_77_drive_part_hashes_verified": true,
+  "baseline_manifest_members_verified": 8275,
+  "rebuild_manifest_members_verified": 566956,
+  "review_kit_manifest_members_verified": 199,
+  "experiments_rerun": false,
+  "archives": [
+    {
+      "filename": "Temporal-proof-experiments-31-35-campaign.zip",
+      "bytes": 176127453,
+      "sha256": "656930b55f767e811089a8b345abb1cbf228559dd13afaf4be770d4c7c4f7b9f"
+    },
+    {
+      "filename": "Temporal-proof-experiments-36-40-rebuild.tar.xz",
+      "bytes": 1640269628,
+      "sha256": "bf22f2b35df53b73a8f5bd3f92a2aa1b7c93af9a32725eeaf37e6c1f477dc2e4"
+    }
+  ]
+}

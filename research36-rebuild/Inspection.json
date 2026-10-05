@@ -1,0 +1,612 @@
+[
+  {
+    "path": "research/Checkpoint-verification.json",
+    "chars": 6855,
+    "full_content_read": true
+  },
+  {
+    "path": "research/Environment.json",
+    "chars": 121,
+    "full_content_read": true
+  },
+  {
+    "path": "research/code/ledgers.py",
+    "chars": 4786,
+    "full_content_read": true
+  },
+  {
+    "path": "research/code/reconcile.py",
+    "chars": 1769,
+    "full_content_read": true
+  },
+  {
+    "path": "research/code/diagnostics.py",
+    "chars": 4550,
+    "full_content_read": true
+  },
+  {
+    "path": "research/code/final_check.py",
+    "chars": 3100,
+    "full_content_read": true
+  },
+  {
+    "path": "research/code/recover_evidence.py",
+    "chars": 3581,
+    "full_content_read": true
+  },
+  {
+    "path": "research/code/reproduce.py",
+    "chars": 758,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/Evidence-recovery.json",
+    "chars": 81065,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/Audit-marker-reconciliation.json",
+    "chars": 987,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/Evidence-recovery.json",
+    "chars": 63297,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Frozen-initial.json",
+    "chars": 2829,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Before-amendment-runner.py",
+    "chars": 25852,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Before-amendment-check_frontier.py",
+    "chars": 6591,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Selection.json",
+    "chars": 316,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Timing.json",
+    "chars": 820,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Structural-candidate.json",
+    "chars": 316,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Timing-development.json",
+    "chars": 1041,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Timing-held.json",
+    "chars": 1041,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/Serialization-accounting.json",
+    "chars": 786145,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Serialization-accounting.json",
+    "chars": 499481,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Serialization-accounting.json",
+    "chars": 1250283,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/Protocol.md",
+    "chars": 37867,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/Verification.json",
+    "chars": 164914,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/Report.md",
+    "chars": 3507,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/Final-audit.json",
+    "chars": 135,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/Record-reconciliation.json",
+    "chars": 50,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/development/Summary.json",
+    "chars": 1869064,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/development/Complete-work-ledgers.json",
+    "chars": 10391321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/development/Additional-accounting.json",
+    "chars": 45416,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/development/Resource-log.json",
+    "chars": 298,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/development/Resume-cursors.json",
+    "chars": 55,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/development/Audit.json",
+    "chars": 37,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/held/Summary.json",
+    "chars": 4730092,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/held/Complete-work-ledgers.json",
+    "chars": 26229790,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/held/Additional-accounting.json",
+    "chars": 135843,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/held/Resource-log.json",
+    "chars": 298,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/held/Resume-cursors.json",
+    "chars": 55,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/31/held/Audit.json",
+    "chars": 38,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/Protocol.md",
+    "chars": 37844,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/Verification.json",
+    "chars": 173302,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/Report.md",
+    "chars": 3388,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/Final-audit.json",
+    "chars": 135,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/Record-reconciliation.json",
+    "chars": 50,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/development/Summary.json",
+    "chars": 1016112,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/development/Complete-work-ledgers.json",
+    "chars": 6497997,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/development/Additional-accounting.json",
+    "chars": 42056,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/development/Resource-log.json",
+    "chars": 321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/development/Resume-cursors.json",
+    "chars": 85,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/development/Audit.json",
+    "chars": 37,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/held/Summary.json",
+    "chars": 2854753,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/held/Complete-work-ledgers.json",
+    "chars": 18270798,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/held/Additional-accounting.json",
+    "chars": 125796,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/held/Resource-log.json",
+    "chars": 321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/held/Resume-cursors.json",
+    "chars": 85,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/32/held/Audit.json",
+    "chars": 38,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/Protocol.md",
+    "chars": 37882,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/Verification.json",
+    "chars": 179650,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/Report.md",
+    "chars": 3539,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/Final-audit.json",
+    "chars": 135,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/Record-reconciliation.json",
+    "chars": 50,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/development/Summary.json",
+    "chars": 1337406,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/development/Complete-work-ledgers.json",
+    "chars": 7197819,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/development/Additional-accounting.json",
+    "chars": 59356,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/development/Resource-log.json",
+    "chars": 321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/development/Resume-cursors.json",
+    "chars": 85,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/development/Audit.json",
+    "chars": 37,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/held/Summary.json",
+    "chars": 5215384,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/held/Complete-work-ledgers.json",
+    "chars": 28152657,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/held/Additional-accounting.json",
+    "chars": 177379,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/held/Resource-log.json",
+    "chars": 321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/held/Resume-cursors.json",
+    "chars": 85,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/33/held/Audit.json",
+    "chars": 38,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Protocol.md",
+    "chars": 37880,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Verification.json",
+    "chars": 179660,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Report.md",
+    "chars": 3521,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Final-audit.json",
+    "chars": 135,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/Record-reconciliation.json",
+    "chars": 50,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/development/Summary.json",
+    "chars": 1410315,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/development/Complete-work-ledgers.json",
+    "chars": 7648549,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/development/Additional-accounting.json",
+    "chars": 53404,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/development/Resource-log.json",
+    "chars": 321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/development/Resume-cursors.json",
+    "chars": 85,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/development/Audit.json",
+    "chars": 37,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/held/Summary.json",
+    "chars": 2834902,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/held/Complete-work-ledgers.json",
+    "chars": 15495186,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/held/Additional-accounting.json",
+    "chars": 159979,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/held/Resource-log.json",
+    "chars": 321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/held/Resume-cursors.json",
+    "chars": 85,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/34/held/Audit.json",
+    "chars": 38,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Protocol.md",
+    "chars": 38132,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Verification.json",
+    "chars": 179661,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Report.md",
+    "chars": 3908,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Final-audit.json",
+    "chars": 135,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/Record-reconciliation.json",
+    "chars": 1020,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/development/Summary.json",
+    "chars": 2075724,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/development/Complete-work-ledgers.json",
+    "chars": 9691080,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/development/Additional-accounting.json",
+    "chars": 84979,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/development/Resource-log.json",
+    "chars": 321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/development/Resume-cursors.json",
+    "chars": 85,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/development/Audit.json",
+    "chars": 38,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/held/Summary.json",
+    "chars": 4268368,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/held/Complete-work-ledgers.json",
+    "chars": 20210286,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/held/Additional-accounting.json",
+    "chars": 254543,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/held/Resource-log.json",
+    "chars": 321,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/held/Resume-cursors.json",
+    "chars": 85,
+    "full_content_read": true
+  },
+  {
+    "path": "research/stages/35/held/Audit.json",
+    "chars": 38,
+    "full_content_read": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145500-negative-harm-rebuild-audit-0.json",
+    "bytes": 2862,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145500-negative-harm-rebuild.json",
+    "bytes": 4026689,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145501-negative-harm-maintain-audit-0.json",
+    "bytes": 3293,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145501-negative-harm-maintain.json",
+    "bytes": 4895938,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145501-negative-harm-rebuild-audit-0.json",
+    "bytes": 7586,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145501-negative-harm-rebuild.json",
+    "bytes": 31454759,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145501-negative-harm-selected-audit-0.json",
+    "bytes": 3305,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145501-negative-harm-selected.json",
+    "bytes": 12098658,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145502-negative-harm-rebuild-audit-0.json",
+    "bytes": 1877,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/16-145502-negative-harm-rebuild.json",
+    "bytes": 3414406,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/Complete.json",
+    "bytes": 39,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/Protocol.json",
+    "bytes": 298,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/Report.md",
+    "bytes": 1542,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/Resume-cursors.json",
+    "bytes": 29,
+    "read_succeeded": true
+  },
+  {
+    "path": "campaigns/experiments-31-35/research/stage30-extension/Summary.json",
+    "bytes": 2543,
+    "read_succeeded": true
+  }
+]

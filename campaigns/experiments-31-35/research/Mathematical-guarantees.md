@@ -1,0 +1,17 @@
+# Mathematical guarantees and their scope
+
+Every packing has the explicit affine value P_M+t S_M. Integer time is a model parameter, distinct from program CPU and proof-operation counts. Ties remain optimal, so an incumbent changes only when a feasible packing strictly improves it.
+
+Scalar certificates use complete disjoint feasible covers and exact nonnegative prices. For each cell, Z/b is a rational upper bound and floor(Z/b) is an integer upper bound. A cover certifies an incumbent when every cell bound is at most its value. A particular certificate can expire earlier than the packing's true optimality horizon. Repricing/refinement need not change the answer.
+
+For v=p, g(t)=1+t stays positive. Both every feasible objective and each scaled scalar bound scale by g. Objectives lie on the g-times-integer lattice, so the base certificate remains valid for all nonnegative integer time. This shortcut takes precedence in every compared policy.
+
+A complete cardinality recurrence certifies the maximum intercept A_k for every feasible cardinality; infeasible cardinalities are explicitly unreachable. Uniform slopes give the exact optimum max_k(A_k+gamma k t). For v=alpha p+beta, the factor g=1+alpha t chooses A_k when positive, the minimum intercept L_k when negative, and any feasible intercept when zero. Each extremum's witness is feasible and has its actual integer slope sum(v_i). Thus the union of max/min witness lines is exact for every sign. A maximum-only frontier has a positive-factor domain and returns to the scalar kernel at its first integer boundary; that boundary alone does not imply a switch.
+
+For slope classes, every packing has one complete count vector and a common slope within that vector. A maximum-intercept count-vector recurrence therefore supplies exact value lines for all nonnegative times. An exact-weight, total-slope recurrence similarly groups all feasible packings by slope. These proofs can require exponentially many states; observed small frontiers do not give a worst-case cheapness guarantee.
+
+For endpoint pruning, compare only states at the same prefix. If X is no heavier than Y and its value is at least Y's at both 0 and 256, their affine difference is nonnegative throughout that interval. Every identical remaining-item completion feasible for Y is feasible for X. Each deleted state points to a retained feasible dominator at that prefix; the witness graph has no cycle. Together with complete checked recurrence generation, this preserves the global optimum on [0,256]. The resulting format explicitly rejects 257. It is not an all-time certificate.
+
+At a phase anchor tau, a certified competing line has margin V_M(tau)-(A+s tau). If its slope exceeds S_M, its first strict crossing is tau+floor(margin/(s-S_M))+1. Smaller or equal slopes cannot beat an incumbent already optimal at tau. The minimum crossing over a complete frontier is the true loss time, subject to the certificate's finite domain. Tables and lines remain on the original time axis.
+
+Independent checkers verify recurrence domains and entries, unreachable states, predecessor witnesses, complete grouping, envelope intersections and deletion witnesses. Separate exhaustive packings and original-profit capacity DP audit the results and never provide algorithm decisions. These are elementary parametric optimization identities and checked finite certificates, not novel arithmetic or a reconstruction of Allen Brooks' unpublished mathematics.
