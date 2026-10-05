@@ -1,0 +1,10 @@
+{
+  "all_logical_worker_signatures_match": true,
+  "capped_workers": 18,
+  "completed_workers": 402,
+  "fresh_replication": true,
+  "note": "Independent fresh execution from copied dependency/source snapshots; its records and timings remain separate validation evidence.",
+  "passed": true,
+  "timings_pooled_into_original": false,
+  "workers": 420
+}

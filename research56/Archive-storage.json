@@ -1,0 +1,15 @@
+{
+  "format": "verified-drive-archive-v1",
+  "account": "glubose@gmail.com",
+  "file_id": "1-GmLjCjz8VMGC4KZc6lBjU5M8NPjW8Hl",
+  "url": "https://drive.google.com/file/d/1-GmLjCjz8VMGC4KZc6lBjU5M8NPjW8Hl/view?usp=drivesdk",
+  "parent_folder_id": "1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ",
+  "bytes": 1097700,
+  "sha256": "fcc200939727c84987ca95c00f37dbf834c899b69f0b6b313626c92008bb601f",
+  "members": 533,
+  "uncompressed_bytes": 2234530,
+  "complete_evidence": true,
+  "member_manifest": "Archive-members.json",
+  "download_verification": "Drive-verification.json",
+  "note": "Includes every worker record, proof/checker evidence and pinned source/dependency snapshot. Publication, download and fresh-replication receipts remain outside the archive."
+}

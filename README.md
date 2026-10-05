@@ -2,9 +2,11 @@
 
 This repository keeps a compact working collection of the temporal-proof experiments. Complete evidence is preserved in [verified Google Drive archives](https://drive.google.com/drive/folders/1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ).
 
-The latest batch is [experiments 51–55](research51/Synthesis.md): 422 audited workers and 21,942 integer-observation checks. An established exact parametric baseline reduced repeated solves, and cached certificate scheduling reduced horizon work. The production SCIP comparison remains outstanding. Complete evidence and pinned dependencies are in a verified 1.9 MB [Drive archive](https://drive.google.com/file/d/17iUMVbYRiHrfIgIpQ3Oj7DBgyM-ufQfi/view?usp=drivesdk).
+The latest batch is [experiments 56–65](research56/Synthesis.md): ten completed comparisons, 70 input records and 420 audited workers. 402 trajectories completed; 18 method runs reached declared allocation limits, and every input has complete answers from at least one method. Normalizing weights and choosing the exact oracle mattered; integer-only querying and accumulated search partitions did not consistently help. Complete evidence is in a verified 1.1 MB [Drive archive](https://drive.google.com/file/d/1-GmLjCjz8VMGC4KZc6lBjU5M8NPjW8Hl/view?usp=drivesdk).
 
-The preceding batch is [experiments 46–50](research46/Synthesis.md), following the [frozen roadmap](research46/Roadmap.md): 110 input records and 261,852 independently checked integer-time answers. Wider gates helped on one held set, but repeated proof rebuilding did not repay its cost; all 54 later forced failures recovered safely. Detailed evidence is in one verified 15.5 MB [Drive archive](https://drive.google.com/file/d/1JxXvlbXUz6YikNEj-xAUHKCD-uLYdBy3/view?usp=drivesdk).
+The preceding batch is [experiments 51–55](research51/Synthesis.md): 422 audited workers and 21,942 integer-observation checks. An established exact parametric baseline reduced repeated solves, and cached certificate scheduling reduced horizon work. The production SCIP comparison remains outstanding. Complete evidence and pinned dependencies are in a verified 1.9 MB [Drive archive](https://drive.google.com/file/d/17iUMVbYRiHrfIgIpQ3Oj7DBgyM-ufQfi/view?usp=drivesdk).
+
+The earlier batch is [experiments 46–50](research46/Synthesis.md), following the [frozen roadmap](research46/Roadmap.md): 110 input records and 261,852 independently checked integer-time answers. Wider gates helped on one held set, but repeated proof rebuilding did not repay its cost; all 54 later forced failures recovered safely. Detailed evidence is in one verified 15.5 MB [Drive archive](https://drive.google.com/file/d/1JxXvlbXUz6YikNEj-xAUHKCD-uLYdBy3/view?usp=drivesdk).
 
 The earlier batch is [experiments 41–45](research41/Synthesis.md): 105 inputs, five completed experiments, and 121,746 independently checked integer-time answers. Detailed evidence occupies one verified 16 MB [Drive archive](https://drive.google.com/file/d/1Ux66N1gnn2gcUCYrImgbtTGcDR_Tecy4/view).
 
@@ -18,6 +20,7 @@ A [literature review dated 5 October 2026](research-notes/Literature-review-2026
 
 ## Working files
 
+- `research56/`: frozen experiments 56–65, exact comparisons, resource-limit results and recovery instructions. [Findings](research56/Synthesis.md).
 - `research51/`: literature-informed comparisons, frozen inputs, exact audits and recovery instructions. [Findings](research51/Synthesis.md).
 - `research-notes/`: sourced literature review and proposed future comparisons.
 - `research46/`: roadmap, frozen inputs and audited experiments 46–50. [Findings](research46/Synthesis.md) and [recovery receipt](research46/Archive-storage.json).
