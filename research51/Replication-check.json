@@ -1,0 +1,11 @@
+{
+  "extra_proof_records_in_original_archive": false,
+  "independent_fresh_replication": true,
+  "logical_worker_signatures_match": true,
+  "note": "Fresh replication validates the recovery helper and all logical worker outputs. Its timings and extra records are separate validation evidence, not pooled into the original findings.",
+  "original_input_sha256": "9e8876e56769faf75ae2e086afc99f23b5db0501557c5c53a5f153718dec934d",
+  "passed": true,
+  "replication_input_sha256": "9e8876e56769faf75ae2e086afc99f23b5db0501557c5c53a5f153718dec934d",
+  "timing_in_original_findings": false,
+  "workers": 422
+}

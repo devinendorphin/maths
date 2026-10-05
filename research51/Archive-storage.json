@@ -1,0 +1,15 @@
+{
+  "format": "verified-drive-archive-v1",
+  "account": "glubose@gmail.com",
+  "file_id": "17iUMVbYRiHrfIgIpQ3Oj7DBgyM-ufQfi",
+  "url": "https://drive.google.com/file/d/17iUMVbYRiHrfIgIpQ3Oj7DBgyM-ufQfi/view?usp=drivesdk",
+  "parent_folder_id": "1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ",
+  "bytes": 1882804,
+  "sha256": "3631a993d8cd50fa25426605cb53b4d75482cf1890ba8fe0dbbd86fdec67c64f",
+  "members": 536,
+  "uncompressed_bytes": 2837043,
+  "complete_evidence": true,
+  "download_verification": "Drive-verification.json",
+  "member_manifest": "Archive-members.json",
+  "note": "Archive includes complete evidence and pinned dependency/checker sources; receipt is outside archive to avoid circular checksums."
+}
