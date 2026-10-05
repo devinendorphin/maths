@@ -1,0 +1,30 @@
+{
+  "account": "glubose@gmail.com",
+  "folder_url": "https://drive.google.com/drive/folders/1nHidq6nQSeGlVnuQYFU8Xdf8D0MQwLle",
+  "archive": {
+    "filename": "Temporal-proof-experiments-41-45.tar.xz",
+    "drive_id": "1Ux66N1gnn2gcUCYrImgbtTGcDR_Tecy4",
+    "url": "https://drive.google.com/file/d/1Ux66N1gnn2gcUCYrImgbtTGcDR_Tecy4/view",
+    "bytes": 15937436,
+    "sha256": "5e01f02f740065cb62d57c9780bf6215a1b32c8b46d0ebb7742abcde4fe50441",
+    "manifest_members": 9208,
+    "roundtrip_verified": true,
+    "all_member_hashes_verified": true
+  },
+  "scientific_audit": {
+    "passed": true,
+    "unique_inputs": 105,
+    "construction_workers": 72,
+    "policy_workers": 690,
+    "integer_time_checks": 121746
+  },
+  "recovery": [
+    "Download the archive from the Drive link.",
+    "Check SHA-256 against this receipt.",
+    "Extract it into a new directory; it includes research41 and the exact stage-35 kernels.",
+    "Run: python3 research41/tools/verify_archive.py /path/to/download.tar.xz --sha256 5e01f02f740065cb62d57c9780bf6215a1b32c8b46d0ebb7742abcde4fe50441",
+    "Run: python3 research41/tools/verify_compact.py",
+    "To rerun independently, copy the source and compact files without evidence into a new directory, then run python3 research41/code/campaign.py run."
+  ],
+  "note": "This receipt is external to the archive to avoid a self-referential archive checksum. The archive includes its own member manifest. Existing sources in the cleaned repository are unchanged."
+}

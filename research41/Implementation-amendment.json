@@ -1,0 +1,6 @@
+{
+  "reason": "All 762 audited workers completed, then final aggregation raised NameError: missing defaultdict import. Added that import and preserved the original selection freeze reference; no input, policy, audit, cap or selection rule changed. Completed worker records are reused. Final aggregation now labels completed policy paths explicitly (capped constructions are partial) and safely reuses identical finished report files.",
+  "original_freeze_sha256": "c59325896ed5fa87c52cff96ca9b4856f200d153b5a26c4b33c076864d355927",
+  "original_campaign_sha256": "b31240e091760371039c7cc35567a97335f57a08bd6c1b809794374ac4391ce2",
+  "amended_campaign_sha256": "5c9b86cd5441c8260ad44cdb2ebd0289bfb0f932f365179766064328702990db"
+}

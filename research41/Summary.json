@@ -1,0 +1,238 @@
+{
+  "unique_inputs": 105,
+  "construction_workers": 72,
+  "headline_paths": 306,
+  "tuning_paths": 96,
+  "timing_paths": 288,
+  "integer_time_checks": 121746,
+  "policy_cpu_total": 15.827286497000017,
+  "stages": {
+    "41": {
+      "completion": {
+        "unpruned": {
+          "complete": 18,
+          "incomplete": 6
+        },
+        "same": {
+          "complete": 20,
+          "incomplete": 4
+        },
+        "indexed": {
+          "complete": 24
+        }
+      },
+      "gate_accepts": {
+        "2000": 0,
+        "5000": 0,
+        "15000": 6
+      },
+      "gate_cases": 24
+    },
+    "42": {
+      "indexed_full": {
+        "repeated_cpu_totals": [
+          0.22391177699999787,
+          0.21992033600000127,
+          0.2226246839999959
+        ],
+        "median_cpu": 0.2226246839999959,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 16764,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "cpu_ratio_to_maintain": 1.6602716429757605
+      },
+      "maintain": {
+        "repeated_cpu_totals": [
+          0.13408931299999693,
+          0.13234891500000145,
+          0.14219994800000535
+        ],
+        "median_cpu": 0.13408931299999693,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "cpu_ratio_to_maintain": 1.0
+      },
+      "same": {
+        "repeated_cpu_totals": [
+          0.3437745790000193,
+          0.3266067599999971,
+          0.338548371999984
+        ],
+        "median_cpu": 0.338548371999984,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 85433,
+        "incomplete_headline_builds": 2,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "cpu_ratio_to_maintain": 2.524797572793827
+      },
+      "selected": {
+        "repeated_cpu_totals": [
+          0.11953999300000362,
+          0.12887590300000085,
+          0.12895658300000434
+        ],
+        "median_cpu": 0.12887590300000085,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 2080,
+        "incomplete_headline_builds": 0,
+        "accepted": 4,
+        "rejected": 12,
+        "normalized": 0,
+        "cpu_ratio_to_maintain": 0.9611198694112467
+      }
+    },
+    "43": {
+      "adaptive": {
+        "repeated_cpu_totals": [
+          0.307643315,
+          0.2982625559999903,
+          0.31216338999998783
+        ],
+        "median_cpu": 0.307643315,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 26526,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "cpu_ratio_to_maintain": 3.2927116552934526
+      },
+      "indexed_full": {
+        "repeated_cpu_totals": [
+          0.1824716120000005,
+          0.18094191600000897,
+          0.21780641400000889
+        ],
+        "median_cpu": 0.1824716120000005,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 16910,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "cpu_ratio_to_maintain": 1.9529967800294517
+      },
+      "maintain": {
+        "repeated_cpu_totals": [
+          0.09343159899999876,
+          0.08912872999999877,
+          0.09721207199999782
+        ],
+        "median_cpu": 0.09343159899999876,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "cpu_ratio_to_maintain": 1.0
+      },
+      "rolling32": {
+        "repeated_cpu_totals": [
+          0.4282835540000036,
+          0.4454416999999893,
+          0.4882952080000038
+        ],
+        "median_cpu": 0.4454416999999893,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 39122,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "cpu_ratio_to_maintain": 4.767570123679412
+      }
+    },
+    "45": {
+      "adaptive": {
+        "repeated_cpu_totals": [
+          0.22860992199999686,
+          0.24800777099999038,
+          0.3039589820000117
+        ],
+        "median_cpu": 0.24800777099999038,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 21188,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 4,
+        "cpu_ratio_to_maintain": 3.46374077729333
+      },
+      "gate_adaptive": {
+        "repeated_cpu_totals": [
+          0.07767615599998834,
+          0.07330290800001649,
+          0.0791774410000059
+        ],
+        "median_cpu": 0.07767615599998834,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 1701,
+        "incomplete_headline_builds": 0,
+        "accepted": 2,
+        "rejected": 10,
+        "normalized": 4,
+        "cpu_ratio_to_maintain": 1.0848453170468115
+      },
+      "indexed_full": {
+        "repeated_cpu_totals": [
+          0.16599255899999577,
+          0.15893751700000536,
+          0.1853311980000072
+        ],
+        "median_cpu": 0.16599255899999577,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 13698,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 4,
+        "cpu_ratio_to_maintain": 2.318295080098827
+      },
+      "maintain": {
+        "repeated_cpu_totals": [
+          0.06729582299999493,
+          0.07160113500000165,
+          0.07490596899999957
+        ],
+        "median_cpu": 0.07160113500000165,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 4,
+        "cpu_ratio_to_maintain": 1.0
+      }
+    },
+    "44": {
+      "inputs": 9,
+      "paths": 18,
+      "forced_paths": 9,
+      "stopped_rebuilds": 9,
+      "fallback_reprices": 6,
+      "all_exact_switches": true
+    }
+  }
+}

@@ -2,7 +2,9 @@
 
 This repository keeps a compact working collection of the temporal-proof experiments. Complete evidence is preserved in [verified Google Drive archives](https://drive.google.com/drive/folders/1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ).
 
-Start with the [36–40 synthesis](research36-rebuild/Synthesis.md), [comparison with the retained prior reports](research36-rebuild/Comparison.md), and [interpretation](analyses/experiments-36-40-rebuild/Interpretation.md). For the full proof records, read [storage and recovery instructions](STORAGE.md).
+The latest batch is [experiments 41–45](research41/Synthesis.md): 105 inputs, five completed experiments, and 121,746 independently checked integer-time answers. Detailed evidence occupies one verified 16 MB [Drive archive](https://drive.google.com/file/d/1Ux66N1gnn2gcUCYrImgbtTGcDR_Tecy4/view).
+
+For the preceding batch, start with the [36–40 synthesis](research36-rebuild/Synthesis.md), [comparison with the retained prior reports](research36-rebuild/Comparison.md), and [interpretation](analyses/experiments-36-40-rebuild/Interpretation.md). For the full proof records, read [storage and recovery instructions](STORAGE.md).
 
 The recovered 31–35 campaign is the baseline. The rebuilt 36–40 campaign completed 832 unique trajectories, 3,328 headline policy paths, 1,152 timing workers and 216 selector-tuning workers. All headline observation windows completed; 40 capped frontier constructions remain incomplete. [Final audit](research36-rebuild/Final-audit.json).
 
@@ -10,6 +12,7 @@ The new results broadly agree with the retained prior summaries: indexed pruning
 
 ## Working files
 
+- `research41/`: new bounded experiments, frozen inputs, reproducible code and compact results. [Recovery receipt](research41/Archive-storage.json).
 - `research36-rebuild/`: unchanged mathematical sources, frozen stage snapshots, protocols, inputs and reports.
 - `campaigns/experiments-31-35/`: selected original sources and readable reports; restore the baseline archive before executing the campaign.
 - `analyses/experiments-36-40-rebuild/`: compact summaries, retrospective diagnoses and the separately counted supplemental fixture.
