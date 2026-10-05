@@ -12,8 +12,11 @@ The recovered 31–35 campaign is the baseline. The rebuilt 36–40 campaign com
 
 The rebuilt 36–40 results broadly agree with the retained prior summaries: indexed pruning reduced proof work and avoided the declared frontier caps, while rolling rebuilds reduced proof size but added CPU work on the repeated subsets. Some aggregates and the timing-selected threshold differ. The old 36–40 detailed archive is still unavailable; its surviving reports do not establish proof-by-proof agreement. These are finite experimental results.
 
+A [literature review dated 5 October 2026](research-notes/Literature-review-2026-10-05.md) identifies established parametric methods, reoptimization and proof-checking tools that should guide the next comparisons. The [proposed experiments 51–55](research-notes/Roadmap-after-literature.md) prioritize those baselines; they have not been run.
+
 ## Working files
 
+- `research-notes/`: sourced literature review and proposed future comparisons.
 - `research46/`: roadmap, frozen inputs and audited experiments 46–50. [Findings](research46/Synthesis.md) and [recovery receipt](research46/Archive-storage.json).
 - `research41/`: new bounded experiments, frozen inputs, reproducible code and compact results. [Recovery receipt](research41/Archive-storage.json).
 - `research36-rebuild/`: unchanged mathematical sources, frozen stage snapshots, protocols, inputs and reports.
@@ -35,4 +38,3 @@ python3 scripts/verify_compact.py
 ```
 
 Git history starts from the verified compact collection. Complete experiment evidence remains in the checked Drive archives. Read [STORAGE.md](STORAGE.md) before accessing detailed evidence or reproducing the experiments.
-
