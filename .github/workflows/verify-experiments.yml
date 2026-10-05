@@ -1,0 +1,26 @@
+name: Verify compact experiments
+on:
+  push:
+    paths:
+      - 'research41/**'
+      - 'research46/**'
+      - '.github/workflows/verify-experiments.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify retained source identities and existing backup receipts
+        run: python3 scripts/verify_compact.py
+      - name: Verify experiment 41–45 source and selection seals
+        run: python3 research41/tools/verify_compact.py
+      - name: Verify experiment 46–50 source and selection seals
+        run: python3 research46/tools/verify_compact.py
+      - name: Require a clean verification checkout
+        run: git diff --exit-code

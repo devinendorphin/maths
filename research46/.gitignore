@@ -1,0 +1,4 @@
+evidence/
+Run.log
+__pycache__/
+*.tar.xz

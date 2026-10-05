@@ -1,0 +1,1398 @@
+{
+  "unique_inputs": 110,
+  "headline_paths": 444,
+  "tuning_paths": 216,
+  "timing_paths": 360,
+  "integer_time_checks": 261852,
+  "algorithm_cpu_total": 35.77412060900001,
+  "selections": {
+    "47": {
+      "method": "indexed",
+      "threshold": 30000
+    },
+    "48": {
+      "budget": 0
+    }
+  },
+  "stages": {
+    "46": {
+      "indexed_full": {
+        "repeat_cpu_totals": [
+          0.2852678569999938,
+          0.31345063199999856,
+          0.2896844389999984
+        ],
+        "median_cpu": 0.2896844389999984,
+        "timing_inputs": 8,
+        "headline_inputs": 32,
+        "headline_raw_rows": 33684,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "46-n12-seed0-scale1-H256",
+            "cpu": 0.013515237999996543,
+            "maintenance_cpu": 0.005863411999996515,
+            "ratio": 2.3050125080762833
+          },
+          {
+            "case_id": "46-n12-seed0-scale1-H64",
+            "cpu": 0.01314592600000708,
+            "maintenance_cpu": 0.00464031500000317,
+            "ratio": 2.8329813816514826
+          },
+          {
+            "case_id": "46-n12-seed0-scale8-H256",
+            "cpu": 0.016356619000006845,
+            "maintenance_cpu": 0.0044439299999936566,
+            "ratio": 3.6806653120166595
+          },
+          {
+            "case_id": "46-n12-seed0-scale8-H64",
+            "cpu": 0.014321984999995152,
+            "maintenance_cpu": 0.003781177000007574,
+            "ratio": 3.7877055213142534
+          },
+          {
+            "case_id": "46-n16-seed0-scale1-H256",
+            "cpu": 0.05945194499999218,
+            "maintenance_cpu": 0.013019685999992703,
+            "ratio": 4.566311737473968
+          },
+          {
+            "case_id": "46-n16-seed0-scale1-H64",
+            "cpu": 0.05924806400000193,
+            "maintenance_cpu": 0.014504911000003062,
+            "ratio": 4.084689937083338
+          },
+          {
+            "case_id": "46-n16-seed0-scale8-H256",
+            "cpu": 0.05560344000001294,
+            "maintenance_cpu": 0.0024351649999942993,
+            "ratio": 22.833541053745066
+          },
+          {
+            "case_id": "46-n16-seed0-scale8-H64",
+            "cpu": 0.052259280999990665,
+            "maintenance_cpu": 0.0023590670000004366,
+            "ratio": 22.152520890666096
+          }
+        ],
+        "paired_wins": 0,
+        "paired_losses": 8,
+        "cpu_ratio_to_maintenance": 5.513775672292664
+      },
+      "legacy_gate": {
+        "repeat_cpu_totals": [
+          0.14564188599999284,
+          0.08949458099998253,
+          0.0913586700000053
+        ],
+        "median_cpu": 0.0913586700000053,
+        "timing_inputs": 8,
+        "headline_inputs": 32,
+        "headline_raw_rows": 8928,
+        "incomplete_headline_builds": 0,
+        "accepted": 16,
+        "rejected": 16,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "46-n12-seed0-scale1-H256",
+            "cpu": 0.015761552000000734,
+            "maintenance_cpu": 0.005863411999996515,
+            "ratio": 2.688119477193501
+          },
+          {
+            "case_id": "46-n12-seed0-scale1-H64",
+            "cpu": 0.015102902999998946,
+            "maintenance_cpu": 0.00464031500000317,
+            "ratio": 3.254715035506992
+          },
+          {
+            "case_id": "46-n12-seed0-scale8-H256",
+            "cpu": 0.0152068979999882,
+            "maintenance_cpu": 0.0044439299999936566,
+            "ratio": 3.421948140499492
+          },
+          {
+            "case_id": "46-n12-seed0-scale8-H64",
+            "cpu": 0.013087998999992578,
+            "maintenance_cpu": 0.003781177000007574,
+            "ratio": 3.461355815918261
+          },
+          {
+            "case_id": "46-n16-seed0-scale1-H256",
+            "cpu": 0.014275217000005114,
+            "maintenance_cpu": 0.013019685999992703,
+            "ratio": 1.0964332780385881
+          },
+          {
+            "case_id": "46-n16-seed0-scale1-H64",
+            "cpu": 0.016546194000000014,
+            "maintenance_cpu": 0.014504911000003062,
+            "ratio": 1.1407304739750916
+          },
+          {
+            "case_id": "46-n16-seed0-scale8-H256",
+            "cpu": 0.0024265139999926078,
+            "maintenance_cpu": 0.0024351649999942993,
+            "ratio": 0.9964474686513186
+          },
+          {
+            "case_id": "46-n16-seed0-scale8-H64",
+            "cpu": 0.002384922000004508,
+            "maintenance_cpu": 0.0023590670000004366,
+            "ratio": 1.0109598413288248
+          }
+        ],
+        "paired_wins": 1,
+        "paired_losses": 7,
+        "cpu_ratio_to_maintenance": 1.7388963447189016
+      },
+      "maintain": {
+        "repeat_cpu_totals": [
+          0.05164448400000765,
+          0.052538306999991846,
+          0.05255315700001972
+        ],
+        "median_cpu": 0.052538306999991846,
+        "timing_inputs": 8,
+        "headline_inputs": 32,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "46-n12-seed0-scale1-H256",
+            "cpu": 0.005863411999996515,
+            "maintenance_cpu": 0.005863411999996515,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "46-n12-seed0-scale1-H64",
+            "cpu": 0.00464031500000317,
+            "maintenance_cpu": 0.00464031500000317,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "46-n12-seed0-scale8-H256",
+            "cpu": 0.0044439299999936566,
+            "maintenance_cpu": 0.0044439299999936566,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "46-n12-seed0-scale8-H64",
+            "cpu": 0.003781177000007574,
+            "maintenance_cpu": 0.003781177000007574,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "46-n16-seed0-scale1-H256",
+            "cpu": 0.013019685999992703,
+            "maintenance_cpu": 0.013019685999992703,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "46-n16-seed0-scale1-H64",
+            "cpu": 0.014504911000003062,
+            "maintenance_cpu": 0.014504911000003062,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "46-n16-seed0-scale8-H256",
+            "cpu": 0.0024351649999942993,
+            "maintenance_cpu": 0.0024351649999942993,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "46-n16-seed0-scale8-H64",
+            "cpu": 0.0023590670000004366,
+            "maintenance_cpu": 0.0023590670000004366,
+            "ratio": 1.0
+          }
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "cpu_ratio_to_maintenance": 1.0
+      }
+    },
+    "47": {
+      "feature_gate": {
+        "repeat_cpu_totals": [
+          0.1597545419999875,
+          0.14803065799999615,
+          0.1515626720000114
+        ],
+        "median_cpu": 0.1515626720000114,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 4686,
+        "incomplete_headline_builds": 0,
+        "accepted": 7,
+        "rejected": 9,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "47-n12-blocks-seed1",
+            "cpu": 0.011133725999997068,
+            "maintenance_cpu": 0.012205860000008784,
+            "ratio": 0.912162354802452
+          },
+          {
+            "case_id": "47-n12-bounded-seed1",
+            "cpu": 0.01612326999999425,
+            "maintenance_cpu": 0.03136137299999575,
+            "ratio": 0.5141123763936112
+          },
+          {
+            "case_id": "47-n12-powers-seed1",
+            "cpu": 0.02024991800000464,
+            "maintenance_cpu": 0.024824240999990366,
+            "ratio": 0.815731606860105
+          },
+          {
+            "case_id": "47-n12-wide-seed1",
+            "cpu": 0.032159895999996024,
+            "maintenance_cpu": 0.03234811199999399,
+            "ratio": 0.994181546051343
+          },
+          {
+            "case_id": "47-n16-blocks-seed1",
+            "cpu": 0.020012350999991213,
+            "maintenance_cpu": 0.006366842999995015,
+            "ratio": 3.143214148677277
+          },
+          {
+            "case_id": "47-n16-bounded-seed1",
+            "cpu": 0.02694447700000069,
+            "maintenance_cpu": 0.037392683999996734,
+            "ratio": 0.7205815180317904
+          },
+          {
+            "case_id": "47-n16-powers-seed1",
+            "cpu": 0.008278121999993004,
+            "maintenance_cpu": 0.007730550999994534,
+            "ratio": 1.0708320791103838
+          },
+          {
+            "case_id": "47-n16-wide-seed1",
+            "cpu": 0.015404362000012384,
+            "maintenance_cpu": 0.014779050000001348,
+            "ratio": 1.0423107033274113
+          }
+        ],
+        "paired_wins": 5,
+        "paired_losses": 3,
+        "cpu_ratio_to_maintenance": 0.9148333974458557
+      },
+      "indexed_full": {
+        "repeat_cpu_totals": [
+          0.2898661610000062,
+          0.2810856920000049,
+          0.2861615850000021
+        ],
+        "median_cpu": 0.2861615850000021,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 18670,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "47-n12-blocks-seed1",
+            "cpu": 0.009892449000005854,
+            "maintenance_cpu": 0.012205860000008784,
+            "ratio": 0.8104671854337782
+          },
+          {
+            "case_id": "47-n12-bounded-seed1",
+            "cpu": 0.019869462000002613,
+            "maintenance_cpu": 0.03136137299999575,
+            "ratio": 0.6335647996025335
+          },
+          {
+            "case_id": "47-n12-powers-seed1",
+            "cpu": 0.014226794999999015,
+            "maintenance_cpu": 0.024824240999990366,
+            "ratio": 0.5731009056834623
+          },
+          {
+            "case_id": "47-n12-wide-seed1",
+            "cpu": 0.028168133999997735,
+            "maintenance_cpu": 0.03234811199999399,
+            "ratio": 0.8707813921258517
+          },
+          {
+            "case_id": "47-n16-blocks-seed1",
+            "cpu": 0.020335570000000303,
+            "maintenance_cpu": 0.006366842999995015,
+            "ratio": 3.193980124846211
+          },
+          {
+            "case_id": "47-n16-bounded-seed1",
+            "cpu": 0.026285334000007765,
+            "maintenance_cpu": 0.037392683999996734,
+            "ratio": 0.7029539254258951
+          },
+          {
+            "case_id": "47-n16-powers-seed1",
+            "cpu": 0.06732571900001005,
+            "maintenance_cpu": 0.007730550999994534,
+            "ratio": 8.709045319028055
+          },
+          {
+            "case_id": "47-n16-wide-seed1",
+            "cpu": 0.08897359799999549,
+            "maintenance_cpu": 0.014779050000001348,
+            "ratio": 6.020251504662842
+          }
+        ],
+        "paired_wins": 5,
+        "paired_losses": 3,
+        "cpu_ratio_to_maintenance": 1.7272734214135737
+      },
+      "legacy_gate": {
+        "repeat_cpu_totals": [
+          0.15936631400001033,
+          0.1513311160000228,
+          0.14494632000001673
+        ],
+        "median_cpu": 0.1513311160000228,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 1714,
+        "incomplete_headline_builds": 0,
+        "accepted": 4,
+        "rejected": 12,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "47-n12-blocks-seed1",
+            "cpu": 0.010730350000002886,
+            "maintenance_cpu": 0.012205860000008784,
+            "ratio": 0.8791146219926466
+          },
+          {
+            "case_id": "47-n12-bounded-seed1",
+            "cpu": 0.01560866500000202,
+            "maintenance_cpu": 0.03136137299999575,
+            "ratio": 0.4977034965913047
+          },
+          {
+            "case_id": "47-n12-powers-seed1",
+            "cpu": 0.022982447000003958,
+            "maintenance_cpu": 0.024824240999990366,
+            "ratio": 0.925806633927413
+          },
+          {
+            "case_id": "47-n12-wide-seed1",
+            "cpu": 0.030499844000004828,
+            "maintenance_cpu": 0.03234811199999399,
+            "ratio": 0.9428631878117182
+          },
+          {
+            "case_id": "47-n16-blocks-seed1",
+            "cpu": 0.006314778000003685,
+            "maintenance_cpu": 0.006366842999995015,
+            "ratio": 0.9918224777976509
+          },
+          {
+            "case_id": "47-n16-bounded-seed1",
+            "cpu": 0.042988659999991796,
+            "maintenance_cpu": 0.037392683999996734,
+            "ratio": 1.149654301360008
+          },
+          {
+            "case_id": "47-n16-powers-seed1",
+            "cpu": 0.006973302000005788,
+            "maintenance_cpu": 0.007730550999994534,
+            "ratio": 0.9020446278681452
+          },
+          {
+            "case_id": "47-n16-wide-seed1",
+            "cpu": 0.017562566000009383,
+            "maintenance_cpu": 0.014779050000001348,
+            "ratio": 1.1883420111582126
+          }
+        ],
+        "paired_wins": 6,
+        "paired_losses": 2,
+        "cpu_ratio_to_maintenance": 0.9134357237352172
+      },
+      "maintain": {
+        "repeat_cpu_totals": [
+          0.17547735000000841,
+          0.16567243000000076,
+          0.1621498469999807
+        ],
+        "median_cpu": 0.16567243000000076,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "47-n12-blocks-seed1",
+            "cpu": 0.012205860000008784,
+            "maintenance_cpu": 0.012205860000008784,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "47-n12-bounded-seed1",
+            "cpu": 0.03136137299999575,
+            "maintenance_cpu": 0.03136137299999575,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "47-n12-powers-seed1",
+            "cpu": 0.024824240999990366,
+            "maintenance_cpu": 0.024824240999990366,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "47-n12-wide-seed1",
+            "cpu": 0.03234811199999399,
+            "maintenance_cpu": 0.03234811199999399,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "47-n16-blocks-seed1",
+            "cpu": 0.006366842999995015,
+            "maintenance_cpu": 0.006366842999995015,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "47-n16-bounded-seed1",
+            "cpu": 0.037392683999996734,
+            "maintenance_cpu": 0.037392683999996734,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "47-n16-powers-seed1",
+            "cpu": 0.007730550999994534,
+            "maintenance_cpu": 0.007730550999994534,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "47-n16-wide-seed1",
+            "cpu": 0.014779050000001348,
+            "maintenance_cpu": 0.014779050000001348,
+            "ratio": 1.0
+          }
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "cpu_ratio_to_maintenance": 1.0
+      }
+    },
+    "48": {
+      "adaptive": {
+        "repeat_cpu_totals": [
+          0.3114356279999697,
+          0.31483597199999735,
+          0.30038329799999985
+        ],
+        "median_cpu": 0.3114356279999697,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 24048,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "48-n12-blocks-seed1",
+            "cpu": 0.021358605000003195,
+            "maintenance_cpu": 0.013325553000001378,
+            "ratio": 1.602830666764898
+          },
+          {
+            "case_id": "48-n12-bounded-seed1",
+            "cpu": 0.014462659000002986,
+            "maintenance_cpu": 0.01014371699999117,
+            "ratio": 1.4257750881669486
+          },
+          {
+            "case_id": "48-n12-powers-seed1",
+            "cpu": 0.02301818099999764,
+            "maintenance_cpu": 0.004876189000000863,
+            "ratio": 4.720526829455045
+          },
+          {
+            "case_id": "48-n12-wide-seed1",
+            "cpu": 0.012110961999994174,
+            "maintenance_cpu": 0.0025365120000060415,
+            "ratio": 4.774651962996954
+          },
+          {
+            "case_id": "48-n16-blocks-seed1",
+            "cpu": 0.03347472800000162,
+            "maintenance_cpu": 0.012453574000005574,
+            "ratio": 2.6879615442110545
+          },
+          {
+            "case_id": "48-n16-bounded-seed1",
+            "cpu": 0.04683816599998636,
+            "maintenance_cpu": 0.013444876999997746,
+            "ratio": 3.483718445322647
+          },
+          {
+            "case_id": "48-n16-powers-seed1",
+            "cpu": 0.11869933799999899,
+            "maintenance_cpu": 0.02783630899999423,
+            "ratio": 4.264190988827707
+          },
+          {
+            "case_id": "48-n16-wide-seed1",
+            "cpu": 0.03580639599999813,
+            "maintenance_cpu": 0.0033799770000086937,
+            "ratio": 10.593680371169992
+          }
+        ],
+        "paired_wins": 0,
+        "paired_losses": 8,
+        "cpu_ratio_to_maintenance": 3.3447167205643793
+      },
+      "budget_fixed": {
+        "repeat_cpu_totals": [
+          0.2599855880000064,
+          0.2488972480000058,
+          0.24465855600000452
+        ],
+        "median_cpu": 0.2488972480000058,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 17388,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "stopped_renewals": 12,
+        "fallback_reprices": 12,
+        "paired": [
+          {
+            "case_id": "48-n12-blocks-seed1",
+            "cpu": 0.017172907000002624,
+            "maintenance_cpu": 0.013325553000001378,
+            "ratio": 1.2887200253528577
+          },
+          {
+            "case_id": "48-n12-bounded-seed1",
+            "cpu": 0.010734221000006983,
+            "maintenance_cpu": 0.01014371699999117,
+            "ratio": 1.0582137691751778
+          },
+          {
+            "case_id": "48-n12-powers-seed1",
+            "cpu": 0.023045064000001503,
+            "maintenance_cpu": 0.004876189000000863,
+            "ratio": 4.72603994635922
+          },
+          {
+            "case_id": "48-n12-wide-seed1",
+            "cpu": 0.011595325999991246,
+            "maintenance_cpu": 0.0025365120000060415,
+            "ratio": 4.571366506432309
+          },
+          {
+            "case_id": "48-n16-blocks-seed1",
+            "cpu": 0.021380758000006495,
+            "maintenance_cpu": 0.012453574000005574,
+            "ratio": 1.7168371103746543
+          },
+          {
+            "case_id": "48-n16-bounded-seed1",
+            "cpu": 0.03288767600000142,
+            "maintenance_cpu": 0.013444876999997746,
+            "ratio": 2.446112076741716
+          },
+          {
+            "case_id": "48-n16-powers-seed1",
+            "cpu": 0.10856300899999383,
+            "maintenance_cpu": 0.02783630899999423,
+            "ratio": 3.9000504341296227
+          },
+          {
+            "case_id": "48-n16-wide-seed1",
+            "cpu": 0.025136097000000746,
+            "maintenance_cpu": 0.0033799770000086937,
+            "ratio": 7.436765693948832
+          }
+        ],
+        "paired_wins": 0,
+        "paired_losses": 8,
+        "cpu_ratio_to_maintenance": 2.6730749864243513
+      },
+      "budget_selected": {
+        "repeat_cpu_totals": [
+          0.1021568200000047,
+          0.0923649690000019,
+          0.09858714600001406
+        ],
+        "median_cpu": 0.09858714600001406,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "48-n12-blocks-seed1",
+            "cpu": 0.014275048000001789,
+            "maintenance_cpu": 0.013325553000001378,
+            "ratio": 1.0712537033172516
+          },
+          {
+            "case_id": "48-n12-bounded-seed1",
+            "cpu": 0.009633414999996148,
+            "maintenance_cpu": 0.01014371699999117,
+            "ratio": 0.9496927999868819
+          },
+          {
+            "case_id": "48-n12-powers-seed1",
+            "cpu": 0.0055945459999975355,
+            "maintenance_cpu": 0.004876189000000863,
+            "ratio": 1.1473193512385482
+          },
+          {
+            "case_id": "48-n12-wide-seed1",
+            "cpu": 0.0017354619999991883,
+            "maintenance_cpu": 0.0025365120000060415,
+            "ratio": 0.6841923081755792
+          },
+          {
+            "case_id": "48-n16-blocks-seed1",
+            "cpu": 0.011068152000007103,
+            "maintenance_cpu": 0.012453574000005574,
+            "ratio": 0.8887530599651272
+          },
+          {
+            "case_id": "48-n16-bounded-seed1",
+            "cpu": 0.012236587000003851,
+            "maintenance_cpu": 0.013444876999997746,
+            "ratio": 0.9101300815177337
+          },
+          {
+            "case_id": "48-n16-powers-seed1",
+            "cpu": 0.03604243299999155,
+            "maintenance_cpu": 0.02783630899999423,
+            "ratio": 1.2947992853506194
+          },
+          {
+            "case_id": "48-n16-wide-seed1",
+            "cpu": 0.0032797979999941163,
+            "maintenance_cpu": 0.0033799770000086937,
+            "ratio": 0.9703610409140891
+          }
+        ],
+        "paired_wins": 5,
+        "paired_losses": 3,
+        "cpu_ratio_to_maintenance": 1.0587936832294627
+      },
+      "maintain": {
+        "repeat_cpu_totals": [
+          0.082561773000009,
+          0.10538794999999368,
+          0.09311270700001728
+        ],
+        "median_cpu": 0.09311270700001728,
+        "timing_inputs": 8,
+        "headline_inputs": 16,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 0,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "48-n12-blocks-seed1",
+            "cpu": 0.013325553000001378,
+            "maintenance_cpu": 0.013325553000001378,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "48-n12-bounded-seed1",
+            "cpu": 0.01014371699999117,
+            "maintenance_cpu": 0.01014371699999117,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "48-n12-powers-seed1",
+            "cpu": 0.004876189000000863,
+            "maintenance_cpu": 0.004876189000000863,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "48-n12-wide-seed1",
+            "cpu": 0.0025365120000060415,
+            "maintenance_cpu": 0.0025365120000060415,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "48-n16-blocks-seed1",
+            "cpu": 0.012453574000005574,
+            "maintenance_cpu": 0.012453574000005574,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "48-n16-bounded-seed1",
+            "cpu": 0.013444876999997746,
+            "maintenance_cpu": 0.013444876999997746,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "48-n16-powers-seed1",
+            "cpu": 0.02783630899999423,
+            "maintenance_cpu": 0.02783630899999423,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "48-n16-wide-seed1",
+            "cpu": 0.0033799770000086937,
+            "maintenance_cpu": 0.0033799770000086937,
+            "ratio": 1.0
+          }
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "cpu_ratio_to_maintenance": 1.0
+      }
+    },
+    "50": {
+      "composed": {
+        "repeat_cpu_totals": [
+          0.4116127990000109,
+          0.4254135649999995,
+          0.40002633500000684
+        ],
+        "median_cpu": 0.4116127990000109,
+        "timing_inputs": 8,
+        "headline_inputs": 24,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 3,
+        "rejected": 15,
+        "normalized": 6,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "50-n16-bounded-seed1",
+            "cpu": 0.05133680500000537,
+            "maintenance_cpu": 0.04980327799999884,
+            "ratio": 1.0307916880492598
+          },
+          {
+            "case_id": "50-n16-normalized-seed1",
+            "cpu": 0.0004671180000030972,
+            "maintenance_cpu": 0.0005090150000057747,
+            "ratio": 0.9176900484225373
+          },
+          {
+            "case_id": "50-n16-powers-seed1",
+            "cpu": 0.00222711000000686,
+            "maintenance_cpu": 0.002216634000006934,
+            "ratio": 1.0047260846851096
+          },
+          {
+            "case_id": "50-n16-wide-seed1",
+            "cpu": 0.0036007420000032653,
+            "maintenance_cpu": 0.002099313000002212,
+            "ratio": 1.7152001631007245
+          },
+          {
+            "case_id": "50-n20-bounded-seed1",
+            "cpu": 0.06326614099999972,
+            "maintenance_cpu": 0.06695985099999291,
+            "ratio": 0.9448369441563784
+          },
+          {
+            "case_id": "50-n20-normalized-seed1",
+            "cpu": 0.0010626169999881085,
+            "maintenance_cpu": 0.001159152000013819,
+            "ratio": 0.9167192913228295
+          },
+          {
+            "case_id": "50-n20-powers-seed1",
+            "cpu": 0.008744724999999676,
+            "maintenance_cpu": 0.007760641000004398,
+            "ratio": 1.1268044740111958
+          },
+          {
+            "case_id": "50-n20-wide-seed1",
+            "cpu": 0.27233005500001184,
+            "maintenance_cpu": 0.28167601500000217,
+            "ratio": 0.9668201781398027
+          }
+        ],
+        "paired_wins": 4,
+        "paired_losses": 4,
+        "cpu_ratio_to_maintenance": 0.9820678132384326
+      },
+      "feature_gate": {
+        "repeat_cpu_totals": [
+          0.41811485699997775,
+          0.40065682400000924,
+          0.5248646619999988
+        ],
+        "median_cpu": 0.41811485699997775,
+        "timing_inputs": 8,
+        "headline_inputs": 24,
+        "headline_raw_rows": 3596,
+        "incomplete_headline_builds": 0,
+        "accepted": 3,
+        "rejected": 15,
+        "normalized": 6,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "50-n16-bounded-seed1",
+            "cpu": 0.026357984000000556,
+            "maintenance_cpu": 0.04980327799999884,
+            "ratio": 0.5292419507005376
+          },
+          {
+            "case_id": "50-n16-normalized-seed1",
+            "cpu": 0.0004636999999974023,
+            "maintenance_cpu": 0.0005090150000057747,
+            "ratio": 0.9109751185959976
+          },
+          {
+            "case_id": "50-n16-powers-seed1",
+            "cpu": 0.0027621059999916042,
+            "maintenance_cpu": 0.002216634000006934,
+            "ratio": 1.2460812204373677
+          },
+          {
+            "case_id": "50-n16-wide-seed1",
+            "cpu": 0.0024054559999910907,
+            "maintenance_cpu": 0.002099313000002212,
+            "ratio": 1.1458300882186487
+          },
+          {
+            "case_id": "50-n20-bounded-seed1",
+            "cpu": 0.0730648220000063,
+            "maintenance_cpu": 0.06695985099999291,
+            "ratio": 1.0911736049116065
+          },
+          {
+            "case_id": "50-n20-normalized-seed1",
+            "cpu": 0.001103309000001218,
+            "maintenance_cpu": 0.001159152000013819,
+            "ratio": 0.9518242646245401
+          },
+          {
+            "case_id": "50-n20-powers-seed1",
+            "cpu": 0.009496308999999314,
+            "maintenance_cpu": 0.007760641000004398,
+            "ratio": 1.2236500825117322
+          },
+          {
+            "case_id": "50-n20-wide-seed1",
+            "cpu": 0.3032445999999993,
+            "maintenance_cpu": 0.28167601500000217,
+            "ratio": 1.076572316602807
+          }
+        ],
+        "paired_wins": 3,
+        "paired_losses": 5,
+        "cpu_ratio_to_maintenance": 0.9975810866281085
+      },
+      "indexed_full": {
+        "repeat_cpu_totals": [
+          0.40435883399999284,
+          0.4198288559999952,
+          0.4066996389999815
+        ],
+        "median_cpu": 0.4066996389999815,
+        "timing_inputs": 8,
+        "headline_inputs": 24,
+        "headline_raw_rows": 44283,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 6,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "50-n16-bounded-seed1",
+            "cpu": 0.027222004999998717,
+            "maintenance_cpu": 0.04980327799999884,
+            "ratio": 0.5465906280305355
+          },
+          {
+            "case_id": "50-n16-normalized-seed1",
+            "cpu": 0.0004970760000020391,
+            "maintenance_cpu": 0.0005090150000057747,
+            "ratio": 0.9765448955264576
+          },
+          {
+            "case_id": "50-n16-powers-seed1",
+            "cpu": 0.029112545999993245,
+            "maintenance_cpu": 0.002216634000006934,
+            "ratio": 13.133672947316596
+          },
+          {
+            "case_id": "50-n16-wide-seed1",
+            "cpu": 0.018085350999996308,
+            "maintenance_cpu": 0.002099313000002212,
+            "ratio": 8.61489020454656
+          },
+          {
+            "case_id": "50-n20-bounded-seed1",
+            "cpu": 0.08752966400000162,
+            "maintenance_cpu": 0.06695985099999291,
+            "ratio": 1.3071962182235275
+          },
+          {
+            "case_id": "50-n20-normalized-seed1",
+            "cpu": 0.001144691999996894,
+            "maintenance_cpu": 0.001159152000013819,
+            "ratio": 0.9875253633546313
+          },
+          {
+            "case_id": "50-n20-powers-seed1",
+            "cpu": 0.15190777099999764,
+            "maintenance_cpu": 0.007760641000004398,
+            "ratio": 19.57412680214322
+          },
+          {
+            "case_id": "50-n20-wide-seed1",
+            "cpu": 0.08826224399999205,
+            "maintenance_cpu": 0.28167601500000217,
+            "ratio": 0.31334667951757045
+          }
+        ],
+        "paired_wins": 4,
+        "paired_losses": 4,
+        "cpu_ratio_to_maintenance": 0.9703454948143175
+      },
+      "maintain": {
+        "repeat_cpu_totals": [
+          0.41912869300001887,
+          0.4205269329999908,
+          0.39393333599998925
+        ],
+        "median_cpu": 0.41912869300001887,
+        "timing_inputs": 8,
+        "headline_inputs": 24,
+        "headline_raw_rows": 0,
+        "incomplete_headline_builds": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "normalized": 6,
+        "stopped_renewals": 0,
+        "fallback_reprices": 0,
+        "paired": [
+          {
+            "case_id": "50-n16-bounded-seed1",
+            "cpu": 0.04980327799999884,
+            "maintenance_cpu": 0.04980327799999884,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "50-n16-normalized-seed1",
+            "cpu": 0.0005090150000057747,
+            "maintenance_cpu": 0.0005090150000057747,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "50-n16-powers-seed1",
+            "cpu": 0.002216634000006934,
+            "maintenance_cpu": 0.002216634000006934,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "50-n16-wide-seed1",
+            "cpu": 0.002099313000002212,
+            "maintenance_cpu": 0.002099313000002212,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "50-n20-bounded-seed1",
+            "cpu": 0.06695985099999291,
+            "maintenance_cpu": 0.06695985099999291,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "50-n20-normalized-seed1",
+            "cpu": 0.001159152000013819,
+            "maintenance_cpu": 0.001159152000013819,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "50-n20-powers-seed1",
+            "cpu": 0.007760641000004398,
+            "maintenance_cpu": 0.007760641000004398,
+            "ratio": 1.0
+          },
+          {
+            "case_id": "50-n20-wide-seed1",
+            "cpu": 0.28167601500000217,
+            "maintenance_cpu": 0.28167601500000217,
+            "ratio": 1.0
+          }
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "cpu_ratio_to_maintenance": 1.0
+      }
+    },
+    "49": {
+      "inputs": 6,
+      "paths": 60,
+      "forced_paths": 54,
+      "incomplete_constructions": 54,
+      "by_cap": {
+        "entries": 18,
+        "index": 18,
+        "auxiliary": 18
+      },
+      "by_build_index": {
+        "1": 18,
+        "2": 18,
+        "3": 18
+      },
+      "fallback_reprices": 36,
+      "all_three_switches_exact": true
+    }
+  },
+  "training_equivalence": {
+    "47": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "48": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ]
+  },
+  "matched_scaling_pairs": [
+    {
+      "pair_group": "46-n12-seed0",
+      "end": 64,
+      "bound": 9555,
+      "accepted": true,
+      "scale1_cpu": 0.021121104999998863,
+      "scale8_cpu": 0.01382656000000182
+    },
+    {
+      "pair_group": "46-n12-seed0",
+      "end": 256,
+      "bound": 9555,
+      "accepted": true,
+      "scale1_cpu": 0.0137606510000019,
+      "scale8_cpu": 0.013525158000000204
+    },
+    {
+      "pair_group": "46-n12-seed1",
+      "end": 64,
+      "bound": 9996,
+      "accepted": true,
+      "scale1_cpu": 0.011794507999997705,
+      "scale8_cpu": 0.01158979699999918
+    },
+    {
+      "pair_group": "46-n12-seed1",
+      "end": 256,
+      "bound": 9996,
+      "accepted": true,
+      "scale1_cpu": 0.02301681600000194,
+      "scale8_cpu": 0.01162388899999911
+    },
+    {
+      "pair_group": "46-n12-seed2",
+      "end": 64,
+      "bound": 10731,
+      "accepted": true,
+      "scale1_cpu": 0.01752302500000269,
+      "scale8_cpu": 0.016829354999998714
+    },
+    {
+      "pair_group": "46-n12-seed2",
+      "end": 256,
+      "bound": 10731,
+      "accepted": true,
+      "scale1_cpu": 0.020518190000000658,
+      "scale8_cpu": 0.023084233000002286
+    },
+    {
+      "pair_group": "46-n12-seed3",
+      "end": 64,
+      "bound": 8232,
+      "accepted": true,
+      "scale1_cpu": 0.007039970000001006,
+      "scale8_cpu": 0.006591162999999511
+    },
+    {
+      "pair_group": "46-n12-seed3",
+      "end": 256,
+      "bound": 8232,
+      "accepted": true,
+      "scale1_cpu": 0.006680232000000785,
+      "scale8_cpu": 0.010581850000001225
+    },
+    {
+      "pair_group": "46-n16-seed0",
+      "end": 64,
+      "bound": 30184,
+      "accepted": false,
+      "scale1_cpu": 0.013213680999999866,
+      "scale8_cpu": 0.0022185510000021225
+    },
+    {
+      "pair_group": "46-n16-seed0",
+      "end": 256,
+      "bound": 30184,
+      "accepted": false,
+      "scale1_cpu": 0.012855207999997731,
+      "scale8_cpu": 0.006880812999998653
+    },
+    {
+      "pair_group": "46-n16-seed1",
+      "end": 64,
+      "bound": 22981,
+      "accepted": false,
+      "scale1_cpu": 0.012128769999996791,
+      "scale8_cpu": 0.00558454700000155
+    },
+    {
+      "pair_group": "46-n16-seed1",
+      "end": 256,
+      "bound": 22981,
+      "accepted": false,
+      "scale1_cpu": 0.017648453999999703,
+      "scale8_cpu": 0.0096702449999988
+    },
+    {
+      "pair_group": "46-n16-seed2",
+      "end": 64,
+      "bound": 28469,
+      "accepted": false,
+      "scale1_cpu": 0.017275371000000206,
+      "scale8_cpu": 0.004419210000001783
+    },
+    {
+      "pair_group": "46-n16-seed2",
+      "end": 256,
+      "bound": 28469,
+      "accepted": false,
+      "scale1_cpu": 0.013642337000000282,
+      "scale8_cpu": 0.004235794999999598
+    },
+    {
+      "pair_group": "46-n16-seed3",
+      "end": 64,
+      "bound": 30870,
+      "accepted": false,
+      "scale1_cpu": 0.06798562200000191,
+      "scale8_cpu": 0.14899476600000128
+    },
+    {
+      "pair_group": "46-n16-seed3",
+      "end": 256,
+      "bound": 30870,
+      "accepted": false,
+      "scale1_cpu": 0.3463119499999934,
+      "scale8_cpu": 0.7776914330000011
+    }
+  ],
+  "46_timing_conditions": {
+    "H64-scale1": {
+      "maintain": {
+        "median_cpu": 0.01914186000000484,
+        "repeat_cpu_totals": [
+          0.01893466100000296,
+          0.01914186000000484,
+          0.019145226000006232
+        ],
+        "inputs": 2
+      },
+      "indexed_full": {
+        "median_cpu": 0.07362735600000292,
+        "repeat_cpu_totals": [
+          0.07362735600000292,
+          0.08983942199999717,
+          0.06946233900001175
+        ],
+        "inputs": 2
+      },
+      "legacy_gate": {
+        "median_cpu": 0.029499479999998357,
+        "repeat_cpu_totals": [
+          0.03590084299999319,
+          0.029499479999998357,
+          0.029186021000001006
+        ],
+        "inputs": 2
+      }
+    },
+    "H64-scale8": {
+      "maintain": {
+        "median_cpu": 0.006199396000013735,
+        "repeat_cpu_totals": [
+          0.0063728440000119235,
+          0.0053957699999926945,
+          0.006199396000013735
+        ],
+        "inputs": 2
+      },
+      "indexed_full": {
+        "median_cpu": 0.06658126599998582,
+        "repeat_cpu_totals": [
+          0.06631914499999425,
+          0.06982456500000467,
+          0.06658126599998582
+        ],
+        "inputs": 2
+      },
+      "legacy_gate": {
+        "median_cpu": 0.015351316999996811,
+        "repeat_cpu_totals": [
+          0.04440525500000092,
+          0.015351316999996811,
+          0.014964087999999265
+        ],
+        "inputs": 2
+      }
+    },
+    "H256-scale1": {
+      "maintain": {
+        "median_cpu": 0.020197283000001676,
+        "repeat_cpu_totals": [
+          0.018339346999994177,
+          0.021477594999993244,
+          0.020197283000001676
+        ],
+        "inputs": 2
+      },
+      "indexed_full": {
+        "median_cpu": 0.07296718299998872,
+        "repeat_cpu_totals": [
+          0.07296718299998872,
+          0.07082358799999611,
+          0.08227465400000256
+        ],
+        "inputs": 2
+      },
+      "legacy_gate": {
+        "median_cpu": 0.03065869000000987,
+        "repeat_cpu_totals": [
+          0.04192726400000879,
+          0.027010372000006555,
+          0.03065869000000987
+        ],
+        "inputs": 2
+      }
+    },
+    "H256-scale8": {
+      "maintain": {
+        "median_cpu": 0.0070112519999980805,
+        "repeat_cpu_totals": [
+          0.007997631999998589,
+          0.006523082000001068,
+          0.0070112519999980805
+        ],
+        "inputs": 2
+      },
+      "indexed_full": {
+        "median_cpu": 0.0723541730000079,
+        "repeat_cpu_totals": [
+          0.0723541730000079,
+          0.08296305700000062,
+          0.07136617999999828
+        ],
+        "inputs": 2
+      },
+      "legacy_gate": {
+        "median_cpu": 0.017633411999980808,
+        "repeat_cpu_totals": [
+          0.02340852399998994,
+          0.017633411999980808,
+          0.016549870999995164
+        ],
+        "inputs": 2
+      }
+    }
+  },
+  "50_controls": {
+    "maintain": {
+      "inputs": 2,
+      "median_cpu": 0.0016681670000195936,
+      "all_bypass_builds": true
+    },
+    "indexed_full": {
+      "inputs": 2,
+      "median_cpu": 0.0016154769999872087,
+      "all_bypass_builds": true
+    },
+    "feature_gate": {
+      "inputs": 2,
+      "median_cpu": 0.0016100389999991194,
+      "all_bypass_builds": true
+    },
+    "composed": {
+      "inputs": 2,
+      "median_cpu": 0.001551002999988782,
+      "all_bypass_builds": true
+    }
+  }
+}
