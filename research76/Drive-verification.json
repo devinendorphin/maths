@@ -1,0 +1,13 @@
+{
+  "account": "glubose@gmail.com",
+  "all_member_lengths_and_hashes_match": true,
+  "download_bytes": 2480824,
+  "download_sha256": "8ae8ecb9ce70490a355b541eeb579a1dcd87fbe0e25ef8563db0c3689f46ae55",
+  "drive_id": "1STxr-EpbCkH9c-w1ZudidKEDmYscOFzG",
+  "drive_url": "https://drive.google.com/file/d/1STxr-EpbCkH9c-w1ZudidKEDmYscOFzG/view?usp=drivesdk",
+  "folder_id": "1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ",
+  "metadata_size_matches": true,
+  "parent_folder_verified": true,
+  "passed": true,
+  "verified_members": 750
+}

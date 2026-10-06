@@ -1,0 +1,21 @@
+{
+  "all_inputs_have_complete_answers": true,
+  "balance_replacements": 447,
+  "cache_scope_rejections": 24,
+  "cache_valid_hits": 4,
+  "endpoint_references": 116,
+  "full_reaudit": true,
+  "inputs": 58,
+  "integer_checks": 136012,
+  "interval_bundles": 48,
+  "lean_counters_replayed": true,
+  "max_split_depth": 15,
+  "passed": true,
+  "present_member_hashes": 0,
+  "primary_optimal_noncanonical": 0,
+  "query_split_checks": 2443,
+  "rational_checks": 18759,
+  "vipr_invalid_rejected": 82,
+  "vipr_valid": 82,
+  "workers": 508
+}

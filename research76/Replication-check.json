@@ -1,0 +1,11 @@
+{
+  "all_47_capped_worker_signatures_match": true,
+  "all_statuses_and_logical_signatures_match": true,
+  "cache_controls_match": true,
+  "passed": true,
+  "proof_summary_counts_match": true,
+  "replica_summary_sha256": "184644a982dbe490aaea1fc7af49e63d73706628c7f96861abbdcd1a1533047d",
+  "separate_validation_not_pooled_with_original_timings": true,
+  "source_summary_sha256": "d377e2883d9dce8855661465365de06516f1f996ede93ddf4ade935b412adaf9",
+  "workers": 508
+}

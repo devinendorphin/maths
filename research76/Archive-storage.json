@@ -1,0 +1,15 @@
+{
+  "account": "glubose@gmail.com",
+  "archive_name": "Maths-experiments-76-85-complete.tar.xz",
+  "bytes": 2480824,
+  "drive_id": "1STxr-EpbCkH9c-w1ZudidKEDmYscOFzG",
+  "drive_url": "https://drive.google.com/file/d/1STxr-EpbCkH9c-w1ZudidKEDmYscOFzG/view?usp=drivesdk",
+  "experiments": "76-85",
+  "folder_id": "1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ",
+  "member_manifest": "Archive-members.json",
+  "members": 750,
+  "sha256": "8ae8ecb9ce70490a355b541eeb579a1dcd87fbe0e25ef8563db0c3689f46ae55",
+  "top_directory": "research76/",
+  "uncompressed_bytes": 4227767,
+  "verified_download": true
+}
