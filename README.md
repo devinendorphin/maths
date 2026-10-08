@@ -24,6 +24,8 @@ The rebuilt 36–40 results broadly agree with the retained prior summaries: ind
 
 A [literature review dated 5 October 2026](research-notes/Literature-review-2026-10-05.md) identifies established parametric methods, reoptimization and proof-checking tools that should guide the next comparisons. The [original proposal for experiments 51–55](research-notes/Roadmap-after-literature.md) is followed by the completed bounded comparisons linked above.
 
+A [review of OpenAI's 6 October mathematics release](research-notes/OpenAI-mathematics-review-2026-10-08.md) recommends checking the endpoint-to-interval theorem, compact exact witnesses, and dependency-aware proof admission. Its [proposed experiments 96–100](research-notes/Roadmap-after-OpenAI-review.md) are a future roadmap; 86–95 remain the latest completed batch.
+
 ## Working files
 
 - `research86/`: frozen experiments 86–95, exact applicability controls, verification-cost findings and complete archive recovery. [Findings](research86/Synthesis.md).

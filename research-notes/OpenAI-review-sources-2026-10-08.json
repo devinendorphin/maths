@@ -1,0 +1,200 @@
+{
+  "review_date": "2026-10-08",
+  "research_baseline_commit": "38ee5981bc6a5a33bc8128efb2d45ccedaaca90c",
+  "latest_completed_experiments": [
+    86,
+    95
+  ],
+  "openai_release_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+  "openai_collection_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "catalogue_manuscripts": 719,
+  "catalogue_families": 372,
+  "catalogue_search": {
+    "scope": "family descriptions and individual-paper abstracts, not all paper bodies",
+    "case_sensitive": false,
+    "search": "literal phrase in each parsed family block",
+    "family_hits": {
+      "knapsack": 0,
+      "parametric": 0,
+      "dynamic programming": 0,
+      "reoptimization": 0,
+      "ski rental": 0
+    }
+  },
+  "independent_execution": {
+    "openai_verifiers": false,
+    "lean": false,
+    "comparator": false,
+    "new_experimental_batch": false
+  },
+  "scope": "Targeted methodological review, not independent validation of all announced results or exhaustive novelty assessment",
+  "sources": [
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "README.md",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/README.md",
+      "access": "full repository description"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "history.md",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "access": "full revision history"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "CONTENTS.md",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "access": "all family descriptions and individual manuscript abstracts screened"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "overview.tex",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/overview.tex",
+      "access": "family overview screened"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "lean/README.md",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/README.md",
+      "access": "full library instructions; no build executed"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "lean/formalization.yaml",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/formalization.yaml",
+      "access": "catalogue inspected; no proofs replayed"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "lean/ComparatorChallenges/README.md",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/README.md",
+      "access": "full comparison instructions and supporting-result warning"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "lean/docs/266.md",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/266.md",
+      "access": "full per-claim coverage note"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "lean/docs/110.md",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/110.md",
+      "access": "full per-claim coverage note"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "lean/docs/235.md",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/235.md",
+      "access": "full per-claim coverage note"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "lean/ComparatorChallenges/MUBSix.lean",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/MUBSix.lean",
+      "access": "target definitions and statement inspected; challenge is not solution"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "lean/ComparatorChallenges/KServer.lean",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/KServer.lean",
+      "access": "target definitions and statement inspected; challenge is not solution"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026/build/paper.tex",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026/build/paper.tex",
+      "access": "full main source; not all included sections"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026/build/sections/05-verification.tex",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026/build/sections/05-verification.tex",
+      "access": "full selected verification section"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026/verification/verify.py",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026/verification/verify.py",
+      "access": "source inspection including exact arithmetic, reconstruction and assertions; not executed"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026/verification/run.py",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026/verification/run.py",
+      "access": "full wrapper source; not executed"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Computing-the-Random-3-SAT-Threshold-September-27-2026/build/sections/certificates.tex",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Computing-the-Random-3-SAT-Threshold-September-27-2026/build/sections/certificates.tex",
+      "access": "full generic certificate-search section"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Computing-the-Random-3-SAT-Threshold-September-27-2026/build/sections/assembly.tex",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Computing-the-Random-3-SAT-Threshold-September-27-2026/build/sections/assembly.tex",
+      "access": "full assembly section; SAT-specific premises not independently established"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Uniform-computation-of-the-squared-logarithmic-k-server-bound-September-24-2026/build/source/sections/01-introduction.tex",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Uniform-computation-of-the-squared-logarithmic-k-server-bound-September-24-2026/build/source/sections/01-introduction.tex",
+      "access": "full statement, cost model and proof outline"
+    },
+    {
+      "repository": "openai/math",
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Uniform-computation-of-the-squared-logarithmic-k-server-bound-September-24-2026/build/source/sections/04-uniform-computation.tex",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Uniform-computation-of-the-squared-logarithmic-k-server-bound-September-24-2026/build/source/sections/04-uniform-computation.tex",
+      "access": "full scheduling and bit-cost section; companion existence theorem not independently established"
+    },
+    {
+      "repository": "leanprover/comparator",
+      "commit": "ca04cfc72b550331658ec314bf47685281bfd4bf",
+      "path": "README.md",
+      "url": "https://github.com/leanprover/comparator/blob/ca04cfc72b550331658ec314bf47685281bfd4bf/README.md",
+      "access": "full README; no execution"
+    },
+    {
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "access": "release announcement"
+    },
+    {
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "access": "release summary"
+    },
+    {
+      "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "access": "abstract and contents screening, not full proofs"
+    },
+    {
+      "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf",
+      "access": "context screening, not proof verification"
+    },
+    {
+      "url": "https://openai.com/index/first-proof-submissions/",
+      "access": "submission and correction account"
+    }
+  ]
+}
