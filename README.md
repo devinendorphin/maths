@@ -2,7 +2,9 @@
 
 This repository keeps a compact working collection of the temporal-proof experiments. Complete evidence is preserved in [verified Google Drive archives](https://drive.google.com/drive/folders/1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ).
 
-The latest batch is [experiments 76–85](research76/Synthesis.md): ten bounded comparisons, 58 input records and 508 audited workers. 461 trajectories completed; 47 runs stopped at declared limits, including ten deliberately all-failed controls. Every input has complete answers from at least one method. Lean B&B removed terminal-storage limits; a fixed solver portfolio completed every fresh transfer input. Complete evidence is in a verified 2.5 MB [Drive archive](https://drive.google.com/file/d/1STxr-EpbCkH9c-w1ZudidKEDmYscOFzG/view?usp=drivesdk).
+The latest batch is [experiments 86–95](research86/Synthesis.md): all 248 workers completed on 60 input records, with independent re-audit and fresh replication. The [conditional guarantees](research86/Mathematical-guarantees.md) distinguish answer stability, proof applicability and full reuse cost. The [novelty audit](research-notes/Novelty-audit-2026-10-08.md) traces the inherited caveat and compares candidate contributions with primary literature. Complete evidence is in one small [repository archive](archives/experiments-86-95-complete.tar.xz), a fallback after two stalled Drive uploads; Drive verification is pending.
+
+The preceding batch is [experiments 76–85](research76/Synthesis.md): ten bounded comparisons, 58 input records and 508 audited workers. 461 trajectories completed; 47 runs stopped at declared limits, including ten deliberately all-failed controls. Every input has complete answers from at least one method. Lean B&B removed terminal-storage limits; a fixed solver portfolio completed every fresh transfer input. Complete evidence is in a verified 2.5 MB [Drive archive](https://drive.google.com/file/d/1STxr-EpbCkH9c-w1ZudidKEDmYscOFzG/view?usp=drivesdk).
 
 The preceding batch is [experiments 66–75](research66/Synthesis.md): ten bounded comparisons, 58 input records and 468 audited workers. 455 trajectories completed; 13 method runs reached declared storage limits, and every input has complete answers from at least one method. A simpler solver gate and crossing-guided integer queries helped selected cases; unrestricted partition reuse remained costly. Complete evidence is in a verified 1.7 MB [Drive archive](https://drive.google.com/file/d/1pgRigD7Sanz2mS6oSSYcTrmhmKApqdzy/view?usp=drivesdk).
 
@@ -24,6 +26,7 @@ A [literature review dated 5 October 2026](research-notes/Literature-review-2026
 
 ## Working files
 
+- `research86/`: frozen experiments 86–95, exact applicability controls, verification-cost findings and complete archive recovery. [Findings](research86/Synthesis.md).
 - `research76/`: frozen experiments 76–85, lean search, query-depth controls, capped solver fallback and scoped proof-cache checks. [Findings](research76/Synthesis.md).
 - `research66/`: frozen experiments 66–75, exact solver/query comparisons, resource-limit findings and verified recovery. [Findings](research66/Synthesis.md).
 - `research56/`: frozen experiments 56–65, exact comparisons, resource-limit results and recovery instructions. [Findings](research56/Synthesis.md).

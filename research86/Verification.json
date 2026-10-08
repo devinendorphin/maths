@@ -1,0 +1,1 @@
+{"bound_checks":3837,"full_reaudit":true,"inputs":60,"integer_checks":20324,"model_epochs_checked":4,"numerical_checks":22420,"passed":true,"present_member_hashes":0,"receipt_controls_rejected":26,"unique_false_bounds_rejected":466,"unique_valid_vipr":466,"workers":248}
