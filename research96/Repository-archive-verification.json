@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "transport": "GitHub blob GET through session HTTP proxy",
+  "git_blob_sha": "7b60be83d62f7db1f1b45b9a2e13479ce741e7f6",
+  "archive_sha256": "ce48fcdf8be7acfce53db4752a082e16c41d16b6a16547d9699d3a99c58bbaf7",
+  "bytes": 249992,
+  "archive_members": 218,
+  "member_hashes_verified": 217,
+  "verified_at_utc": "2026-10-08T22:57:27.668082+00:00"
+}

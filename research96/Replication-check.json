@@ -1,0 +1,14 @@
+{
+  "fresh_workers": 116,
+  "all_logical_results_match": true,
+  "comparison_excludes": [
+    "CPU/wall timing",
+    "receipt seal because it includes source timing diagnostics"
+  ],
+  "fresh_execution": {
+    "status": "complete",
+    "wall": 11.849576530999911,
+    "wall_cap": 300,
+    "workers": 116
+  }
+}

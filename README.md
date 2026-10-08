@@ -2,7 +2,9 @@
 
 This repository keeps a compact working collection of the temporal-proof experiments. Complete evidence is preserved in [verified Google Drive archives](https://drive.google.com/drive/folders/1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ).
 
-The latest batch is [experiments 86–95](research86/Synthesis.md): all 248 workers completed on 60 input records, with independent re-audit and fresh replication. The [conditional guarantees](research86/Mathematical-guarantees.md) distinguish answer stability, proof applicability and full reuse cost. The [novelty audit](research-notes/Novelty-audit-2026-10-08.md) traces the inherited caveat and compares candidate contributions with primary literature. Complete evidence is in one small [repository archive](archives/experiments-86-95-complete.tar.xz), a fallback after two stalled Drive uploads; Drive verification is pending.
+The latest batch is [experiments 96–100](research96/Synthesis.md): all 116 workers completed on 28 input records, with a matching fresh replication and independent audit. The [rational interval theorem](research96/formal/Endpoint.lean) is Lean-checked; the [claim ledger](research96/Claim-ledger.md) specifies the remaining trusted code. Compact witnesses reduced raw transport bytes but did not establish a runtime gain over guarded reuse. Complete evidence is in a remotely verified 250 KB [repository archive](archives/experiments-96-100-complete.tar.xz).
+
+The preceding batch is [experiments 86–95](research86/Synthesis.md): all 248 workers completed on 60 input records, with independent re-audit and fresh replication. The [conditional guarantees](research86/Mathematical-guarantees.md) distinguish answer stability, proof applicability and full reuse cost. The [novelty audit](research-notes/Novelty-audit-2026-10-08.md) traces the inherited caveat and compares candidate contributions with primary literature. Complete evidence is in one small [repository archive](archives/experiments-86-95-complete.tar.xz), a fallback after two stalled Drive uploads; Drive verification is pending.
 
 The preceding batch is [experiments 76–85](research76/Synthesis.md): ten bounded comparisons, 58 input records and 508 audited workers. 461 trajectories completed; 47 runs stopped at declared limits, including ten deliberately all-failed controls. Every input has complete answers from at least one method. Lean B&B removed terminal-storage limits; a fixed solver portfolio completed every fresh transfer input. Complete evidence is in a verified 2.5 MB [Drive archive](https://drive.google.com/file/d/1STxr-EpbCkH9c-w1ZudidKEDmYscOFzG/view?usp=drivesdk).
 
@@ -24,10 +26,11 @@ The rebuilt 36–40 results broadly agree with the retained prior summaries: ind
 
 A [literature review dated 5 October 2026](research-notes/Literature-review-2026-10-05.md) identifies established parametric methods, reoptimization and proof-checking tools that should guide the next comparisons. The [original proposal for experiments 51–55](research-notes/Roadmap-after-literature.md) is followed by the completed bounded comparisons linked above.
 
-A [review of OpenAI's 6 October mathematics release](research-notes/OpenAI-mathematics-review-2026-10-08.md) recommends checking the endpoint-to-interval theorem, compact exact witnesses, and dependency-aware proof admission. Its [proposed experiments 96–100](research-notes/Roadmap-after-OpenAI-review.md) are a future roadmap; 86–95 remain the latest completed batch.
+A [review of OpenAI's 6 October mathematics release](research-notes/OpenAI-mathematics-review-2026-10-08.md) recommends checking the endpoint-to-interval theorem, compact exact witnesses, and dependency-aware proof admission. Its [proposal for experiments 96–100](research-notes/Roadmap-after-OpenAI-review.md) is now followed by the completed batch linked above.
 
 ## Working files
 
+- `research96/`: Lean-checked rational interval theorem, scoped admission and interruption controls, cost comparisons and compact evidence recovery. [Findings](research96/Synthesis.md).
 - `research86/`: frozen experiments 86–95, exact applicability controls, verification-cost findings and complete archive recovery. [Findings](research86/Synthesis.md).
 - `research76/`: frozen experiments 76–85, lean search, query-depth controls, capped solver fallback and scoped proof-cache checks. [Findings](research76/Synthesis.md).
 - `research66/`: frozen experiments 66–75, exact solver/query comparisons, resource-limit findings and verified recovery. [Findings](research66/Synthesis.md).
@@ -55,3 +58,4 @@ python3 scripts/verify_compact.py
 ```
 
 Git history starts from the verified compact collection. Complete experiment evidence remains in the checked Drive archives. Read [STORAGE.md](STORAGE.md) before accessing detailed evidence or reproducing the experiments.
+

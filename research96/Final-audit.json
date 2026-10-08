@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "summary_sha256": "3803254d4066e50f88700b6c9a83f01908ab8cfa5dc088a8bd3b79b721da4e49",
+  "original_workers": 116,
+  "fresh_workers": 116,
+  "all_logical_results_match": true,
+  "all_frozen_files_match": true,
+  "original_and_fresh_audit_counts_match": true
+}

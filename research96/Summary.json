@@ -1,0 +1,357 @@
+{
+  "inputs": 28,
+  "workers": 116,
+  "timed_workers": 96,
+  "mechanism_workers": 20,
+  "compact_bytes": 5147,
+  "vipr_bytes": 49169,
+  "compression_ratio": 0.104679777908845,
+  "native_cells": 117,
+  "vipr_derivations": 802,
+  "timing": [
+    {
+      "case_id": "100-91-n8-wide-dense",
+      "points": {
+        "cpu_median": 0.07946425599999996,
+        "proofs": 17,
+        "proof_bytes": 14463,
+        "child_cpu_median": 0.05465299999999995
+      },
+      "guarded": {
+        "cpu_median": 0.03635600899999969,
+        "proofs": 5,
+        "proof_bytes": 11118,
+        "child_cpu_median": 0.02271399999999968
+      },
+      "factor": {
+        "cpu_median": 0.033770473999999995,
+        "proofs": 5,
+        "proof_bytes": 11118,
+        "child_cpu_median": 0.020789999999999642
+      },
+      "compact": {
+        "cpu_median": 0.050251281000000425,
+        "proofs": 5,
+        "proof_bytes": 11118,
+        "child_cpu_median": 0.021773000000000486
+      }
+    },
+    {
+      "case_id": "100-91-n8-wide-sparse",
+      "guarded": {
+        "cpu_median": 0.03601012799999992,
+        "proofs": 5,
+        "proof_bytes": 11118,
+        "child_cpu_median": 0.022580999999999962
+      },
+      "factor": {
+        "cpu_median": 0.03760962300000048,
+        "proofs": 5,
+        "proof_bytes": 11118,
+        "child_cpu_median": 0.022485000000000532
+      },
+      "compact": {
+        "cpu_median": 0.043194676999998904,
+        "proofs": 5,
+        "proof_bytes": 11118,
+        "child_cpu_median": 0.02178199999999908
+      },
+      "points": {
+        "cpu_median": 0.01595195199999966,
+        "proofs": 3,
+        "proof_bytes": 3860,
+        "child_cpu_median": 0.01069199999999959
+      }
+    },
+    {
+      "case_id": "100-91-n12-scaling-dense",
+      "factor": {
+        "cpu_median": 0.0063595000000007396,
+        "proofs": 1,
+        "proof_bytes": 2020,
+        "child_cpu_median": 0.00358300000000078
+      },
+      "compact": {
+        "cpu_median": 0.04950003099999911,
+        "proofs": 2,
+        "proof_bytes": 4189,
+        "child_cpu_median": 0.00955799999999929
+      },
+      "points": {
+        "cpu_median": 0.22301626399999974,
+        "proofs": 33,
+        "proof_bytes": 70210,
+        "child_cpu_median": 0.14735499999999968
+      },
+      "guarded": {
+        "cpu_median": 0.014135980999999909,
+        "proofs": 2,
+        "proof_bytes": 4189,
+        "child_cpu_median": 0.008641999999999816
+      }
+    },
+    {
+      "case_id": "100-91-n12-scaling-sparse",
+      "compact": {
+        "cpu_median": 0.018613562000001416,
+        "proofs": 2,
+        "proof_bytes": 4189,
+        "child_cpu_median": 0.009340000000000792
+      },
+      "points": {
+        "cpu_median": 0.021373474999999975,
+        "proofs": 3,
+        "proof_bytes": 6337,
+        "child_cpu_median": 0.013645999999999936
+      },
+      "guarded": {
+        "cpu_median": 0.015235476999999942,
+        "proofs": 2,
+        "proof_bytes": 4189,
+        "child_cpu_median": 0.009029000000000065
+      },
+      "factor": {
+        "cpu_median": 0.007730277000000618,
+        "proofs": 1,
+        "proof_bytes": 2020,
+        "child_cpu_median": 0.00474800000000053
+      }
+    },
+    {
+      "case_id": "100-95-n10-zero-dense",
+      "points": {
+        "cpu_median": 1.46826781,
+        "proofs": 65,
+        "proof_bytes": 829010,
+        "child_cpu_median": 0.8939209999999997
+      },
+      "guarded": {
+        "cpu_median": 0.04360899700000043,
+        "proofs": 2,
+        "proof_bytes": 25508,
+        "child_cpu_median": 0.025948000000000304
+      },
+      "factor": {
+        "cpu_median": 0.01990205000000067,
+        "proofs": 1,
+        "proof_bytes": 12754,
+        "child_cpu_median": 0.010958000000000911
+      },
+      "compact": {
+        "cpu_median": 0.15711736100000007,
+        "proofs": 2,
+        "proof_bytes": 25508,
+        "child_cpu_median": 0.0262469999999988
+      }
+    },
+    {
+      "case_id": "100-95-n10-zero-sparse",
+      "guarded": {
+        "cpu_median": 0.050891351000000196,
+        "proofs": 2,
+        "proof_bytes": 25508,
+        "child_cpu_median": 0.030679000000000123
+      },
+      "factor": {
+        "cpu_median": 0.02023581099999916,
+        "proofs": 1,
+        "proof_bytes": 12754,
+        "child_cpu_median": 0.010735000000000383
+      },
+      "compact": {
+        "cpu_median": 0.064920914,
+        "proofs": 2,
+        "proof_bytes": 25508,
+        "child_cpu_median": 0.03592399999999962
+      },
+      "points": {
+        "cpu_median": 0.06516194800000141,
+        "proofs": 3,
+        "proof_bytes": 38262,
+        "child_cpu_median": 0.041375000000000384
+      }
+    },
+    {
+      "case_id": "100-95-negative_factor-dense",
+      "factor": {
+        "cpu_median": 0.024323535000001062,
+        "proofs": 3,
+        "proof_bytes": 9401,
+        "child_cpu_median": 0.013886000000000731
+      },
+      "compact": {
+        "cpu_median": 0.030939422999999522,
+        "proofs": 3,
+        "proof_bytes": 9401,
+        "child_cpu_median": 0.0137710000000002
+      },
+      "points": {
+        "cpu_median": 0.032349315999999906,
+        "proofs": 5,
+        "proof_bytes": 10652,
+        "child_cpu_median": 0.020945000000000213
+      },
+      "guarded": {
+        "cpu_median": 0.026386148000000276,
+        "proofs": 3,
+        "proof_bytes": 9401,
+        "child_cpu_median": 0.015978000000000048
+      }
+    },
+    {
+      "case_id": "100-95-negative_factor-sparse",
+      "compact": {
+        "cpu_median": 0.03153359499999908,
+        "proofs": 3,
+        "proof_bytes": 9401,
+        "child_cpu_median": 0.016634999999999067
+      },
+      "points": {
+        "cpu_median": 0.026115159999999804,
+        "proofs": 3,
+        "proof_bytes": 9525,
+        "child_cpu_median": 0.016834000000000238
+      },
+      "guarded": {
+        "cpu_median": 0.024173281000001268,
+        "proofs": 3,
+        "proof_bytes": 9401,
+        "child_cpu_median": 0.013891000000000986
+      },
+      "factor": {
+        "cpu_median": 0.022690010999999455,
+        "proofs": 3,
+        "proof_bytes": 9401,
+        "child_cpu_median": 0.013710000000000111
+      }
+    }
+  ],
+  "audit": {
+    "passed": true,
+    "workers": 116,
+    "inputs": 28,
+    "unique_valid_vipr": 93,
+    "unique_false_bounds_rejected": 93,
+    "answer_checks": 2400,
+    "endpoint_checks": 655,
+    "progress_enclosures": 20,
+    "feasible_coverage_checks": 521882,
+    "receipt_controls": 44,
+    "witness_controls": 72,
+    "checkpoint_controls": 24,
+    "audit_wall": 2.3323626589990454
+  },
+  "execution": {
+    "status": "complete",
+    "wall": 10.898472658001992,
+    "wall_cap": 300,
+    "workers": 116
+  },
+  "replication": {
+    "fresh_workers": 116,
+    "all_logical_results_match": true,
+    "comparison_excludes": [
+      "CPU/wall timing",
+      "receipt seal because it includes source timing diagnostics"
+    ],
+    "fresh_execution": {
+      "status": "complete",
+      "wall": 11.849576530999911,
+      "wall_cap": 300,
+      "workers": 116
+    }
+  },
+  "compact_slower_than_guarded": 8,
+  "compact_faster_than_points": 6,
+  "guarded_faster_than_points": 7,
+  "formal": {
+    "checked": true,
+    "proofs": [
+      "affine_endpoint_regret",
+      "affine_endpoint_optimal",
+      "affine_interval_regret",
+      "affine_interval_optimal",
+      "scaled_affine"
+    ],
+    "scope": "rational parameters and objectives; fixed feasibility; no parser/cache/solver formalization",
+    "lean_version": "4.24.0",
+    "mathlib": null,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "comparator_executed": false
+  },
+  "post_run_storage_comparison": {
+    "label": "descriptive post-run compression of the same 18 records, not a new timed experiment",
+    "records": 18,
+    "individual_gzip_vipr_bytes": 13290,
+    "individual_gzip_witness_bytes": 3628,
+    "raw_vipr_plus_witness_bytes": 54316
+  },
+  "unique_mathematical_models": 10,
+  "fresh_timing": {
+    "fresh_medians": [
+      {
+        "case_id": "100-91-n8-wide-dense",
+        "points": 0.0927369520000001,
+        "guarded": 0.04863977200000036,
+        "factor": 0.04533250500000019,
+        "compact": 0.06090173700000001
+      },
+      {
+        "case_id": "100-91-n8-wide-sparse",
+        "guarded": 0.04903344299999968,
+        "factor": 0.04012107799999942,
+        "compact": 0.04813052799999973,
+        "points": 0.021072226000000027
+      },
+      {
+        "case_id": "100-91-n12-scaling-dense",
+        "factor": 0.008327055999999944,
+        "compact": 0.05180216600000076,
+        "points": 0.3052298570000004,
+        "guarded": 0.015066949000000607
+      },
+      {
+        "case_id": "100-91-n12-scaling-sparse",
+        "compact": 0.024424410999999147,
+        "points": 0.02473459300000047,
+        "guarded": 0.016252247999999803,
+        "factor": 0.00852037600000033
+      },
+      {
+        "case_id": "100-95-n10-zero-dense",
+        "points": 1.3950740689999996,
+        "guarded": 0.047070946999999475,
+        "factor": 0.02217636000000045,
+        "compact": 0.14312111400000038
+      },
+      {
+        "case_id": "100-95-n10-zero-sparse",
+        "guarded": 0.05075036999999982,
+        "factor": 0.029054794999999967,
+        "compact": 0.06111462500000009,
+        "points": 0.0723945800000001
+      },
+      {
+        "case_id": "100-95-negative_factor-dense",
+        "factor": 0.027509820000000573,
+        "compact": 0.03388648800000027,
+        "points": 0.038522658999999404,
+        "guarded": 0.031556705000000296
+      },
+      {
+        "case_id": "100-95-negative_factor-sparse",
+        "compact": 0.03488305299999972,
+        "points": 0.02526826300000007,
+        "guarded": 0.02866486900000087,
+        "factor": 0.029400427000000562
+      }
+    ],
+    "compact_slower_than_guarded": 7,
+    "compact_faster_than_points": 6,
+    "guarded_faster_than_points": 6
+  }
+}
