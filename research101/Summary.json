@@ -1,0 +1,582 @@
+{
+  "full_cost": [
+    {
+      "case_id": "n12-s0",
+      "density": "dense",
+      "original": {
+        "dp": {
+          "median_cpu_ms": 2.9400050000001343,
+          "certificate_bytes": [
+            17307,
+            17307,
+            17307
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 20.325034000000073,
+          "certificate_bytes": [
+            17307,
+            17307,
+            17307
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 39.63046200000001,
+          "certificate_bytes": [
+            17873,
+            17873,
+            17873
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 22.68818899999994,
+          "certificate_bytes": [
+            8789,
+            8789,
+            8789
+          ]
+        }
+      },
+      "replication": {
+        "dp": {
+          "median_cpu_ms": 2.778564999999955,
+          "certificate_bytes": [
+            17307,
+            17307,
+            17307
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 20.230854999999977,
+          "certificate_bytes": [
+            17307,
+            17307,
+            17307
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 36.63949999999995,
+          "certificate_bytes": [
+            17873,
+            17873,
+            17873
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 17.921300000000056,
+          "certificate_bytes": [
+            8789,
+            8789,
+            8789
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "n12-s0",
+      "density": "sparse",
+      "original": {
+        "dp": {
+          "median_cpu_ms": 1.1337640000002036,
+          "certificate_bytes": [
+            5796,
+            5796,
+            5796
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 9.36042700000006,
+          "certificate_bytes": [
+            5796,
+            5796,
+            5796
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 13.837853000000122,
+          "certificate_bytes": [
+            5252,
+            5252,
+            5252
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 23.055711000000144,
+          "certificate_bytes": [
+            8789,
+            8789,
+            8789
+          ]
+        }
+      },
+      "replication": {
+        "dp": {
+          "median_cpu_ms": 1.128195000000165,
+          "certificate_bytes": [
+            5796,
+            5796,
+            5796
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 6.59774599999996,
+          "certificate_bytes": [
+            5796,
+            5796,
+            5796
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 11.004127000000253,
+          "certificate_bytes": [
+            5252,
+            5252,
+            5252
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 18.08433999999992,
+          "certificate_bytes": [
+            8789,
+            8789,
+            8789
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "n16-s0",
+      "density": "dense",
+      "original": {
+        "dp": {
+          "median_cpu_ms": 3.5444019999999465,
+          "certificate_bytes": [
+            24177,
+            24177,
+            24177
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 24.115671999999975,
+          "certificate_bytes": [
+            24177,
+            24177,
+            24177
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 111.98253800000002,
+          "certificate_bytes": [
+            82382,
+            82382,
+            82382
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 78.24756500000018,
+          "certificate_bytes": [
+            58562,
+            58562,
+            58562
+          ]
+        }
+      },
+      "replication": {
+        "dp": {
+          "median_cpu_ms": 3.420658000000021,
+          "certificate_bytes": [
+            24177,
+            24177,
+            24177
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 21.82227799999992,
+          "certificate_bytes": [
+            24177,
+            24177,
+            24177
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 103.66811699999995,
+          "certificate_bytes": [
+            82382,
+            82382,
+            82382
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 75.13165199999999,
+          "certificate_bytes": [
+            58562,
+            58562,
+            58562
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "n16-s0",
+      "density": "sparse",
+      "original": {
+        "dp": {
+          "median_cpu_ms": 1.2693649999999668,
+          "certificate_bytes": [
+            8096,
+            8096,
+            8096
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 7.289751999999927,
+          "certificate_bytes": [
+            8096,
+            8096,
+            8096
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 33.41445500000007,
+          "certificate_bytes": [
+            24603,
+            24603,
+            24603
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 77.77477099999996,
+          "certificate_bytes": [
+            58562,
+            58562,
+            58562
+          ]
+        }
+      },
+      "replication": {
+        "dp": {
+          "median_cpu_ms": 1.23423300000014,
+          "certificate_bytes": [
+            8096,
+            8096,
+            8096
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 7.217224000000133,
+          "certificate_bytes": [
+            8096,
+            8096,
+            8096
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 33.23730200000008,
+          "certificate_bytes": [
+            24603,
+            24603,
+            24603
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 76.66145599999984,
+          "certificate_bytes": [
+            58562,
+            58562,
+            58562
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "n8-s0",
+      "density": "dense",
+      "original": {
+        "dp": {
+          "median_cpu_ms": 1.6873649999999962,
+          "certificate_bytes": [
+            7595,
+            7595,
+            7595
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 19.252793000000047,
+          "certificate_bytes": [
+            7595,
+            7595,
+            7595
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 27.952537999999944,
+          "certificate_bytes": [
+            10030,
+            10030,
+            10030
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 13.586266000000027,
+          "certificate_bytes": [
+            4350,
+            4350,
+            4350
+          ]
+        }
+      },
+      "replication": {
+        "dp": {
+          "median_cpu_ms": 1.6190540000000642,
+          "certificate_bytes": [
+            7595,
+            7595,
+            7595
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 18.415799999999987,
+          "certificate_bytes": [
+            7595,
+            7595,
+            7595
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 27.299532999999983,
+          "certificate_bytes": [
+            10030,
+            10030,
+            10030
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 12.967929999999948,
+          "certificate_bytes": [
+            4350,
+            4350,
+            4350
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "n8-s0",
+      "density": "sparse",
+      "original": {
+        "dp": {
+          "median_cpu_ms": 0.6238760000000232,
+          "certificate_bytes": [
+            2533,
+            2533,
+            2533
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 6.683783000000054,
+          "certificate_bytes": [
+            2533,
+            2533,
+            2533
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 10.522765999999976,
+          "certificate_bytes": [
+            2990,
+            2990,
+            2990
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 14.691044000000014,
+          "certificate_bytes": [
+            4350,
+            4350,
+            4350
+          ]
+        }
+      },
+      "replication": {
+        "dp": {
+          "median_cpu_ms": 0.6222639999999835,
+          "certificate_bytes": [
+            2533,
+            2533,
+            2533
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 6.473350000000044,
+          "certificate_bytes": [
+            2533,
+            2533,
+            2533
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 8.428519999999898,
+          "certificate_bytes": [
+            2990,
+            2990,
+            2990
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 12.766213999999943,
+          "certificate_bytes": [
+            4350,
+            4350,
+            4350
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "ties",
+      "density": "dense",
+      "original": {
+        "dp": {
+          "median_cpu_ms": 1.2316690000000463,
+          "certificate_bytes": [
+            3306,
+            3306,
+            3306
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 17.141108000000127,
+          "certificate_bytes": [
+            3306,
+            3306,
+            3306
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 24.653247000000157,
+          "certificate_bytes": [
+            4250,
+            4250,
+            4250
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 8.455889999999911,
+          "certificate_bytes": [
+            1375,
+            1375,
+            1375
+          ]
+        }
+      },
+      "replication": {
+        "dp": {
+          "median_cpu_ms": 1.2744120000001136,
+          "certificate_bytes": [
+            3306,
+            3306,
+            3306
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 17.94903800000003,
+          "certificate_bytes": [
+            3306,
+            3306,
+            3306
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 22.34935800000004,
+          "certificate_bytes": [
+            4250,
+            4250,
+            4250
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 7.579397999999848,
+          "certificate_bytes": [
+            1375,
+            1375,
+            1375
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "ties",
+      "density": "sparse",
+      "original": {
+        "dp": {
+          "median_cpu_ms": 0.5392209999999231,
+          "certificate_bytes": [
+            1104,
+            1104,
+            1104
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 6.009162000000012,
+          "certificate_bytes": [
+            1104,
+            1104,
+            1104
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 7.268462999999836,
+          "certificate_bytes": [
+            1375,
+            1375,
+            1375
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 7.7913980000001715,
+          "certificate_bytes": [
+            1375,
+            1375,
+            1375
+          ]
+        }
+      },
+      "replication": {
+        "dp": {
+          "median_cpu_ms": 0.49889100000011233,
+          "certificate_bytes": [
+            1104,
+            1104,
+            1104
+          ]
+        },
+        "scip_dp": {
+          "median_cpu_ms": 5.585331999999887,
+          "certificate_bytes": [
+            1104,
+            1104,
+            1104
+          ]
+        },
+        "vipr_points": {
+          "median_cpu_ms": 6.767664000000062,
+          "certificate_bytes": [
+            1375,
+            1375,
+            1375
+          ]
+        },
+        "vipr_guarded": {
+          "median_cpu_ms": 7.474031999999742,
+          "certificate_bytes": [
+            1375,
+            1375,
+            1375
+          ]
+        }
+      }
+    }
+  ],
+  "dp_fastest_original": 8,
+  "dp_fastest_replication": 8
+}

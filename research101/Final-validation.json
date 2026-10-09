@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "frozen_files_verified": 57,
+  "top_level_objectives_checked": 98,
+  "subset_transfer_conditions_checked": 15,
+  "observation_lengths_checked": 96,
+  "archive_sha256_verified": true
+}

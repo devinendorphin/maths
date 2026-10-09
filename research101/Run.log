@@ -1,0 +1,2 @@
+[scip_exact.c:161] ERROR: SCIP was compiled without exact solve support: cannot enable exact solving mode.
+{"stages": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110], "status": "complete", "wall": 1.9537622620000548, "workers": 273}

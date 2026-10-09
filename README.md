@@ -2,7 +2,9 @@
 
 This repository keeps a compact working collection of the temporal-proof experiments. Complete evidence is preserved in [verified Google Drive archives](https://drive.google.com/drive/folders/1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ).
 
-The latest batch is [experiments 96–100](research96/Synthesis.md): all 116 workers completed on 28 input records, with a matching fresh replication and independent audit. The [rational interval theorem](research96/formal/Endpoint.lean) is Lean-checked; the [claim ledger](research96/Claim-ledger.md) specifies the remaining trusted code. Compact witnesses reduced raw transport bytes but did not establish a runtime gain over guarded reuse. Complete evidence is in a remotely verified 250 KB [repository archive](archives/experiments-96-100-complete.tar.xz).
+The latest batch is [experiments 101–110](research101/Synthesis.md): all 273 workers completed on eight mathematical models, with a matching fresh replication and independent audits. A checked exact DP baseline beat the existing VIPR paths on all eight matched dense/sparse records. SCIP candidates passed exact external DP admission; native SCIP exact mode was unavailable in the installed wheel. Complete evidence is in a verified [repository archive](archives/experiments-101-110-complete.tar.xz).
+
+The preceding batch is [experiments 96–100](research96/Synthesis.md): all 116 workers completed on 28 input records, with a matching fresh replication and independent audit. The [rational interval theorem](research96/formal/Endpoint.lean) is Lean-checked; the [claim ledger](research96/Claim-ledger.md) specifies the remaining trusted code. Compact witnesses reduced raw transport bytes but did not establish a runtime gain over guarded reuse. Complete evidence is in a remotely verified 250 KB [repository archive](archives/experiments-96-100-complete.tar.xz).
 
 The preceding batch is [experiments 86–95](research86/Synthesis.md): all 248 workers completed on 60 input records, with independent re-audit and fresh replication. The [conditional guarantees](research86/Mathematical-guarantees.md) distinguish answer stability, proof applicability and full reuse cost. The [novelty audit](research-notes/Novelty-audit-2026-10-08.md) traces the inherited caveat and compares candidate contributions with primary literature. Complete evidence is in one small [repository archive](archives/experiments-86-95-complete.tar.xz), a fallback after two stalled Drive uploads; Drive verification is pending.
 
@@ -29,6 +31,8 @@ A [literature review dated 5 October 2026](research-notes/Literature-review-2026
 A [review of OpenAI's 6 October mathematics release](research-notes/OpenAI-mathematics-review-2026-10-08.md) recommends checking the endpoint-to-interval theorem, compact exact witnesses, and dependency-aware proof admission. Its [proposal for experiments 96–100](research-notes/Roadmap-after-OpenAI-review.md) is now followed by the completed batch linked above.
 
 ## Working files
+
+- `research101/`: checked DP and production candidate comparisons, resource/admission controls and full-cost evidence. [Findings](research101/Synthesis.md).
 
 - `research96/`: Lean-checked rational interval theorem, scoped admission and interruption controls, cost comparisons and compact evidence recovery. [Findings](research96/Synthesis.md).
 - `research86/`: frozen experiments 86–95, exact applicability controls, verification-cost findings and complete archive recovery. [Findings](research86/Synthesis.md).

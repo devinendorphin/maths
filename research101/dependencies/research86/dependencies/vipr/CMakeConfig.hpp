@@ -1,0 +1,5 @@
+#ifndef _VIPR_CMAKE_CONFIG_HPP_
+#define _VIPR_CMAKE_CONFIG_HPP_
+#define VIPR_VERSION_MAJOR 1
+#define VIPR_VERSION_MINOR 1
+#endif

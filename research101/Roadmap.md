@@ -1,0 +1,9 @@
+# Experiments 101–110: exact DP checking and a production candidate solver
+
+Prepared 9 October 2026 following the 96–100 synthesis. The question is whether a straightforward capacity-indexed DP certificate supplies a useful fully charged baseline, and whether a production SCIP candidate can be admitted with that exact upper certificate. This implements classical DP recurrence checking, not the published CP 2024 proof-logging system.
+
+101 checks DP tables; 102 checks SCIP candidates against those tables; 103 scales weights/capacity to expose pseudopolynomial growth; 104 checks signed/zero/tie behavior; 105 checks rational coefficient scaling; 106 rejects six certificate corruptions; 107 tests declared cell caps and charged fallback; 108 invalidates changed-capacity receipts and tests conditional subset transfer; 109 measures repeated-query memoization with readmission; 110 compares full costs against inherited checked VIPR points and intervals on dense/sparse streams.
+
+Freeze inputs, protocol, own sources, pinned inherited sources and native checker before headline execution. Use eight fixed models including n=8/12/16, ties and zero capacity. Exhaustive enumeration is the independent final oracle. The full-cost comparison uses one n=8, n=12, n=16 and tie model, three rotated repetitions, 9 versus 3 observations. No tuning or post-run case selection.
+
+The PySCIPOpt 6.0.0 wheel contains SCIP 10.0.0 but rejected enableExactSolving(True) during development because exact support was not compiled in. Record the gate during the headline run. Ordinary SCIP is a candidate producer; independently checked integer DP certificates supply optimality, not floating objective tolerances. Exact-mode/reoptimization compatibility and externally checked SCIP certificates remain untested. Production solving is exercised on small fixtures, not a scalability benchmark. No new formal Lean theorem is needed for the existing fixed-feasibility interval contract.

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "workers": 273,
+  "excluded_fields": [
+    "top-level cpu",
+    "top-level wall"
+  ],
+  "all_other_result_fields_equal": true,
+  "fresh_execution": {
+    "stages": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "status": "complete",
+    "wall": 1.7955481250000958,
+    "workers": 273
+  }
+}
