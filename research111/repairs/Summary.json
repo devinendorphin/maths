@@ -1,0 +1,1339 @@
+{
+  "records_per_run": 77,
+  "base_models": 3,
+  "additional_model_variants": "capacity, weight and affine-objective modifications of two base fixtures; not extra independently sampled models",
+  "native_scip_certificates_per_run": 9,
+  "requiring_completion_per_run": 6,
+  "audits": [
+    {
+      "passed": true,
+      "records": 77,
+      "counts": {
+        "answers": 753,
+        "proof_bindings": 371,
+        "valid_external": 31,
+        "false_external_rejected": 31
+      },
+      "cache_and_checker_events_checked": 149,
+      "distinct_oracle_queries": 27,
+      "native_objective_normalizations": {
+        "evidence/scip/heldout-n18-0-0-1-complete.vipr": {
+          "objective_scale": [
+            1,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-n18-0-4-1-complete.vipr": {
+          "objective_scale": [
+            1,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-n18-0-8-1-complete.vipr": {
+          "objective_scale": [
+            1,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-factor-0-1-complete.vipr": {
+          "objective_scale": [
+            1,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-factor-4-1-complete.vipr": {
+          "objective_scale": [
+            5,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-factor-8-1-complete.vipr": {
+          "objective_scale": [
+            9,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/crossing-1499-1000.vipr": {
+          "objective_scale": [
+            2,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/crossing-3-2.vipr": {
+          "objective_scale": [
+            2,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/crossing-1501-1000.vipr": {
+          "objective_scale": [
+            2,
+            1
+          ],
+          "sense": "min"
+        }
+      },
+      "wall": 2.928214638999634
+    },
+    {
+      "passed": true,
+      "records": 77,
+      "counts": {
+        "answers": 753,
+        "proof_bindings": 371,
+        "valid_external": 31,
+        "false_external_rejected": 31
+      },
+      "cache_and_checker_events_checked": 149,
+      "distinct_oracle_queries": 27,
+      "native_objective_normalizations": {
+        "evidence/scip/heldout-n18-0-0-1-complete.vipr": {
+          "objective_scale": [
+            1,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-n18-0-4-1-complete.vipr": {
+          "objective_scale": [
+            1,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-n18-0-8-1-complete.vipr": {
+          "objective_scale": [
+            1,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-factor-0-1-complete.vipr": {
+          "objective_scale": [
+            1,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-factor-4-1-complete.vipr": {
+          "objective_scale": [
+            5,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/heldout-factor-8-1-complete.vipr": {
+          "objective_scale": [
+            9,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/crossing-1499-1000.vipr": {
+          "objective_scale": [
+            2,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/crossing-3-2.vipr": {
+          "objective_scale": [
+            2,
+            1
+          ],
+          "sense": "min"
+        },
+        "evidence/scip/crossing-1501-1000.vipr": {
+          "objective_scale": [
+            2,
+            1
+          ],
+          "sense": "min"
+        }
+      },
+      "wall": 3.0539206819994433
+    }
+  ],
+  "timing_table": [
+    {
+      "run": "repair-headline",
+      "kind": "R113",
+      "case_id": null,
+      "density": null,
+      "method": "per-request",
+      "total_cpu_seconds": [
+        0.13693729299999996,
+        0.15208100200000002,
+        0.14232535900000004
+      ],
+      "median_total_cpu_seconds": 0.14232535900000004
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R113",
+      "case_id": null,
+      "density": null,
+      "method": "fork-resident",
+      "total_cpu_seconds": [
+        0.06189064500000005,
+        0.05865980999999998,
+        0.058692203000000054
+      ],
+      "median_total_cpu_seconds": 0.058692203000000054
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "points",
+      "total_cpu_seconds": [
+        0.09955079299999992,
+        0.10167020000000004,
+        0.09118913400000017
+      ],
+      "median_total_cpu_seconds": 0.09955079299999992
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "replay",
+      "total_cpu_seconds": [
+        0.11785366499999994,
+        0.13494356000000007,
+        0.12081000599999991
+      ],
+      "median_total_cpu_seconds": 0.12081000599999991
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "immutable",
+      "total_cpu_seconds": [
+        0.11364364999999998,
+        0.12367582899999996,
+        0.14107782899999988
+      ],
+      "median_total_cpu_seconds": 0.12367582899999996
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R114-scip",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "cold",
+      "total_cpu_seconds": [
+        0.11571820899999996,
+        0.1206014660000001,
+        0.11644830500000003
+      ],
+      "median_total_cpu_seconds": 0.11644830500000003
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R114-scip",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "reoptimized",
+      "total_cpu_seconds": [
+        0.10428309200000008,
+        0.10896172399999982,
+        0.10345581699999973
+      ],
+      "median_total_cpu_seconds": 0.10428309200000008
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "points",
+      "total_cpu_seconds": [
+        0.039418769999999936,
+        0.03406815699999988,
+        0.03560362600000011
+      ],
+      "median_total_cpu_seconds": 0.03560362600000011
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "replay",
+      "total_cpu_seconds": [
+        0.06146885799999979,
+        0.051408271000000116,
+        0.054484852999999944
+      ],
+      "median_total_cpu_seconds": 0.054484852999999944
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "immutable",
+      "total_cpu_seconds": [
+        0.05153043700000004,
+        0.05315677900000004,
+        0.05715989099999996
+      ],
+      "median_total_cpu_seconds": 0.05315677900000004
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R114-scip",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "cold",
+      "total_cpu_seconds": [
+        0.03884679000000002,
+        0.03649969899999994,
+        0.041449813999999696
+      ],
+      "median_total_cpu_seconds": 0.03884679000000002
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R114-scip",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "reoptimized",
+      "total_cpu_seconds": [
+        0.03799177199999981,
+        0.03699027700000013,
+        0.035420974999999855
+      ],
+      "median_total_cpu_seconds": 0.03699027700000013
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "points",
+      "total_cpu_seconds": [
+        0.14867650199999982,
+        0.1507314080000004,
+        0.1428951890000003
+      ],
+      "median_total_cpu_seconds": 0.14867650199999982
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "replay",
+      "total_cpu_seconds": [
+        0.21215886100000025,
+        0.22476675000000013,
+        0.20614413900000006
+      ],
+      "median_total_cpu_seconds": 0.21215886100000025
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "immutable",
+      "total_cpu_seconds": [
+        0.027936692000000374,
+        0.027092796999999447,
+        0.027320977000000024
+      ],
+      "median_total_cpu_seconds": 0.027320977000000024
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R114-scip",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "cold",
+      "total_cpu_seconds": [
+        0.17867985100000006,
+        0.16147483800000018,
+        0.1783499810000002
+      ],
+      "median_total_cpu_seconds": 0.1783499810000002
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R114-scip",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "reoptimized",
+      "total_cpu_seconds": [
+        0.1653459620000004,
+        0.1561337979999995,
+        0.15266810799999941
+      ],
+      "median_total_cpu_seconds": 0.1561337979999995
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "points",
+      "total_cpu_seconds": [
+        0.04473366500000031,
+        0.05117569100000008,
+        0.042959517000000336
+      ],
+      "median_total_cpu_seconds": 0.04473366500000031
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "replay",
+      "total_cpu_seconds": [
+        0.0867993419999995,
+        0.09756530200000002,
+        0.09032973199999983
+      ],
+      "median_total_cpu_seconds": 0.09032973199999983
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "immutable",
+      "total_cpu_seconds": [
+        0.027490065999999924,
+        0.0340983119999998,
+        0.03016487500000009
+      ],
+      "median_total_cpu_seconds": 0.03016487500000009
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R114-scip",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "cold",
+      "total_cpu_seconds": [
+        0.06044850699999982,
+        0.05996600600000024,
+        0.053671920000000206
+      ],
+      "median_total_cpu_seconds": 0.05996600600000024
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R114-scip",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "reoptimized",
+      "total_cpu_seconds": [
+        0.05032988999999999,
+        0.05345816399999981,
+        0.04760172200000001
+      ],
+      "median_total_cpu_seconds": 0.05032988999999999
+    },
+    {
+      "run": "repair-headline",
+      "kind": "R112-native",
+      "case_id": null,
+      "density": null,
+      "method": null,
+      "total_cpu_seconds": [
+        0.049381584999999895,
+        0.042789417000000274,
+        0.04194343700000003,
+        0.04255706799999981,
+        0.03630251400000084,
+        0.03680268099999928,
+        0.01768312700000063,
+        0.01570054900000084,
+        0.016598679000000338
+      ],
+      "median_total_cpu_seconds": 0.03680268099999928
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R113",
+      "case_id": null,
+      "density": null,
+      "method": "per-request",
+      "total_cpu_seconds": [
+        0.13778671399999998,
+        0.15182061600000007,
+        0.13499936300000004
+      ],
+      "median_total_cpu_seconds": 0.13778671399999998
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R113",
+      "case_id": null,
+      "density": null,
+      "method": "fork-resident",
+      "total_cpu_seconds": [
+        0.06905473399999998,
+        0.06898855399999998,
+        0.05612523199999997
+      ],
+      "median_total_cpu_seconds": 0.06898855399999998
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "points",
+      "total_cpu_seconds": [
+        0.10839907900000001,
+        0.10623803599999992,
+        0.11054356499999995
+      ],
+      "median_total_cpu_seconds": 0.10839907900000001
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "replay",
+      "total_cpu_seconds": [
+        0.14542359500000002,
+        0.1475446050000001,
+        0.12265834200000003
+      ],
+      "median_total_cpu_seconds": 0.14542359500000002
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "immutable",
+      "total_cpu_seconds": [
+        0.12638317100000007,
+        0.13927583199999993,
+        0.1328410139999998
+      ],
+      "median_total_cpu_seconds": 0.1328410139999998
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R114-scip",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "cold",
+      "total_cpu_seconds": [
+        0.14316382100000002,
+        0.12966569700000008,
+        0.14027340900000018
+      ],
+      "median_total_cpu_seconds": 0.14027340900000018
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R114-scip",
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "method": "reoptimized",
+      "total_cpu_seconds": [
+        0.12913844099999994,
+        0.12464118300000004,
+        0.11092118000000006
+      ],
+      "median_total_cpu_seconds": 0.12464118300000004
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "points",
+      "total_cpu_seconds": [
+        0.035825419999999886,
+        0.03718318200000037,
+        0.03642785900000001
+      ],
+      "median_total_cpu_seconds": 0.03642785900000001
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "replay",
+      "total_cpu_seconds": [
+        0.05172853200000005,
+        0.05429081799999991,
+        0.06663039199999998
+      ],
+      "median_total_cpu_seconds": 0.05429081799999991
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "immutable",
+      "total_cpu_seconds": [
+        0.06096765300000029,
+        0.06322731199999998,
+        0.06050519199999993
+      ],
+      "median_total_cpu_seconds": 0.06096765300000029
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R114-scip",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "cold",
+      "total_cpu_seconds": [
+        0.04103068799999976,
+        0.05182978699999996,
+        0.04850465299999973
+      ],
+      "median_total_cpu_seconds": 0.04850465299999973
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R114-scip",
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "method": "reoptimized",
+      "total_cpu_seconds": [
+        0.04453652100000016,
+        0.047101525999999616,
+        0.045365103000000184
+      ],
+      "median_total_cpu_seconds": 0.045365103000000184
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "points",
+      "total_cpu_seconds": [
+        0.15592061800000057,
+        0.15845712200000017,
+        0.19370682800000028
+      ],
+      "median_total_cpu_seconds": 0.15845712200000017
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "replay",
+      "total_cpu_seconds": [
+        0.2186835789999999,
+        0.2236564419999998,
+        0.23307433200000016
+      ],
+      "median_total_cpu_seconds": 0.2236564419999998
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "immutable",
+      "total_cpu_seconds": [
+        0.02765413299999997,
+        0.026765032000000133,
+        0.027826642999999596
+      ],
+      "median_total_cpu_seconds": 0.02765413299999997
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R114-scip",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "cold",
+      "total_cpu_seconds": [
+        0.19202513199999993,
+        0.18481858799999973,
+        0.17848443100000022
+      ],
+      "median_total_cpu_seconds": 0.18481858799999973
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R114-scip",
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "method": "reoptimized",
+      "total_cpu_seconds": [
+        0.17543410400000026,
+        0.15598495199999984,
+        0.16804043600000007
+      ],
+      "median_total_cpu_seconds": 0.16804043600000007
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "points",
+      "total_cpu_seconds": [
+        0.047531574999999826,
+        0.04564547399999963,
+        0.04515683699999995
+      ],
+      "median_total_cpu_seconds": 0.04564547399999963
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "replay",
+      "total_cpu_seconds": [
+        0.12342582499999999,
+        0.09578354900000008,
+        0.10177467699999987
+      ],
+      "median_total_cpu_seconds": 0.10177467699999987
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R-admission",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "immutable",
+      "total_cpu_seconds": [
+        0.038546490999999516,
+        0.0294888409999996,
+        0.02868273900000018
+      ],
+      "median_total_cpu_seconds": 0.0294888409999996
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R114-scip",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "cold",
+      "total_cpu_seconds": [
+        0.056322265999999566,
+        0.051601562999999295,
+        0.054087146999999725
+      ],
+      "median_total_cpu_seconds": 0.054087146999999725
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R114-scip",
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "method": "reoptimized",
+      "total_cpu_seconds": [
+        0.05632856100000039,
+        0.05427657300000055,
+        0.05020656099999954
+      ],
+      "median_total_cpu_seconds": 0.05427657300000055
+    },
+    {
+      "run": "repair-replication",
+      "kind": "R112-native",
+      "case_id": null,
+      "density": null,
+      "method": null,
+      "total_cpu_seconds": [
+        0.044144307000001604,
+        0.03691301199999941,
+        0.034346390000000504,
+        0.04029442100000047,
+        0.03584197700000047,
+        0.03568185299999893,
+        0.020493131000000275,
+        0.019449648999999347,
+        0.018167842000000434
+      ],
+      "median_total_cpu_seconds": 0.03568185299999893
+    }
+  ],
+  "cache_memory": [
+    {
+      "run": "repair-headline",
+      "case_id": "heldout-n18-0",
+      "measurements": {
+        "cache_bytes_after_clear": 240,
+        "cache_bytes_before_clear": 2904,
+        "reachable_cache_bytes": 3201,
+        "resident_process_tree": {
+          "interval_seconds": 0.002,
+          "max_observed_processes": 1,
+          "note": "Simultaneous RSS sum can double-count shared pages; sampled peak may miss brief peaks. Monitor overhead included in this memory scenario only.",
+          "observed_peak_tree_rss_kib": 57480,
+          "samples": 69
+        },
+        "serialized_fact_bytes": 914,
+        "traced_peak_scenario_bytes": 723273,
+        "traced_scenario_bytes_above_baseline": 126025
+      },
+      "correction": "resident_process_tree fields measure runner only in this runtime; invalid as combined process memory. Use Memory-repair.json for controlled live runner+checker checkpoint."
+    },
+    {
+      "run": "repair-headline",
+      "case_id": "heldout-factor",
+      "measurements": {
+        "cache_bytes_after_clear": 240,
+        "cache_bytes_before_clear": 240,
+        "reachable_cache_bytes": 3425,
+        "resident_process_tree": {
+          "interval_seconds": 0.002,
+          "max_observed_processes": 1,
+          "note": "Simultaneous RSS sum can double-count shared pages; sampled peak may miss brief peaks. Monitor overhead included in this memory scenario only.",
+          "observed_peak_tree_rss_kib": 57868,
+          "samples": 87
+        },
+        "serialized_fact_bytes": 914,
+        "traced_peak_scenario_bytes": 777020,
+        "traced_scenario_bytes_above_baseline": 152899
+      },
+      "correction": "resident_process_tree fields measure runner only in this runtime; invalid as combined process memory. Use Memory-repair.json for controlled live runner+checker checkpoint."
+    },
+    {
+      "run": "repair-replication",
+      "case_id": "heldout-n18-0",
+      "measurements": {
+        "cache_bytes_after_clear": 240,
+        "cache_bytes_before_clear": 2904,
+        "reachable_cache_bytes": 3201,
+        "resident_process_tree": {
+          "interval_seconds": 0.002,
+          "max_observed_processes": 1,
+          "note": "Simultaneous RSS sum can double-count shared pages; sampled peak may miss brief peaks. Monitor overhead included in this memory scenario only.",
+          "observed_peak_tree_rss_kib": 57060,
+          "samples": 70
+        },
+        "serialized_fact_bytes": 914,
+        "traced_peak_scenario_bytes": 720262,
+        "traced_scenario_bytes_above_baseline": 126816
+      },
+      "correction": "resident_process_tree fields measure runner only in this runtime; invalid as combined process memory. Use Memory-repair.json for controlled live runner+checker checkpoint."
+    },
+    {
+      "run": "repair-replication",
+      "case_id": "heldout-factor",
+      "measurements": {
+        "cache_bytes_after_clear": 240,
+        "cache_bytes_before_clear": 240,
+        "reachable_cache_bytes": 3425,
+        "resident_process_tree": {
+          "interval_seconds": 0.002,
+          "max_observed_processes": 1,
+          "note": "Simultaneous RSS sum can double-count shared pages; sampled peak may miss brief peaks. Monitor overhead included in this memory scenario only.",
+          "observed_peak_tree_rss_kib": 57480,
+          "samples": 87
+        },
+        "serialized_fact_bytes": 914,
+        "traced_peak_scenario_bytes": 776003,
+        "traced_scenario_bytes_above_baseline": 153385
+      },
+      "correction": "resident_process_tree fields measure runner only in this runtime; invalid as combined process memory. Use Memory-repair.json for controlled live runner+checker checkpoint."
+    }
+  ],
+  "memory_checkpoints": [
+    {
+      "run": "repair-headline",
+      "records": [
+        {
+          "logical": {
+            "case_id": "heldout-n18-0",
+            "row": {
+              "case_id": "heldout-n18-0",
+              "split": "heldout",
+              "n": 18,
+              "weights": [
+                8,
+                8,
+                4,
+                12,
+                13,
+                1,
+                11,
+                13,
+                11,
+                11,
+                7,
+                13,
+                4,
+                4,
+                15,
+                2,
+                2,
+                3
+              ],
+              "capacity": 47,
+              "profits": [
+                30,
+                7,
+                5,
+                8,
+                30,
+                -10,
+                29,
+                4,
+                29,
+                9,
+                23,
+                19,
+                1,
+                -6,
+                6,
+                29,
+                23,
+                11
+              ],
+              "slopes": [
+                1,
+                -3,
+                -3,
+                -1,
+                -2,
+                -1,
+                0,
+                1,
+                -1,
+                3,
+                1,
+                -2,
+                -1,
+                -1,
+                0,
+                -3,
+                -1,
+                -2
+              ],
+              "end": 8,
+              "observations": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "time": [
+              4,
+              1
+            ],
+            "fact": {
+              "model": "b0f3dc4d98bca84fb81a57486f09cceed9af2f0b86b5891c469e4c679bef95b7",
+              "epoch": "initial",
+              "time": [
+                4,
+                1
+              ],
+              "packing": 230721,
+              "objective": 154,
+              "proof_sha256": "4e441963120ff5a83e7228a28b9112b3a6479b08e33de6e2b6e3600b555460c7",
+              "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+              "path": "evidence/vipr/4e441963120ff5a83e7228a28b9112b3a6479b08e33de6e2b6e3600b555460c7.vipr"
+            },
+            "verification_status": 0,
+            "checkpoint": "after verification, retained parsed proof state"
+          },
+          "measurements": {
+            "simultaneous_tree_rss_kib": 18600,
+            "runner_rss_kib": 16256,
+            "checker_rss_kib": 2344,
+            "observed_processes": 2,
+            "simultaneous_proportional_set_kib": 17397,
+            "total": {
+              "parent_cpu": 0.010965286000000005,
+              "child_cpu": 0.016782,
+              "cpu": 0.027747286000000003,
+              "wall": 0.024320167998666875
+            }
+          }
+        },
+        {
+          "logical": {
+            "case_id": "heldout-factor",
+            "row": {
+              "case_id": "heldout-factor",
+              "split": "heldout",
+              "n": 18,
+              "weights": [
+                8,
+                7,
+                6,
+                13,
+                12,
+                14,
+                12,
+                3,
+                11,
+                1,
+                8,
+                6,
+                13,
+                12,
+                2,
+                11,
+                7,
+                9
+              ],
+              "capacity": 51,
+              "profits": [
+                2,
+                19,
+                19,
+                10,
+                14,
+                4,
+                9,
+                15,
+                9,
+                13,
+                1,
+                20,
+                11,
+                5,
+                12,
+                7,
+                4,
+                10
+              ],
+              "slopes": [
+                2,
+                19,
+                19,
+                10,
+                14,
+                4,
+                9,
+                15,
+                9,
+                13,
+                1,
+                20,
+                11,
+                5,
+                12,
+                7,
+                4,
+                10
+              ],
+              "end": 8,
+              "observations": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "time": [
+              4,
+              1
+            ],
+            "fact": {
+              "model": "035ac28bfeee14959108d503c83d2be204a2ad266e87a4c91e48804418e26eb2",
+              "epoch": "initial",
+              "time": [
+                4,
+                1
+              ],
+              "packing": 23190,
+              "objective": 615,
+              "proof_sha256": "d96c34043cb2f9091c7ee3bea2a0bb9f9eec5a82ce08409d0cecf394a31c7f46",
+              "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+              "path": "evidence/vipr/d96c34043cb2f9091c7ee3bea2a0bb9f9eec5a82ce08409d0cecf394a31c7f46.vipr"
+            },
+            "verification_status": 0,
+            "checkpoint": "after verification, retained parsed proof state"
+          },
+          "measurements": {
+            "simultaneous_tree_rss_kib": 18640,
+            "runner_rss_kib": 16280,
+            "checker_rss_kib": 2360,
+            "observed_processes": 2,
+            "simultaneous_proportional_set_kib": 17437,
+            "total": {
+              "parent_cpu": 0.01240192200000001,
+              "child_cpu": 0.019531,
+              "cpu": 0.03193292200000001,
+              "wall": 0.026917929000774166
+            }
+          }
+        }
+      ]
+    },
+    {
+      "run": "repair-replication",
+      "records": [
+        {
+          "logical": {
+            "case_id": "heldout-n18-0",
+            "row": {
+              "case_id": "heldout-n18-0",
+              "split": "heldout",
+              "n": 18,
+              "weights": [
+                8,
+                8,
+                4,
+                12,
+                13,
+                1,
+                11,
+                13,
+                11,
+                11,
+                7,
+                13,
+                4,
+                4,
+                15,
+                2,
+                2,
+                3
+              ],
+              "capacity": 47,
+              "profits": [
+                30,
+                7,
+                5,
+                8,
+                30,
+                -10,
+                29,
+                4,
+                29,
+                9,
+                23,
+                19,
+                1,
+                -6,
+                6,
+                29,
+                23,
+                11
+              ],
+              "slopes": [
+                1,
+                -3,
+                -3,
+                -1,
+                -2,
+                -1,
+                0,
+                1,
+                -1,
+                3,
+                1,
+                -2,
+                -1,
+                -1,
+                0,
+                -3,
+                -1,
+                -2
+              ],
+              "end": 8,
+              "observations": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "time": [
+              4,
+              1
+            ],
+            "fact": {
+              "model": "b0f3dc4d98bca84fb81a57486f09cceed9af2f0b86b5891c469e4c679bef95b7",
+              "epoch": "initial",
+              "time": [
+                4,
+                1
+              ],
+              "packing": 230721,
+              "objective": 154,
+              "proof_sha256": "4e441963120ff5a83e7228a28b9112b3a6479b08e33de6e2b6e3600b555460c7",
+              "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+              "path": "evidence/vipr/4e441963120ff5a83e7228a28b9112b3a6479b08e33de6e2b6e3600b555460c7.vipr"
+            },
+            "verification_status": 0,
+            "checkpoint": "after verification, retained parsed proof state"
+          },
+          "measurements": {
+            "simultaneous_tree_rss_kib": 18184,
+            "runner_rss_kib": 15844,
+            "checker_rss_kib": 2340,
+            "observed_processes": 2,
+            "simultaneous_proportional_set_kib": 16981,
+            "total": {
+              "parent_cpu": 0.009955024999999992,
+              "child_cpu": 0.017312,
+              "cpu": 0.027267024999999993,
+              "wall": 0.023460647000320023
+            }
+          }
+        },
+        {
+          "logical": {
+            "case_id": "heldout-factor",
+            "row": {
+              "case_id": "heldout-factor",
+              "split": "heldout",
+              "n": 18,
+              "weights": [
+                8,
+                7,
+                6,
+                13,
+                12,
+                14,
+                12,
+                3,
+                11,
+                1,
+                8,
+                6,
+                13,
+                12,
+                2,
+                11,
+                7,
+                9
+              ],
+              "capacity": 51,
+              "profits": [
+                2,
+                19,
+                19,
+                10,
+                14,
+                4,
+                9,
+                15,
+                9,
+                13,
+                1,
+                20,
+                11,
+                5,
+                12,
+                7,
+                4,
+                10
+              ],
+              "slopes": [
+                2,
+                19,
+                19,
+                10,
+                14,
+                4,
+                9,
+                15,
+                9,
+                13,
+                1,
+                20,
+                11,
+                5,
+                12,
+                7,
+                4,
+                10
+              ],
+              "end": 8,
+              "observations": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "time": [
+              4,
+              1
+            ],
+            "fact": {
+              "model": "035ac28bfeee14959108d503c83d2be204a2ad266e87a4c91e48804418e26eb2",
+              "epoch": "initial",
+              "time": [
+                4,
+                1
+              ],
+              "packing": 23190,
+              "objective": 615,
+              "proof_sha256": "d96c34043cb2f9091c7ee3bea2a0bb9f9eec5a82ce08409d0cecf394a31c7f46",
+              "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+              "path": "evidence/vipr/d96c34043cb2f9091c7ee3bea2a0bb9f9eec5a82ce08409d0cecf394a31c7f46.vipr"
+            },
+            "verification_status": 0,
+            "checkpoint": "after verification, retained parsed proof state"
+          },
+          "measurements": {
+            "simultaneous_tree_rss_kib": 18232,
+            "runner_rss_kib": 15868,
+            "checker_rss_kib": 2364,
+            "observed_processes": 2,
+            "simultaneous_proportional_set_kib": 17029,
+            "total": {
+              "parent_cpu": 0.013998389,
+              "child_cpu": 0.020635999999999995,
+              "cpu": 0.034634388999999995,
+              "wall": 0.029457693999574985
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "setup_cost_scope": "320.28s exact-build setup script plus 93.05s completion-build script; excludes inherited source acquisition, prior development and CMake installation. Not a measured total installation cost.",
+  "unresolved": [
+    "Historical 300-worker archive unrecovered",
+    "No recovered CP2024/VeriPB implementation",
+    "Density policy remains degenerate",
+    "Unmodified execution process-tree peak not established",
+    "Optimization and native witness construction inseparable in producer"
+  ]
+}

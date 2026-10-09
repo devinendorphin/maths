@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "records": 77,
+  "counts": {
+    "answers": 753,
+    "proof_bindings": 371,
+    "valid_external": 31,
+    "false_external_rejected": 31
+  },
+  "cache_and_checker_events_checked": 149,
+  "distinct_oracle_queries": 27,
+  "native_objective_normalizations": {
+    "evidence/scip/heldout-n18-0-0-1-complete.vipr": {
+      "objective_scale": [
+        1,
+        1
+      ],
+      "sense": "min"
+    },
+    "evidence/scip/heldout-n18-0-4-1-complete.vipr": {
+      "objective_scale": [
+        1,
+        1
+      ],
+      "sense": "min"
+    },
+    "evidence/scip/heldout-n18-0-8-1-complete.vipr": {
+      "objective_scale": [
+        1,
+        1
+      ],
+      "sense": "min"
+    },
+    "evidence/scip/heldout-factor-0-1-complete.vipr": {
+      "objective_scale": [
+        1,
+        1
+      ],
+      "sense": "min"
+    },
+    "evidence/scip/heldout-factor-4-1-complete.vipr": {
+      "objective_scale": [
+        5,
+        1
+      ],
+      "sense": "min"
+    },
+    "evidence/scip/heldout-factor-8-1-complete.vipr": {
+      "objective_scale": [
+        9,
+        1
+      ],
+      "sense": "min"
+    },
+    "evidence/scip/crossing-1499-1000.vipr": {
+      "objective_scale": [
+        2,
+        1
+      ],
+      "sense": "min"
+    },
+    "evidence/scip/crossing-3-2.vipr": {
+      "objective_scale": [
+        2,
+        1
+      ],
+      "sense": "min"
+    },
+    "evidence/scip/crossing-1501-1000.vipr": {
+      "objective_scale": [
+        2,
+        1
+      ],
+      "sense": "min"
+    }
+  },
+  "wall": 2.928214638999634
+}

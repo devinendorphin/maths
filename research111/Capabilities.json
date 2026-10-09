@@ -1,0 +1,27 @@
+{
+  "stage111": "unavailable",
+  "stage112": "unsupported",
+  "scip_source_commit": "0c80fdd8e91d7d9f23c0c7a55b68884209d5f27c",
+  "official_source": "https://github.com/scipopt/scip/tree/v10.0.0",
+  "configure_command": [
+    "/workspace/maths-toolchains/scip-venv/bin/cmake",
+    "-S",
+    "/workspace/maths-toolchains/scip-v10.0.0",
+    "-B",
+    "/workspace/maths-toolchains/scip-exact-build",
+    "-DEXACTSOLVE=ON",
+    "-DAUTOBUILD=OFF",
+    "-DPAPILO=OFF",
+    "-DZIMPL=OFF",
+    "-DIPOPT=OFF",
+    "-DREADLINE=OFF",
+    "-DAMPL=OFF"
+  ],
+  "configure_exit": 1,
+  "configure_wall": 0.14555900100094732,
+  "configure_cap_seconds": 120,
+  "blocking_dependency": "MPFR headers and libraries; no candidate in available apt metadata",
+  "wheel_exact_support": false,
+  "native_scip_certificates_generated": 0,
+  "amortized_vipr_route": "not implemented; stage113 explicitly studies independent DP recurrence checking, not a replacement native SCIP proof result"
+}

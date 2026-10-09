@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "frozen_files_checked": {
+    "Freeze.json": 88,
+    "Memory-freeze.json": 8
+  },
+  "native_certificates": 9,
+  "raw_and_final_proof_hashes_checked": true,
+  "independent_lru_traces": 2,
+  "actual_checker_binary_epoch_checked": true
+}

@@ -1,0 +1,15 @@
+{
+  "research101": {
+    "archive_verified": true,
+    "archive_members": 2188,
+    "frozen_files_verified": 57,
+    "archive_sha256": "caed8f982a8e57044e8ab1f9c8867947e5f3a474803f6454a831a97836419dc2"
+  },
+  "research111": {
+    "archive_verified": true,
+    "archive_members": 370,
+    "frozen_files_verified": 90,
+    "archive_sha256": "dc7269260c1114a4ec61446efc7dcc4ac8e1894f3ff7f692beb9489b2034212b"
+  },
+  "remote_main": "245fffe57a67168c9c4d35fb8de868e11abef23f"
+}

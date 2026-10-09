@@ -1,0 +1,232 @@
+[
+  {
+    "logical": {
+      "case_id": "heldout-n18-0",
+      "row": {
+        "case_id": "heldout-n18-0",
+        "split": "heldout",
+        "n": 18,
+        "weights": [
+          8,
+          8,
+          4,
+          12,
+          13,
+          1,
+          11,
+          13,
+          11,
+          11,
+          7,
+          13,
+          4,
+          4,
+          15,
+          2,
+          2,
+          3
+        ],
+        "capacity": 47,
+        "profits": [
+          30,
+          7,
+          5,
+          8,
+          30,
+          -10,
+          29,
+          4,
+          29,
+          9,
+          23,
+          19,
+          1,
+          -6,
+          6,
+          29,
+          23,
+          11
+        ],
+        "slopes": [
+          1,
+          -3,
+          -3,
+          -1,
+          -2,
+          -1,
+          0,
+          1,
+          -1,
+          3,
+          1,
+          -2,
+          -1,
+          -1,
+          0,
+          -3,
+          -1,
+          -2
+        ],
+        "end": 8,
+        "observations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "time": [
+        4,
+        1
+      ],
+      "fact": {
+        "model": "b0f3dc4d98bca84fb81a57486f09cceed9af2f0b86b5891c469e4c679bef95b7",
+        "epoch": "initial",
+        "time": [
+          4,
+          1
+        ],
+        "packing": 230721,
+        "objective": 154,
+        "proof_sha256": "4e441963120ff5a83e7228a28b9112b3a6479b08e33de6e2b6e3600b555460c7",
+        "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+        "path": "evidence/vipr/4e441963120ff5a83e7228a28b9112b3a6479b08e33de6e2b6e3600b555460c7.vipr"
+      },
+      "verification_status": 0,
+      "checkpoint": "after verification, retained parsed proof state"
+    },
+    "measurements": {
+      "simultaneous_tree_rss_kib": 18600,
+      "runner_rss_kib": 16256,
+      "checker_rss_kib": 2344,
+      "observed_processes": 2,
+      "simultaneous_proportional_set_kib": 17397,
+      "total": {
+        "parent_cpu": 0.010965286000000005,
+        "child_cpu": 0.016782,
+        "cpu": 0.027747286000000003,
+        "wall": 0.024320167998666875
+      }
+    }
+  },
+  {
+    "logical": {
+      "case_id": "heldout-factor",
+      "row": {
+        "case_id": "heldout-factor",
+        "split": "heldout",
+        "n": 18,
+        "weights": [
+          8,
+          7,
+          6,
+          13,
+          12,
+          14,
+          12,
+          3,
+          11,
+          1,
+          8,
+          6,
+          13,
+          12,
+          2,
+          11,
+          7,
+          9
+        ],
+        "capacity": 51,
+        "profits": [
+          2,
+          19,
+          19,
+          10,
+          14,
+          4,
+          9,
+          15,
+          9,
+          13,
+          1,
+          20,
+          11,
+          5,
+          12,
+          7,
+          4,
+          10
+        ],
+        "slopes": [
+          2,
+          19,
+          19,
+          10,
+          14,
+          4,
+          9,
+          15,
+          9,
+          13,
+          1,
+          20,
+          11,
+          5,
+          12,
+          7,
+          4,
+          10
+        ],
+        "end": 8,
+        "observations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "time": [
+        4,
+        1
+      ],
+      "fact": {
+        "model": "035ac28bfeee14959108d503c83d2be204a2ad266e87a4c91e48804418e26eb2",
+        "epoch": "initial",
+        "time": [
+          4,
+          1
+        ],
+        "packing": 23190,
+        "objective": 615,
+        "proof_sha256": "d96c34043cb2f9091c7ee3bea2a0bb9f9eec5a82ce08409d0cecf394a31c7f46",
+        "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+        "path": "evidence/vipr/d96c34043cb2f9091c7ee3bea2a0bb9f9eec5a82ce08409d0cecf394a31c7f46.vipr"
+      },
+      "verification_status": 0,
+      "checkpoint": "after verification, retained parsed proof state"
+    },
+    "measurements": {
+      "simultaneous_tree_rss_kib": 18640,
+      "runner_rss_kib": 16280,
+      "checker_rss_kib": 2360,
+      "observed_processes": 2,
+      "simultaneous_proportional_set_kib": 17437,
+      "total": {
+        "parent_cpu": 0.01240192200000001,
+        "child_cpu": 0.019531,
+        "cpu": 0.03193292200000001,
+        "wall": 0.026917929000774166
+      }
+    }
+  }
+]

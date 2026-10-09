@@ -1,0 +1,20 @@
+{
+ "seed":111120,
+ "recovery":"Separate requested 300-worker batch unavailable. Continue explicitly from verified 273-worker batch; preserve both descriptions.",
+ "domain":"Binary knapsack, positive integer weights, nonnegative fixed capacity, signed integer affine coefficients, rational query.",
+ "splits":{"training_models":2,"heldout_models":5,"control_models":1,"heldout_sizes":[18,18,20,20,18]},
+ "budgets":{"campaign_wall_seconds":300,"scip_configure_seconds":120,"dp_cells":200000,"point_certificate_bytes":1048576,"stream_evidence_bytes":8388608,"checker_request_timeout_seconds":10},
+ "111":"Pinned official SCIP v10.0.0 exact configuration gate; MPFR unavailable, no apt candidate. Unavailable deployment recorded.",
+ "112":"Actual SCIP certificates unsupported when 111 fails. Do not substitute external DP/VIPR as SCIP-generated proofs.",
+ "113":"Refined DP checker comparison: identical valid/false/model-changed/restored requests through process-per-request and persistent stateless checker. Native SCIP and amortized VIPR untested.",
+ "114":"Decompose DP production, checking, encoding, I/O+readmission CPU while reporting full total; native SCIP certificate decomposition unsupported.",
+ "115":"Frozen larger heldout cases, point solves at 0/4/8 with explicit cell/storage caps.",
+ "116":"Seven rational observations including known 3/2 crossing and interval endpoint neighborhoods. Crossing fixture is separate from random models.",
+ "117":"Compare local snapshots of width 2/4/8 with a width trained exclusively on two training models. Charge both endpoint checks and failed probes. Three repetitions.",
+ "118":"Frozen density policy selects among exact DP points, positive-factor shortcut with point fallback, inherited VIPR guarded intervals and DP endpoint snapshots. Compare all routes and execute selected policy separately, three rotated repetitions.",
+ "119":"Two-entry LRU with eviction and model-change miss. Report retained serialized bytes, process peak RSS and separate child maximum; sampled combined RSS of live persistent verifier in 113. Do not sum separate peaks into a simultaneous total.",
+ "120":"Reject old admission on capacity, weight, binary-domain, nonlinear, dependency and time changes. Restore valid admission. Unsupported domains are not solved.",
+ "accounting":"CPU includes child user/system CPU, proof serialization, file write and checking. Training, deployment, independent audit and packaging separate. Snapshot preparation checks endpoints once; observations inspect immutable admitted interval metadata in a fixed process.",
+ "novelty":"Known endpoint/DP/factor principles; possible implementation or empirical contributions assessed only against concrete tested comparators. No blanket novelty prohibition.",
+ "replication":"Fresh directories share external SDK/system libraries; not independent installations. Require all logical results/proof bytes match after disclosed timing/RSS normalization."
+}

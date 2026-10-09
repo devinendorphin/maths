@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "records_per_run": 77,
+  "memory_supplements_per_run": 2,
+  "mathematical_and_admission_fields_match": true,
+  "raw_and_final_proofs_match": true,
+  "proof_files_compared": 73,
+  "excluded_fields": {
+    "Results.json[].measurements": "All timings, CPU phases, resource counters, memory measurements and their arithmetic residuals are observations, not mathematical identities; retained in both raw runs.",
+    "Memory-repair.json[].measurements": "RSS/PSS and timing observations; all logical fields compared exactly.",
+    "Execution.json.wall and Audit.json.wall": "Elapsed measurements; all non-time audit fields compared separately.",
+    "evidence/scip/*.set and *.log": "Absolute fresh-directory file paths and diagnostic timings; raw and completed proof bytes compared separately."
+  },
+  "no_logical_fields_excluded": true,
+  "shared_sdk_installation": true,
+  "independent_sdk_installation": false
+}

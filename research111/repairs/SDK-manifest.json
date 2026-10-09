@@ -1,0 +1,35 @@
+{
+  "binaries": {
+    "exact_scip": {
+      "path": "/workspace/maths-toolchains/repair-sdk/scip-build/bin/scip",
+      "sha256": "bbf81da21efdfc8f2c7de6f9077c57981b8f4fdf8d503262384a4bea4ffb85cf"
+    },
+    "official_completion": {
+      "path": "/workspace/maths-toolchains/repair-sdk/vipr-build-compatible/viprcomp",
+      "sha256": "139f667d82bf9943a47984525b1fca8d9cedae76c1779d39640028ced0197be7"
+    },
+    "official_checker": {
+      "path": "/workspace/maths-toolchains/repair-sdk/vipr-build-compatible/viprchk",
+      "sha256": "86b5727c6cc16a5a8a889d808f8d79a57b2593b9b4c9775f9316918b0f4ffb83"
+    },
+    "fork_wrapper": {
+      "path": "/workspace/maths-toolchains/repair-sdk/vipr_fork",
+      "sha256": "fafcba7e712c19a3a549d4a2ee4f2529f7b4272413f832509203982325bc5d75"
+    }
+  },
+  "ordinary_scip_python": {
+    "pyscipopt": "6.0.0",
+    "scip": "10.0.0",
+    "exact_support": false
+  },
+  "original_checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+  "inherited_checker_source_sha256": "2baf9c4593f5b8ef42323fbfb7cbfa0e4dfafff65e636cf6a143561b9dca2738",
+  "wrapper_source_sha256": "79f6e64c807ce6bee1efd5d890e37104265a351ad9b7e1ea8cab160b867370a4",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "source_commits": {
+    "scip": "0c80fdd8e91d7d9f23c0c7a55b68884209d5f27c",
+    "soplex": "2207cfb274dbce5c2644911dd621438535733607",
+    "vipr": "30f2951d1e90e47afa821bdd1b12b82246656c42"
+  },
+  "independent_sdk_installation": false
+}

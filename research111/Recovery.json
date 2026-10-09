@@ -1,0 +1,8 @@
+{
+  "requested_archive": {"bytes": 687116, "sha256": "4a01c756935d8efda38fb7df02b9ad1caeec4cbbf3ccd8f2a568783969f5e758", "workers": 300},
+  "requested_archive_recovered": false,
+  "search": "Traversed accessible /workspace archives and inspected all advertised GitHub origin refs; only main was advertised.",
+  "verified_main": "245fffe57a67168c9c4d35fb8de868e11abef23f",
+  "available_batch": {"workers": 273, "archive_bytes": 256316, "archive_sha256": "caed8f982a8e57044e8ab1f9c8867947e5f3a474803f6454a831a97836419dc2"},
+  "continuation": "Continue from the available 273-worker batch. Do not attribute the separate prompt's CP 2024, VeriPB or reoptimization findings to this repository. Preserve prior files and history."
+}

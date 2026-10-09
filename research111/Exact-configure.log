@@ -1,0 +1,40 @@
+-- Build shared libraries: ON
+-- Build type: Release
+-- LTO not enabled
+-- You are not using the automatic build option. If you have troubles configuring, you can consider setting AUTOBUILD=ON to try and find optional packages as available.
+-- Finding symmetry computation program "snauty"
+-- Support SYM: sassy+nauty
+-- Finding ZLIB
+-- Finding ZLIB - found
+-- Support Readline: OFF
+-- Finding GMP
+-- Finding GMP - found
+-- Finding MPFR
+-- Could NOT find MPFR (missing: MPFR_INCLUDE_DIRS MPFR_LIBRARIES) 
+-- Configuring incomplete, errors occurred!
+CMake Warning (author) at /workspace/maths-toolchains/scip-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/GNUInstallDirs.cmake:448 (message):
+  Unable to determine default CMAKE_INSTALL_LIBDIR directory because no
+  target architecture is known.  Please enable at least one language before
+  including GNUInstallDirs.
+Call Stack (most recent call first):
+  /workspace/maths-toolchains/scip-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/GNUInstallDirs.cmake:290 (_GNUInstallDirs_LIBDIR_get_default)
+  /workspace/maths-toolchains/scip-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/GNUInstallDirs.cmake:290 (cmake_language)
+  /workspace/maths-toolchains/scip-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/GNUInstallDirs.cmake:547 (_GNUInstallDirs_cache_path)
+  CMakeLists.txt:23 (include)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+CMake Warning (author) at /workspace/maths-toolchains/scip-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/GNUInstallDirs.cmake:448 (message):
+  Unable to determine default CMAKE_INSTALL_LIBDIR directory because no
+  target architecture is known.  Please enable at least one language before
+  including GNUInstallDirs.
+Call Stack (most recent call first):
+  /workspace/maths-toolchains/scip-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/GNUInstallDirs.cmake:301 (_GNUInstallDirs_LIBDIR_get_default)
+  /workspace/maths-toolchains/scip-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/GNUInstallDirs.cmake:301 (cmake_language)
+  /workspace/maths-toolchains/scip-venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.4/Modules/GNUInstallDirs.cmake:547 (_GNUInstallDirs_cache_path)
+  CMakeLists.txt:23 (include)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+CMake Error at CMakeLists.txt:490 (message):
+  MPFR not found, which is required for EXACTSOLVE; try specifying MPFR_DIR.
+
+

@@ -1,0 +1,9 @@
+{
+  "reason": "Independent audit rejected combined-memory coverage. Diagnosis: this runtime omits /proc/pid/task/tid/children; the initial sampler silently measured only the runner, not its tree. Original records are preserved and their tree-labelled values are invalid for combined memory. A held-child probe confirmed positive child RSS; the supplement discovers descendants by scanning status PPid instead.",
+  "scope": "Supplement only R119 memory measurement; do not rerun valid timing/admission/SCIP experiments.",
+  "inputs": ["heldout-n18-0", "heldout-factor"],
+  "checkpoint": "Unchanged VIPR checker returns after verification; memory adapter retains its real global parsed-proof state until observer releases it. No artificial proof allocations or sleeps.",
+  "acceptance": "Verify proof and model independently; require live child plus runner in the same RSS observation, positive VmRSS for each, and child success status. Disclose retained-state checkpoint versus an unmodified exit peak. Timing experiments use the unchanged normal exit.",
+  "replication": "Run the supplemental checkpoint from both fresh campaign directories; compare model/query/proof identity and success status, retain all differing memory metrics separately.",
+  "limits": {"checkpoint_wall_seconds":10,"processes_per_case":1,"total_cases_per_run":2}
+}

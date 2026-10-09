@@ -1,0 +1,196 @@
+{
+  "status": "built",
+  "binary": "/workspace/maths-toolchains/repair-sdk/scip-build/bin/scip",
+  "binary_sha256": "bbf81da21efdfc8f2c7de6f9077c57981b8f4fdf8d503262384a4bea4ffb85cf",
+  "packages": {
+    "libboost1.83-dev_1.83.0-4.2_amd64.deb": "1f11fc6fb2ffe9378a0f0ebc8f2fd9223fb958b4a40bb9381c67a8857d947ca3",
+    "libmpfr-dev_4.2.2-1_amd64.deb": "43cbe73a48cce65232ad5d4219a67dfdd0974f45aa88d381ae051d64052b996a",
+    "libmpfr6_4.2.2-1_amd64.deb": "75dddce11dabc7fc543712c33dc27b7f2ee66a111763eb5eac654d010b42cd92"
+  },
+  "total_wall": 320.28193181900133,
+  "total_wall_cap": 600,
+  "commands": [
+    {
+      "command": [
+        "apt-get",
+        "-o",
+        "Dir::State::lists=/workspace/maths-toolchains/repair-sdk/apt/lists",
+        "-o",
+        "Dir::Cache=/workspace/maths-toolchains/repair-sdk/apt/cache",
+        "-o",
+        "Dir::Log=/workspace/maths-toolchains/repair-sdk/apt/log",
+        "-o",
+        "Dir::Etc::main=/dev/null",
+        "-o",
+        "Dir::Etc::parts=/workspace/maths-toolchains/repair-sdk/apt/etc",
+        "-o",
+        "Dir::Etc::sourcelist=/workspace/maths/research111/repairs/apt.sources",
+        "-o",
+        "Dir::Etc::sourceparts=/workspace/maths-toolchains/repair-sdk/apt/etc",
+        "-o",
+        "APT::Sandbox::User=agent",
+        "update"
+      ],
+      "exit_code": 0,
+      "wall": 1.7723216369995498,
+      "log": "setup-00.log"
+    },
+    {
+      "command": [
+        "apt-get",
+        "-o",
+        "Dir::State::lists=/workspace/maths-toolchains/repair-sdk/apt/lists",
+        "-o",
+        "Dir::Cache=/workspace/maths-toolchains/repair-sdk/apt/cache",
+        "-o",
+        "Dir::Log=/workspace/maths-toolchains/repair-sdk/apt/log",
+        "-o",
+        "Dir::Etc::main=/dev/null",
+        "-o",
+        "Dir::Etc::parts=/workspace/maths-toolchains/repair-sdk/apt/etc",
+        "-o",
+        "Dir::Etc::sourcelist=/workspace/maths/research111/repairs/apt.sources",
+        "-o",
+        "Dir::Etc::sourceparts=/workspace/maths-toolchains/repair-sdk/apt/etc",
+        "-o",
+        "APT::Sandbox::User=agent",
+        "download",
+        "libmpfr-dev",
+        "libmpfr6",
+        "libboost1.83-dev"
+      ],
+      "exit_code": 0,
+      "wall": 1.7198464860011882,
+      "log": "setup-01.log"
+    },
+    {
+      "command": [
+        "dpkg-deb",
+        "-x",
+        "/workspace/maths-toolchains/repair-sdk/libboost1.83-dev_1.83.0-4.2_amd64.deb",
+        "/workspace/maths-toolchains/repair-sdk/prefix"
+      ],
+      "exit_code": 0,
+      "wall": 2.1246342939994065,
+      "log": "setup-02.log"
+    },
+    {
+      "command": [
+        "dpkg-deb",
+        "-x",
+        "/workspace/maths-toolchains/repair-sdk/libmpfr-dev_4.2.2-1_amd64.deb",
+        "/workspace/maths-toolchains/repair-sdk/prefix"
+      ],
+      "exit_code": 0,
+      "wall": 0.018574708999949507,
+      "log": "setup-03.log"
+    },
+    {
+      "command": [
+        "dpkg-deb",
+        "-x",
+        "/workspace/maths-toolchains/repair-sdk/libmpfr6_4.2.2-1_amd64.deb",
+        "/workspace/maths-toolchains/repair-sdk/prefix"
+      ],
+      "exit_code": 0,
+      "wall": 0.032378900999901816,
+      "log": "setup-04.log"
+    },
+    {
+      "command": [
+        "git",
+        "clone",
+        "--depth",
+        "1",
+        "--branch",
+        "v8.0.0",
+        "https://github.com/scipopt/soplex.git",
+        "/workspace/maths-toolchains/repair-sdk/soplex"
+      ],
+      "exit_code": 0,
+      "wall": 1.0693451939987426,
+      "log": "setup-05.log"
+    },
+    {
+      "command": [
+        "cmake",
+        "-S",
+        "/workspace/maths-toolchains/repair-sdk/soplex",
+        "-B",
+        "/workspace/maths-toolchains/repair-sdk/soplex-build",
+        "-DCMAKE_PREFIX_PATH=/workspace/maths-toolchains/repair-sdk/prefix/usr",
+        "-DCMAKE_INSTALL_PREFIX=/workspace/maths-toolchains/repair-sdk/prefix",
+        "-DCMAKE_INCLUDE_PATH=/workspace/maths-toolchains/repair-sdk/prefix/usr/include",
+        "-DCMAKE_LIBRARY_PATH=/workspace/maths-toolchains/repair-sdk/prefix/usr/lib/x86_64-linux-gnu",
+        "-DPAPILO=OFF",
+        "-DMPFR=ON",
+        "-DGMP=ON",
+        "-DCMAKE_BUILD_TYPE=Release"
+      ],
+      "exit_code": 0,
+      "wall": 0.5190601979993517,
+      "log": "setup-06.log"
+    },
+    {
+      "command": [
+        "cmake",
+        "--build",
+        "/workspace/maths-toolchains/repair-sdk/soplex-build",
+        "--parallel",
+        "4"
+      ],
+      "exit_code": 0,
+      "wall": 183.33972433999952,
+      "log": "setup-07.log"
+    },
+    {
+      "command": [
+        "cmake",
+        "--install",
+        "/workspace/maths-toolchains/repair-sdk/soplex-build"
+      ],
+      "exit_code": 0,
+      "wall": 0.1645463339991693,
+      "log": "setup-08.log"
+    },
+    {
+      "command": [
+        "cmake",
+        "-S",
+        "/workspace/maths-toolchains/scip-v10.0.0",
+        "-B",
+        "/workspace/maths-toolchains/repair-sdk/scip-build",
+        "-DCMAKE_PREFIX_PATH=/workspace/maths-toolchains/repair-sdk/prefix/usr",
+        "-DCMAKE_INSTALL_PREFIX=/workspace/maths-toolchains/repair-sdk/prefix",
+        "-DCMAKE_INCLUDE_PATH=/workspace/maths-toolchains/repair-sdk/prefix/usr/include",
+        "-DCMAKE_LIBRARY_PATH=/workspace/maths-toolchains/repair-sdk/prefix/usr/lib/x86_64-linux-gnu",
+        "-DSOPLEX_DIR=/workspace/maths-toolchains/repair-sdk/prefix/lib/cmake/soplex",
+        "-DEXACTSOLVE=ON",
+        "-DLPSEXACT=spx",
+        "-DPAPILO=OFF",
+        "-DZIMPL=OFF",
+        "-DIPOPT=OFF",
+        "-DREADLINE=OFF",
+        "-DAMPL=OFF",
+        "-DCMAKE_BUILD_TYPE=Release"
+      ],
+      "exit_code": 0,
+      "wall": 1.0669844539988844,
+      "log": "setup-09.log"
+    },
+    {
+      "command": [
+        "cmake",
+        "--build",
+        "/workspace/maths-toolchains/repair-sdk/scip-build",
+        "--target",
+        "scip",
+        "--parallel",
+        "4"
+      ],
+      "exit_code": 0,
+      "wall": 128.4213290000007,
+      "log": "setup-10.log"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "density_comparison_cpu_ms": [
+    {
+      "case_id": "heldout-factor",
+      "density": "dense",
+      "headline": {
+        "point": 3.7791599999998926,
+        "factor": 0.5344640000000123,
+        "guarded": 37.506921000000304,
+        "snapshot": 2.0483410000000646,
+        "policy": 0.5309490000000583
+      },
+      "replication": {
+        "point": 4.175028000000136,
+        "factor": 0.6664089999999234,
+        "guarded": 35.91810799999973,
+        "snapshot": 2.4952549999999185,
+        "policy": 0.724626000000006
+      }
+    },
+    {
+      "case_id": "heldout-factor",
+      "density": "sparse",
+      "headline": {
+        "point": 1.3168550000000057,
+        "factor": 0.641263000000114,
+        "guarded": 30.101156000000184,
+        "snapshot": 1.7923399999999479,
+        "policy": 0.5422850000000867
+      },
+      "replication": {
+        "point": 1.382041000000056,
+        "factor": 0.7119360000000796,
+        "guarded": 36.06519499999994,
+        "snapshot": 1.9515369999998367,
+        "policy": 0.6941200000001313
+      }
+    },
+    {
+      "case_id": "heldout-n18-0",
+      "density": "dense",
+      "headline": {
+        "point": 3.5774009999999246,
+        "factor": 3.486655000000005,
+        "guarded": 80.93600499999987,
+        "snapshot": 5.876444999999952,
+        "policy": 3.5750780000000093
+      },
+      "replication": {
+        "point": 3.843766000000026,
+        "factor": 3.516661000000032,
+        "guarded": 87.58643700000013,
+        "snapshot": 5.689336999999961,
+        "policy": 3.951274999999921
+      }
+    },
+    {
+      "case_id": "heldout-n18-0",
+      "density": "sparse",
+      "headline": {
+        "point": 1.4587860000000452,
+        "factor": 1.3813200000000192,
+        "guarded": 84.37109799999998,
+        "snapshot": 2.580031000000038,
+        "policy": 1.630291000000006
+      },
+      "replication": {
+        "point": 1.2973269999999593,
+        "factor": 1.3532400000000333,
+        "guarded": 81.08604100000005,
+        "snapshot": 2.5121389999999133,
+        "policy": 1.361410999999979
+      }
+    },
+    {
+      "case_id": "heldout-n18-1",
+      "density": "dense",
+      "headline": {
+        "point": 4.358065000000022,
+        "factor": 3.927300000000078,
+        "guarded": 73.21961700000013,
+        "snapshot": 3.036346999999995,
+        "policy": 4.034369999999954
+      },
+      "replication": {
+        "point": 4.496135000000012,
+        "factor": 4.059206999999954,
+        "guarded": 79.36815399999998,
+        "snapshot": 2.9381830000000386,
+        "policy": 3.9141610000000826
+      }
+    },
+    {
+      "case_id": "heldout-n18-1",
+      "density": "sparse",
+      "headline": {
+        "point": 1.6515520000000006,
+        "factor": 1.40397400000003,
+        "guarded": 68.55999499999999,
+        "snapshot": 1.9279220000000263,
+        "policy": 1.4844440000000292
+      },
+      "replication": {
+        "point": 1.5621590000001184,
+        "factor": 1.5039830000000975,
+        "guarded": 102.31591500000015,
+        "snapshot": 2.68605799999988,
+        "policy": 1.7531130000001394
+      }
+    },
+    {
+      "case_id": "heldout-n20-2",
+      "density": "dense",
+      "headline": {
+        "point": 5.1046079999998994,
+        "factor": 5.123145999999856,
+        "guarded": 41.539152000000136,
+        "snapshot": 8.545788000000165,
+        "policy": 4.44555000000002
+      },
+      "replication": {
+        "point": 5.241500999999982,
+        "factor": 4.881697999999934,
+        "guarded": 44.96831300000004,
+        "snapshot": 9.51839600000004,
+        "policy": 4.870791999999957
+      }
+    },
+    {
+      "case_id": "heldout-n20-2",
+      "density": "sparse",
+      "headline": {
+        "point": 2.001160999999918,
+        "factor": 1.9719279999999006,
+        "guarded": 46.030044999999966,
+        "snapshot": 3.439217000000161,
+        "policy": 1.9540310000001337
+      },
+      "replication": {
+        "point": 2.075872000000034,
+        "factor": 1.8365470000001327,
+        "guarded": 43.71891100000003,
+        "snapshot": 3.5543569999998414,
+        "policy": 1.6992619999998126
+      }
+    },
+    {
+      "case_id": "heldout-n20-3",
+      "density": "dense",
+      "headline": {
+        "point": 4.828757999999933,
+        "factor": 4.723983999999959,
+        "guarded": 61.630828999999835,
+        "snapshot": 8.488963999999877,
+        "policy": 4.434712999999979
+      },
+      "replication": {
+        "point": 4.799435999999879,
+        "factor": 4.902077999999976,
+        "guarded": 65.74606199999988,
+        "snapshot": 9.079590000000026,
+        "policy": 4.635531999999998
+      }
+    },
+    {
+      "case_id": "heldout-n20-3",
+      "density": "sparse",
+      "headline": {
+        "point": 1.7871940000000475,
+        "factor": 1.6050329999999224,
+        "guarded": 72.89973300000008,
+        "snapshot": 3.7095569999998634,
+        "policy": 2.0072399999999657
+      },
+      "replication": {
+        "point": 1.838999999999924,
+        "factor": 1.6601639999997975,
+        "guarded": 69.72723300000006,
+        "snapshot": 3.2215829999999723,
+        "policy": 1.9225140000000973
+      }
+    }
+  ],
+  "window_comparison": [
+    {
+      "case_id": "heldout-factor",
+      "fixed2": 2.8375529999999927,
+      "fixed4": 2.002453000000015,
+      "fixed8": 1.1329429999999974,
+      "trained": 4.302473000000084
+    },
+    {
+      "case_id": "heldout-n18-0",
+      "fixed2": 4.289568000000021,
+      "fixed4": 5.590340000000027,
+      "fixed8": 5.610789000000005,
+      "trained": 3.9142410000000405
+    },
+    {
+      "case_id": "heldout-n18-1",
+      "fixed2": 2.609744000000025,
+      "fixed4": 2.6147619999999927,
+      "fixed8": 5.713102000000081,
+      "trained": 2.774189000000038
+    },
+    {
+      "case_id": "heldout-n20-2",
+      "fixed2": 6.260705000000089,
+      "fixed4": 8.222446999999855,
+      "fixed8": 8.742679999999892,
+      "trained": 6.285041000000158
+    },
+    {
+      "case_id": "heldout-n20-3",
+      "fixed2": 5.465743999999884,
+      "fixed4": 8.569151999999969,
+      "fixed8": 9.723386000000112,
+      "trained": 5.391884999999874
+    }
+  ],
+  "checker_processes": [
+    {
+      "variant": "per-request",
+      "cpu": 0.501337049,
+      "wall": 0.49721944599878043,
+      "processes_started": 20,
+      "sampled_combined_rss_kib": 0
+    },
+    {
+      "variant": "persistent",
+      "cpu": 0.03742833699999992,
+      "wall": 0.041331013999297284,
+      "processes_started": 1,
+      "sampled_combined_rss_kib": 25244
+    }
+  ],
+  "memory": [
+    {
+      "case_id": "heldout-n18-0",
+      "max_cache_serialized_bytes": 6248,
+      "process_peak_rss_kib": 16980,
+      "child_peak_rss_kib": 16980
+    },
+    {
+      "case_id": "heldout-n18-1",
+      "max_cache_serialized_bytes": 7461,
+      "process_peak_rss_kib": 18240,
+      "child_peak_rss_kib": 18240
+    },
+    {
+      "case_id": "heldout-n20-2",
+      "max_cache_serialized_bytes": 8778,
+      "process_peak_rss_kib": 18240,
+      "child_peak_rss_kib": 18240
+    },
+    {
+      "case_id": "heldout-n20-3",
+      "max_cache_serialized_bytes": 7796,
+      "process_peak_rss_kib": 18240,
+      "child_peak_rss_kib": 18240
+    },
+    {
+      "case_id": "heldout-factor",
+      "max_cache_serialized_bytes": 8121,
+      "process_peak_rss_kib": 18240,
+      "child_peak_rss_kib": 18240
+    }
+  ]
+}

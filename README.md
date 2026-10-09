@@ -2,7 +2,9 @@
 
 This repository keeps a compact working collection of the temporal-proof experiments. Complete evidence is preserved in [verified Google Drive archives](https://drive.google.com/drive/folders/1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ).
 
-The latest batch is [experiments 101–110](research101/Synthesis.md): all 273 workers completed on eight mathematical models, with a matching fresh replication and independent audits. A checked exact DP baseline beat the existing VIPR paths on all eight matched dense/sparse records. SCIP candidates passed exact external DP admission; native SCIP exact mode was unavailable in the installed wheel. Complete evidence is in a verified [repository archive](archives/experiments-101-110-complete.tar.xz).
+The latest work is the [aligned 111–120 continuation and repairs](research111/repairs/Synthesis.md). The [review](research111/REVIEW.md) and [alignment table](research111/Alignment.md) distinguish the published 273-worker batch, an unrecovered historical 300-worker report, and the preserved provisional 284-record continuation. A separately frozen 77-record supplement, replicated from a fresh directory, adds nine independently verified native exact-SCIP certificates, isolated checker-startup amortization, compatible full-cost comparisons and integrated cache invalidation. Remaining policy and memory limitations are explicit; this is not a claim that all ten proposed comparisons are complete. Both provisional and repair evidence are preserved in compact repository archives.
+
+The preceding published batch is [experiments 101–110](research101/Synthesis.md): all 273 workers completed on eight mathematical models, with a matching fresh replication and independent audits. A checked exact DP baseline beat the existing VIPR paths on all eight matched dense/sparse records. SCIP candidates passed exact external DP admission; native SCIP exact mode was unavailable in that installed wheel. Complete evidence is in a verified [repository archive](archives/experiments-101-110-complete.tar.xz).
 
 The preceding batch is [experiments 96–100](research96/Synthesis.md): all 116 workers completed on 28 input records, with a matching fresh replication and independent audit. The [rational interval theorem](research96/formal/Endpoint.lean) is Lean-checked; the [claim ledger](research96/Claim-ledger.md) specifies the remaining trusted code. Compact witnesses reduced raw transport bytes but did not establish a runtime gain over guarded reuse. Complete evidence is in a remotely verified 250 KB [repository archive](archives/experiments-96-100-complete.tar.xz).
 
@@ -31,6 +33,8 @@ A [literature review dated 5 October 2026](research-notes/Literature-review-2026
 A [review of OpenAI's 6 October mathematics release](research-notes/OpenAI-mathematics-review-2026-10-08.md) recommends checking the endpoint-to-interval theorem, compact exact witnesses, and dependency-aware proof admission. Its [proposal for experiments 96–100](research-notes/Roadmap-after-OpenAI-review.md) is now followed by the completed batch linked above.
 
 ## Working files
+
+- `research111/`: preserved provisional continuation, evidence reconciliation, frozen bounded repairs and their explicit assurance limits. [Findings](research111/repairs/Synthesis.md), [recovery](research111/REPRODUCE.md).
 
 - `research101/`: checked DP and production candidate comparisons, resource/admission controls and full-cost evidence. [Findings](research101/Synthesis.md).
 

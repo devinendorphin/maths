@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "logical_results_match": true,
+  "dp_certificate_hashes_match": true,
+  "vipr_proof_hashes_match": true,
+  "excluded_measurements": [
+    "cpu",
+    "wall",
+    "sampled_combined_rss_kib",
+    "process_peak_rss_kib",
+    "child_peak_rss_kib",
+    "components",
+    "component_sum"
+  ],
+  "excluded_transport_fields": [
+    "evidence path/hash/byte count (timed VIPR stream JSON only; underlying proof and DP certificate hashes compared independently)"
+  ],
+  "shared_external_installation": true,
+  "external_sdk_independently_installed": false,
+  "workers": 284,
+  "distinct_dp_certificate_records_including_invalid_controls": 105,
+  "distinct_vipr_files": 26
+}

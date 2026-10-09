@@ -1,0 +1,6 @@
+# Expanded frozen dependencies and evidence are retained in the verified archives.
+dependencies/
+evidence/
+repairs/dependencies/
+repairs/development/
+__pycache__/

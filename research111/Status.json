@@ -1,0 +1,11 @@
+{
+ "publication":"local, uncommitted; not a completed 111–120 publication",
+ "requested_previous_batch_recovered":false,
+ "available_previous_batch_workers":273,
+ "provisional_workers":284,
+ "tested_stage_numbers":[113,114,115,116,117,118,119,120],
+ "exact_scip_deployment":"configuration failed for missing prerequisite; broader recoverability not established",
+ "native_scip_certificates":"not generated",
+ "review":"REVIEW.md",
+ "completion_claim":"Do not claim all ten requested experiments completed. See per-experiment scope assessment."
+}

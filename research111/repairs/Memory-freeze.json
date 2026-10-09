@@ -1,0 +1,14 @@
+{
+  "files": {
+    "Memory-amendment.json": "ede7bd6be175f7bdb81081795de3dcf680face4b5f138195efe1b88230068243",
+    "Inputs.json": "256fd0411d4c5963fb64007eab16ba8f9ce954229f7e6062e94776915e9c679e",
+    "code/vipr_hold.cpp": "ee43255ed4d8306c0fff4def4d4fe9511fd2238ce77c00c9f9466a5c6bdbf957",
+    "code/memory_repair.py": "38a50ca9f491f7d95c97144b36a21a9db036fdd2fda9608ddfae44ee89d19f8e",
+    "code/memory_observer.py": "13e2c22717f23b0c191216e5b3b2ff0b445eab5ee4ed7ba82c5d3dde79c1e2a4",
+    "code/audit_memory.py": "f8edde10f4ad8b582d7e8e0cc0cabe3aff48ffcdcaae218504ce8dc682b3e7e7",
+    "code/memory.py": "7e28881b2dd01f69e0647be5a5a44b970e34c0294cfb808e0a4bce9c40325d2c",
+    "code/core.py": "52ce3358520976a7eefc2bda6f84a328f154929e2c45a3de7d45620040a354e6"
+  },
+  "binary_sha256": "9beee08d6e2756798bc77d1298e9cc49f293a109e889d26dfc33bf60e1544aef",
+  "headline_started": false
+}

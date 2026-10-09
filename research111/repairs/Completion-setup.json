@@ -1,0 +1,46 @@
+{
+  "status": "built",
+  "binaries": {
+    "viprcomp": {
+      "path": "/workspace/maths-toolchains/repair-sdk/vipr-build-compatible/viprcomp",
+      "sha256": "139f667d82bf9943a47984525b1fca8d9cedae76c1779d39640028ced0197be7"
+    },
+    "viprchk": {
+      "path": "/workspace/maths-toolchains/repair-sdk/vipr-build-compatible/viprchk",
+      "sha256": "86b5727c6cc16a5a8a889d808f8d79a57b2593b9b4c9775f9316918b0f4ffb83"
+    }
+  },
+  "total_wall": 93.04771504499877,
+  "wall_cap": 180,
+  "commands": [
+    {
+      "command": [
+        "/workspace/maths-toolchains/repair-sdk/checker-venv/bin/cmake",
+        "-S",
+        "/workspace/maths-toolchains/repair-sdk/vipr-current/code",
+        "-B",
+        "/workspace/maths-toolchains/repair-sdk/vipr-build-compatible",
+        "-DSOPLEX_DIR=/workspace/maths-toolchains/repair-sdk/prefix/lib/cmake/soplex",
+        "-DCMAKE_PREFIX_PATH=/workspace/maths-toolchains/repair-sdk/prefix/usr"
+      ],
+      "exit_code": 0,
+      "wall": 14.076057663001848,
+      "log": "completion-setup-0.log"
+    },
+    {
+      "command": [
+        "/workspace/maths-toolchains/repair-sdk/checker-venv/bin/cmake",
+        "--build",
+        "/workspace/maths-toolchains/repair-sdk/vipr-build-compatible",
+        "--target",
+        "viprcomp",
+        "viprchk",
+        "--parallel",
+        "4"
+      ],
+      "exit_code": 0,
+      "wall": 78.96664029199746,
+      "log": "completion-setup-1.log"
+    }
+  ]
+}

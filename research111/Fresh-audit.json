@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "workers": 284,
+  "heldout_models": 5,
+  "training_models": 2,
+  "control_models": 1,
+  "stage_counts": {
+    "113": 2,
+    "114": 5,
+    "115": 15,
+    "117": 60,
+    "118": 150,
+    "119": 5,
+    "120": 5,
+    "116": 42
+  },
+  "dp_certificates_checked": 430,
+  "invalid_admissions_rejected": 50,
+  "stream_observations_checked": 1890,
+  "answer_checks": 2829,
+  "distinct_oracle_queries": 109,
+  "vipr_valid": 26,
+  "vipr_weakened_rejected": 26,
+  "unsupported": [
+    112
+  ],
+  "wall": 9.136121980998723
+}
