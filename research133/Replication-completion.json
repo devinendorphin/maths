@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "workers": 232,
+  "duplicate_stdout_counts_match": true,
+  "stderr_empty_in_both_runs": true,
+  "all_nontiming_audit_metadata_matches": true,
+  "frozen_configuration_and_preflights_match": true,
+  "additional_excluded_field": "stdout.worker_wall_s: duplicate of the explicitly excluded worker measurement; both original logs retained",
+  "setup_timing_not_excluded": "Setup.json is the same recorded shared installation receipt in both directories; it is not a second installation observation"
+}

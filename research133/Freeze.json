@@ -1,0 +1,38 @@
+{
+  "files": {
+    "code/audit.py": "b7fd1e9e4f03927e16a46a3755627bc8cc5f261ee1cb3dbc5e4d1ed5b7ce4534",
+    "code/campaign.py": "76902d5c01d6daa442d99ee32d66d49c4d164a6e8e129261b5311b009796f9ca",
+    "code/checker.py": "d23aa4153146079df91eb90f0bc96ecf87146a6030fa97f9ee18785700826a54",
+    "code/producer.py": "86cfcc8837b8c6f52e68ee62001639e142351dc8ad067637e2452733073062fb",
+    "code/reference.py": "9fdccf25dd074d4e83ed382b25c501ca23f5d99510545dcd34739fb122f11610",
+    "code/replicate.py": "22cd620cf08c21fd1723cf925a19907d93ff34dd580b1c3bb3724c22363875f4",
+    "code/routes.py": "039adf614966ea1707bbd6a8153afb712423f358dac936f2f35f2c97dbdba3a6",
+    "code/suite.py": "64c5c1b5fb6c50b35b215c9afe5c4127e47c02ec04a4c4c900fad2f5c3c8272e",
+    "code/worker.py": "5b6d94ed3d0eade0cd2ca47d6636d54662869996c5613c8f369da834dd726a49",
+    "Protocol.md": "f6f92c5dffd9d7b4de8112b3bdcf43630abe9919af14951c9e401120c69882d6",
+    "Inputs.json": "e10c86b27181df02494244befab31352b8425cca825c90f6c0fa881670df6f5a",
+    "Setup.json": "af46eafec537104a098ac92708ca71f767eb03dde72036a08c6ed591d5c93fc9",
+    "Primary-source-receipts.json": "dd47e87e22a203082d35becf4862b3cb59d114107d3413beaa939540f724e5a8",
+    "Development.json": "277724e112ed0de664f42ccdae673604aa9d53c040917c7332775a60f4c26f13"
+  },
+  "dependencies": {
+    "networkx": "3.4.2",
+    "networksimplex_module_sha256": "df6b9eb686568feffb28f3b6389a6eb4fd05a53aec43fa89c67b42f17c4856bd",
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "frozen_code_sha256": {
+      "code/audit.py": "b7fd1e9e4f03927e16a46a3755627bc8cc5f261ee1cb3dbc5e4d1ed5b7ce4534",
+      "code/campaign.py": "76902d5c01d6daa442d99ee32d66d49c4d164a6e8e129261b5311b009796f9ca",
+      "code/checker.py": "d23aa4153146079df91eb90f0bc96ecf87146a6030fa97f9ee18785700826a54",
+      "code/producer.py": "86cfcc8837b8c6f52e68ee62001639e142351dc8ad067637e2452733073062fb",
+      "code/reference.py": "9fdccf25dd074d4e83ed382b25c501ca23f5d99510545dcd34739fb122f11610",
+      "code/replicate.py": "22cd620cf08c21fd1723cf925a19907d93ff34dd580b1c3bb3724c22363875f4",
+      "code/routes.py": "039adf614966ea1707bbd6a8153afb712423f358dac936f2f35f2c97dbdba3a6",
+      "code/suite.py": "64c5c1b5fb6c50b35b215c9afe5c4127e47c02ec04a4c4c900fad2f5c3c8272e",
+      "code/worker.py": "5b6d94ed3d0eade0cd2ca47d6636d54662869996c5613c8f369da834dd726a49"
+    }
+  },
+  "dependency": "8ca2765c8504b4d6db5fedf69e5ac398b87f9f138e876dad08cd8178966e01ec",
+  "campaign_head": "eb1222d70286a4ce13236206558591464e157d4a",
+  "budget": "30s/256MiB per worker, 1000 cycles, 10000 augmentations, 16KiB proofs, cache4096/control64",
+  "headline_not_yet_run": true
+}

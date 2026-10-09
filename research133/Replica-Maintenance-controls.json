@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "controls": [
+    {
+      "case": "fair-0",
+      "fairness_bundle_accepted": true,
+      "wrong_dependency_rejected": true,
+      "missing_higher_cut_rejected": true,
+      "scalar_proof_as_positive_maxmin_rejected": true
+    },
+    {
+      "case": "fair-1",
+      "fairness_bundle_accepted": true,
+      "wrong_dependency_rejected": true,
+      "missing_higher_cut_rejected": true,
+      "scalar_proof_as_positive_maxmin_rejected": true
+    },
+    {
+      "case": "fair-2",
+      "fairness_bundle_accepted": true,
+      "wrong_dependency_rejected": true,
+      "missing_higher_cut_rejected": true,
+      "scalar_proof_as_positive_maxmin_rejected": null
+    },
+    {
+      "case": "fair-3",
+      "fairness_bundle_accepted": true,
+      "wrong_dependency_rejected": true,
+      "missing_higher_cut_rejected": true,
+      "scalar_proof_as_positive_maxmin_rejected": null
+    },
+    {
+      "case": "fair-4",
+      "fairness_bundle_accepted": true,
+      "wrong_dependency_rejected": true,
+      "missing_higher_cut_rejected": true,
+      "scalar_proof_as_positive_maxmin_rejected": true
+    },
+    {
+      "case": "fair-5",
+      "fairness_bundle_accepted": true,
+      "wrong_dependency_rejected": true,
+      "missing_higher_cut_rejected": true,
+      "scalar_proof_as_positive_maxmin_rejected": true
+    },
+    {
+      "case": "fair-6",
+      "fairness_bundle_accepted": true,
+      "wrong_dependency_rejected": true,
+      "missing_higher_cut_rejected": true,
+      "scalar_proof_as_positive_maxmin_rejected": null
+    },
+    {
+      "case": "fair-7",
+      "fairness_bundle_accepted": true,
+      "wrong_dependency_rejected": true,
+      "missing_higher_cut_rejected": true,
+      "scalar_proof_as_positive_maxmin_rejected": null
+    },
+    {
+      "case": "same-flow-new-potential",
+      "old_flow": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "new_flow": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "old_pi": [
+        -2,
+        -2,
+        0,
+        0
+      ],
+      "new_pi": [
+        -2,
+        -4,
+        0,
+        -2
+      ],
+      "accepted": true
+    },
+    {
+      "case": "conditional-cost-patches",
+      "accepted": 25,
+      "rejected_with_recapture": 39,
+      "changed_edge_sign_checks": 64,
+      "stale_version_rejected": true,
+      "dependency_change_rejected": true,
+      "raw_input_delta_discovery_included_in_O_k_bound": false,
+      "full_export_digest_included_in_O_k_bound": false
+    }
+  ],
+  "scope": "Independently checked composition and conditional patch correctness; not a measured O(k) full pipeline or a formal proof."
+}

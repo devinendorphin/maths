@@ -1,0 +1,11 @@
+{
+  "version": "3.4.2",
+  "wheel": "networkx-3.4.2-py3-none-any.whl",
+  "bytes": 1723263,
+  "sha256": "df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f",
+  "verified_against": "https://pypi.org/pypi/networkx/3.4.2/json",
+  "python": "/workspace/maths-toolchains/allocation-venv/bin/python",
+  "setup_wall_s": 1.196301168000005,
+  "excluded_from_git": "venv and wheel; rebuilding instructions and hashes retained",
+  "shared_installation": true
+}

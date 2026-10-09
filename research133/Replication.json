@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "mathematical_records_including_session_summaries": 2331,
+  "query_records": 2099,
+  "workers": 232,
+  "exact_proof_and_control_identity_match": true,
+  "excluded_measurements": {
+    "query": [
+      "timing",
+      "query_wall_s",
+      "query_cpu_s"
+    ],
+    "worker": [
+      "worker_wall_s",
+      "worker_cpu_s",
+      "kernel_self_maxrss_kib"
+    ],
+    "session": [
+      "session_wall_s",
+      "wait4_user_cpu_s",
+      "wait4_system_cpu_s",
+      "wait4_maxrss_kib"
+    ],
+    "campaign": [
+      "launcher_wall_s",
+      "launcher_cpu_s"
+    ],
+    "audit": [
+      "audit_wall_s",
+      "audit_cpu_s"
+    ]
+  },
+  "reason": "Elapsed time, CPU and kernel peak RSS are independent observations and are retained in both runs. No mathematical outcomes, model/proof/dependency hashes, operation counters, cache/eviction decisions, failed probes or exit states are excluded. Relative record labels are identical; no paths occur in logical records.",
+  "shared_dependency_installation": true,
+  "separate_maintenance_supplement_controls_match": true,
+  "maintenance_supplement_groups": 10
+}

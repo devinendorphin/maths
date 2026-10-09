@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "workers": 232,
+  "queries": 2099,
+  "query_counts": {
+    "static": 11,
+    "updates": 1944,
+    "fairness": 84,
+    "counterexample": 6,
+    "budget": 54
+  },
+  "distinct_models_or_observations": 209,
+  "distinct_certificates": 227,
+  "invalid_controls_rejected": 1488,
+  "enumerated_assignments": 25610,
+  "reference": "NetworkX 3.4.2 network_simplex plus independently coded exhaustive enumeration",
+  "audit_wall_s": 0.4577122919999965,
+  "audit_cpu_s": 0.457546429
+}

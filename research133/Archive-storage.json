@@ -1,0 +1,17 @@
+{
+  "bytes": 504368,
+  "excluded": [
+    "external venv/wheel; identities and recovery retained",
+    "Python bytecode",
+    "Sessions-progress.json: exact redundant rolling copy of final sessions"
+  ],
+  "members": 5683,
+  "path": "archives/experiments-133-136-allocation.tar.xz",
+  "roots": [
+    "primary",
+    "replica",
+    "reports"
+  ],
+  "sha256": "dc95f8e1dbeb34dc8e7bd32c8f1dbe13479182f09cdfc4fa474d3a7f0fc143d8",
+  "uncompressed_bytes": 28712655
+}

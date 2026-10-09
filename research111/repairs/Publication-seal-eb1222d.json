@@ -1,6 +1,6 @@
 {
   "files": {
-    "README.md": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e",
+    "README.md": "519e892fd25145993bf43bac9bd5f356529fd3dbcdc0b3a1c119c2540e6a8572",
     "research101-original-300/Archive-members.json": "46a896924a2f3e6892475ca988ed3e544f918fc0a8565f10d2668d7f3ee25fc6",
     "research101-original-300/Archive-storage.json": "fea283d5b96129fc5405decfb657012e7578e95bab2632abdd354263259a7300",
     "research101-original-300/Assurance-contract.md": "231e3d13164e180600e66cc89f543620cb9e9ee6dae2407b92a7a341db3e43b2",
@@ -141,8 +141,7 @@
     "research111/repairs/setup_completion.py": "7156d8830cfff6b06053dda176efca10871b1e05704b11c32a5760efcb332c4d",
     "research111/repairs/setup_exact.py": "8cb6265b4cc8fe080f8d7bf5cb740ec6d23465f90265bd8fed9c98d5551be9e3",
     "research111/repairs/Publication-seal-9a9075c.json": "3c6e4dac64f03d614de5cd0d1c70280f4d8fc209800ca191ed98acee8a2f0e87",
-    "research111/repairs/Publication-seal-38c2a01.json": "f1b07e7f30880897d104ff547f8d08cd5c5c1e11fdc8f9235c16069631f072d6",
-    "research111/repairs/Publication-seal-eb1222d.json": "8b2d0b25e1754c36071e90e1b4ab6ebc36893822cc82b5ee561c1db09d6ddee1"
+    "research111/repairs/Publication-seal-38c2a01.json": "f1b07e7f30880897d104ff547f8d08cd5c5c1e11fdc8f9235c16069631f072d6"
   },
   "scope": "Current compact publication after original-300 recovery; pre-recovery publication seal and all experimental freezes are preserved separately"
 }

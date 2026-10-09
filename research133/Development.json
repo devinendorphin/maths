@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "static_and_development_baseline_checks": 78,
+  "separate_development_update_queries": 324,
+  "development_models": [
+    "D2",
+    "D3"
+  ],
+  "fairness_exhaustive_oracle_was_also_inspected_before_freeze": true,
+  "headline_sequences_not_executed": true,
+  "no_policy_fitted_or_inputs_changed_from_results": true,
+  "development_update_wall_s": 0.1499123989999589
+}

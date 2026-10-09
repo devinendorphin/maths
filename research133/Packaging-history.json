@@ -1,0 +1,39 @@
+{
+  "initial_unpublished_archive": {
+    "bytes": 503148,
+    "excluded": [
+      "external venv/wheel; identities and recovery retained",
+      "Python bytecode",
+      "Sessions-progress.json: exact redundant rolling copy of final sessions"
+    ],
+    "members": 5679,
+    "path": "archives/experiments-133-136-allocation.tar.xz",
+    "roots": [
+      "primary",
+      "replica",
+      "reports"
+    ],
+    "sha256": "bf449730c0f3e7da4cc3c79a584d7afde395be9892b9cf0846e3d1af45657b91",
+    "uncompressed_bytes": 28707649
+  },
+  "retained_local_copy": "/workspace/maths-onboarding/allocation133/package-before-log-comparison.tar.xz",
+  "reason_for_final_repack": "Include additional duplicate-log/non-timing replication checks and tested dependency recovery helper. No headline mathematical outputs or frozen source changed. Initial archive was fully verified and both roots re-audited after extraction.",
+  "initial_extracted_reaudits": [
+    {
+      "directory": "primary",
+      "passed": true,
+      "workers": 232,
+      "queries": 2099,
+      "certificates": 227,
+      "rejected_controls": 1488
+    },
+    {
+      "directory": "replica",
+      "passed": true,
+      "workers": 232,
+      "queries": 2099,
+      "certificates": 227,
+      "rejected_controls": 1488
+    }
+  ]
+}

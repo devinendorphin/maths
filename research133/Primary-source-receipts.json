@@ -1,0 +1,23 @@
+[
+  {
+    "name": "network-simplex",
+    "url": "https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/algorithms/flow/networksimplex.py",
+    "bytes": 25185,
+    "sha256": "df6b9eb686568feffb28f3b6389a6eb4fd05a53aec43fa89c67b42f17c4856bd",
+    "local_cache": "/workspace/maths-onboarding/allocation-development/network-simplex.txt"
+  },
+  {
+    "name": "ortools-min-cost-flow",
+    "url": "https://raw.githubusercontent.com/google/or-tools/v9.11/ortools/graph/min_cost_flow.h",
+    "bytes": 31722,
+    "sha256": "366d7323434a53fc5c4fc564cbea9342aac8f36b4b7933353b001758d0fa6095",
+    "local_cache": "/workspace/maths-onboarding/allocation-development/ortools-min-cost-flow.txt"
+  },
+  {
+    "name": "boost-cycle-canceling",
+    "url": "https://raw.githubusercontent.com/boostorg/graph/boost-1.86.0/include/boost/graph/cycle_canceling.hpp",
+    "bytes": 6645,
+    "sha256": "5b70074770bf2bbf30a35fb6933e74784acd6c2be11a28d603b06fe041dbc89f",
+    "local_cache": "/workspace/maths-onboarding/allocation-development/boost-cycle-canceling.txt"
+  }
+]
