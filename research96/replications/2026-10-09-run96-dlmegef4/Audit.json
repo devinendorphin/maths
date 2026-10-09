@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "workers": 116,
+  "inputs": 28,
+  "unique_valid_vipr": 93,
+  "unique_false_bounds_rejected": 93,
+  "answer_checks": 2400,
+  "endpoint_checks": 655,
+  "progress_enclosures": 20,
+  "feasible_coverage_checks": 521882,
+  "receipt_controls": 44,
+  "witness_controls": 72,
+  "checkpoint_controls": 24,
+  "audit_wall": 1.7287709789999965
+}
