@@ -1,0 +1,50 @@
+{
+  "balance": {
+    "A": 2,
+    "B": 2,
+    "R": -2,
+    "S": -2
+  },
+  "edges": [
+    {
+      "name": "AR",
+      "tail": "A",
+      "head": "R",
+      "lower": 0,
+      "upper": 2,
+      "cost": 1,
+      "t": 0,
+      "s": 0
+    },
+    {
+      "name": "AS",
+      "tail": "A",
+      "head": "S",
+      "lower": 0,
+      "upper": 2,
+      "cost": 4,
+      "t": -1,
+      "s": 0
+    },
+    {
+      "name": "BR",
+      "tail": "B",
+      "head": "R",
+      "lower": 0,
+      "upper": 2,
+      "cost": 3,
+      "t": 0,
+      "s": -1
+    },
+    {
+      "name": "BS",
+      "tail": "B",
+      "head": "S",
+      "lower": 0,
+      "upper": 2,
+      "cost": 1,
+      "t": 0,
+      "s": 0
+    }
+  ]
+}

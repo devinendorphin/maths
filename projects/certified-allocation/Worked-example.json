@@ -1,0 +1,1742 @@
+{
+  "status": "checked illustrative example; not a new general theorem or large performance experiment",
+  "scenario_checks": 9,
+  "invalid_controls_rejected": 4,
+  "exact_grid_checks": 121,
+  "records": [
+    {
+      "case": "initial",
+      "model": {
+        "balance": {
+          "A": 2,
+          "B": 2,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        0,
+        0
+      ],
+      "flow": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "potential": {
+        "A": 0,
+        "B": 0,
+        "R": 1,
+        "S": 1
+      },
+      "check": {
+        "valid": true,
+        "violations": [],
+        "reduced_costs": [
+          "0",
+          "3",
+          "2",
+          "0"
+        ],
+        "objective": "4"
+      },
+      "independent_optimum": "4",
+      "independently_optimal_flows": [
+        [
+          2,
+          0,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "case": "potential_expires_plan_stable",
+      "model": {
+        "balance": {
+          "A": 2,
+          "B": 2,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        4,
+        0
+      ],
+      "flow": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "potential": {
+        "A": 0,
+        "B": 0,
+        "R": 1,
+        "S": 1
+      },
+      "check": {
+        "valid": false,
+        "violations": [
+          "forward:AS"
+        ],
+        "reduced_costs": [
+          "0",
+          "-1",
+          "2",
+          "0"
+        ],
+        "objective": "4"
+      },
+      "independent_optimum": "4",
+      "independently_optimal_flows": [
+        [
+          2,
+          0,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "case": "repair_potentials_keep_plan",
+      "model": {
+        "balance": {
+          "A": 2,
+          "B": 2,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        4,
+        0
+      ],
+      "flow": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "potential": {
+        "A": 1,
+        "B": 0,
+        "R": 2,
+        "S": 1
+      },
+      "check": {
+        "valid": true,
+        "violations": [],
+        "reduced_costs": [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "objective": "4"
+      },
+      "independent_optimum": "4",
+      "independently_optimal_flows": [
+        [
+          2,
+          0,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "case": "plan_loses_optimality",
+      "model": {
+        "balance": {
+          "A": 2,
+          "B": 2,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        4,
+        2
+      ],
+      "flow": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "potential": {
+        "A": 1,
+        "B": 0,
+        "R": 2,
+        "S": 1
+      },
+      "check": {
+        "valid": false,
+        "violations": [
+          "forward:BR"
+        ],
+        "reduced_costs": [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        "objective": "4"
+      },
+      "independent_optimum": "2",
+      "independently_optimal_flows": [
+        [
+          0,
+          2,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "repair_plan",
+      "model": {
+        "balance": {
+          "A": 2,
+          "B": 2,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        4,
+        2
+      ],
+      "flow": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "potential": {
+        "A": 0,
+        "B": 0,
+        "R": 1,
+        "S": 0
+      },
+      "check": {
+        "valid": true,
+        "violations": [],
+        "reduced_costs": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        "objective": "2"
+      },
+      "independent_optimum": "2",
+      "independently_optimal_flows": [
+        [
+          0,
+          2,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "capacity_change_invalidates",
+      "model": {
+        "balance": {
+          "A": 2,
+          "B": 2,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 1,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        0,
+        0
+      ],
+      "flow": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "potential": {
+        "A": 0,
+        "B": 0,
+        "R": 1,
+        "S": 1
+      },
+      "check": {
+        "valid": false,
+        "violations": [
+          "bound:AR"
+        ],
+        "reduced_costs": [
+          "0",
+          "3",
+          "2",
+          "0"
+        ],
+        "objective": "4"
+      },
+      "independent_optimum": "9",
+      "independently_optimal_flows": [
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "case": "capacity_repair",
+      "model": {
+        "balance": {
+          "A": 2,
+          "B": 2,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 1,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        0,
+        0
+      ],
+      "flow": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "potential": {
+        "A": -3,
+        "B": 0,
+        "R": 3,
+        "S": 1
+      },
+      "check": {
+        "valid": true,
+        "violations": [],
+        "reduced_costs": [
+          "-5",
+          "0",
+          "0",
+          "0"
+        ],
+        "objective": "9"
+      },
+      "independent_optimum": "9",
+      "independently_optimal_flows": [
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "case": "supply_change_invalidates",
+      "model": {
+        "balance": {
+          "A": 3,
+          "B": 1,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        0,
+        0
+      ],
+      "flow": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "potential": {
+        "A": 0,
+        "B": 0,
+        "R": 1,
+        "S": 1
+      },
+      "check": {
+        "valid": false,
+        "violations": [
+          "balance:A",
+          "balance:B"
+        ],
+        "reduced_costs": [
+          "0",
+          "3",
+          "2",
+          "0"
+        ],
+        "objective": "4"
+      },
+      "independent_optimum": "7",
+      "independently_optimal_flows": [
+        [
+          2,
+          1,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "case": "supply_repair",
+      "model": {
+        "balance": {
+          "A": 3,
+          "B": 1,
+          "R": -2,
+          "S": -2
+        },
+        "edges": [
+          {
+            "name": "AR",
+            "tail": "A",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          },
+          {
+            "name": "AS",
+            "tail": "A",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 4,
+            "t": -1,
+            "s": 0
+          },
+          {
+            "name": "BR",
+            "tail": "B",
+            "head": "R",
+            "lower": 0,
+            "upper": 2,
+            "cost": 3,
+            "t": 0,
+            "s": -1
+          },
+          {
+            "name": "BS",
+            "tail": "B",
+            "head": "S",
+            "lower": 0,
+            "upper": 2,
+            "cost": 1,
+            "t": 0,
+            "s": 0
+          }
+        ]
+      },
+      "parameters": [
+        0,
+        0
+      ],
+      "flow": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "potential": {
+        "A": -3,
+        "B": 0,
+        "R": 0,
+        "S": 1
+      },
+      "check": {
+        "valid": true,
+        "violations": [],
+        "reduced_costs": [
+          "-2",
+          "0",
+          "3",
+          "0"
+        ],
+        "objective": "7"
+      },
+      "independent_optimum": "7",
+      "independently_optimal_flows": [
+        [
+          2,
+          1,
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "control": "false_cost",
+      "check": {
+        "valid": false,
+        "violations": [
+          "reverse:AR"
+        ],
+        "reduced_costs": [
+          "10",
+          "3",
+          "2",
+          "0"
+        ],
+        "objective": "24"
+      }
+    },
+    {
+      "control": "false_flow",
+      "check": {
+        "valid": false,
+        "violations": [
+          "balance:B",
+          "balance:S"
+        ],
+        "reduced_costs": [
+          "0",
+          "3",
+          "2",
+          "0"
+        ],
+        "objective": "3"
+      }
+    },
+    {
+      "control": "false_potential",
+      "check": {
+        "valid": false,
+        "violations": [
+          "reverse:AR",
+          "reverse:BS"
+        ],
+        "reduced_costs": [
+          "1",
+          "4",
+          "3",
+          "1"
+        ],
+        "objective": "4"
+      }
+    },
+    {
+      "control": "negative_flow",
+      "check": {
+        "valid": false,
+        "violations": [
+          "bound:AR",
+          "bound:AS",
+          "reverse:AS",
+          "bound:BR",
+          "reverse:BR",
+          "bound:BS"
+        ],
+        "reduced_costs": [
+          "0",
+          "3",
+          "2",
+          "0"
+        ],
+        "objective": "19"
+      }
+    }
+  ],
+  "grid": [
+    {
+      "t": "0",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "3/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "5/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "3",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "7/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "4",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "9/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "0",
+      "s": "5",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "3/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "5/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "3",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "7/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "4",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "9/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1/2",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "1",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "3/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "5/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "3",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "7/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "4",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "1",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "1",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "3/2",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3/2",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3/2",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3/2",
+      "s": "3/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3/2",
+      "s": "2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3/2",
+      "s": "5/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3/2",
+      "s": "3",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3/2",
+      "s": "7/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3/2",
+      "s": "4",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "3/2",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "3/2",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "1"
+    },
+    {
+      "t": "2",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "2",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "2",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "2",
+      "s": "3/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "2",
+      "s": "2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "2",
+      "s": "5/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "2",
+      "s": "3",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "2",
+      "s": "7/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "2",
+      "s": "4",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "2",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "1"
+    },
+    {
+      "t": "2",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "0"
+    },
+    {
+      "t": "5/2",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "5/2",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "5/2",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "5/2",
+      "s": "3/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "5/2",
+      "s": "2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "5/2",
+      "s": "5/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "5/2",
+      "s": "3",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "5/2",
+      "s": "7/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "5/2",
+      "s": "4",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "1"
+    },
+    {
+      "t": "5/2",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "0"
+    },
+    {
+      "t": "5/2",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-1"
+    },
+    {
+      "t": "3",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3",
+      "s": "3/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3",
+      "s": "2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": true,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "3",
+      "s": "5/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "3",
+      "s": "3",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "3",
+      "s": "7/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "1"
+    },
+    {
+      "t": "3",
+      "s": "4",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "0"
+    },
+    {
+      "t": "3",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-1"
+    },
+    {
+      "t": "3",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-2"
+    },
+    {
+      "t": "7/2",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "7/2",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "7/2",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "7/2",
+      "s": "3/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "7/2",
+      "s": "2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "7/2",
+      "s": "5/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "7/2",
+      "s": "3",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "1"
+    },
+    {
+      "t": "7/2",
+      "s": "7/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "0"
+    },
+    {
+      "t": "7/2",
+      "s": "4",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-1"
+    },
+    {
+      "t": "7/2",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-2"
+    },
+    {
+      "t": "7/2",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-3"
+    },
+    {
+      "t": "4",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "4",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "4",
+      "s": "1",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "4",
+      "s": "3/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "4",
+      "s": "2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "4",
+      "s": "5/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "1"
+    },
+    {
+      "t": "4",
+      "s": "3",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "0"
+    },
+    {
+      "t": "4",
+      "s": "7/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-1"
+    },
+    {
+      "t": "4",
+      "s": "4",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-2"
+    },
+    {
+      "t": "4",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-3"
+    },
+    {
+      "t": "4",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-4"
+    },
+    {
+      "t": "9/2",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "9/2",
+      "s": "1/2",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "9/2",
+      "s": "1",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "9/2",
+      "s": "3/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "9/2",
+      "s": "2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "1"
+    },
+    {
+      "t": "9/2",
+      "s": "5/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "0"
+    },
+    {
+      "t": "9/2",
+      "s": "3",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-1"
+    },
+    {
+      "t": "9/2",
+      "s": "7/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-2"
+    },
+    {
+      "t": "9/2",
+      "s": "4",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-3"
+    },
+    {
+      "t": "9/2",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-4"
+    },
+    {
+      "t": "9/2",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-5"
+    },
+    {
+      "t": "5",
+      "s": "0",
+      "diagonal_plan_optimal": true,
+      "initial_potential_applicable": false,
+      "independent_optimum": "4"
+    },
+    {
+      "t": "5",
+      "s": "1/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "3"
+    },
+    {
+      "t": "5",
+      "s": "1",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "2"
+    },
+    {
+      "t": "5",
+      "s": "3/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "1"
+    },
+    {
+      "t": "5",
+      "s": "2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "0"
+    },
+    {
+      "t": "5",
+      "s": "5/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-1"
+    },
+    {
+      "t": "5",
+      "s": "3",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-2"
+    },
+    {
+      "t": "5",
+      "s": "7/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-3"
+    },
+    {
+      "t": "5",
+      "s": "4",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-4"
+    },
+    {
+      "t": "5",
+      "s": "9/2",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-5"
+    },
+    {
+      "t": "5",
+      "s": "5",
+      "diagonal_plan_optimal": false,
+      "initial_potential_applicable": false,
+      "independent_optimum": "-6"
+    }
+  ],
+  "formal_verification": false,
+  "external_proof_format": "none: exact residual-potential algebra plus separate tiny enumeration"
+}

@@ -213,16 +213,12 @@
       "sha256": "5937d2e0a54cb3df2495cbbc686968ccf1031b92117fb6158193db4cdae1199f"
     },
     "README.md": {
-      "bytes": 13267,
-      "sha256": "519e892fd25145993bf43bac9bd5f356529fd3dbcdc0b3a1c119c2540e6a8572"
+      "bytes": 12327,
+      "sha256": "67cd1ef6e3d7ec2a5c842cf93a6d19641abc0c1889f339ef04d9a285fd84ed7a"
     },
     ".github/workflows/verify-research121.yml": {
       "bytes": 911,
       "sha256": "284c9f1e0734142ce637b8eb7aa3aec0c6222a3b27e7cc955a189daa2f9eae82"
-    },
-    "research121/Publication-seal-38c2a01.json": {
-      "bytes": 8998,
-      "sha256": "2b73ed38dea28555f02fc742fa71e78134f650084b26a92cf97abd5474ccc45c"
     }
   },
   "archive": {

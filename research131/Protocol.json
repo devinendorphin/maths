@@ -1,0 +1,32 @@
+{
+  "frozen_utc": "2026-10-09T16:02:28.334768+00:00",
+  "baseline_commit": "38c2a013ab579a430347b925dfec90d8a1020bc3",
+  "questions": {
+    "131": "Recover kernel per-checker lifetime high-water RSS/CPU for unmodified native/VeriPB exits, compare 2ms sampling/no observer; do not call individual peaks a simultaneous tree peak.",
+    "132": "Test two-dimensional affine-objective vertex admission, an omitted rectangle corner, rational boundary observations, and old point-proof binding separately from answer stability."
+  },
+  "hypotheses": {
+    "131": "wait4 supplies child accounting even if polling misses the child; zero/unsupported high-water results remain recorded. Small C launcher limits inherited pre-exec footprint; launch lifetime includes fork/exec.",
+    "132": "All vertices of a declared convex hull suffice for a common feasible optimizer, but three rectangle corners do not certify the fourth. Old point bytes can remain valid for their own problem while failing binding to a changed objective."
+  },
+  "inputs": "131: unchanged archived eval8/eval12 native and CP proof at t=0. 132: three explicit three-item models; no random fitting.",
+  "comparisons": {
+    "131": "two fixtures x two checkers x sampling on/off x three repeats =24 independent workers per directory; cyclic checker/observer order",
+    "132": "three models with explicit triangles/rectangle, candidate mask 1, all endpoint facts checked; fresh point fallback outside admitted hull or after rejected admission"
+  },
+  "limits": {
+    "campaign_wall_seconds": 120,
+    "checker_seconds": 30,
+    "native_source_seconds": 20,
+    "proof_bytes": 1048576,
+    "evidence_bytes": 33554432
+  },
+  "acceptance": "Independent original-model enumeration/proof binding and valid/false-bound replay; every admission/answer/budget/identity field compared in fresh-directory replication, measurements separately. 131 observes actual unmodified exit; no artificial checker hold or global peak claim.",
+  "separate_costs": [
+    "Restoring already verified old fixtures",
+    "SDK installation",
+    "Independent audit",
+    "Packaging"
+  ],
+  "scope": "Closing a specified small map, not claiming complete theory, scalability, formal Python verification or independent SDK installation."
+}

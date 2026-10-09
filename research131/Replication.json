@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "records_compared": 28,
+  "logical_fields_excluded": [],
+  "compared": "All stage/repeat/logical fields, original two-parameter models, encoded coefficients, primal witnesses, proof/formula hashes and admission/fallback decisions",
+  "excluded": {
+    "measurements": "Kernel lifetime memory/CPU, parent RSS, sampled process counts/RSS and total CPU/wall are measurements. All retained separately."
+  },
+  "shared": [
+    "External SDK and frozen archived memory fixtures"
+  ],
+  "fresh": [
+    "All 24 checker-memory workers and all three new two-parameter scenarios, proof production and audits",
+    "One separately frozen rank-two scenario, newly produced proof identities and independent audit"
+  ],
+  "original_records_compared": 27,
+  "separate_rank_two_scenarios_compared": 1
+}

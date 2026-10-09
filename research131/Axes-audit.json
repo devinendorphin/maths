@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rank_two_objective": true,
+  "original_query_checks": 12,
+  "encoded_answer_checks": 11,
+  "bindings": 11,
+  "distinct_valid_proofs": 11,
+  "false_bounds_rejected": 11,
+  "supplement": true
+}

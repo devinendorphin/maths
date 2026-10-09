@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-09T21:31:05.521534+00:00",
+  "reason": "Original three designed cases are stable/collinear/aggregate controls, not evidence of two independent effective priorities. Preserve them and add one explicitly rank-two control.",
+  "hypothesis": "Candidate item 0 is optimal on t<=3/2,s<=3/2, while vertex admission on the frozen triangle only covers t+s<=3/2; independently changed feasible alternatives show genuine two-dimensional variation.",
+  "limits": "One three-item model, three vertex certificates and twelve rational observations, same native 20s source/1MiB proof/checker caps",
+  "acceptance": "Independent exact objective/binding audit, external valid/false proof replay and exact fresh replication",
+  "files": {
+    "Axes-input.json": "8b148a08f7113a49e0196112800573c776042a8ea746036eadfda526d45eec4a",
+    "code/independent_axes.py": "09ebaf0ab71096fb3d29391bd360b9d24dad13917557fb3dc6f41a84a09ae5ea",
+    "code/audit_axes.py": "a864cb3d125cbe593ad882a14a4a4eb7cbe3712e9ef52124d62cce493153b89c"
+  }
+}

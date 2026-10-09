@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/networkx/networkx/networkx-3.4.2/networkx/algorithms/flow/networksimplex.py",
+  "tag": "networkx-3.4.2",
+  "bytes": 25185,
+  "sha256": "df6b9eb686568feffb28f3b6389a6eb4fd05a53aec43fa89c67b42f17c4856bd",
+  "inspection": "reduced_cost, entering edge selection/optimality and primary references",
+  "full_papers_read": false
+}

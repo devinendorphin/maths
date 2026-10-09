@@ -1,0 +1,24 @@
+{
+  "path": "archives/experiments-131-132-complete.tar.xz",
+  "bytes": 171376,
+  "sha256": "127f7e2497bbdc84d4e032508dca4a98fdcce33f5b03700b58bb07e81b93b2d4",
+  "members": 342,
+  "uncompressed_bytes": 2660641,
+  "executable_members": [
+    "primary/code/wait_account",
+    "primary/dependencies/research86/dependencies/vipr/viprchk",
+    "replica/code/wait_account",
+    "replica/dependencies/research86/dependencies/vipr/viprchk",
+    "reports/code/wait_account"
+  ],
+  "excluded": [
+    "Large external SDK installations",
+    "Python bytecode",
+    "Results-progress.json (redundant rolling copy of final Results.json)"
+  ],
+  "roots": [
+    "primary",
+    "replica",
+    "reports"
+  ]
+}

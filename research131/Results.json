@@ -1,0 +1,3741 @@
+[
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 0,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0005720069999999994,
+        "child_cpu": 0.012649,
+        "cpu": 0.013221007,
+        "wall": 0.01368441099998563
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2176,
+        "launcher_maxrss_kib": 15996,
+        "child_cpu": 0.011469
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 0
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 0,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0023742800000000064,
+        "child_cpu": 0.003346,
+        "cpu": 0.005720280000000006,
+        "wall": 0.0041231789999756074
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2176,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.002172
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 16708,
+        "max_processes": 2,
+        "max_positive_processes": 2,
+        "samples": 1,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 0
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 1,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "8a66dc63e1b77be94cddb764c3d45bbb3bd2a05df5858c2f5e7946c3a268374a",
+      "formula_sha256": "5703ce53edad032142c8df46b8663334c0c996b811a6ea1d5697faaab498021f"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0005434139999999921,
+        "child_cpu": 0.127548,
+        "cpu": 0.128091414,
+        "wall": 0.1279924509999546
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19576,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.126326
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 0
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 1,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "8a66dc63e1b77be94cddb764c3d45bbb3bd2a05df5858c2f5e7946c3a268374a",
+      "formula_sha256": "5703ce53edad032142c8df46b8663334c0c996b811a6ea1d5697faaab498021f"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.021033769000000008,
+        "child_cpu": 0.110719,
+        "cpu": 0.131752769,
+        "wall": 0.11174743900005524
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19576,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.109587
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 36320,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 45,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 0
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 2,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "1deac40be24b091a484c45b98da6a8c3d46e1ac57df25968d5eb28483fc30044",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0004366960000000003,
+        "child_cpu": 0.0064069999999999995,
+        "cpu": 0.006843696,
+        "wall": 0.0067305160000614705
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2304,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.005154
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 0
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 2,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "1deac40be24b091a484c45b98da6a8c3d46e1ac57df25968d5eb28483fc30044",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0025766730000000015,
+        "child_cpu": 0.006216,
+        "cpu": 0.008792673,
+        "wall": 0.006799110999963887
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2304,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.00485
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 18932,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 3,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 0
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 3,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "b68b45843977afe3e8650a2841d6e2e130ed423018a7af68c805ce503ea8b063",
+      "formula_sha256": "57098434fe7079c0a851c5cfc4c00ba5ba4f13fb1b2071c55c4867727ba99172"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0005045369999999993,
+        "child_cpu": 0.154183,
+        "cpu": 0.15468753699999999,
+        "wall": 0.15462888499996552
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19576,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.152813
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 0
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 3,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "b68b45843977afe3e8650a2841d6e2e130ed423018a7af68c805ce503ea8b063",
+      "formula_sha256": "57098434fe7079c0a851c5cfc4c00ba5ba4f13fb1b2071c55c4867727ba99172"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.02766818,
+        "child_cpu": 0.14920699999999998,
+        "cpu": 0.17687517999999997,
+        "wall": 0.14992860999996083
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19704,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.148241
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 36428,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 60,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 0
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 0,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0018337019999999996,
+        "child_cpu": 0.003127,
+        "cpu": 0.004960701999999999,
+        "wall": 0.003923536999991484
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2176,
+        "launcher_maxrss_kib": 15996,
+        "child_cpu": 0.002053
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 16524,
+        "max_processes": 2,
+        "max_positive_processes": 2,
+        "samples": 2,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 1
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 1,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "8a66dc63e1b77be94cddb764c3d45bbb3bd2a05df5858c2f5e7946c3a268374a",
+      "formula_sha256": "5703ce53edad032142c8df46b8663334c0c996b811a6ea1d5697faaab498021f"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0005506939999999974,
+        "child_cpu": 0.111373,
+        "cpu": 0.11192369399999999,
+        "wall": 0.11188043699996797
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19576,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.11011
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 1
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 1,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "8a66dc63e1b77be94cddb764c3d45bbb3bd2a05df5858c2f5e7946c3a268374a",
+      "formula_sha256": "5703ce53edad032142c8df46b8663334c0c996b811a6ea1d5697faaab498021f"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.021641846,
+        "child_cpu": 0.11642899999999999,
+        "cpu": 0.138070846,
+        "wall": 0.11713730799999666
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19576,
+        "launcher_maxrss_kib": 15996,
+        "child_cpu": 0.115583
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 36392,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 47,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 1
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 2,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "1deac40be24b091a484c45b98da6a8c3d46e1ac57df25968d5eb28483fc30044",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.00042526899999999895,
+        "child_cpu": 0.005829,
+        "cpu": 0.006254268999999999,
+        "wall": 0.0061344260000169015
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2304,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.004974
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 1
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 2,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "1deac40be24b091a484c45b98da6a8c3d46e1ac57df25968d5eb28483fc30044",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0032153299999999954,
+        "child_cpu": 0.006122,
+        "cpu": 0.009337329999999994,
+        "wall": 0.0072475469999062625
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2304,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.004942
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 18948,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 3,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 1
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 3,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "b68b45843977afe3e8650a2841d6e2e130ed423018a7af68c805ce503ea8b063",
+      "formula_sha256": "57098434fe7079c0a851c5cfc4c00ba5ba4f13fb1b2071c55c4867727ba99172"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0005275610000000028,
+        "child_cpu": 0.15928599999999998,
+        "cpu": 0.159813561,
+        "wall": 0.15970957399997587
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19572,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.158266
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 1
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 3,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "b68b45843977afe3e8650a2841d6e2e130ed423018a7af68c805ce503ea8b063",
+      "formula_sha256": "57098434fe7079c0a851c5cfc4c00ba5ba4f13fb1b2071c55c4867727ba99172"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.028077896000000005,
+        "child_cpu": 0.151582,
+        "cpu": 0.17965989599999999,
+        "wall": 0.15255814100009957
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19572,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.150441
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 36308,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 61,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 1
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 0,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0003618060000000062,
+        "child_cpu": 0.003091,
+        "cpu": 0.003452806000000006,
+        "wall": 0.00332738600002358
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2176,
+        "launcher_maxrss_kib": 15996,
+        "child_cpu": 0.002112
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 1
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 1,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "8a66dc63e1b77be94cddb764c3d45bbb3bd2a05df5858c2f5e7946c3a268374a",
+      "formula_sha256": "5703ce53edad032142c8df46b8663334c0c996b811a6ea1d5697faaab498021f"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.000558887000000001,
+        "child_cpu": 0.112021,
+        "cpu": 0.11257988699999999,
+        "wall": 0.11251860099991973
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19572,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.110459
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 2
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 1,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "8a66dc63e1b77be94cddb764c3d45bbb3bd2a05df5858c2f5e7946c3a268374a",
+      "formula_sha256": "5703ce53edad032142c8df46b8663334c0c996b811a6ea1d5697faaab498021f"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.021934904000000005,
+        "child_cpu": 0.11436099999999999,
+        "cpu": 0.136295904,
+        "wall": 0.11504869300006249
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19572,
+        "launcher_maxrss_kib": 15996,
+        "child_cpu": 0.113091
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 36316,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 46,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 2
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 2,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "1deac40be24b091a484c45b98da6a8c3d46e1ac57df25968d5eb28483fc30044",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.00041628500000000235,
+        "child_cpu": 0.0062239999999999995,
+        "cpu": 0.006640285000000002,
+        "wall": 0.006501189999994494
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2304,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.00505
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 2
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 2,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "1deac40be24b091a484c45b98da6a8c3d46e1ac57df25968d5eb28483fc30044",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0029082299999999978,
+        "child_cpu": 0.006019999999999999,
+        "cpu": 0.008928229999999997,
+        "wall": 0.0069761070000140535
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2304,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.004898
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 18932,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 3,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 2
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 3,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "b68b45843977afe3e8650a2841d6e2e130ed423018a7af68c805ce503ea8b063",
+      "formula_sha256": "57098434fe7079c0a851c5cfc4c00ba5ba4f13fb1b2071c55c4867727ba99172"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.000529782999999999,
+        "child_cpu": 0.153586,
+        "cpu": 0.154115783,
+        "wall": 0.15397821599992767
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19576,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.152213
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 2
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 3,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "b68b45843977afe3e8650a2841d6e2e130ed423018a7af68c805ce503ea8b063",
+      "formula_sha256": "57098434fe7079c0a851c5cfc4c00ba5ba4f13fb1b2071c55c4867727ba99172"
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.02993235899999999,
+        "child_cpu": 0.152197,
+        "cpu": 0.182129359,
+        "wall": 0.15291199599994343
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 19576,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.150914
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 36376,
+        "max_processes": 3,
+        "max_positive_processes": 3,
+        "samples": 60,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 2
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 0,
+      "observer": false,
+      "accepted": true,
+      "proof_sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.0004016250000000027,
+        "child_cpu": 0.003228,
+        "cpu": 0.0036296250000000026,
+        "wall": 0.003494268000054035
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2176,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.002106
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": null
+    },
+    "repeat": 2
+  },
+  {
+    "stage": 131,
+    "logical": {
+      "fixture": 0,
+      "observer": true,
+      "accepted": true,
+      "proof_sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b",
+      "formula_sha256": null
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.002532085999999996,
+        "child_cpu": 0.0033269999999999997,
+        "cpu": 0.005859085999999996,
+        "wall": 0.004536992999987888
+      },
+      "kernel_child": {
+        "exit": 0,
+        "child_maxrss_kib": 2176,
+        "launcher_maxrss_kib": 16000,
+        "child_cpu": 0.002207
+      },
+      "parent_lifetime_maxrss_kib": 46400,
+      "sampling": {
+        "observed_peak_tree_rss_kib": 16708,
+        "max_processes": 2,
+        "max_positive_processes": 2,
+        "samples": 2,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    "repeat": 2
+  },
+  {
+    "stage": 132,
+    "repeat": 0,
+    "logical": {
+      "row": {
+        "case_id": "stable",
+        "weights": [
+          1,
+          1,
+          2
+        ],
+        "capacity": 1,
+        "profits": [
+          10,
+          0,
+          -1
+        ],
+        "v": [
+          0,
+          1,
+          0
+        ],
+        "u": [
+          0,
+          0,
+          1
+        ],
+        "vertices": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        ],
+        "n": 3,
+        "candidate": 1,
+        "queries": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              1499,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1501,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ]
+      },
+      "vertices": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        }
+      ],
+      "admitted": true,
+      "partial_admitted": true,
+      "partial_vertices": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "outputs": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              1499,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1501,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            10,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        }
+      ],
+      "facts": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              10,
+              0,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "f8a3f6255a44d8d63a68152e93191c3c94887f53c4d448e5e7e48d5269e12058",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 10,
+            "proof_sha256": "fe4c7dd5df959b198f8932934a2bb00c7acc2e2e7e63d5f1227e8ab9a9208676",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/fe4c7dd5df959b198f8932934a2bb00c7acc2e2e7e63d5f1227e8ab9a9208676.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              10,
+              2,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "ba21134a35ed357d90552eba7b7b8f2ec7d63f01557dd819b0464d03c9293b3a",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 10,
+            "proof_sha256": "9ad71ba6f3eb17cc17ea388fc455b26067937c8b09434738ec211462e83db043",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/9ad71ba6f3eb17cc17ea388fc455b26067937c8b09434738ec211462e83db043.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              10,
+              0,
+              1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "4288a0b39ebd4dc18cad921ec20ebe5332ca6a840e7a87319012a17940aaee13",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 10,
+            "proof_sha256": "3d0f1ad46a9d8eab9b1cd5181a9a719b71f62e331fa3c11e39f70b97d3d28eea",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/3d0f1ad46a9d8eab9b1cd5181a9a719b71f62e331fa3c11e39f70b97d3d28eea.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              10,
+              1,
+              1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "7a6c73ba91849750670fd16ffb91109f5d79e1775d7419415bd78e0f1634c1e1",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 10,
+            "proof_sha256": "d81d2db3397283cb2ea06421e94dca5337e4f0e974f1c074d7ed7c7f68ccba0a",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/d81d2db3397283cb2ea06421e94dca5337e4f0e974f1c074d7ed7c7f68ccba0a.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              10,
+              2,
+              0
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "046d06ff197e9da12b92257cf823d8aee665c9ff5eabc7535e00ed3706afc09d",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 10,
+            "proof_sha256": "c650e5258f9418f6d502c2d063f1ed399438c65db4e683937f9951b0f73f4e05",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/c650e5258f9418f6d502c2d063f1ed399438c65db4e683937f9951b0f73f4e05.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              10,
+              2,
+              1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "45691ad1872062f7f3e8ca414184305b82d4879e2167357aee50b95c2e2a7a95",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 10,
+            "proof_sha256": "e0a1fc7ee328ac93e7a7a348fb4c9caa39b464f2dd711fb7d0184a3b39629994",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/e0a1fc7ee328ac93e7a7a348fb4c9caa39b464f2dd711fb7d0184a3b39629994.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "scale": 2,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              20,
+              3,
+              1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "e9104b393d3fec82dbd40c5f14fcb2fc3b9c4d2c68581611152c51fbb1164a56",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 20,
+            "proof_sha256": "13effd657d37357a278aaf6d8f745d70a2de091984da4d9c42aa6eca849fed4b",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/13effd657d37357a278aaf6d8f745d70a2de091984da4d9c42aa6eca849fed4b.vipr"
+          }
+        }
+      ],
+      "old_point_binding_at_1_0": false,
+      "old_point_proof_valid_for_original": true,
+      "candidate_stable_at_1_0": true
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.006981080000000028,
+        "child_cpu": 0.012328999999999812,
+        "cpu": 0.019310079999999896,
+        "wall": 0.018423057999939374
+      }
+    }
+  },
+  {
+    "stage": 132,
+    "repeat": 0,
+    "logical": {
+      "row": {
+        "case_id": "crossing",
+        "weights": [
+          1,
+          1,
+          2
+        ],
+        "capacity": 1,
+        "profits": [
+          3,
+          0,
+          -1
+        ],
+        "v": [
+          0,
+          2,
+          0
+        ],
+        "u": [
+          0,
+          1,
+          0
+        ],
+        "vertices": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        ],
+        "n": 3,
+        "candidate": 1,
+        "queries": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              1499,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1501,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ]
+      },
+      "vertices": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        },
+        {
+          "parameter": [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        }
+      ],
+      "admitted": true,
+      "partial_admitted": true,
+      "partial_vertices": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      ],
+      "outputs": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 2,
+          "value": [
+            4,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 2,
+          "value": [
+            4,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 2,
+          "value": [
+            5,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 2,
+          "value": [
+            6,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "packing": 2,
+          "value": [
+            9,
+            2
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              1499,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": true,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1501,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 2,
+          "value": [
+            1501,
+            500
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        }
+      ],
+      "facts": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              0,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "28d9e4b3ae8cf939c9dcc6d588bc62584b3e2a5ced45fa52b946aa46aa489f81",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "475cdaf7c2ed7cbc907ff60f2cbff8c9d5e28f8aa3bc143fdac9bdd4e296e0f0",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/475cdaf7c2ed7cbc907ff60f2cbff8c9d5e28f8aa3bc143fdac9bdd4e296e0f0.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 2,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              6,
+              6,
+              -2
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "8fd5eca6069d1d480347be6738b3f36876012f0254356f2df086597a8628f345",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 6,
+            "proof_sha256": "8569cd698a7ed854b9032d309d77e154a43aa29f02ee8cd075dd8584260875b1",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/8569cd698a7ed854b9032d309d77e154a43aa29f02ee8cd075dd8584260875b1.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              3,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "1133a8533c88b281f8e6bc14948d2c4dc171041b959214c5bf94a03b9d051580",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "8c8b57e809085d954c1b80d67b45d6324e99d699843276e08c608aa121415676",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/8c8b57e809085d954c1b80d67b45d6324e99d699843276e08c608aa121415676.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              4,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "2665e5e41d1e0c16954966efc4cbcd14eb47086f963cada96ebc3483960b5d0f",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 2,
+            "objective": 4,
+            "proof_sha256": "59b2cfe2504bc1b004fd0ffea70b277f339077d3771e831becaecf5f7f7c2a41",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/59b2cfe2504bc1b004fd0ffea70b277f339077d3771e831becaecf5f7f7c2a41.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              4,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "2665e5e41d1e0c16954966efc4cbcd14eb47086f963cada96ebc3483960b5d0f",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 2,
+            "objective": 4,
+            "proof_sha256": "59b2cfe2504bc1b004fd0ffea70b277f339077d3771e831becaecf5f7f7c2a41",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/59b2cfe2504bc1b004fd0ffea70b277f339077d3771e831becaecf5f7f7c2a41.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              5,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "ece1c53f82b5af9c43ec35a666bb4c6fcbb48251d15979aa0d6d7ab1c91dec73",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 2,
+            "objective": 5,
+            "proof_sha256": "8e46fb895bd345787b28fe0199ff994d864991a0a5bde66eb7ff4b59aa5667da",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/8e46fb895bd345787b28fe0199ff994d864991a0a5bde66eb7ff4b59aa5667da.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              6,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "8b1460350d8c752dbd24d4a6f69020cd35d67878fe6c026c98ebd959f488507e",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 2,
+            "objective": 6,
+            "proof_sha256": "61b859a8a4705642af62b402d2f55f9a0fce3a14293de99040716cd3e354248d",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/61b859a8a4705642af62b402d2f55f9a0fce3a14293de99040716cd3e354248d.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "scale": 2,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              6,
+              9,
+              -2
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "9c0d91371db6194d3b51fcf2b22280bfa99debeffb53164fc161bdb201334089",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 2,
+            "objective": 9,
+            "proof_sha256": "67feb914035427dd435fd95363cfeae14070dade33f45e088abc7c35958e8c21",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/67feb914035427dd435fd95363cfeae14070dade33f45e088abc7c35958e8c21.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              1501,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1000,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3000,
+              3002,
+              -1000
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "6982e7696ffa4a308814507afc915e7bdb39c9138ff96b00f8c114412863125f",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 2,
+            "objective": 3002,
+            "proof_sha256": "37259fc1dfbbee0741309e73aea7f8a2d643ebab58639f17fd61c08bd24ff4d2",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/37259fc1dfbbee0741309e73aea7f8a2d643ebab58639f17fd61c08bd24ff4d2.vipr"
+          }
+        }
+      ],
+      "old_point_binding_at_1_0": false,
+      "old_point_proof_valid_for_original": true,
+      "candidate_stable_at_1_0": true
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.007453176000000006,
+        "child_cpu": 0.01626700000000003,
+        "cpu": 0.02372017599999987,
+        "wall": 0.02274440600001526
+      }
+    }
+  },
+  {
+    "stage": 132,
+    "repeat": 0,
+    "logical": {
+      "row": {
+        "case_id": "corner-trap",
+        "weights": [
+          1,
+          1,
+          2
+        ],
+        "capacity": 1,
+        "profits": [
+          3,
+          0,
+          -1
+        ],
+        "v": [
+          0,
+          1,
+          0
+        ],
+        "u": [
+          0,
+          1,
+          0
+        ],
+        "vertices": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        ],
+        "n": 3,
+        "candidate": 1,
+        "queries": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              1499,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1501,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ]
+      },
+      "vertices": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "candidate_optimal": true
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "candidate_optimal": false
+        }
+      ],
+      "admitted": false,
+      "partial_admitted": true,
+      "partial_vertices": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "outputs": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "packing": 2,
+          "value": [
+            4,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": false
+        },
+        {
+          "parameter": [
+            [
+              1499,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": true
+        },
+        {
+          "parameter": [
+            [
+              1501,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "packing": 1,
+          "value": [
+            3,
+            1
+          ],
+          "reused": false,
+          "partial_hull_applicable": true
+        }
+      ],
+      "facts": [
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              0,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "28d9e4b3ae8cf939c9dcc6d588bc62584b3e2a5ced45fa52b946aa46aa489f81",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "475cdaf7c2ed7cbc907ff60f2cbff8c9d5e28f8aa3bc143fdac9bdd4e296e0f0",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/475cdaf7c2ed7cbc907ff60f2cbff8c9d5e28f8aa3bc143fdac9bdd4e296e0f0.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              2,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "874e0188e820839c3209328ac4519824835d9c8001197d5bd9316de2dc5aad49",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              2,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "874e0188e820839c3209328ac4519824835d9c8001197d5bd9316de2dc5aad49",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              4,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "2665e5e41d1e0c16954966efc4cbcd14eb47086f963cada96ebc3483960b5d0f",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 2,
+            "objective": 4,
+            "proof_sha256": "59b2cfe2504bc1b004fd0ffea70b277f339077d3771e831becaecf5f7f7c2a41",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/59b2cfe2504bc1b004fd0ffea70b277f339077d3771e831becaecf5f7f7c2a41.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              0,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "28d9e4b3ae8cf939c9dcc6d588bc62584b3e2a5ced45fa52b946aa46aa489f81",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "475cdaf7c2ed7cbc907ff60f2cbff8c9d5e28f8aa3bc143fdac9bdd4e296e0f0",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/475cdaf7c2ed7cbc907ff60f2cbff8c9d5e28f8aa3bc143fdac9bdd4e296e0f0.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              1,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "812f0e4cb249b35454938cf0ca8a7146aff01b440717c158c8c74d85c2d2d1d4",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "8fc5b31c5ae73d310cc245ebf8b8c2fe8913fcff8231e8654fb055d5c0881bd5",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/8fc5b31c5ae73d310cc245ebf8b8c2fe8913fcff8231e8654fb055d5c0881bd5.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              2,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "874e0188e820839c3209328ac4519824835d9c8001197d5bd9316de2dc5aad49",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              1,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "812f0e4cb249b35454938cf0ca8a7146aff01b440717c158c8c74d85c2d2d1d4",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "8fc5b31c5ae73d310cc245ebf8b8c2fe8913fcff8231e8654fb055d5c0881bd5",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/8fc5b31c5ae73d310cc245ebf8b8c2fe8913fcff8231e8654fb055d5c0881bd5.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              2,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "874e0188e820839c3209328ac4519824835d9c8001197d5bd9316de2dc5aad49",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              3,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "1133a8533c88b281f8e6bc14948d2c4dc171041b959214c5bf94a03b9d051580",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "8c8b57e809085d954c1b80d67b45d6324e99d699843276e08c608aa121415676",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/8c8b57e809085d954c1b80d67b45d6324e99d699843276e08c608aa121415676.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              2,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "874e0188e820839c3209328ac4519824835d9c8001197d5bd9316de2dc5aad49",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/e944a83c36985dd7c72050ea6a81794f55d654f98f6085124d725ec4a7a9ab94.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              3,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "1133a8533c88b281f8e6bc14948d2c4dc171041b959214c5bf94a03b9d051580",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3,
+            "proof_sha256": "8c8b57e809085d954c1b80d67b45d6324e99d699843276e08c608aa121415676",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/8c8b57e809085d954c1b80d67b45d6324e99d699843276e08c608aa121415676.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scale": 1,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3,
+              4,
+              -1
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "2665e5e41d1e0c16954966efc4cbcd14eb47086f963cada96ebc3483960b5d0f",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 2,
+            "objective": 4,
+            "proof_sha256": "59b2cfe2504bc1b004fd0ffea70b277f339077d3771e831becaecf5f7f7c2a41",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/59b2cfe2504bc1b004fd0ffea70b277f339077d3771e831becaecf5f7f7c2a41.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "scale": 2,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              6,
+              6,
+              -2
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "8fd5eca6069d1d480347be6738b3f36876012f0254356f2df086597a8628f345",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 6,
+            "proof_sha256": "8569cd698a7ed854b9032d309d77e154a43aa29f02ee8cd075dd8584260875b1",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/8569cd698a7ed854b9032d309d77e154a43aa29f02ee8cd075dd8584260875b1.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              1499,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1000,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3000,
+              1499,
+              -1000
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "d40f79556d6cb737053977d87fa0d984e85cdb8127374050022557942924355a",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3000,
+            "proof_sha256": "53e06e11dfdd15fc976e8592690d2f8bf209ff6e1c74898ffe316c7782ee6bab",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/53e06e11dfdd15fc976e8592690d2f8bf209ff6e1c74898ffe316c7782ee6bab.vipr"
+          }
+        },
+        {
+          "parameter": [
+            [
+              1501,
+              1000
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "scale": 1000,
+          "encoded_row": {
+            "n": 3,
+            "weights": [
+              1,
+              1,
+              2
+            ],
+            "capacity": 1,
+            "profits": [
+              3000,
+              1501,
+              -1000
+            ],
+            "slopes": [
+              0,
+              0,
+              0
+            ],
+            "end": 1
+          },
+          "fact": {
+            "model": "90e6acb8da761c292315795c51666db4c00224dce55c5e641763452d6fca3897",
+            "epoch": "two-parameter-original-model-binding",
+            "time": [
+              0,
+              1
+            ],
+            "packing": 1,
+            "objective": 3000,
+            "proof_sha256": "065afa00c8f88b26c97e7fe4fe669529abad11bcf22d7f93bd1ef57a1d20a311",
+            "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+            "path": "evidence/vipr/065afa00c8f88b26c97e7fe4fe669529abad11bcf22d7f93bd1ef57a1d20a311.vipr"
+          }
+        }
+      ],
+      "old_point_binding_at_1_0": false,
+      "old_point_proof_valid_for_original": true,
+      "candidate_stable_at_1_0": true
+    },
+    "measurements": {
+      "total": {
+        "parent_cpu": 0.012762143999999975,
+        "child_cpu": 0.02875199999999989,
+        "cpu": 0.04151414399999975,
+        "wall": 0.0397244949999731
+      }
+    }
+  }
+]

@@ -1,0 +1,920 @@
+{
+  "stage": 132,
+  "logical": {
+    "row": {
+      "case_id": "independent-axes",
+      "n": 3,
+      "weights": [
+        1,
+        1,
+        1
+      ],
+      "capacity": 1,
+      "profits": [
+        3,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        2,
+        0
+      ],
+      "u": [
+        0,
+        0,
+        2
+      ],
+      "candidate": 1,
+      "vertices": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ],
+      "queries": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            1499,
+            1000
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1501,
+            1000
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1501,
+            1000
+          ]
+        ]
+      ]
+    },
+    "admitted": true,
+    "facts": [
+      {
+        "parameter": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "scale": 1,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3,
+            0,
+            0
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "834c80ea9d50f1adbef1e71ef63b58e1ddb89ddf301354f8e6905c6fae364743",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 1,
+          "objective": 3,
+          "proof_sha256": "79eda4e9ad11ee627988bb40ba2f46fb3d3d198462d6d3af21658223c3d23a91",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/79eda4e9ad11ee627988bb40ba2f46fb3d3d198462d6d3af21658223c3d23a91.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "scale": 2,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            6,
+            6,
+            0
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "7ce4ef1b63d05b5ac5d592980a223db437c0125d527c9b79ae4119baee615908",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 1,
+          "objective": 6,
+          "proof_sha256": "5b34dccbdde9dde0756f24ec09af575a5175d21b638d430a82bfce03aa6fc96d",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/5b34dccbdde9dde0756f24ec09af575a5175d21b638d430a82bfce03aa6fc96d.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "scale": 2,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            6,
+            0,
+            6
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "5684f716e709ea4f6383d7db739c5dcf2f2561f2437dd8e35f4469e1a420fbb6",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 1,
+          "objective": 6,
+          "proof_sha256": "7f521f582f1e4f619ab542a49f62de08ea178dd954936b603e29ea46bead6dc4",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/7f521f582f1e4f619ab542a49f62de08ea178dd954936b603e29ea46bead6dc4.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "scale": 1,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3,
+            0,
+            4
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "93e262037cef019e742181e1b162e217261067b2a45d6f49c9a11596bb18ce00",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 4,
+          "objective": 4,
+          "proof_sha256": "81044e2d78f2820d2a7fdd2e24b890d57a614df836377c2a24a02edf9cd4e9ec",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/81044e2d78f2820d2a7fdd2e24b890d57a614df836377c2a24a02edf9cd4e9ec.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "scale": 1,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3,
+            2,
+            2
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "89377a024be0fdd6cf6355a29d9e1a2712367ae47a53bc7935db8d5808698ccc",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 1,
+          "objective": 3,
+          "proof_sha256": "33586c475c9e7c20f1725e38c16e57f159b5349486db535071b16f2d4ff85955",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/33586c475c9e7c20f1725e38c16e57f159b5349486db535071b16f2d4ff85955.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "scale": 1,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3,
+            2,
+            4
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "a72ab508c1a0db86e2f82c3034605408545916082a0313e56df22fc6c68a1e6e",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 4,
+          "objective": 4,
+          "proof_sha256": "f4d83518d13bc6b286c8dbde22791fffde4081d07a5702ba91da5ccb610737b8",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/f4d83518d13bc6b286c8dbde22791fffde4081d07a5702ba91da5ccb610737b8.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "scale": 1,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3,
+            4,
+            0
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "03841b3ec65c06d31836579ac8204f4702640d06e6d1ba9f4e53b1df6964167e",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 2,
+          "objective": 4,
+          "proof_sha256": "562545a9164bb8f15b6f7d6582ba6935dcf1ec7965560b5a42690a01b85b086d",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/562545a9164bb8f15b6f7d6582ba6935dcf1ec7965560b5a42690a01b85b086d.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "scale": 1,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3,
+            4,
+            2
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "07af336b41684246933263173e636c0bfff56899f609fd1137d5e42813ab4ca2",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 2,
+          "objective": 4,
+          "proof_sha256": "67e348e19e57ed556ed83a116a6f66fa05844427a82b139c07699e1b198dc0f3",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/67e348e19e57ed556ed83a116a6f66fa05844427a82b139c07699e1b198dc0f3.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "scale": 1,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3,
+            4,
+            4
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "f06ec7ca46cda6dc4eb79360d0e8e8541565d16b8fae48607e94fa192e756f8b",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 2,
+          "objective": 4,
+          "proof_sha256": "635a3c6d4a73d3a4154e9d964a6f47416c56de9bcd0a492bd0426cfdd41fa5eb",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/635a3c6d4a73d3a4154e9d964a6f47416c56de9bcd0a492bd0426cfdd41fa5eb.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            1501,
+            1000
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "scale": 1000,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3000,
+            3002,
+            0
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "8109f37d7cfaaac7af12f7483649f803efccb7c8fd6367130d62199b7fccdaf1",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 2,
+          "objective": 3002,
+          "proof_sha256": "261d2fb584e5dcd7915e21e36ca0ad6df74e423e280653c283541a560c6fbe86",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/261d2fb584e5dcd7915e21e36ca0ad6df74e423e280653c283541a560c6fbe86.vipr"
+        }
+      },
+      {
+        "parameter": [
+          [
+            0,
+            1
+          ],
+          [
+            1501,
+            1000
+          ]
+        ],
+        "scale": 1000,
+        "encoded_row": {
+          "n": 3,
+          "weights": [
+            1,
+            1,
+            1
+          ],
+          "capacity": 1,
+          "profits": [
+            3000,
+            0,
+            3002
+          ],
+          "slopes": [
+            0,
+            0,
+            0
+          ],
+          "end": 1
+        },
+        "fact": {
+          "model": "d4506a22bdccf59f6d1905cf96311b842e6b5c3aa5c4cbf112d53e1c38378521",
+          "epoch": "two-parameter-original-model-binding",
+          "time": [
+            0,
+            1
+          ],
+          "packing": 4,
+          "objective": 3002,
+          "proof_sha256": "62645a07e0755a4e6ad55d35b38716d55f47e2fd5b5a9d13a06ec30311d2a342",
+          "checker_sha256": "eaa377b56340ead5c07515f65bfec3ff1986f1e806cca5a02540c54dca601677",
+          "path": "evidence/vipr/62645a07e0755a4e6ad55d35b38716d55f47e2fd5b5a9d13a06ec30311d2a342.vipr"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "parameter": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "packing": 1,
+        "value": [
+          3,
+          1
+        ],
+        "reused": true
+      },
+      {
+        "parameter": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "packing": 1,
+        "value": [
+          3,
+          1
+        ],
+        "reused": true
+      },
+      {
+        "parameter": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "packing": 4,
+        "value": [
+          4,
+          1
+        ],
+        "reused": false
+      },
+      {
+        "parameter": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "packing": 1,
+        "value": [
+          3,
+          1
+        ],
+        "reused": true
+      },
+      {
+        "parameter": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "packing": 1,
+        "value": [
+          3,
+          1
+        ],
+        "reused": false
+      },
+      {
+        "parameter": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "packing": 4,
+        "value": [
+          4,
+          1
+        ],
+        "reused": false
+      },
+      {
+        "parameter": [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "packing": 2,
+        "value": [
+          4,
+          1
+        ],
+        "reused": false
+      },
+      {
+        "parameter": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "packing": 2,
+        "value": [
+          4,
+          1
+        ],
+        "reused": false
+      },
+      {
+        "parameter": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "packing": 2,
+        "value": [
+          4,
+          1
+        ],
+        "reused": false
+      },
+      {
+        "parameter": [
+          [
+            1499,
+            1000
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "packing": 1,
+        "value": [
+          3,
+          1
+        ],
+        "reused": true
+      },
+      {
+        "parameter": [
+          [
+            1501,
+            1000
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "packing": 2,
+        "value": [
+          1501,
+          500
+        ],
+        "reused": false
+      },
+      {
+        "parameter": [
+          [
+            0,
+            1
+          ],
+          [
+            1501,
+            1000
+          ]
+        ],
+        "packing": 4,
+        "value": [
+          1501,
+          500
+        ],
+        "reused": false
+      }
+    ]
+  },
+  "measurements": {
+    "total": {
+      "parent_cpu": 0.008472384,
+      "child_cpu": 0.027621,
+      "cpu": 0.036093384,
+      "wall": 0.03466796700001851
+    }
+  }
+}

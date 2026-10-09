@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "records": 27,
+  "original_answer_checks": 36,
+  "encoded_point_answer_checks": 36,
+  "proof_bindings": 34,
+  "distinct_proofs": 23,
+  "valid_replayed": 23,
+  "false_bound_rejected": 23,
+  "base_models": {
+    "archived_memory_fixtures": 2,
+    "new_two_parameter_models": 3
+  },
+  "memory_coverage": [
+    {
+      "fixture": 0,
+      "observer": false,
+      "repeat": 0,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 0,
+      "observer": true,
+      "repeat": 0,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 1,
+      "observer": false,
+      "repeat": 0,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 1,
+      "observer": true,
+      "repeat": 0,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 2,
+      "observer": false,
+      "repeat": 0,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 2,
+      "observer": true,
+      "repeat": 0,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 3,
+      "observer": false,
+      "repeat": 0,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 3,
+      "observer": true,
+      "repeat": 0,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 0,
+      "observer": true,
+      "repeat": 1,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 1,
+      "observer": false,
+      "repeat": 1,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 1,
+      "observer": true,
+      "repeat": 1,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 2,
+      "observer": false,
+      "repeat": 1,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 2,
+      "observer": true,
+      "repeat": 1,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 3,
+      "observer": false,
+      "repeat": 1,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 3,
+      "observer": true,
+      "repeat": 1,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 0,
+      "observer": false,
+      "repeat": 1,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 1,
+      "observer": false,
+      "repeat": 2,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 1,
+      "observer": true,
+      "repeat": 2,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 2,
+      "observer": false,
+      "repeat": 2,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 2,
+      "observer": true,
+      "repeat": 2,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 3,
+      "observer": false,
+      "repeat": 2,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 3,
+      "observer": true,
+      "repeat": 2,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    },
+    {
+      "fixture": 0,
+      "observer": false,
+      "repeat": 2,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": null
+    },
+    {
+      "fixture": 0,
+      "observer": true,
+      "repeat": 2,
+      "kernel_child_peak_positive": true,
+      "sampled_child_or_launcher_seen": true
+    }
+  ],
+  "geometry": [
+    {
+      "case": "stable",
+      "admitted": true,
+      "partial_admitted": true,
+      "reused_queries": 8,
+      "all_old_point_bindings_rejected": true
+    },
+    {
+      "case": "crossing",
+      "admitted": true,
+      "partial_admitted": true,
+      "reused_queries": 6,
+      "all_old_point_bindings_rejected": true
+    },
+    {
+      "case": "corner-trap",
+      "admitted": false,
+      "partial_admitted": true,
+      "reused_queries": 0,
+      "all_old_point_bindings_rejected": true
+    }
+  ],
+  "limitations": [
+    "Individual process lifetime high-water, not simultaneous process-tree peak",
+    "Includes fork/exec lifetime; launcher inherited pages bounded by small launcher footprint",
+    "Three explicit tiny geometry models, not a scalability or originality result",
+    "Shared external SDK"
+  ]
+}

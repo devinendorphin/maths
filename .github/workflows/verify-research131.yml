@@ -1,0 +1,31 @@
+name: Verify closure and allocation charter
+on:
+  push:
+    paths:
+      - 'research131/**'
+      - 'projects/certified-allocation/**'
+      - 'archives/experiments-131-132-complete.tar.xz'
+      - 'README.md'
+      - '.github/workflows/verify-research131.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify closure and charter identities
+        run: PYTHONDONTWRITEBYTECODE=1 python3 research131/code/verify_publication.py
+      - name: Check the designed allocation example
+        run: PYTHONDONTWRITEBYTECODE=1 python3 projects/certified-allocation/worked_example.py
+      - name: Verify preserved preceding evidence
+        run: |
+          PYTHONDONTWRITEBYTECODE=1 python3 research121/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research111/repairs/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify_compact.py
+      - name: Require unchanged evidence
+        run: git diff --exit-code

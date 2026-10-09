@@ -1,0 +1,574 @@
+{
+  "primary": [
+    {
+      "fixture": 0,
+      "observer": false,
+      "kernel_child_peak_kib": [
+        2176,
+        2176,
+        2176
+      ],
+      "launcher_peak_kib": [
+        15996,
+        15996,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.0036296250000000026,
+      "sampling": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "fixture": 0,
+      "observer": true,
+      "kernel_child_peak_kib": [
+        2176,
+        2176,
+        2176
+      ],
+      "launcher_peak_kib": [
+        16000,
+        15996,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.005720280000000006,
+      "sampling": [
+        {
+          "observed_peak_tree_rss_kib": 16708,
+          "max_processes": 2,
+          "max_positive_processes": 2,
+          "samples": 1,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 16524,
+          "max_processes": 2,
+          "max_positive_processes": 2,
+          "samples": 2,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 16708,
+          "max_processes": 2,
+          "max_positive_processes": 2,
+          "samples": 2,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        }
+      ]
+    },
+    {
+      "fixture": 1,
+      "observer": false,
+      "kernel_child_peak_kib": [
+        19576,
+        19576,
+        19572
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.11257988699999999,
+      "sampling": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "fixture": 1,
+      "observer": true,
+      "kernel_child_peak_kib": [
+        19576,
+        19576,
+        19572
+      ],
+      "launcher_peak_kib": [
+        16000,
+        15996,
+        15996
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.136295904,
+      "sampling": [
+        {
+          "observed_peak_tree_rss_kib": 36320,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 45,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 36392,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 47,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 36316,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 46,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        }
+      ]
+    },
+    {
+      "fixture": 2,
+      "observer": false,
+      "kernel_child_peak_kib": [
+        2304,
+        2304,
+        2304
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.006640285000000002,
+      "sampling": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "fixture": 2,
+      "observer": true,
+      "kernel_child_peak_kib": [
+        2304,
+        2304,
+        2304
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.008928229999999997,
+      "sampling": [
+        {
+          "observed_peak_tree_rss_kib": 18932,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 3,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 18948,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 3,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 18932,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 3,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        }
+      ]
+    },
+    {
+      "fixture": 3,
+      "observer": false,
+      "kernel_child_peak_kib": [
+        19576,
+        19572,
+        19576
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.15468753699999999,
+      "sampling": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "fixture": 3,
+      "observer": true,
+      "kernel_child_peak_kib": [
+        19704,
+        19572,
+        19576
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.17965989599999999,
+      "sampling": [
+        {
+          "observed_peak_tree_rss_kib": 36428,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 60,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 36308,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 61,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 36376,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 60,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        }
+      ]
+    }
+  ],
+  "replica": [
+    {
+      "fixture": 0,
+      "observer": false,
+      "kernel_child_peak_kib": [
+        2176,
+        2176,
+        2176
+      ],
+      "launcher_peak_kib": [
+        15996,
+        16000,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.003647434999999998,
+      "sampling": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "fixture": 0,
+      "observer": true,
+      "kernel_child_peak_kib": [
+        2176,
+        2176,
+        2176
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        15996
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.006087693000000007,
+      "sampling": [
+        {
+          "observed_peak_tree_rss_kib": 16860,
+          "max_processes": 2,
+          "max_positive_processes": 2,
+          "samples": 2,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 16172,
+          "max_processes": 1,
+          "max_positive_processes": 1,
+          "samples": 2,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 16860,
+          "max_processes": 2,
+          "max_positive_processes": 2,
+          "samples": 2,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        }
+      ]
+    },
+    {
+      "fixture": 1,
+      "observer": false,
+      "kernel_child_peak_kib": [
+        19572,
+        19576,
+        19576
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        15996
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.11365697799999999,
+      "sampling": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "fixture": 1,
+      "observer": true,
+      "kernel_child_peak_kib": [
+        19576,
+        19576,
+        19572
+      ],
+      "launcher_peak_kib": [
+        16000,
+        15996,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.132681046,
+      "sampling": [
+        {
+          "observed_peak_tree_rss_kib": 36328,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 46,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 36444,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 45,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 36312,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 45,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        }
+      ]
+    },
+    {
+      "fixture": 2,
+      "observer": false,
+      "kernel_child_peak_kib": [
+        2304,
+        2304,
+        2304
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.006577663,
+      "sampling": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "fixture": 2,
+      "observer": true,
+      "kernel_child_peak_kib": [
+        2304,
+        2304,
+        2304
+      ],
+      "launcher_peak_kib": [
+        15996,
+        16000,
+        16000
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.009436045000000004,
+      "sampling": [
+        {
+          "observed_peak_tree_rss_kib": 19068,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 3,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 19084,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 3,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 18940,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 3,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        }
+      ]
+    },
+    {
+      "fixture": 3,
+      "observer": false,
+      "kernel_child_peak_kib": [
+        19576,
+        19576,
+        19576
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        15996
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.15145653399999998,
+      "sampling": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "fixture": 3,
+      "observer": true,
+      "kernel_child_peak_kib": [
+        19576,
+        19576,
+        19576
+      ],
+      "launcher_peak_kib": [
+        16000,
+        16000,
+        15996
+      ],
+      "parent_peak_kib": [
+        46400,
+        46400,
+        46400
+      ],
+      "cpu_median": 0.183786662,
+      "sampling": [
+        {
+          "observed_peak_tree_rss_kib": 36372,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 58,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 36356,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 60,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        },
+        {
+          "observed_peak_tree_rss_kib": 36352,
+          "max_processes": 3,
+          "max_positive_processes": 3,
+          "samples": 59,
+          "interval_seconds": 0.002,
+          "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+        }
+      ]
+    }
+  ]
+}

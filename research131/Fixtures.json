@@ -1,0 +1,226 @@
+[
+  {
+    "row": {
+      "case_id": "eval8",
+      "split": "heldout",
+      "n": 8,
+      "seed": 48121,
+      "weights": [
+        6,
+        5,
+        3,
+        7,
+        5,
+        4,
+        10,
+        5
+      ],
+      "profits": [
+        4,
+        -3,
+        10,
+        -1,
+        13,
+        11,
+        8,
+        -4
+      ],
+      "slopes": [
+        3,
+        -2,
+        -1,
+        -2,
+        -2,
+        1,
+        -3,
+        3
+      ],
+      "capacity": 18,
+      "end": 6
+    },
+    "producer": "native",
+    "proof": "fixtures/eval8-native/9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b.vipr",
+    "proof_sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b",
+    "packing": 53,
+    "objective": 38,
+    "time": [
+      0,
+      1
+    ]
+  },
+  {
+    "row": {
+      "case_id": "eval8",
+      "split": "heldout",
+      "n": 8,
+      "seed": 48121,
+      "weights": [
+        6,
+        5,
+        3,
+        7,
+        5,
+        4,
+        10,
+        5
+      ],
+      "profits": [
+        4,
+        -3,
+        10,
+        -1,
+        13,
+        11,
+        8,
+        -4
+      ],
+      "slopes": [
+        3,
+        -2,
+        -1,
+        -2,
+        -2,
+        1,
+        -3,
+        3
+      ],
+      "capacity": 18,
+      "end": 6
+    },
+    "producer": "cp",
+    "proof": "fixtures/eval8-cp-process/knapsack.veripb",
+    "proof_sha256": "8a66dc63e1b77be94cddb764c3d45bbb3bd2a05df5858c2f5e7946c3a268374a",
+    "packing": 53,
+    "objective": 38,
+    "time": [
+      0,
+      1
+    ],
+    "formula": "fixtures/eval8-cp-process/model.opb",
+    "formula_sha256": "5703ce53edad032142c8df46b8663334c0c996b811a6ea1d5697faaab498021f"
+  },
+  {
+    "row": {
+      "case_id": "eval12",
+      "split": "heldout",
+      "n": 12,
+      "seed": 48123,
+      "weights": [
+        10,
+        4,
+        10,
+        5,
+        8,
+        6,
+        10,
+        3,
+        9,
+        2,
+        2,
+        4
+      ],
+      "profits": [
+        -2,
+        2,
+        3,
+        15,
+        9,
+        12,
+        13,
+        12,
+        6,
+        10,
+        7,
+        11
+      ],
+      "slopes": [
+        -2,
+        -2,
+        1,
+        -1,
+        3,
+        3,
+        -3,
+        -3,
+        1,
+        -3,
+        0,
+        -2
+      ],
+      "capacity": 29,
+      "end": 6
+    },
+    "producer": "native",
+    "proof": "fixtures/eval12-native/1deac40be24b091a484c45b98da6a8c3d46e1ac57df25968d5eb28483fc30044.vipr",
+    "proof_sha256": "1deac40be24b091a484c45b98da6a8c3d46e1ac57df25968d5eb28483fc30044",
+    "packing": 1768,
+    "objective": 69,
+    "time": [
+      0,
+      1
+    ]
+  },
+  {
+    "row": {
+      "case_id": "eval12",
+      "split": "heldout",
+      "n": 12,
+      "seed": 48123,
+      "weights": [
+        10,
+        4,
+        10,
+        5,
+        8,
+        6,
+        10,
+        3,
+        9,
+        2,
+        2,
+        4
+      ],
+      "profits": [
+        -2,
+        2,
+        3,
+        15,
+        9,
+        12,
+        13,
+        12,
+        6,
+        10,
+        7,
+        11
+      ],
+      "slopes": [
+        -2,
+        -2,
+        1,
+        -1,
+        3,
+        3,
+        -3,
+        -3,
+        1,
+        -3,
+        0,
+        -2
+      ],
+      "capacity": 29,
+      "end": 6
+    },
+    "producer": "cp",
+    "proof": "fixtures/eval12-cp-process/knapsack.veripb",
+    "proof_sha256": "b68b45843977afe3e8650a2841d6e2e130ed423018a7af68c805ce503ea8b063",
+    "packing": 3754,
+    "objective": 69,
+    "time": [
+      0,
+      1
+    ],
+    "formula": "fixtures/eval12-cp-process/model.opb",
+    "formula_sha256": "57098434fe7079c0a851c5cfc4c00ba5ba4f13fb1b2071c55c4867727ba99172"
+  }
+]

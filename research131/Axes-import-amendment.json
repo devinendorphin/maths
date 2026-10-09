@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-09T21:31:37.106430+00:00",
+  "reason": "Initial supplement imports native before local campaign. Native inserts an inherited dependency directory ahead of code, so campaign resolves to the old research86 module. Import fails before any solve or output in both directories. Correct import order; preserve initial source/freeze. No input/algorithm/assertion changes.",
+  "files": {
+    "code/independent_axes_v2.py": "96be888acd1cb42db0f609c0027f1a6a65dbbeda739e100e099a5c13f9b8aed6"
+  }
+}

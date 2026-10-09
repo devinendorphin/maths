@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-09T21:28:50.720598+00:00",
+  "scope": "Designed exact four-edge explanatory example; not randomized, blinded or performance evidence",
+  "files": {
+    "worked_example.py": "c3b8004efe83dd23818d46e668b5d8de5645e00931af05e332cabc5c1f2efbf1",
+    "Example-input.json": "0b3984779161515c8a4502d2abac0a8abf0ae0e393be8610016293aecf0f3149",
+    "plot.py": "d9480c65b2d1b4082d5902de8cfd3d90610f3df0adde3f9fb3a63c46fe5c3c04"
+  }
+}
