@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "records_compared": 517,
+  "differences": [],
+  "comparison": "Every stage, repeat and logical field, including original model, proof/raw-proof/formula hashes, witness packing, interval endpoints, policy decisions, invalidation and byte-budget traces.",
+  "excluded_fields": {
+    "measurements": "All CPU/wall/phases/residual, reachable Python/tracemalloc memory and sampled RSS/process observations are machine measurements, not mathematical or proof identity fields. Reported separately, never used to suppress logical discrepancies."
+  },
+  "shared": [
+    "External SDK installation",
+    "Frozen policy, original 72-record training evidence and their proof files (not counted as independent replication)"
+  ],
+  "fresh": [
+    "All 451 campaign, six cap-repair and sixty selector-inclusive executions, produced proofs, false-bound controls and independent audit"
+  ]
+}

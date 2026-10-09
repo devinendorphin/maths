@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "supplement_records": 6,
+  "training_records": 72,
+  "heldout_and_control_records": 451,
+  "distinct_base_models": 7,
+  "counts": {
+    "answers": 8626,
+    "proof_bindings": 3543,
+    "valid_external": 147,
+    "false_external_rejected": 147
+  },
+  "events_checked": 212,
+  "distinct_oracle_queries": 98,
+  "distinct_proof_counts": {
+    "native": 95,
+    "cp": 42,
+    "scip": 10
+  },
+  "memory_observations": [
+    {
+      "case": "eval8",
+      "route": "native",
+      "budget": 4096,
+      "child_observed": false,
+      "measurement": {
+        "observed_peak_tree_rss_kib": 16840,
+        "max_processes": 1,
+        "max_positive_processes": 1,
+        "samples": 3,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    {
+      "case": "eval8",
+      "route": "native",
+      "budget": 131072,
+      "child_observed": true,
+      "measurement": {
+        "observed_peak_tree_rss_kib": 19012,
+        "max_processes": 2,
+        "max_positive_processes": 2,
+        "samples": 5,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    {
+      "case": "eval8",
+      "route": "cp-process",
+      "budget": 4096,
+      "child_observed": true,
+      "measurement": {
+        "observed_peak_tree_rss_kib": 36876,
+        "max_processes": 2,
+        "max_positive_processes": 2,
+        "samples": 200,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    {
+      "case": "eval8",
+      "route": "cp-process",
+      "budget": 131072,
+      "child_observed": true,
+      "measurement": {
+        "observed_peak_tree_rss_kib": 36808,
+        "max_processes": 2,
+        "max_positive_processes": 2,
+        "samples": 138,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    {
+      "case": "eval12",
+      "route": "native",
+      "budget": 4096,
+      "child_observed": false,
+      "measurement": {
+        "observed_peak_tree_rss_kib": 16928,
+        "max_processes": 1,
+        "max_positive_processes": 1,
+        "samples": 8,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    {
+      "case": "eval12",
+      "route": "native",
+      "budget": 131072,
+      "child_observed": false,
+      "measurement": {
+        "observed_peak_tree_rss_kib": 16860,
+        "max_processes": 1,
+        "max_positive_processes": 1,
+        "samples": 4,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    {
+      "case": "eval12",
+      "route": "cp-process",
+      "budget": 4096,
+      "child_observed": true,
+      "measurement": {
+        "observed_peak_tree_rss_kib": 36956,
+        "max_processes": 2,
+        "max_positive_processes": 2,
+        "samples": 258,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    },
+    {
+      "case": "eval12",
+      "route": "cp-process",
+      "budget": 131072,
+      "child_observed": true,
+      "measurement": {
+        "observed_peak_tree_rss_kib": 37064,
+        "max_processes": 2,
+        "max_positive_processes": 2,
+        "samples": 255,
+        "interval_seconds": 0.002,
+        "note": "PPid discovery; unmodified checker exit; sampled simultaneous RSS can double-count shared pages and miss short peaks. Observer overhead included only in these memory workers."
+      }
+    }
+  ],
+  "wall": 34.61540300500201
+}

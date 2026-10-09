@@ -1,6 +1,6 @@
 {
   "files": {
-    "README.md": "67cd1ef6e3d7ec2a5c842cf93a6d19641abc0c1889f339ef04d9a285fd84ed7a",
+    "README.md": "d9239c8bde485d3a4b2ad1f34479c6269ed6b5a21e8fb30a1faa163b7d96af83",
     "research101-original-300/Archive-members.json": "46a896924a2f3e6892475ca988ed3e544f918fc0a8565f10d2668d7f3ee25fc6",
     "research101-original-300/Archive-storage.json": "fea283d5b96129fc5405decfb657012e7578e95bab2632abdd354263259a7300",
     "research101-original-300/Assurance-contract.md": "231e3d13164e180600e66cc89f543620cb9e9ee6dae2407b92a7a341db3e43b2",
@@ -139,8 +139,7 @@
     "research111/repairs/code/vipr_fork.cpp": "79f6e64c807ce6bee1efd5d890e37104265a351ad9b7e1ea8cab160b867370a4",
     "research111/repairs/code/vipr_hold.cpp": "ee43255ed4d8306c0fff4def4d4fe9511fd2238ce77c00c9f9466a5c6bdbf957",
     "research111/repairs/setup_completion.py": "7156d8830cfff6b06053dda176efca10871b1e05704b11c32a5760efcb332c4d",
-    "research111/repairs/setup_exact.py": "8cb6265b4cc8fe080f8d7bf5cb740ec6d23465f90265bd8fed9c98d5551be9e3",
-    "research111/repairs/Publication-seal-9a9075c.json": "3c6e4dac64f03d614de5cd0d1c70280f4d8fc209800ca191ed98acee8a2f0e87"
+    "research111/repairs/setup_exact.py": "8cb6265b4cc8fe080f8d7bf5cb740ec6d23465f90265bd8fed9c98d5551be9e3"
   },
   "scope": "Current compact publication after original-300 recovery; pre-recovery publication seal and all experimental freezes are preserved separately"
 }

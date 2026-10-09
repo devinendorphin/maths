@@ -1,0 +1,13 @@
+{
+  "choices": {
+    "sparse": "points",
+    "dense": "snapshot",
+    "repeated": "lru4"
+  },
+  "factor_override": true,
+  "fit": "lowest pooled median across training models and repeats only",
+  "models": [
+    "train8",
+    "train10"
+  ]
+}

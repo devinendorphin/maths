@@ -1,0 +1,27 @@
+name: Verify experiments 121–130 evidence
+on:
+  push:
+    paths:
+      - 'research121/**'
+      - 'archives/experiments-121-130-complete.tar.xz'
+      - 'README.md'
+      - '.github/workflows/verify-research121.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify every compact file and archived evidence member
+        run: PYTHONDONTWRITEBYTECODE=1 python3 research121/code/verify_publication.py
+      - name: Verify preserved earlier evidence
+        run: PYTHONDONTWRITEBYTECODE=1 python3 research111/repairs/code/verify_publication.py
+      - name: Verify preserved earlier sources
+        run: PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify_compact.py
+      - name: Require unchanged evidence
+        run: git diff --exit-code

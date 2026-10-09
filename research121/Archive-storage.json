@@ -1,0 +1,24 @@
+{
+  "path": "archives/experiments-121-130-complete.tar.xz",
+  "bytes": 714324,
+  "sha256": "a2ec0d71caef54629fffe9dae6fdf66094f4632216a51e0e4c7d65b9ada0b478",
+  "members": 1661,
+  "uncompressed_bytes": 39017974,
+  "executable_members": [
+    "headline/dependencies/research86/dependencies/vipr/viprchk",
+    "headline/external/cp2024/knapsack",
+    "replication/dependencies/research86/dependencies/vipr/viprchk",
+    "replication/external/cp2024/knapsack"
+  ],
+  "excluded": [
+    "Large external SDK installations",
+    "Python bytecode",
+    "Results-progress.json (redundant rolling copy of final Results.json)"
+  ],
+  "roots": [
+    "headline",
+    "replication",
+    "development",
+    "reports"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-09T15:26:00.920878+00:00",
+  "hypothesis": "The same eval12 snapshot needing four distinct endpoint certificates will exceed a two-certificate preparation cap and safely discard unfinished intervals, charge failed preparation, and answer through independently certified point fallback.",
+  "inputs": "Frozen eval12, sparse [0,6] and dense [0,1/2,...,6]",
+  "limits": {
+    "repeats": 3,
+    "certificate_cap": 2,
+    "total_runs": 6,
+    "source_and_checker_limits": "unchanged Protocol.json"
+  },
+  "acceptance": "All six capped, exactly one failed preparation each; all original objectives certified, full failed work charged; audit and fresh-directory replicate same logical/proof identities.",
+  "reason": "Original four-certificate cap never bound on these fixtures; preserve that result and add a minimal binding-cap control. Initial audit v2 last-row mutation was accepted on a SCIP proof because the checker terminates after obtaining sufficient objective bounds; it did not modify the asserted objective range. v3 changes the RTP range to a strictly false original optimum while leaving derivations unchanged. The accepted trailing edit is retained, not suppressed or called a rejected false bound.",
+  "prior_audit_v2_accepted_unused_tail": {
+    "path": "evidence/audit-v2-unused-tail/c18871ee95397ae8dde9a572ff5858f76d6a2bbf0775778be6ef1e26fcba56e5.vipr",
+    "valid_original_proof_sha256": "a34d842b643cf130a7670aeafe76c80a5bd96cc9b71c02d88b542ca6490d3a26",
+    "reason": "VIPR checker terminates after one sufficient derivation; unused trailing row edits are not necessarily replayed."
+  },
+  "files": {
+    "code/audit_v3.py": "4c65fca2e9cdd7de44dbcf4a7fca6a853845d7accb1b481ee0abf858b3761044",
+    "code/cap_repair.py": "088179b6f23adc08bde71305cd82217fce7d0aae3b62643530e1c66262a4f1d6",
+    "code/replicate_v3.py": "14a18c81605bd78ceb5570ad80f471977d9e93777fdf4cf8b759dbdd1a15c062"
+  }
+}

@@ -1,0 +1,11 @@
+# Experiments 121–130
+
+This continuation asks when an exact optimization answer stays valid as its objective changes, when checked facts can be reused safely, and whether complete reuse costs less than fresh certification. It uses the recovered CP 2024 knapsack adaptation, original-model VIPR certificates, and actual exact-SCIP certificates on compatible fixed-feasibility signed-affine binary knapsack models.
+
+The campaign has seven base models: two for training, four held out from fitting, and one crossing control. It preserves 451 main records, six separately frozen binding-cap records and sixty selector-inclusive cost records. Training contributes 72 separate records. Repetition counts are not model counts. Capacity/weight/objective mutation controls create six additional mathematical variants; these are not six new independently sampled models.
+
+Read [Synthesis.md](Synthesis.md) for findings and experiment status, [Roadmap.md](Roadmap.md) and [Protocol.json](Protocol.json) for frozen questions and budgets, [Assurance-contract.md](Assurance-contract.md) for exactly what admission/checking guarantees, and [Novelty.md](Novelty.md) for the primary-literature comparison. [Summary.json](Summary.json) retains all timing/memory groups from both directories. [Replication.json](Replication.json) records exact logical/proof comparisons and measurement exclusions. [REPRODUCE.md](REPRODUCE.md) describes compact verification, archive recovery and shared external toolchains.
+
+The original source freeze and every corrected auditor are preserved. [Development.md](Development.md), [Audit-amendment.json](Audit-amendment.json), [Supplement-freeze.json](Supplement-freeze.json), and [Selector-freeze.json](Selector-freeze.json) expose development observations, the arithmetic correction, an ineffective unused-tail proof mutation, the initially nonbinding cap, and the original policy selection cost boundary. These are reconciled in the synthesis, not hidden by rerunning old measurements.
+
+The published 273-worker 101–110 batch, separately recovered historical 300-worker batch, preserved provisional 111–120 work and its repair/recovery supplements retain their separate identities. This campaign neither merges their counts nor rewrites their historical claims. No earlier evidence or Git history is removed.

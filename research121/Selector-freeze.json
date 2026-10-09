@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-09T15:28:17.757276+00:00",
+  "reason": "Original 126/130 timings called the frozen selector just before the measured selected-method boundary. Preserve those method-only totals; add a bounded route comparison whose complete parent+child clock starts before selection. No policy or inputs retuned.",
+  "hypothesis": "Including actual frozen bucket/factor selection should preserve answers/proofs and give a complete selector-plus-method CPU total.",
+  "inputs": "Same four frozen held-out models x three streams x three repeats (36); same eval8/eval12 sparse/dense correct/wrong forecasts x three repeats (24).",
+  "limits": "60 native route runs, same per-proof limits; total wall <=60 seconds expected and enforced by outer runner.",
+  "acceptance": "Independent oracle and original VIPR binding, selected bucket/factor contract, selector included in full total, all distinct proofs replayed with false RTP bounds; fresh-directory exact logical replication.",
+  "files": {
+    "code/policy_repair.py": "5dc047b7c1bfd7f33a8d048a322002c7063615d851dfc6b87964f73dcae9746a",
+    "code/audit_selector.py": "2b82e4f892a944048eec3dc6b8b430f7dc0d876096cfba02656633162b5bf03a",
+    "code/replicate_v4.py": "924f9b9c0fd1b1874b8051b1bdd2d26d60ef14574ba933b6da2329b5076df860"
+  }
+}

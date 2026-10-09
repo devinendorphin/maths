@@ -1,0 +1,18 @@
+# Claim ledger
+
+| Claim | Supporting evidence | Limit |
+|---|---|---|
+| Frozen rational point answers are exact. | Independent original-subset oracle, original model/formula/VIPR bindings, valid external replay and false objective-bound controls. | Seven base models and six explicit model mutations; Python code is not formally verified. |
+| Endpoint/factor facts justify the recorded interior answers. | Exact endpoint candidate optima, positive factor identity, unchanged feasible set, original endpoint theorem and audited interior queries. | Point proofs themselves retain their original objectives; admitted implication supplies interior applicability. |
+| Imported-parent checking reduces deployment startup on this stream. | Experiment 121, two modes, twenty interleaved requests per run, three repeats in both directories, all independent decisions agree. | Specific VeriPB installation; fork isolation, not incremental logical checking. |
+| Compatible native, CP and exact-SCIP point costs were compared. | Experiment 122 matched models/observations; native solver/checker and CP producer/checker children; SCIP raw/completed proofs; phases and complete totals. | Small ≤12-item evaluation models; not general DP or SCIP superiority. |
+| Query density and repetition can change the useful reuse route. | Experiment 124, frozen 126 training/evaluation, selector-inclusive supplement and full fixed-route results. | Two training models, four transfer models; bucket threshold fixed, not a general learning result. |
+| Wrong forecast or capped preparation preserves correctness. | 130 original results, separately frozen binding cap and selector-inclusive repairs, independent audit and fresh replication. | Original four-certificate cap never bound; a two-certificate control does. No arbitrary resource-exhaustion recovery claim. |
+| Retained cache budgets and evictions are accounted in bytes. | Actual proof/formula buffers, serialized facts, independently simulated LRU budget traces and reachable Python bytes. | Budget does not cover all process or Python allocator memory; tracemalloc scenario and sampled RSS are separate measurements. |
+| Complete process peaks are known. | No such claim. CP children observed; some native children missed by 2ms sampler. | Experiment 127 process-peak part remains partial; shared RSS pages can be double-counted. |
+| Declared model/deployment changes safely invalidate live caches. | 128 admitted old facts, eviction events, recertified supported changes and rejected unsupported changes. | Does not detect unannounced arbitrary code changes; dependency feature is a declared scope/epoch contract. |
+| Immutable facts and external bytes have different lifetimes. | 129 immutable captured packing, failed old-hash refresh, new-hash real checks and charged fallback; retained accepted unused-tail edit in the audit. | Immutable admission is not a file watcher. VIPR may terminate once enough derivations certify the objective range. |
+| Fresh execution reproduces logical results and proof identities. | Replication.json, all 517 logical records compared with no internal exclusions. | Shared SDK and frozen training/proofs; measurements differ and remain visible; not independent installation. |
+| This introduces new mathematical foundations. | No such claim; primary literature credited in Novelty.md. | Concrete implementation composition and finite empirical evidence may contribute, but priority/general superiority is unestablished. |
+
+The separate 273-worker, recovered 300-worker and provisional/repaired 111–120 evidence remains preserved. This ledger makes no statement that their counts or findings are interchangeable.

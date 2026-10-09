@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-09T15:23:41.222045+00:00",
+  "reason": "Audit v1 expected 551 records, an arithmetic error: frozen stage counts sum to 451. Initial audit exited before checking any answer. Only the record-count assertion and corresponding replication prose are corrected; original frozen scripts, protocol, source freeze, policy and every execution retained. v2 adds hash verification of this amendment. No producer, input, method or comparison changed; valid executions not rerun.",
+  "original_source_freeze_sha256": "80d6e9dd229dbe9d88f93dc3067539aec23e5d6a48d61f9ba483d655d50dab7e",
+  "files": {
+    "code/audit_v2.py": "d85197802a65f785d9d01e4b85b31d1bf3828a3d70f0ed1ef8c6d93375854aa5",
+    "code/replicate_v2.py": "633d3e56ff2f62effd033d93a413d7630ac6de50c8a968d1a23f39fab31b0fdd"
+  }
+}

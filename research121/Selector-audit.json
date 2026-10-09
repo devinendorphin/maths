@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "records": 60,
+  "counts": {
+    "answers": 852,
+    "proof_bindings": 210,
+    "valid_external": 0,
+    "false_external_rejected": 0
+  },
+  "distinct_native_proofs": 32,
+  "valid_replayed": 32,
+  "false_bound_rejected": 32,
+  "wall": 0.36577547400520416
+}

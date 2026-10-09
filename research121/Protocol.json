@@ -1,0 +1,120 @@
+{
+  "experiments": [
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "question": "Separate answer stability, proof applicability and complete construction/checking/maintenance cost under fixed-feasibility signed-affine binary knapsack.",
+  "models": {
+    "training": [
+      [
+        "train8",
+        8,
+        30121
+      ],
+      [
+        "train10",
+        10,
+        30122
+      ]
+    ],
+    "heldout": [
+      [
+        "eval8",
+        8,
+        48121
+      ],
+      [
+        "eval10",
+        10,
+        48122
+      ],
+      [
+        "eval12",
+        12,
+        48123
+      ],
+      [
+        "factor12",
+        12,
+        48124
+      ]
+    ],
+    "control": "three-item crossing at 3/2"
+  },
+  "generation": "Python Random(seed); weights randint(2,10), profits randint(-4,18), slopes randint(-3,3), capacity floor(0.4*sum(weights)); factor12 replaces profits with randint(1,14), slopes=profits. Span [0,6]. No seed replacement after measurement.",
+  "repeats": 3,
+  "ordering": "Cyclic rotation by case index and repeat; comparisons serial. Memory scenarios use separate fresh workers.",
+  "streams": {
+    "sparse": [
+      0,
+      6
+    ],
+    "dense": "0,1/2,...,6 (13)",
+    "repeated": "[0,2,0,2,0,2,0,2,0,2,0,2,0]",
+    "points122": [
+      0,
+      3,
+      6
+    ],
+    "counts124": [
+      1,
+      3,
+      7,
+      13
+    ]
+  },
+  "limits": {
+    "campaign_wall_seconds_per_directory": 900,
+    "each_source_seconds": 20,
+    "each_external_producer_seconds": 10,
+    "each_external_checker_seconds": 30,
+    "each_exact_scip_seconds": 20,
+    "each_completion_seconds": 20,
+    "cp_proof_bytes": 8388608,
+    "native_proof_bytes": 1048576,
+    "total_evidence_bytes_per_directory": 268435456,
+    "internal_crossings_per_model": 10,
+    "cache_payload_budgets_bytes": [
+      4096,
+      131072
+    ],
+    "memory_sample_interval_seconds": 0.002,
+    "snapshot_certificate_cap130": 4
+  },
+  "training": "Two training models, three streams, four genuinely distinct routes points/snapshot/window2/LRU4, three repetitions. Select lowest pooled median complete CPU per stream bucket; deterministic method-name tie break. Positive factor is an explicit mathematical feature override. Freeze policy before held-out execution; fresh replication reuses the same policy, does not retune.",
+  "guarded": "Initial endpoint certificates admitted once; per-query recheck hashes and original headers of relevant stored endpoint files, fixed model/epoch and candidate endpoint values. No per-query external proof replay. Immutable snapshot captures the same checked facts and needs no external-file reads. Contracts disclosed rather than represented as identical file-monitoring assurance.",
+  "timing_includes": [
+    "producer/solver/model setup",
+    "full curve discovery",
+    "encoding and proof construction",
+    "proof/formula/input/read/write and solution expansion",
+    "required checker and completion child CPU",
+    "admission and lookup",
+    "output I/O",
+    "cache maintenance",
+    "unsuccessful probes and capped preparation/fallback",
+    "per-stream imported-parent startup and IPC"
+  ],
+  "timing_separate": [
+    "common imports before worker boundary",
+    "SDK installation",
+    "policy training disclosed separately",
+    "independent audits",
+    "invalid-proof control campaign",
+    "packaging",
+    "common JSON campaign logging and evidence-budget scans outside each method boundary"
+  ],
+  "decomposition": "Disjoint phases plus complete parent+waited-child total and residual. Native optimization and witness construction inseparable. CP producer solves and emits proof together; do not invent separately measured components.",
+  "acceptance": "Independent subset enumeration and original proof/formula/header binding, all logical outputs and admission decisions, budget/eviction traces. Replay every distinct accepted proof with a false-bound control. Fresh-directory replication compares logical fields and raw/final proof identities exactly, measurements separately. Unsupported/capped methods labeled, not replaced while claiming success.",
+  "freeze": "Inputs/protocol before implementation probes; source/dependency/auditor freeze before training; policy freeze after training before heldout runs. New development gates recorded and do not silently change the protocol.",
+  "novelty": "Credit CP2024, VIPR2017/2024, official SCIP exact mode, classical affine endpoint reasoning and parametric hull construction. Assess implementation and empirical originality separately; no blanket novelty ban or general performance claim.",
+  "development_disclosure": "Input seeds were frozen first. API/correctness gates touched eval8 at t=0,3,6 before source freeze, including observed times. No seeds, input distributions, policy thresholds or method set were changed from those measurements. Heldout means excluded from policy fitting; these inputs were not wholly unseen by the implementer. Native short-lived subprocess RSS can be missed and is labeled partial, never manufactured by prolonging process lifetime."
+}
