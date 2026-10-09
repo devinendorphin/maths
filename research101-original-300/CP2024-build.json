@@ -1,0 +1,16 @@
+{
+  "upstream_commit": "9b915e8e959e07ed2c096582c3dcb605ce0269e7",
+  "upstream_sha256": "91f6c124560c1f5dbd8ff6c816f122cd99fbe9c3144c221834062f3e09292354",
+  "adapted_sha256": "e2d3dc3ca0c83f0e26ae5be98e913ed244556d7035e80cae418372a41643de97",
+  "exit_code": 0,
+  "wall": 2.0777537380017748,
+  "stderr": "",
+  "changes": [
+    "deterministic supplied item input instead of random generation",
+    "positive big-M uses sum of absolute profits for signed point objectives",
+    "signed objective coefficients are printed as integers, avoiding double minus",
+    "cstdlib header for integer abs"
+  ],
+  "algorithm_changes": false,
+  "binary_sha256": "f6befc4e99a99895026145d16c983a10e54a303fbb3066dd0fd8c5602f5abcf5"
+}

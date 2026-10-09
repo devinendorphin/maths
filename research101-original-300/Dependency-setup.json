@@ -1,0 +1,48 @@
+{
+  "wall_cap": 240,
+  "status": "downloaded",
+  "sources": {
+    "cp2024": {
+      "repository": "ciaranm/cp2024-dynamic-programming-supplement",
+      "commit": "9b915e8e959e07ed2c096582c3dcb605ce0269e7",
+      "url": "https://codeload.github.com/ciaranm/cp2024-dynamic-programming-supplement/tar.gz/9b915e8e959e07ed2c096582c3dcb605ce0269e7",
+      "archive_sha256": "17f7d8bf2826bfaa018a4964b72fe089d4e75f701108b0d8431a50a3b50cc35f",
+      "archive_bytes": 227434,
+      "folder": "/workspace/maths-toolchains/batch101/cp2024/cp2024-dynamic-programming-supplement-9b915e8e959e07ed2c096582c3dcb605ce0269e7"
+    },
+    "veripb": {
+      "repository": "StephanGocht/VeriPB",
+      "commit": "01b7b5088c8a67f1611427174501191bc5f5b365",
+      "url": "https://codeload.github.com/StephanGocht/VeriPB/tar.gz/01b7b5088c8a67f1611427174501191bc5f5b365",
+      "archive_sha256": "a36a0faebb70a8ab5532480576d4edff00c0da792b052bcafd3a8f731b7f3f74",
+      "archive_bytes": 96701,
+      "folder": "/workspace/maths-toolchains/batch101/veripb/VeriPB-01b7b5088c8a67f1611427174501191bc5f5b365"
+    }
+  },
+  "tools_root": "/workspace/maths-toolchains/batch101",
+  "python_dependencies_installed": true,
+  "wall": 7.5141715290010325,
+  "commands": [
+    {
+      "args": [
+        "python3",
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "--no-deps",
+        "--target",
+        "/workspace/maths-toolchains/batch101/python",
+        "--proxy",
+        "http://proxy:8080",
+        "pyscipopt==6.0.0",
+        "pybind11==2.13.6",
+        "Cython==0.29.37",
+        "cmake==3.31.6"
+      ],
+      "code": 0,
+      "stdout": "Collecting pyscipopt==6.0.0\n  Downloading pyscipopt-6.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.5 kB)\nCollecting pybind11==2.13.6\n  Downloading pybind11-2.13.6-py3-none-any.whl.metadata (9.5 kB)\nCollecting Cython==0.29.37\n  Downloading Cython-0.29.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.metadata (3.1 kB)\nCollecting cmake==3.31.6\n  Downloading cmake-3.31.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.3 kB)\nDownloading pyscipopt-6.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (17.2 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 17.2/17.2 MB 12.4 MB/s  0:00:01\nDownloading pybind11-2.13.6-py3-none-any.whl (243 kB)\nDownloading Cython-0.29.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl (2.0 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 2.0/2.0 MB 31.9 MB/s  0:00:00\nDownloading cmake-3.31.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (27.8 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 27.8/27.8 MB 53.5 MB/s  0:00:00\nInstalling collected packages: pyscipopt, pybind11, Cython, cmake\n\nSuccessfully installed Cython-0.29.37 cmake-3.31.6 pybind11-2.13.6 pyscipopt-6.0.0\n",
+      "stderr": "WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\n"
+    }
+  ]
+}

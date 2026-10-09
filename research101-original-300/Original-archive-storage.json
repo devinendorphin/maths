@@ -1,0 +1,12 @@
+{
+  "storage": "GitHub repository archive",
+  "path": "archives/experiments-101-110-complete.tar.xz",
+  "bytes": 687116,
+  "sha256": "4a01c756935d8efda38fb7df02b9ad1caeec4cbbf3ccd8f2a568783969f5e758",
+  "git_blob_sha": "12744ad6f1b110f4757aba002078d082d796f6fb",
+  "archive_members": 404,
+  "hashed_members": 403,
+  "uncompressed_bytes": 11364331,
+  "external_sdk_bundled": false,
+  "verification": "local member hashes verified; remote publication pending"
+}

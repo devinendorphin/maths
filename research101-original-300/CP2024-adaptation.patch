@@ -1,0 +1,85 @@
+--- upstream/knapsack.cc
++++ adapted-knapsack.cc
+@@ -1,3 +1,4 @@
++#include <cstdlib>
+ #include <algorithm>
+ #include <fstream>
+ #include <iostream>
+@@ -27,29 +28,24 @@
+ 
+ auto main(int argc, char * argv[]) -> int
+ {
+-    if (argc != 4) {
+-        cerr << "Usage: " << argv[0] << " n-items max-item-weight max-weight\n";
+-        return EXIT_FAILURE;
+-    }
+-
+-    vector<int> weights;
+-    vector<int> profits;
+-    int max_weight = stoi(argv[3]);
+-
+-    random_device rd;
+-    mt19937 rand; // (rd());
+-    uniform_int_distribution dist{1, stoi(argv[2])};
+-
+-    for (int i = 0, i_end = stoi(argv[1]) ; i < i_end ; ++i) {
+-        weights.push_back(dist(rand));
+-        profits.push_back(dist(rand));
++    if (argc != 2) return EXIT_FAILURE;
++    std::ifstream input{argv[1]};
++    int n = 0, max_weight = 0;
++    input >> n >> max_weight;
++    if (!input || n < 1 || n > 16 || max_weight < 0) return EXIT_FAILURE;
++    vector<int> weights, profits;
++    for (int i = 0; i < n; ++i) {
++        int w = 0, p = 0;
++        input >> w >> p;
++        if (!input || w <= 0 || std::abs(p) > 1000000) return EXIT_FAILURE;
++        weights.push_back(w); profits.push_back(p);
+     }
+ 
+     {
+         ofstream opb{"knapsack.opb"};
+         opb << "min:";
+         for (unsigned p = 0 ; p < profits.size() ; ++p)
+-            opb << " -" << profits[p] << " x" << p;
++            opb << " " << -profits[p] << " x" << p;
+         opb << " ;\n";
+ 
+         for (unsigned w = 0 ; w < weights.size() ; ++w)
+@@ -65,7 +61,7 @@
+     for (auto & w : weights)
+         big_number += w;
+     for (auto & p : profits)
+-        big_number += p;
++        big_number += std::abs(p);
+ 
+     vector<map<pair<int, int>, vector<int>>> states_by_layer(weights.size() + 1);
+     vector<map<int, pair<string, int> > > wsums_by_layer(weights.size() + 1);
+@@ -118,7 +114,7 @@
+ 
+                 proof << "red " << big_number << " ~" << n;
+                 for (unsigned l = 0 ; l <= layer ; ++l)
+-                    proof << " -" << profits.at(l) << " x" << l;
++                    proof << " " << -profits.at(l) << " x" << l;
+                 proof << " >= " << -state.second << " ; " << n << " -> 0\n";
+                 proof << "red " << big_number << " " << n;
+                 for (unsigned l = 0 ; l <= layer ; ++l)
+@@ -187,7 +183,7 @@
+ 
+                     proof << "red " << big_number << " ~" << n;
+                     for (unsigned l = 0 ; l <= layer ; ++l)
+-                        proof << " -" << profits.at(l) << " x" << l;
++                        proof << " " << -profits.at(l) << " x" << l;
+                     proof << " >= " << -(state.second + profits.at(layer)) << " ; " << n << " -> 0\n";
+                     proof << "red " << big_number << " " << n;
+                     for (unsigned l = 0 ; l <= layer ; ++l)
+@@ -323,7 +319,7 @@
+         // need to explicitly derive the lower bound
+         proof << "rup";
+         for (unsigned p = 0 ; p < profits.size() ; ++p)
+-            proof << " -" << profits[p] << " x" << p;
++            proof << " " << -profits[p] << " x" << p;
+         proof << " >= " << -*final_profits.rbegin() << " ;\n";
+         ++constraint_n;
+ 

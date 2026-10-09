@@ -1,0 +1,103 @@
+{
+  "experiments": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "methods": {
+    "101": [
+      "cp",
+      "native"
+    ],
+    "102": [
+      "scip_cold"
+    ],
+    "103": [
+      "native",
+      "scip_cold",
+      "scip_reopt"
+    ],
+    "104": [
+      "cp_curve",
+      "native_curve"
+    ],
+    "105": [
+      "guarded",
+      "factor",
+      "repeat",
+      "snapshot"
+    ],
+    "106": [
+      "controls"
+    ],
+    "107": [
+      "points",
+      "factor",
+      "snapshot",
+      "window4",
+      "window16"
+    ],
+    "108": [
+      "resume"
+    ],
+    "109": [
+      "lru1",
+      "lru4",
+      "unbounded"
+    ],
+    "110": [
+      "points",
+      "guarded",
+      "factor",
+      "repeat",
+      "snapshot"
+    ]
+  },
+  "inputs": 40,
+  "model": "fixed-feasibility signed-affine integer 0-1 knapsack, rational parameter queries",
+  "prior_commit": "d059ed26f8ee73e56deb6c918feda1768c11ab25",
+  "limits": {
+    "campaign_wall_seconds": 600,
+    "source_seconds": 30,
+    "external_producer_seconds": 10,
+    "external_checker_seconds": 15,
+    "cp_proof_bytes": 8388608,
+    "scip_nodes": 100000,
+    "scip_seconds": 5
+  },
+  "timing": {
+    "repeats": 3,
+    "ordering": "cyclic method rotation by case and repeat",
+    "includes": [
+      "solver setup",
+      "native proof construction",
+      "model encoding",
+      "proof and witness I/O",
+      "required external checker child CPU",
+      "admission",
+      "lookup",
+      "fallback and abandoned probes"
+    ],
+    "excludes": [
+      "development",
+      "dependency deployment separately recorded",
+      "independent audit",
+      "false-proof controls",
+      "packaging"
+    ],
+    "statistic": "median complete algorithm CPU"
+  },
+  "external_baselines": {
+    "cp": "CP2024 knapsack DP with disclosed I/O and signed-profit big-M changes, unchanged state/proof algorithm",
+    "scip": "ordinary SCIP proposals followed by independent native/VIPR certificates; exact wheel capability probed and recorded"
+  },
+  "snapshot_contract": "trusted admission into immutable in-memory facts, exact model identity at each query, explicit dependency epoch at batch start; captured facts need not track later external file edits",
+  "stop": "caps and unsupported exact features stay explicit; incomplete or unverified output is never admitted"
+}

@@ -1,0 +1,8 @@
+{
+  "commit": "5c485722194cbd9422d3eb169c8e621ca82aeb17",
+  "url": "https://gitlab.com/api/v4/projects/20440549/repository/archive.tar.gz?sha=5c485722194cbd9422d3eb169c8e621ca82aeb17",
+  "archive_bytes": 17213251,
+  "archive_sha256": "6c44310b4284129dbecb49ac07180b857d61c21b4f35caaf8b5f046f37b5f0cc",
+  "folder": "/workspace/maths-toolchains/batch101/veripb2/VeriPB-archive-5c485722194cbd9422d3eb169c8e621ca82aeb17-5c485722194cbd9422d3eb169c8e621ca82aeb17",
+  "build_cap_seconds": 180
+}

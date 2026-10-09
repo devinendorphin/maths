@@ -1,0 +1,55 @@
+# Experiments 101–110: accepted endpoint facts and external baselines
+
+Completed 8 October 2026 (America/New_York), following commit `d059ed26f8ee73e56deb6c918feda1768c11ab25`.
+
+All 300 workers completed on 40 input records representing eight mathematical models. A fresh-directory replication completed another 300 workers and matched all logical results, proof hashes and witness hashes. Each audit checked 6,239 answers, 2,045 point records, 212,918 feasible-subset coverage obligations and 708 interval endpoints. It accepted 139 distinct VIPR proofs and 21 distinct VeriPB proofs, and rejected one deliberately false bound for every distinct proof. Original execution took 30.09 seconds; fresh execution took 35.36 seconds. Auditing took 9.78 and 10.18 seconds separately. These counts describe a bounded campaign, not hundreds of unrelated mathematical conjectures.
+
+The principal result is practical: capturing checked endpoint facts once avoids repeated witness admission, but it does not establish a consistent advantage over the simpler guarded or positive-factor shortcuts. New held-out models confirm that query density matters. This batch also supplies a direct, disclosed adaptation of the CP 2024 proof-producing knapsack baseline and an ordinary production SCIP comparison. Exact SCIP certificate logging remains unresolved because the installed wheel lacks exact-solving support.
+
+## Ten comparisons
+
+| Experiment | Question and observed result |
+|---|---|
+| 101 | Compare independently checked point solving with the published CP 2024 proof-producing DP. Both routes returned exact answers on all four fixtures. The adapted DP route cost 25.7–28.6 times the native route's complete median CPU in this deployment, with 13.8–28.0 times the proof bytes. Its external child processes account for about 97–98% of measured CPU. This is a small-instance, process-per-proof comparison; it does not show that DP is generally inferior. |
+| 102 | Check production SCIP and its exact feature boundary. The PySCIPOpt 6.0.0 / SCIP 10.0.0 wheel returned optimal ordinary solutions on all four fixtures. `enableExactSolving(True)` explicitly failed because this build was compiled without exact solve support. Every admitted proposal therefore received a separately generated native/VIPR certificate. This duplicates exact solving and is fully charged. It is not a SCIP-generated proof. |
+| 103 | Compare cold SCIP, objective reoptimization and the native certified route on four dense/sparse streams. Reoptimization used less complete CPU than cold SCIP in all four cases, in both runs. Native certification was cheaper than the SCIP-plus-native pipeline in all four original cases and three fresh cases; the fresh eight-item sparse ordering reversed by less than 1 ms. No broad solver ranking follows from these timings. |
+| 104 | Build full rational intervals from either CP or native endpoint proofs. Both routes admitted the same interval answers. The CP route remained more expensive: 17.7–22.4 times the original complete median CPU and 13.8–19.1 times the proof bytes. Discovered rational breakpoints and all required endpoint checks are included. |
+| 105 | Compare repeated endpoint admission, one-time immutable admission, guarded reuse and factor reuse. One-time admission beat repeated admission on all four streams, in both runs. Guarded reuse beat the snapshot on all four original and fresh cases. Factor reuse was the cheapest method on the positively scaled twelve-item model. |
+| 106 | Exercise the immutable-admission contract. Across four models, 16 expected requests were accepted and 40 incompatible requests rejected. Changed profits, either capacity change, nonlinear terms, variable feasibility, an out-of-interval query and four changed dependency epochs were rejected. Captured facts survived edits to external witness copies and diagnostic records; this is intentional under this contract, not ongoing disk-integrity monitoring. |
+| 107 | Compare point solves, factor reuse, full snapshots and locally proposed windows of width 4 or 16. The factor route won three cases; point solving won the eight-item sparse stream, in both runs. Width 16 reduced work relative to width 4, but did not beat the best simpler route. Failed look-ahead probes are charged: five versus ten on the eight-item dense stream and two each on its sparse stream. |
+| 108 | Stop ordinary SCIP at zero nodes, retain exact independent bounds, then continue solving. All four initial runs reported `nodelimit`, with positive gaps; all four continuations reached `optimal` and received an independently checked certificate. The initial upper bound comes from exact root pricing, not SCIP's floating bound. Gaps 90, 612, 472 and 30 use objectives multiplied by 3 at parameter 1/3. This tests a clean interruption boundary, not arbitrary deep-search checkpoint recovery. |
+| 109 | Bound a live point-fact cache on a fixed twelve-request stream containing four distinct query values. One slot produced no hits and eleven evictions; four slots and the unbounded cache each produced eight hits and no evictions. The four-slot route used fewer certificates and less CPU than one slot on all four fixtures, in both runs. Only live cache entries are bounded; archival records and total process memory are not bounded by this limit. |
+| 110 | Transfer the admission comparison to two frozen twelve-item models with new seeds, dense and sparse queries. Snapshot reuse beat repeated admission in all four cases in both runs. Dense streams benefited from interval construction; sparse streams benefited from direct point solves. Guarded/factor methods remained faster than snapshots, with small ordering changes between those two methods. |
+
+The worker allocations are respectively 24, 4, 36, 24, 48, 4, 60, 4, 36 and 60. The single-run experiments are capability/contract checks. Other cases have three timing repeats with cyclic method order. [All case timings](Cost-table.md) and [machine-readable summaries](Summary.json) retain both runs, including ranges.
+
+## Transfer costs
+
+Original complete median CPU, in milliseconds:
+
+| New model / requests | Point solves | Guarded | Factor | Repeat admission | Snapshot |
+|---|---:|---:|---:|---:|---:|
+| Seed 9101 / 25 dense | 365.8 | 82.7 | 85.0 | 121.3 | 91.2 |
+| Seed 9101 / 4 sparse | 70.9 | 82.7 | 82.6 | 93.0 | 90.1 |
+| Seed 9102 / 25 dense | 161.3 | 90.0 | 89.3 | 123.6 | 95.6 |
+| Seed 9102 / 4 sparse | 37.8 | 90.9 | 93.8 | 103.8 | 95.9 |
+
+These observations support choosing work according to expected query traffic. They do not identify a universal threshold: the campaign has only eight models, two newly generated model seeds, small item counts (3–12), three timing repeats and a single shared deployment. Small timing differences should be treated as noise-sensitive; no statistical significance claim is made. The full CPU statistic includes model construction, proof production and I/O, checker child CPU, admission, lookup and unsuccessful probes within a warm deployed environment. Common imports, installation, development, independent audits and packaging are separate.
+
+## What the comparison with literature establishes
+
+The direct baseline comes from Demirović, McCreesh, McIlree, Nordström, Oertel and Sidorov, [*Pseudo-Boolean Reasoning About States and Transitions to Certify Dynamic Programming and Decision Diagram Algorithms* (CP 2024)](https://doi.org/10.4230/LIPIcs.CP.2024.9), using its [official supplement](https://github.com/ciaranm/cp2024-dynamic-programming-supplement/tree/CP2024), pinned to `9b915e8e959e07ed2c096582c3dcb605ce0269e7`. We retained its state/pruning/proof algorithm but adapted supplied-item input, signed-profit serialization and the big-M magnitude. We also expanded auxiliary truth values in the solution line before checking with the pinned official VeriPB version2 source. The original producer proof and the expanded proof are both retained. This is an adapted baseline, not an unchanged reproduction of the paper's random positive-profit benchmarks. [Patch](CP2024-adaptation.patch), [development record](Development-notes.md) and [assurance contract](Assurance-contract.md) disclose the differences.
+
+SCIP supports exact solving in suitable builds; [its documentation](https://www.scipopt.org/scip/doc/html/EXACT.php) describes the necessary dependencies and certificate settings. Failure here is specific to the installed wheel. Reoptimization uses the documented PySCIPOpt interface. A suitable exact SCIP build, its actual certificate production and completion, and a separate checker comparison remain the next external-validation gap.
+
+Endpoint interpolation, positive scaling, DP proof logging, reoptimization, immutable data and LRU caching are established ideas. The [earlier novelty audit](../research-notes/Novelty-audit-2026-10-08.md) identified the integrated implementation and full-cost comparison as candidate contributions. This batch adds direct external evidence and a more precise admission contract; it does not establish priority for a new theorem or universal performance improvement. No inherited prohibition on claiming novelty is imposed. A narrower original contribution would require stronger comparative evidence and a deliberate prior-art search around the final method.
+
+## Assurance and recovery
+
+The rational endpoint theorem is the unchanged Lean-checked result from experiments 96–100. This batch adds no new kernel-checked theorem, and its Python admission/cache code is trusted implementation code. Independent exhaustive auditing is feasible because the models are small. The fresh replication uses new campaign/evidence directories with the same external SDK, so it checks repeatability rather than independent dependency installation.
+
+The official VeriPB v2 extension build reached its 180-second parent-command cap. Fifteen completed native extensions were recovered; remaining unchanged Python modules were interpreted. No checking rules were edited or disabled. This particular deployment is identified by 107 frozen external file hashes. An older version1 mirror and rejected smoke prototypes are retained only as development history; they are not accepted baseline proofs.
+
+Full raw results, proof files, witnesses, original and expanded CP proofs, frozen sources, dependency identities and replication records are in [the compact repository archive](../archives/experiments-101-110-original-300-workers.tar.xz). [Recovery instructions](REPRODUCE.md) explain the external SDK requirement. The archive preserves experiment evidence without vendoring the large solver/checker installations. Its outer storage and remote verification receipts are sidecars created after packaging.
+
+The next justified steps are a compatible exact SCIP build, deployment comparisons that amortize external-checker startup, and a wider held-out suite selected before measuring. The current findings favor retaining guarded and factor reuse, with a one-time snapshot when its stronger initial admission contract is required.

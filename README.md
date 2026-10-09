@@ -2,7 +2,9 @@
 
 This repository keeps a compact working collection of the temporal-proof experiments. Complete evidence is preserved in [verified Google Drive archives](https://drive.google.com/drive/folders/1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ).
 
-The latest work is the [aligned 111–120 continuation and repairs](research111/repairs/Synthesis.md). The [review](research111/REVIEW.md) and [alignment table](research111/Alignment.md) distinguish the published 273-worker batch, an unrecovered historical 300-worker report, and the preserved provisional 284-record continuation. A separately frozen 77-record supplement, replicated from a fresh directory, adds nine independently verified native exact-SCIP certificates, isolated checker-startup amortization, compatible full-cost comparisons and integrated cache invalidation. Remaining policy and memory limitations are explicit; this is not a claim that all ten proposed comparisons are complete. Both provisional and repair evidence are preserved in compact repository archives.
+The latest work is the [aligned 111–120 continuation and repairs](research111/repairs/Synthesis.md). The [review](research111/REVIEW.md) and [alignment table](research111/Alignment.md) distinguish the published 273-worker batch, a [separately recovered historical 300-worker campaign](research101-original-300/Recovery-report.md), and the preserved provisional 284-record continuation. A separately frozen 77-record supplement, replicated from a fresh directory, adds nine independently verified native exact-SCIP certificates, isolated checker-startup amortization, compatible full-cost comparisons and integrated cache invalidation. Remaining policy and memory limitations are explicit; this is not a claim that all ten proposed comparisons are complete. Both provisional and repair evidence are preserved in compact repository archives.
+
+The [original 300-worker experiments 101–110 campaign](research101-original-300/README.md) has now been recovered and reaudited separately. All 21 distinct VeriPB proofs from the adapted official CP 2024 knapsack implementation passed again, including rejection of false-bound controls. Its [complete archive](archives/experiments-101-110-original-300-workers.tar.xz) was read back from GitHub and every recorded member checksum verified. This preserves the original comparison alongside the newer 273-worker campaign.
 
 The preceding published batch is [experiments 101–110](research101/Synthesis.md): all 273 workers completed on eight mathematical models, with a matching fresh replication and independent audits. A checked exact DP baseline beat the existing VIPR paths on all eight matched dense/sparse records. SCIP candidates passed exact external DP admission; native SCIP exact mode was unavailable in that installed wheel. Complete evidence is in a verified [repository archive](archives/experiments-101-110-complete.tar.xz).
 
@@ -66,4 +68,5 @@ python3 scripts/verify_compact.py
 ```
 
 Git history starts from the verified compact collection. Complete experiment evidence remains in the checked Drive archives. Read [STORAGE.md](STORAGE.md) before accessing detailed evidence or reproducing the experiments.
+
 

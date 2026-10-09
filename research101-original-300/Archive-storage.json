@@ -1,0 +1,13 @@
+{
+  "remote_blob_sha": "12744ad6f1b110f4757aba002078d082d796f6fb",
+  "bytes": 687116,
+  "sha256": "4a01c756935d8efda38fb7df02b9ad1caeec4cbbf3ccd8f2a568783969f5e758",
+  "archive_members": 404,
+  "hashed_members_verified": 403,
+  "remote_readback_passed": true,
+  "storage": "GitHub repository archive",
+  "path": "archives/experiments-101-110-original-300-workers.tar.xz",
+  "archive_root": "research101/",
+  "external_sdk_bundled": false,
+  "verification": "Remote blob readback and all 403 member hashes verified before publication"
+}

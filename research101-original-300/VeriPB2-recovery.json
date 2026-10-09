@@ -1,0 +1,21 @@
+{
+  "strategy": "use completed native extensions and unchanged pure Python modules for the remaining components",
+  "copied_extensions": [
+    "veripb/rules_dominance.cpython-312-x86_64-linux-gnu.so",
+    "veripb/rules_multigoal.cpython-312-x86_64-linux-gnu.so",
+    "veripb/parser.cpython-312-x86_64-linux-gnu.so",
+    "veripb/rules.cpython-312-x86_64-linux-gnu.so",
+    "veripb/rules_deletion.cpython-312-x86_64-linux-gnu.so",
+    "veripb/substitution.cpython-312-x86_64-linux-gnu.so",
+    "veripb/autoproving.cpython-312-x86_64-linux-gnu.so",
+    "veripb/printing.cpython-312-x86_64-linux-gnu.so",
+    "veripb/order.cpython-312-x86_64-linux-gnu.so",
+    "veripb/subgoal.cpython-312-x86_64-linux-gnu.so",
+    "veripb/constraints.cpython-312-x86_64-linux-gnu.so",
+    "veripb/rules_objective.cpython-312-x86_64-linux-gnu.so",
+    "veripb/verifier.cpython-312-x86_64-linux-gnu.so",
+    "veripb/prooflogging.cpython-312-x86_64-linux-gnu.so",
+    "veripb/optimized/pybindings.cpython-312-x86_64-linux-gnu.so"
+  ],
+  "source_changed": false
+}

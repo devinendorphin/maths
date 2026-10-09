@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "workers": 300,
+  "logical_match": true,
+  "excluded_fields": [
+    "adapter_cpu",
+    "algorithm_cpu",
+    "algorithm_wall",
+    "checker_cpu",
+    "checker_wall",
+    "child_cpu",
+    "native_cpu",
+    "parent_cpu",
+    "seal",
+    "wall"
+  ],
+  "exclusion_note": "Receipt seals contain timing diagnostics; all proof and witness hashes remain compared. Each run is independently audited.",
+  "fresh_directory": "/workspace/maths-101-110-replication-check",
+  "same_external_sdk": true,
+  "independent_sdk_installation": false,
+  "original_results_sha256": "3d1caeab3ea54918fa64ddd8e618b90b0c174e98753b8157db5580f8600c49a4",
+  "replication_results_sha256": "6de03e55df301df43a629d28da1e148034250b2a9f1d6425889b6b7adb74304a",
+  "original_audit": {
+    "passed": true,
+    "inputs": 40,
+    "distinct_models": 8,
+    "workers": 300,
+    "answer_checks": 6239,
+    "point_records": 2045,
+    "feasible_cover_checks": 212918,
+    "interval_endpoint_checks": 708,
+    "snapshot_decisions": 56,
+    "partial_bounds": 4,
+    "unique_vipr_accepted": 139,
+    "false_vipr_bounds_rejected": 139,
+    "unique_pb_accepted": 21,
+    "false_pb_bounds_rejected": 21,
+    "audit_wall": 9.781510911998339,
+    "auditor_sha256": "810f411dbe1bd1559c07783ee4c307f92385eadd0063fb8a09321c70c60c7087"
+  },
+  "replication_audit": {
+    "passed": true,
+    "inputs": 40,
+    "distinct_models": 8,
+    "workers": 300,
+    "answer_checks": 6239,
+    "point_records": 2045,
+    "feasible_cover_checks": 212918,
+    "interval_endpoint_checks": 708,
+    "snapshot_decisions": 56,
+    "partial_bounds": 4,
+    "unique_vipr_accepted": 139,
+    "false_vipr_bounds_rejected": 139,
+    "unique_pb_accepted": 21,
+    "false_pb_bounds_rejected": 21,
+    "audit_wall": 10.180158605999168,
+    "auditor_sha256": "810f411dbe1bd1559c07783ee4c307f92385eadd0063fb8a09321c70c60c7087"
+  },
+  "original_execution": {
+    "status": "complete",
+    "wall": 30.093805450000218,
+    "wall_cap": 600,
+    "workers": 300
+  },
+  "replication_execution": {
+    "status": "complete",
+    "wall": 35.361814949999825,
+    "wall_cap": 600,
+    "workers": 300
+  }
+}
