@@ -1,0 +1,45 @@
+{
+  "status": "setup_failed",
+  "reason": "/workspace/maths-toolchains/veripb2-recovery-source/setup-2.log",
+  "wall": 3.35145911899599,
+  "wall_cap": 300,
+  "commands": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "venv",
+        "/workspace/maths-toolchains/veripb2-recovery-source/venv"
+      ],
+      "wall": 1.869106718004332,
+      "exit_code": 0,
+      "log": "setup-0.log"
+    },
+    {
+      "command": [
+        "/workspace/maths-toolchains/veripb2-recovery-source/venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "setuptools==69.5.1",
+        "pybind11==2.13.6"
+      ],
+      "wall": 1.31753817700519,
+      "exit_code": 0,
+      "log": "setup-1.log"
+    },
+    {
+      "command": [
+        "/workspace/maths-toolchains/veripb2-recovery-source/venv/bin/python",
+        "/workspace/maths-toolchains/veripb2-recovery-source/build_core.py",
+        "build_ext",
+        "--inplace",
+        "egg_info"
+      ],
+      "wall": 0.1643607400037581,
+      "exit_code": 1,
+      "log": "setup-2.log"
+    }
+  ]
+}

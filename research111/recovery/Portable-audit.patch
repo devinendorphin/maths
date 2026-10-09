@@ -1,0 +1,31 @@
+--- original/code/audit.py
++++ recovery/portable_audit.py
+@@ -9,7 +9,7 @@
+ def run(full=True):
+  start=time.perf_counter();seal=json.loads((ROOT/'Freeze.json').read_text())
+  for p,d in seal['files'].items():assert h(ROOT/p)==d,p
+- for p,d in json.loads((ROOT/'External-dependencies.json').read_text())['files'].items():assert h(pathlib.Path(p))==d,p
++ # Original SDK is unavailable; the recovery harness identifies the new checker separately.
+  rows={x['case_id']:x for x in json.loads((ROOT/'Inputs.json').read_text())};arrays={};bestcache={};certcache=set();vipr={};pb={}
+  counts=dict(answer_checks=0,point_records=0,feasible_cover_checks=0,interval_endpoint_checks=0,snapshot_decisions=0,partial_bounds=0)
+  def model(row):return tuple(json.dumps(row[k]) for k in ['weights','profits','slopes','capacity'])
+@@ -85,14 +85,14 @@
+   with tempfile.TemporaryDirectory(dir='/tmp',prefix='maths101-audit-') as tmp:
+    td=pathlib.Path(tmp)
+    for sha,path in vipr.items():
+-    p=subprocess.run([str(binary),str(path)],capture_output=True,text=True,timeout=15);assert p.returncode==0 and 'Successfully verified' in p.stdout;valid_vipr+=1
++    p=subprocess.run([str(binary),str(path)],capture_output=True,text=True,timeout=30);assert p.returncode==0 and 'Successfully verified' in p.stdout;valid_vipr+=1
+     lines=path.read_text().splitlines();tokens=lines[-1].split();tokens[2]=str(int(tokens[2])-1);lines[-1]=' '.join(tokens);bad=td/(sha+'.vipr');bad.write_text('\n'.join(lines)+'\n')
+-    p=subprocess.run([str(binary),str(bad)],capture_output=True,text=True,timeout=15);assert p.returncode!=0;bad_vipr+=1
++    p=subprocess.run([str(binary),str(bad)],capture_output=True,text=True,timeout=30);assert p.returncode!=0;bad_vipr+=1
+    for (fsha,psha),(formula,proof) in pb.items():
+-    args=['python3',str(ROOT/'tools/run_veripb.py'),str(formula)];p=subprocess.run(args+[str(proof)],capture_output=True,text=True,timeout=15)
++    args=[__import__('sys').executable,'-m','veripb',str(formula)];p=subprocess.run(args+[str(proof)],capture_output=True,text=True,timeout=30)
+     assert p.returncode==0 and 'Verification succeeded' in p.stdout and 'Verification failed' not in p.stdout;valid_pb+=1
+     text=proof.read_text();m=re.search(r'conclusion BOUNDS (-?\d+) (-?\d+)',text);new=int(m[1])-1;broken=text[:m.start()]+f'conclusion BOUNDS {new} {new}'+text[m.end():];bad=td/(psha+'.pbp');bad.write_text(broken)
+-    p=subprocess.run(args+[str(bad)],capture_output=True,text=True,timeout=15);assert p.returncode!=0 and 'Verification succeeded' not in p.stdout;bad_pb+=1
++    p=subprocess.run(args+[str(bad)],capture_output=True,text=True,timeout=30);assert p.returncode!=0 and 'Verification succeeded' not in p.stdout;bad_pb+=1
+  result=dict(passed=True,inputs=len(rows),distinct_models=len(arrays),workers=len(workers),**counts,unique_vipr_accepted=valid_vipr,false_vipr_bounds_rejected=bad_vipr,unique_pb_accepted=valid_pb,false_pb_bounds_rejected=bad_pb,audit_wall=time.perf_counter()-start,auditor_sha256=h(pathlib.Path(__file__)))
+- (ROOT/'Audit.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result));return result
++ (ROOT/'Portable-audit.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result));return result
+ if __name__=='__main__':run()

@@ -1,0 +1,12 @@
+{
+  "purpose": "Verify and reconcile newly recovered evidence, not rerun headline optimization experiments or timings.",
+  "archive_sha256": "4a01c756935d8efda38fb7df02b9ad1caeec4cbbf3ccd8f2a568783969f5e758",
+  "checks": ["403 member sizes/hashes and 73 frozen campaign files", "official CP2024 source pin and exact disclosed patch", "logical replication with every seal validated independently", "original-model finite answer and certificate-binding audit", "139 VIPR proof checks and false-bound controls", "21 VeriPB formula/proof pairs and false-bound controls if newly identified checker setup succeeds"],
+  "cp_source_commit": "9b915e8e959e07ed2c096582c3dcb605ce0269e7",
+  "veripb_source_commit": "5c485722194cbd9422d3eb169c8e621ca82aeb17",
+  "veripb_source_archive_sha256": "6c44310b4284129dbecb49ac07180b857d61c21b4f35caaf8b5f046f37b5f0cc",
+  "new_checker": "Compile only official unchanged optimized.pybindings C++ sources; use unchanged interpreted checking rules. This is a distinct proof-replay deployment, not the original mixed native/Python timing environment.",
+  "limits": {"new_checker_setup_wall_seconds": 300, "checker_per_proof_seconds": 30, "proof_replay_campaign_wall_seconds": 300, "parallel_compile_jobs": 1},
+  "accounting": "Setup, verification and archive-replay costs are outside historical headline times. No new algorithm performance comparison; preserve both original timing datasets.",
+  "acceptance": "Record source and new binary identities, adapter changes and unsupported checks explicitly. Preserve original audit and external freeze; never claim the new checker matches the unrecovered 107-file original runtime. Mathematical and underlying proof identities compared separately from timing-bearing seals."
+}

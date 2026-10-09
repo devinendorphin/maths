@@ -1,0 +1,52 @@
+{
+  "status": "built",
+  "source": "/workspace/maths-toolchains/veripb2-recovery-source/VeriPB-archive-5c485722194cbd9422d3eb169c8e621ca82aeb17-5c485722194cbd9422d3eb169c8e621ca82aeb17",
+  "python": "/workspace/maths-toolchains/veripb2-recovery-source/venv/bin/python",
+  "binaries": {
+    "veripb/optimized/pybindings.cpython-312-x86_64-linux-gnu.so": "3bd52b063561489ecb73bd186a286c23e50466019d54c3e711ee959d7f9ae238"
+  },
+  "checking_rule_changes": false,
+  "interpreted_rule_modules": true,
+  "build_script_sha256": "66205bfc4abbe215cc20e6bbb99881f849b2291cedc1314e1e6265e527dea393",
+  "wall": 49.92981992300338,
+  "wall_cap": 300,
+  "commands": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "venv",
+        "/workspace/maths-toolchains/veripb2-recovery-source/venv"
+      ],
+      "wall": 1.1181314650020795,
+      "exit_code": 0,
+      "log": "setup-0.log"
+    },
+    {
+      "command": [
+        "/workspace/maths-toolchains/veripb2-recovery-source/venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "setuptools==69.5.1",
+        "pybind11==2.13.6"
+      ],
+      "wall": 0.2647247740023886,
+      "exit_code": 0,
+      "log": "setup-1.log"
+    },
+    {
+      "command": [
+        "/workspace/maths-toolchains/veripb2-recovery-source/venv/bin/python",
+        "/workspace/maths-toolchains/veripb2-recovery-source/build_core.py",
+        "build_ext",
+        "--inplace",
+        "egg_info"
+      ],
+      "wall": 48.52159584599576,
+      "exit_code": 0,
+      "log": "setup-2.log"
+    }
+  ]
+}

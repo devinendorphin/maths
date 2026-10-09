@@ -1,0 +1,119 @@
+{
+  "path": "archives/original-300-recovery-verification.tar.xz",
+  "bytes": 16260,
+  "sha256": "8dbbea7c2769b56179faacf5affc20492d6f1e3bf0370067ed4a14656d2f8e56",
+  "members": 23,
+  "members_manifest": [
+    {
+      "path": "Archive-check.json",
+      "bytes": 905,
+      "sha256": "4b9062deab8d22615f98b884dfc61106316f3fa59e90b0791a934ab9d5865cb4"
+    },
+    {
+      "path": "Checker-setup.json",
+      "bytes": 1649,
+      "sha256": "e88bff028e4eadd4a5e293ed893400347f8f30643c966c2fe5a5f65a8809af48"
+    },
+    {
+      "path": "Development.md",
+      "bytes": 1493,
+      "sha256": "4e7820ea0c1773582c8949fc0c2221e1897559d08c0c7a22699e3f30992966ee"
+    },
+    {
+      "path": "Failed-checker-setup.json",
+      "bytes": 1167,
+      "sha256": "c086aadc4ac4e21e9b2876c1b9c6a2523bc29f7f03302c42e5081c0eecd34e2b"
+    },
+    {
+      "path": "Portable-audit.json",
+      "bytes": 503,
+      "sha256": "b7adfa6145a7d21bb60b0e22fa0518037e3cfd2d82b97ed606de1f103cdbc26f"
+    },
+    {
+      "path": "Portable-audit.patch",
+      "bytes": 3286,
+      "sha256": "52a192bdbddc3edc98855cd13711a319afaa32262215fcf12c2d2a9935ecac1d"
+    },
+    {
+      "path": "Protocol.json",
+      "bytes": 1747,
+      "sha256": "df646fb462257f7dd2fd53804b71f7fa99a13683ae04cde321e70b02d1f6926f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2449,
+      "sha256": "37e08b9298aaebef5e40d1678825cee6599017da301ada3a6ceac890b3820eaf"
+    },
+    {
+      "path": "Recovery-followup.md",
+      "bytes": 7141,
+      "sha256": "6f2f10adc15fa668fb4ed9339fcefd71c7cf4c98413f6878e9f725a19a829317"
+    },
+    {
+      "path": "Replay-freeze.json",
+      "bytes": 4616,
+      "sha256": "d1bcd4e13fa80feaec3bde1d20e2c342054f72de7469c2cf11fe4b643142b918"
+    },
+    {
+      "path": "Replay.log",
+      "bytes": 750,
+      "sha256": "df3d4db718e0f2d6a547d87013440e64fd5fec0f13fb81f5f04caf147c61f47a"
+    },
+    {
+      "path": "frozen/setup_checker.py",
+      "bytes": 2330,
+      "sha256": "0659251ea991998b7e85c61edf1cbb8d2962bd3f7e8dcb61021b48ffac0fdae0"
+    },
+    {
+      "path": "package.py",
+      "bytes": 1928,
+      "sha256": "765b781d6fbaff6f858e78e342f2b2039fedabfcaba673a2f837de46f086be85"
+    },
+    {
+      "path": "portable_audit.py",
+      "bytes": 7626,
+      "sha256": "f8a71019427f63eca473fea9cc30187228f33da6ee8b4cabf77ac7253779c942"
+    },
+    {
+      "path": "prepare_replay.py",
+      "bytes": 2420,
+      "sha256": "6aa21fa4dd96cd2e645f8a6dc8b000c4356adc4d0f8c88285e3ff2d6d99a106f"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 1119,
+      "sha256": "416fcba6055fc40105f21d3d30c251c5308847e8102740227124369bdcfbe8f7"
+    },
+    {
+      "path": "setup-logs/build_core.py",
+      "bytes": 444,
+      "sha256": "66205bfc4abbe215cc20e6bbb99881f849b2291cedc1314e1e6265e527dea393"
+    },
+    {
+      "path": "setup-logs/setup-0.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "setup-logs/setup-1.log",
+      "bytes": 458,
+      "sha256": "968984a768fe38523df3f460de8f2c21264d5c0c7be168d57e72db44788fa800"
+    },
+    {
+      "path": "setup-logs/setup-2.log",
+      "bytes": 3726,
+      "sha256": "6e57e02e57cd801fead5e8d90a1c628b90c71aaa0adfb6fbeea2959351f7fd6d"
+    },
+    {
+      "path": "setup_checker.py",
+      "bytes": 2347,
+      "sha256": "538a7c2fc03f93941692ed379d0ba2d76cc229a7862d03a4411e219ce58f2e5e"
+    },
+    {
+      "path": "verify_record.py",
+      "bytes": 3582,
+      "sha256": "90886649154b63fe84a4737fa762877d38f1451511aa4f57280f1ab670773602"
+    }
+  ],
+  "verification": "All members read back exactly; preserves pre-replay setup adapter, new audit, source/binary identities and setup logs. Large SDK and core extension excluded."
+}

@@ -1,0 +1,7 @@
+# Verification development notes
+
+The first checker setup failed in 3.35 seconds: the managed Python's default compiler was `clang`, which was absent (`error: command 'clang' failed: No such file or directory`). The corrected setup explicitly selected installed GCC/G++. No checker rules were changed. The failed receipt is retained as Failed-checker-setup.json. Its original numbered log was reused by the corrected setup, so the original failed command's detailed log is not claimed preserved; this note records the observed console diagnosis. Subsequent helper code uses unique log names. The frozen setup helper used for the accepted deployment is retained in the supplement archive.
+
+An initial seal-recalculation probe treated all receipts as full-record hashes and stopped on a schema-1 receipt. Source inspection showed that schema 1 deliberately seals only nine logical identity fields. The corrected verification separately applies the two source-defined schemas, recomputes every seal and compares all corresponding logical fields. This was a verifier-probe error, not a discovered invalid original receipt. No seal mismatch is suppressed in the accepted verification.
+
+Neither development probe contributes a new solver performance result. Archive extraction and source retrieval preceded the declared checker-setup timer; the successful setup script's measured 49.93 seconds is not a complete installation investigation time. Historical algorithm timings are preserved unchanged.

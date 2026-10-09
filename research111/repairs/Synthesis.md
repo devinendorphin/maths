@@ -1,5 +1,7 @@
 # Aligned continuation and bounded repairs
 
+**Recovery update:** The original 300-worker campaign and CP 2024 adaptation have since been recovered and checked. [Recovery-followup.md](../Recovery-followup.md) supersedes the missing-evidence statements below. This synthesis preserves the report at the repair publication; its frozen runs, measurements and limitations are unchanged.
+
 The available evidence supports conditional reuse and an actual exact-SCIP certificate route. It does not recover the separate historical 300-worker campaign or establish that every proposed comparison is complete. Start with [the evidence alignment](../Alignment.md) and [the preserved review](../REVIEW.md).
 
 The question remains: when an objective changes, when does an exact answer stay optimal, when is checked evidence applicable, and when does the complete reuse path cost less than solving and certifying again? These are separate questions. We use the existing fixed-feasibility binary knapsack models with positive integer weights, fixed capacity, signed affine profits, and rational parameters.

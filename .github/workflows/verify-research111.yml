@@ -4,6 +4,8 @@ on:
     paths:
       - 'research111/**'
       - 'archives/experiments-111-120-*.tar.xz'
+      - 'research101-original-300/**'
+      - 'archives/experiments-101-110-original-300-workers.tar.xz'
       - '.github/workflows/verify-research111.yml'
   workflow_dispatch:
 permissions:

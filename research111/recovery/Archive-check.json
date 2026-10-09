@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "4a01c756935d8efda38fb7df02b9ad1caeec4cbbf3ccd8f2a568783969f5e758",
+  "bytes": 687116,
+  "members": 404,
+  "hashed_files_verified": 403,
+  "frozen_files_verified": 73,
+  "cp_upstream_patch_exact_match": true,
+  "logical_replication_match": true,
+  "excluded_fields": [
+    "adapter_cpu",
+    "algorithm_cpu",
+    "algorithm_wall",
+    "checker_cpu",
+    "checker_wall",
+    "child_cpu",
+    "native_cpu",
+    "parent_cpu",
+    "seal",
+    "wall"
+  ],
+  "seals_verified": {
+    "schema1": 2352,
+    "schema2": 1570
+  },
+  "seal_exclusion_assessed": "Schema 1 seals cover nine logical identity fields, all compared exactly. Schema 2 seals include source timing diagnostics; each seal independently recomputed. No invalid seals ignored.",
+  "original_external_sdk_files_missing": 107,
+  "verification_script_sha256": "90886649154b63fe84a4737fa762877d38f1451511aa4f57280f1ab670773602"
+}

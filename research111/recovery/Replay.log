@@ -1,0 +1,3 @@
+/workspace/maths-onboarding/original300-review-5vxas9qw/research101/code/portable_audit.py:40: SyntaxWarning: invalid escape sequence '\d'
+  original=next(l for l in text.splitlines() if l.startswith('soli ')).split()[1:];assigned=[x for x in original if re.fullmatch('~?x\d+',x)]
+{"passed": true, "inputs": 40, "distinct_models": 8, "workers": 300, "answer_checks": 6239, "point_records": 2045, "feasible_cover_checks": 212918, "interval_endpoint_checks": 708, "snapshot_decisions": 56, "partial_bounds": 4, "unique_vipr_accepted": 139, "false_vipr_bounds_rejected": 139, "unique_pb_accepted": 21, "false_pb_bounds_rejected": 21, "audit_wall": 7.732807196000067, "auditor_sha256": "f8a71019427f63eca473fea9cc30187228f33da6ee8b4cabf77ac7253779c942"}

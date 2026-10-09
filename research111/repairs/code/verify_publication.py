@@ -16,7 +16,7 @@ def main():
     for name,expected in seal['files'].items():
         assert sha((REPO/name).read_bytes())==expected,name
     counts=[]
-    for receipt_file in [REPO/'research111/Archive-storage.json',ROOT/'Archive-storage.json']:
+    for receipt_file in [REPO/'research111/Archive-storage.json',ROOT/'Archive-storage.json',REPO/'research101-original-300/Archive-storage.json',REPO/'research111/recovery/Archive-storage.json']:
         receipt=json.loads(receipt_file.read_text());p=REPO/receipt['path']
         assert p.stat().st_size==receipt['bytes'] and sha(p.read_bytes())==receipt['sha256']
         with tarfile.open(p) as t:
@@ -28,6 +28,12 @@ def main():
         if 'executable_members' in receipt:
             assert executables==set(receipt['executable_members'])
         listed=receipt.get('members_manifest',receipt.get('members'))
+        if listed is None and 'archive_root' in receipt:
+            prefix=receipt['archive_root']
+            manifest_name=prefix+'Archive-members.json'
+            manifest=json.loads(members[manifest_name])['files']
+            listed=[dict(path=prefix+name,**metadata) for name,metadata in manifest.items()]
+            assert set(members)=={m['path'] for m in listed}|{manifest_name}
         if isinstance(listed,dict):
             listed=[dict(path=name,**metadata) for name,metadata in listed.items()]
         if isinstance(listed,list):
