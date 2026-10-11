@@ -20,6 +20,13 @@ def run():
     amendment=json.loads((ROOT/'Navigation-amendment.json').read_text())
     for entry in amendment['amendments']:
         old=(REPO/entry['preserved']).read_bytes();current=(REPO/entry['path']).read_bytes()
+        # Later sealed navigation retains the exact earlier receipt endpoint.
+        if hashlib.sha256(current).hexdigest()!=entry['after']['sha256']:
+            path=Path(entry['path'])
+            matches=[(REPO/name).read_bytes() for name in seal['files']
+                     if Path(name).parent==path.parent and Path(name).name.startswith('Publication-seal-')
+                     and hashlib.sha256((REPO/name).read_bytes()).hexdigest()==entry['after']['sha256']]
+            assert len(matches)==1;current=matches[0]
         assert hashlib.sha256(old).hexdigest()==entry['before']['sha256'] and hashlib.sha256(current).hexdigest()==entry['after']['sha256']
         previous=json.loads(old);expected=copy.deepcopy(previous)
         for name,change in entry['changed_entries'].items():

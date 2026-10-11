@@ -1,0 +1,17 @@
+{
+  "bytes": 1286988,
+  "excluded": [
+    "external virtualenv and wheels; pinned requirements/native module hashes/upstream sources retained",
+    "Python bytecode",
+    "redundant Sessions-progress.json"
+  ],
+  "members": 698,
+  "path": "archives/experiments-152-155-specialist-incremental.tar.xz",
+  "roots": [
+    "primary",
+    "replica",
+    "reports"
+  ],
+  "sha256": "9d74816226c53466ea2731c193b507b744882cbe001305c8f37adda9993bf2c2",
+  "uncompressed_bytes": 238471387
+}

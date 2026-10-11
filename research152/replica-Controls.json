@@ -1,0 +1,754 @@
+{
+  "controls": [
+    "wrong-context",
+    "stale-version",
+    "boolean-version",
+    "wrong-old-model",
+    "unknown-message-field",
+    "unknown-edge-field",
+    "wrong-old-value",
+    "boolean-edge",
+    "noninteger-new",
+    "boolean-new",
+    "negative-capacity",
+    "oversized-capacity",
+    "duplicate-edge-field",
+    "unbalanced-needs",
+    "duplicate-balance",
+    "bad-node",
+    "partial-after-valid-prefix",
+    "bad-container",
+    "empty-update",
+    "too-many-changes",
+    "malformed-top-level",
+    "caller-ownership",
+    "replay-rejection",
+    "reduction-below-old-flow",
+    "atomic-joint-bounds-and-needs",
+    "checked-shortage",
+    "repair-after-infeasibility",
+    "charged-budget-fallback",
+    "new-residual-self-loop",
+    "proof-ownership",
+    "remaining-imbalance-needs-decrease",
+    "reject-false-absolute-supply-trace",
+    "reject-infeasible-preflight-witness",
+    "transaction-rejection-preserves-native-state",
+    "infeasible-model-skips-native-solve",
+    "retain-object-through-shortage-recovery",
+    "guarded-proof-distinct-from-unsolved-native-hint",
+    "solve-after-guarded-lower-transform",
+    "capacity-clamp-below-retained-flow",
+    "simulated-status-charged-native-fallback",
+    "rebuild-after-native-status-fallback",
+    "native-topology-guard"
+  ],
+  "fallback_proof": {
+    "cost_units": 2,
+    "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+    "flow": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "kind": "optimal",
+    "model": "646008ae08209c745ead7c8f4f638326f38bf746c1d463b7a767e26f3f1ab452",
+    "pi": [
+      -2,
+      -1,
+      0
+    ]
+  },
+  "initial_proof": {
+    "cost_units": 2,
+    "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+    "flow": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "kind": "optimal",
+    "model": "646008ae08209c745ead7c8f4f638326f38bf746c1d463b7a767e26f3f1ab452",
+    "pi": [
+      -2,
+      -1,
+      0
+    ]
+  },
+  "model": {
+    "b": [
+      2,
+      0,
+      -2
+    ],
+    "denominator": 1,
+    "edges": [
+      {
+        "a": 0,
+        "c": 1,
+        "l": 0,
+        "u": 2,
+        "z": 1
+      },
+      {
+        "a": 1,
+        "c": 1,
+        "l": 0,
+        "u": 2,
+        "z": 2
+      },
+      {
+        "a": 0,
+        "c": 7,
+        "l": 0,
+        "u": 2,
+        "z": 2
+      },
+      {
+        "a": 1,
+        "c": -1,
+        "l": 0,
+        "u": 2,
+        "z": 1
+      }
+    ],
+    "id": "controls",
+    "n": 3
+  },
+  "native_evidence": [
+    {
+      "cut": {
+        "action": "generic-shortage",
+        "model": "b3d524bde735e1e51002ca86ed8b702d05914ae7007c0f5f2710dcc61a6bbd33",
+        "native": {
+          "after": {
+            "excess": [
+              9,
+              -9
+            ],
+            "identity_stable": true,
+            "solves": 2,
+            "updates": 3,
+            "y": [
+              1
+            ]
+          },
+          "before": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 2,
+            "updates": 2,
+            "y": [
+              1
+            ]
+          },
+          "constructions": 1,
+          "failure_after": null,
+          "feasible_witness": null,
+          "patched": {
+            "excess": [
+              9,
+              -9
+            ],
+            "identity_stable": true,
+            "solves": 2,
+            "updates": 3,
+            "y": [
+              1
+            ]
+          },
+          "solve_called": false,
+          "solve_status": null,
+          "status_forced_control": false
+        },
+        "proof": {
+          "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+          "kind": "cut",
+          "model": "b3d524bde735e1e51002ca86ed8b702d05914ae7007c0f5f2710dcc61a6bbd33",
+          "set": [
+            0
+          ]
+        },
+        "stats": {
+          "augmentations": 0,
+          "budget_fallback": false,
+          "cycles": 0,
+          "flow_hint": false,
+          "guard_accepted": false,
+          "guard_attempt": false,
+          "native_failure": false,
+          "relaxations": 0
+        },
+        "version": 2
+      },
+      "decreased": {
+        "action": "generic-warm",
+        "model": "c5a1b2e6481f7f18d51b27b771f931ab6fbf109490da80a0005a5a9c216c90e7",
+        "native": {
+          "after": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 2,
+            "updates": 2,
+            "y": [
+              1
+            ]
+          },
+          "before": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 1,
+            "y": [
+              2
+            ]
+          },
+          "constructions": 1,
+          "failure_after": null,
+          "feasible_witness": [
+            1
+          ],
+          "patched": {
+            "excess": [
+              -1,
+              1
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 2,
+            "y": [
+              2
+            ]
+          },
+          "solve_called": true,
+          "solve_status": 0,
+          "status_forced_control": false
+        },
+        "proof": {
+          "cost_units": 1,
+          "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+          "flow": [
+            1
+          ],
+          "kind": "optimal",
+          "model": "c5a1b2e6481f7f18d51b27b771f931ab6fbf109490da80a0005a5a9c216c90e7",
+          "pi": [
+            -1,
+            0
+          ]
+        },
+        "stats": {
+          "augmentations": 0,
+          "budget_fallback": false,
+          "cycles": 0,
+          "flow_hint": false,
+          "guard_accepted": false,
+          "guard_attempt": false,
+          "native_failure": false,
+          "relaxations": 0
+        },
+        "version": 1
+      },
+      "initial": {
+        "action": "generic-warm",
+        "model": "5c204ae404ab43cbec1f8e675e84ac7a15634004e34b08200fada8741fb45759",
+        "native": {
+          "after": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 1,
+            "y": [
+              2
+            ]
+          },
+          "before": null,
+          "constructions": 1,
+          "failure_after": null,
+          "feasible_witness": [
+            2
+          ],
+          "patched": {
+            "excess": [
+              2,
+              -2
+            ],
+            "identity_stable": true,
+            "solves": 0,
+            "updates": 1,
+            "y": [
+              0
+            ]
+          },
+          "solve_called": true,
+          "solve_status": 0,
+          "status_forced_control": false
+        },
+        "proof": {
+          "cost_units": 2,
+          "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+          "flow": [
+            2
+          ],
+          "kind": "optimal",
+          "model": "5c204ae404ab43cbec1f8e675e84ac7a15634004e34b08200fada8741fb45759",
+          "pi": [
+            -1,
+            0
+          ]
+        },
+        "stats": {
+          "augmentations": 0,
+          "budget_fallback": false,
+          "cycles": 0,
+          "flow_hint": false,
+          "guard_accepted": false,
+          "guard_attempt": false,
+          "native_failure": false,
+          "relaxations": 0
+        },
+        "version": 0
+      },
+      "restored": {
+        "action": "generic-warm",
+        "model": "5c204ae404ab43cbec1f8e675e84ac7a15634004e34b08200fada8741fb45759",
+        "native": {
+          "after": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 3,
+            "updates": 4,
+            "y": [
+              2
+            ]
+          },
+          "before": {
+            "excess": [
+              9,
+              -9
+            ],
+            "identity_stable": true,
+            "solves": 2,
+            "updates": 3,
+            "y": [
+              1
+            ]
+          },
+          "constructions": 1,
+          "failure_after": null,
+          "feasible_witness": [
+            2
+          ],
+          "patched": {
+            "excess": [
+              1,
+              -1
+            ],
+            "identity_stable": true,
+            "solves": 2,
+            "updates": 4,
+            "y": [
+              1
+            ]
+          },
+          "solve_called": true,
+          "solve_status": 0,
+          "status_forced_control": false
+        },
+        "proof": {
+          "cost_units": 2,
+          "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+          "flow": [
+            2
+          ],
+          "kind": "optimal",
+          "model": "5c204ae404ab43cbec1f8e675e84ac7a15634004e34b08200fada8741fb45759",
+          "pi": [
+            -1,
+            0
+          ]
+        },
+        "stats": {
+          "augmentations": 0,
+          "budget_fallback": false,
+          "cycles": 0,
+          "flow_hint": false,
+          "guard_accepted": false,
+          "guard_attempt": false,
+          "native_failure": false,
+          "relaxations": 0
+        },
+        "version": 3
+      },
+      "shortage_model": {
+        "b": [
+          10,
+          -10
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 1,
+            "l": 0,
+            "u": 3,
+            "z": 1
+          }
+        ],
+        "id": "native-controls",
+        "n": 2
+      }
+    },
+    {
+      "fallback": {
+        "action": "charged-native-fallback",
+        "model": "5c204ae404ab43cbec1f8e675e84ac7a15634004e34b08200fada8741fb45759",
+        "native": {
+          "after": {
+            "excess": [
+              2,
+              -2
+            ],
+            "identity_stable": true,
+            "solves": 0,
+            "updates": 1,
+            "y": [
+              0
+            ]
+          },
+          "before": null,
+          "constructions": 1,
+          "failure_after": {
+            "excess": [
+              2,
+              -2
+            ],
+            "identity_stable": true,
+            "solves": 0,
+            "updates": 1,
+            "y": [
+              0
+            ]
+          },
+          "feasible_witness": [
+            2
+          ],
+          "patched": {
+            "excess": [
+              2,
+              -2
+            ],
+            "identity_stable": true,
+            "solves": 0,
+            "updates": 1,
+            "y": [
+              0
+            ]
+          },
+          "solve_called": false,
+          "solve_status": -99,
+          "status_forced_control": true
+        },
+        "proof": {
+          "cost_units": 2,
+          "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+          "flow": [
+            2
+          ],
+          "kind": "optimal",
+          "model": "5c204ae404ab43cbec1f8e675e84ac7a15634004e34b08200fada8741fb45759",
+          "pi": [
+            -1,
+            0
+          ]
+        },
+        "stats": {
+          "augmentations": 0,
+          "budget_fallback": true,
+          "cycles": 0,
+          "flow_hint": false,
+          "guard_accepted": false,
+          "guard_attempt": false,
+          "native_failure": true,
+          "relaxations": 0
+        },
+        "version": 0
+      },
+      "floor": {
+        "action": "certificate-admission",
+        "model": "419c3339a6f85badfbb1586b0b2751cbef67c38704f7ac5988371be1fff0150e",
+        "native": {
+          "after": {
+            "excess": [
+              -1,
+              1
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 2,
+            "y": [
+              2
+            ]
+          },
+          "before": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 1,
+            "y": [
+              2
+            ]
+          },
+          "constructions": 1,
+          "failure_after": null,
+          "feasible_witness": null,
+          "patched": {
+            "excess": [
+              -1,
+              1
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 2,
+            "y": [
+              2
+            ]
+          },
+          "solve_called": false,
+          "solve_status": null,
+          "status_forced_control": false
+        },
+        "proof": {
+          "cost_units": 2,
+          "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+          "flow": [
+            2
+          ],
+          "kind": "optimal",
+          "model": "419c3339a6f85badfbb1586b0b2751cbef67c38704f7ac5988371be1fff0150e",
+          "pi": [
+            -1,
+            0
+          ]
+        },
+        "stats": {
+          "augmentations": 0,
+          "budget_fallback": false,
+          "cycles": 0,
+          "flow_hint": false,
+          "guard_accepted": true,
+          "guard_attempt": true,
+          "native_failure": false,
+          "relaxations": 0
+        },
+        "version": 1
+      },
+      "rebuilt": {
+        "action": "generic-warm",
+        "model": "5c204ae404ab43cbec1f8e675e84ac7a15634004e34b08200fada8741fb45759",
+        "native": {
+          "after": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 1,
+            "y": [
+              2
+            ]
+          },
+          "before": null,
+          "constructions": 2,
+          "failure_after": null,
+          "feasible_witness": [
+            2
+          ],
+          "patched": {
+            "excess": [
+              2,
+              -2
+            ],
+            "identity_stable": true,
+            "solves": 0,
+            "updates": 1,
+            "y": [
+              0
+            ]
+          },
+          "solve_called": true,
+          "solve_status": 0,
+          "status_forced_control": false
+        },
+        "proof": {
+          "cost_units": 2,
+          "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+          "flow": [
+            2
+          ],
+          "kind": "optimal",
+          "model": "5c204ae404ab43cbec1f8e675e84ac7a15634004e34b08200fada8741fb45759",
+          "pi": [
+            -1,
+            0
+          ]
+        },
+        "stats": {
+          "augmentations": 0,
+          "budget_fallback": false,
+          "cycles": 0,
+          "flow_hint": false,
+          "guard_accepted": false,
+          "guard_attempt": false,
+          "native_failure": false,
+          "relaxations": 0
+        },
+        "version": 0
+      },
+      "updated": {
+        "action": "guard-generic",
+        "model": "ce824636ec35ecf3b3a0d74ff5a74c703bf411e687b2636b5dbf90b35fa17c28",
+        "native": {
+          "after": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 2,
+            "updates": 3,
+            "y": [
+              2
+            ]
+          },
+          "before": {
+            "excess": [
+              -1,
+              1
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 2,
+            "y": [
+              2
+            ]
+          },
+          "constructions": 1,
+          "failure_after": null,
+          "feasible_witness": [
+            3
+          ],
+          "patched": {
+            "excess": [
+              0,
+              0
+            ],
+            "identity_stable": true,
+            "solves": 1,
+            "updates": 3,
+            "y": [
+              2
+            ]
+          },
+          "solve_called": true,
+          "solve_status": 0,
+          "status_forced_control": false
+        },
+        "proof": {
+          "cost_units": 3,
+          "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+          "flow": [
+            3
+          ],
+          "kind": "optimal",
+          "model": "ce824636ec35ecf3b3a0d74ff5a74c703bf411e687b2636b5dbf90b35fa17c28",
+          "pi": [
+            -1,
+            0
+          ]
+        },
+        "stats": {
+          "augmentations": 0,
+          "budget_fallback": false,
+          "cycles": 0,
+          "flow_hint": false,
+          "guard_accepted": false,
+          "guard_attempt": true,
+          "native_failure": false,
+          "relaxations": 0
+        },
+        "version": 2
+      }
+    }
+  ],
+  "passed": true,
+  "shortage_model": {
+    "b": [
+      100,
+      -1,
+      -99
+    ],
+    "denominator": 1,
+    "edges": [
+      {
+        "a": 0,
+        "c": 1,
+        "l": 3,
+        "u": 3,
+        "z": 1
+      },
+      {
+        "a": 1,
+        "c": 1,
+        "l": 0,
+        "u": 2,
+        "z": 2
+      },
+      {
+        "a": 0,
+        "c": 7,
+        "l": 0,
+        "u": 2,
+        "z": 2
+      },
+      {
+        "a": 1,
+        "c": -1,
+        "l": 0,
+        "u": 2,
+        "z": 1
+      }
+    ],
+    "id": "controls",
+    "n": 3
+  },
+  "shortage_proof": {
+    "dependency": "40e5cc53514612e765f521c4a04d69974ebdb288d91bbe22e6f61fd79483d0c6",
+    "kind": "cut",
+    "model": "bbfe36947bc891c9360b70b0b71dc5a3feb7f7db7eeac5e73e4967c27945f379",
+    "set": [
+      0
+    ]
+  }
+}

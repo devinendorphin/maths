@@ -1,0 +1,9 @@
+{
+  "archive_before_after_sha256": "ceaba0fc6eb96039b48fd489bab222bf806b3c945dbdba0b17e4c41a77d8b7c0",
+  "controls": [
+    "missing-root-preserves-archive",
+    "missing-worker-preserves-archive"
+  ],
+  "excluded_from_headline": true,
+  "passed": true
+}
