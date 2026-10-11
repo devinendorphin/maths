@@ -1,0 +1,10 @@
+{
+  "installed_module": {
+    "version": "NetworkX 3.4.2",
+    "path": "research137/Upstream-network-simplex.py",
+    "sha256": "df6b9eb686568feffb28f3b6389a6eb4fd05a53aec43fa89c67b42f17c4856bd",
+    "documentation": "https://networkx.org/documentation/networkx-3.4.2/reference/algorithms/generated/networkx.algorithms.flow.network_simplex.html"
+  },
+  "optimization_intro": "https://developers.google.com/optimization/flow/mincostflow",
+  "priority_review": "partial; no claim of first or new general theorem"
+}

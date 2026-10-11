@@ -1,0 +1,8 @@
+{
+  "development_only": true,
+  "controls_passed": true,
+  "stream_patch_accepts": 15,
+  "stream_fallbacks": 9,
+  "heldout_not_executed": true,
+  "dependency_installation": "fresh venv, pip networkx==3.4.2, TLS enabled; setup excluded from repeated session totals"
+}
