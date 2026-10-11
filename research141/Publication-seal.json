@@ -81,6 +81,10 @@
       "bytes": 242,
       "sha256": "3cd295612711a295ebe35fadbb121ea47e4daa28e2e98d8b3942ea2c2a0aaceb"
     },
+    "research141/Delivery-correction.md": {
+      "bytes": 1735,
+      "sha256": "8ba264cb6bb1029aa59a59bb1dfabacf2cfcc91368d03863f88b23798510b3ca"
+    },
     "research141/Development.json": {
       "bytes": 381,
       "sha256": "b13235ab1601dc2196bbe50ce8f64895dd296399b64eb631bc11f6bc777d1449"
@@ -142,8 +146,8 @@
       "sha256": "5d0ec2c16b3ecc05bc0e7e56f6a4a3bab416f0606e9699d7a21d443853b3c8a7"
     },
     "research141/code/package.py": {
-      "bytes": 2948,
-      "sha256": "4c0c91854141b7e9b472fa471173848795b41eb9f30fbc86577eb84a58e3ee4d"
+      "bytes": 3677,
+      "sha256": "581cbe2bca1a111f3756d56a54686e701ae045bd5d49d058e1db46b17e1a2453"
     },
     "research141/code/predecessor_suite.py": {
       "bytes": 1754,

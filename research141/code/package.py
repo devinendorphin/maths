@@ -14,6 +14,17 @@ def info(data):return {'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest
 def run(primary,replica,*rejected):
     storage=ROOT.name=='research141';paths=[('primary',primary),('replica',replica)]
     paths += [('rejected-record-ownership/'+name,path) for name,path in zip(('primary','replica'),rejected)]
+    if len(rejected)!=(0 if storage else 2):raise ValueError('complete custody roots required')
+    for label,path in paths:
+        path=Path(path)
+        if not path.is_dir() or not (path/'Freeze.json').is_file() or not (path/'Sessions.json').is_file():
+            raise ValueError('missing evidence root: '+str(path))
+        sessions=json.loads((path/'Sessions.json').read_text())
+        if len(sessions)!=(72 if storage else 54):raise ValueError('incomplete session set: '+label)
+        for session in sessions:
+            out=path/'outputs'/session['name']
+            if not (out/'Worker.json').is_file() or not (out/'Evidence.jsonl').is_file():
+                raise ValueError('missing worker evidence: '+str(out))
     payloads={}
     for label,path in paths:
         for file in sorted(Path(path).rglob('*')):

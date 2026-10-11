@@ -42,7 +42,9 @@ On the largest cost-only case the retained basis reduced complete time by
 74% against cold. These savings combine avoided solving, proof completion,
 admission and full-proof logging; they are not solver-kernel timings. Full
 wall ranges, CPU, peak RSS, pivot counts and evidence bytes for every cell are
-in Summary.json. Smaller and mixed cases have narrower margins.
+in Summary.json. Pivot counts measure only the adapter. The cold route's recorded
+zero is a sentinel for **not instrumented**, not a measured absence of pivots.
+Smaller and mixed cases have narrower margins.
 
 The cost-only state reuse is real: arrays/tree survive updates, cost changes
 reach the solver even when certificate admission succeeds, and the next failed

@@ -68,8 +68,8 @@
       "sha256": "353ed19139bb346b383a5e0dd2498aa109402b64e151ee443bb0a0436948b39d"
     },
     "research141/Publication-seal.json": {
-      "bytes": 6591,
-      "sha256": "24273a2033e9dde52c665717f0edbfb7d0aa7f6c9de08c72f9ed0d4d72d6919b"
+      "bytes": 6746,
+      "sha256": "e29900121276fce1ca353a67c2e009949a78779b23d6cf3aceb6c3f8a19b7a8e"
     },
     "research145/Archive-manifest.json": {
       "bytes": 173668,
@@ -132,8 +132,8 @@
       "sha256": "973acde0bd6e7759107f9debc483cea61d1e6bdbd91c76d6101cb7111c7322f6"
     },
     "research145/Synthesis.md": {
-      "bytes": 4162,
-      "sha256": "09f03f3e9beb84b4943f617b01208db7b5fb6ca42caa23d34726b1cea371b434"
+      "bytes": 4306,
+      "sha256": "1bf5041ffeb2487f8f123d70a08c47a43f898cf3550c06c8430941e3f3862809"
     },
     "research145/Upstream-NetworkX-LICENSE.txt": {
       "bytes": 1763,
@@ -172,8 +172,8 @@
       "sha256": "613509771a8563cf339dbc66c9647f467a4e8884722a5e5f187d3585910e57b3"
     },
     "research145/code/package.py": {
-      "bytes": 2948,
-      "sha256": "4c0c91854141b7e9b472fa471173848795b41eb9f30fbc86577eb84a58e3ee4d"
+      "bytes": 3677,
+      "sha256": "581cbe2bca1a111f3756d56a54686e701ae045bd5d49d058e1db46b17e1a2453"
     },
     "research145/code/predecessor_suite.py": {
       "bytes": 1754,
