@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "workers": 72,
+  "queries": 3528,
+  "cut_queries": 1008,
+  "distinct_models": 294,
+  "distinct_proofs": 627,
+  "invalid_certificate_controls": 1254,
+  "transaction_controls": 42,
+  "actions": {
+    "simple-cold": 588,
+    "generic-cold": 420,
+    "generic-shortage": 504,
+    "generic-warm": 420,
+    "guard-generic": 310,
+    "certificate-admission": 222,
+    "flow-repair": 728,
+    "repair-shortage": 336
+  },
+  "upper_reductions_below_previous_flow": 168,
+  "lower_increases_above_previous_flow": 108,
+  "recovered_after_cut": 144,
+  "guard_admissions": 222,
+  "budget_fallbacks": 0,
+  "audit_wall_s": 14.295950365999943
+}
