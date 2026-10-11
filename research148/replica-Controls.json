@@ -1,0 +1,157 @@
+{
+  "controls": [
+    "wrong-context",
+    "stale-version",
+    "boolean-version",
+    "wrong-old-model",
+    "unknown-message-field",
+    "unknown-edge-field",
+    "wrong-old-value",
+    "boolean-edge",
+    "noninteger-new",
+    "boolean-new",
+    "negative-capacity",
+    "oversized-capacity",
+    "duplicate-edge-field",
+    "unbalanced-needs",
+    "duplicate-balance",
+    "bad-node",
+    "partial-after-valid-prefix",
+    "bad-container",
+    "empty-update",
+    "too-many-changes",
+    "malformed-top-level",
+    "caller-ownership",
+    "replay-rejection",
+    "reduction-below-old-flow",
+    "atomic-joint-bounds-and-needs",
+    "checked-shortage",
+    "repair-after-infeasibility",
+    "charged-budget-fallback",
+    "new-residual-self-loop",
+    "proof-ownership"
+  ],
+  "fallback_proof": {
+    "cost_units": 2,
+    "dependency": "1412e3da4b0bfe3cbd1c7f536b0dc44438b928fbc9e2192894796563ee8ab3cd",
+    "flow": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "kind": "optimal",
+    "model": "646008ae08209c745ead7c8f4f638326f38bf746c1d463b7a767e26f3f1ab452",
+    "pi": [
+      -2,
+      -1,
+      0
+    ]
+  },
+  "initial_proof": {
+    "cost_units": 2,
+    "dependency": "1412e3da4b0bfe3cbd1c7f536b0dc44438b928fbc9e2192894796563ee8ab3cd",
+    "flow": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "kind": "optimal",
+    "model": "646008ae08209c745ead7c8f4f638326f38bf746c1d463b7a767e26f3f1ab452",
+    "pi": [
+      -2,
+      -1,
+      0
+    ]
+  },
+  "model": {
+    "b": [
+      2,
+      0,
+      -2
+    ],
+    "denominator": 1,
+    "edges": [
+      {
+        "a": 0,
+        "c": 1,
+        "l": 0,
+        "u": 2,
+        "z": 1
+      },
+      {
+        "a": 1,
+        "c": 1,
+        "l": 0,
+        "u": 2,
+        "z": 2
+      },
+      {
+        "a": 0,
+        "c": 7,
+        "l": 0,
+        "u": 2,
+        "z": 2
+      },
+      {
+        "a": 1,
+        "c": -1,
+        "l": 0,
+        "u": 2,
+        "z": 1
+      }
+    ],
+    "id": "controls",
+    "n": 3
+  },
+  "passed": true,
+  "shortage_model": {
+    "b": [
+      100,
+      -1,
+      -99
+    ],
+    "denominator": 1,
+    "edges": [
+      {
+        "a": 0,
+        "c": 1,
+        "l": 3,
+        "u": 3,
+        "z": 1
+      },
+      {
+        "a": 1,
+        "c": 1,
+        "l": 0,
+        "u": 2,
+        "z": 2
+      },
+      {
+        "a": 0,
+        "c": 7,
+        "l": 0,
+        "u": 2,
+        "z": 2
+      },
+      {
+        "a": 1,
+        "c": -1,
+        "l": 0,
+        "u": 2,
+        "z": 1
+      }
+    ],
+    "id": "controls",
+    "n": 3
+  },
+  "shortage_proof": {
+    "dependency": "1412e3da4b0bfe3cbd1c7f536b0dc44438b928fbc9e2192894796563ee8ab3cd",
+    "kind": "cut",
+    "model": "bbfe36947bc891c9360b70b0b71dc5a3feb7f7db7eeac5e73e4967c27945f379",
+    "set": [
+      0
+    ]
+  }
+}

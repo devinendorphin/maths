@@ -1,0 +1,498 @@
+{
+  "exact_logical_replication": true,
+  "freeze_sha256": "76cc3df6f0da080d9bc8b351fe76d9e5aabf26d95335a35aabe8018c0d8d568f",
+  "rows": [
+    {
+      "edges": 24,
+      "family": "transport",
+      "index": 0,
+      "nodes": 16,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 13524,
+          "kernel_cpu_ms": 195.248,
+          "peak_rss_kib": 80036,
+          "queries_ms": 8.54849750055564,
+          "session_ms": 199.0748915001177
+        },
+        "guard-repair": {
+          "evidence_bytes": 13516,
+          "kernel_cpu_ms": 191.8635,
+          "peak_rss_kib": 78400,
+          "queries_ms": 9.604801500131543,
+          "session_ms": 196.72912599992287
+        },
+        "networkx-cold": {
+          "evidence_bytes": 13534,
+          "kernel_cpu_ms": 207.75949999999997,
+          "peak_rss_kib": 78196,
+          "queries_ms": 16.22153699975115,
+          "session_ms": 209.85677499993471
+        },
+        "ortools-cold": {
+          "evidence_bytes": 13509,
+          "kernel_cpu_ms": 204.08249999999998,
+          "peak_rss_kib": 80056,
+          "queries_ms": 9.204020500305887,
+          "session_ms": 207.07864550001887
+        }
+      },
+      "run": "maths148-primary"
+    },
+    {
+      "edges": 48,
+      "family": "transport",
+      "index": 1,
+      "nodes": 32,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 15291,
+          "kernel_cpu_ms": 199.471,
+          "peak_rss_kib": 77264,
+          "queries_ms": 17.042564000007587,
+          "session_ms": 202.12122750001527
+        },
+        "guard-repair": {
+          "evidence_bytes": 15304,
+          "kernel_cpu_ms": 209.2,
+          "peak_rss_kib": 78168,
+          "queries_ms": 20.054382500461543,
+          "session_ms": 212.71807999994508
+        },
+        "networkx-cold": {
+          "evidence_bytes": 15292,
+          "kernel_cpu_ms": 208.469,
+          "peak_rss_kib": 77728,
+          "queries_ms": 28.236592000439487,
+          "session_ms": 212.23364499996933
+        },
+        "ortools-cold": {
+          "evidence_bytes": 15267,
+          "kernel_cpu_ms": 210.017,
+          "peak_rss_kib": 81012,
+          "queries_ms": 17.49378799979695,
+          "session_ms": 212.9242770000701
+        }
+      },
+      "run": "maths148-primary"
+    },
+    {
+      "edges": 96,
+      "family": "transport",
+      "index": 2,
+      "nodes": 64,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 19236,
+          "kernel_cpu_ms": 223.2895,
+          "peak_rss_kib": 79776,
+          "queries_ms": 38.68539650011371,
+          "session_ms": 225.21364249996623
+        },
+        "guard-repair": {
+          "evidence_bytes": 19248,
+          "kernel_cpu_ms": 229.278,
+          "peak_rss_kib": 80652,
+          "queries_ms": 41.23909950021698,
+          "session_ms": 232.75556900000538
+        },
+        "networkx-cold": {
+          "evidence_bytes": 19221,
+          "kernel_cpu_ms": 246.29299999999998,
+          "peak_rss_kib": 80768,
+          "queries_ms": 56.00745549941166,
+          "session_ms": 250.17397100009475
+        },
+        "ortools-cold": {
+          "evidence_bytes": 19196,
+          "kernel_cpu_ms": 224.291,
+          "peak_rss_kib": 77244,
+          "queries_ms": 37.25813650009968,
+          "session_ms": 227.66292849996717
+        }
+      },
+      "run": "maths148-primary"
+    },
+    {
+      "edges": 96,
+      "family": "cyclic",
+      "index": 3,
+      "nodes": 16,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 17970,
+          "kernel_cpu_ms": 220.737,
+          "peak_rss_kib": 80736,
+          "queries_ms": 32.94523249996928,
+          "session_ms": 224.92195250003988
+        },
+        "guard-repair": {
+          "evidence_bytes": 18045,
+          "kernel_cpu_ms": 228.36950000000002,
+          "peak_rss_kib": 80688,
+          "queries_ms": 36.415792500406496,
+          "session_ms": 232.18720600004872
+        },
+        "networkx-cold": {
+          "evidence_bytes": 17943,
+          "kernel_cpu_ms": 252.87949999999998,
+          "peak_rss_kib": 80056,
+          "queries_ms": 46.392734499931976,
+          "session_ms": 255.8544799999254
+        },
+        "ortools-cold": {
+          "evidence_bytes": 17934,
+          "kernel_cpu_ms": 209.4895,
+          "peak_rss_kib": 77276,
+          "queries_ms": 27.4405290000459,
+          "session_ms": 214.59533800009467
+        }
+      },
+      "run": "maths148-primary"
+    },
+    {
+      "edges": 192,
+      "family": "cyclic",
+      "index": 4,
+      "nodes": 32,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 23647,
+          "kernel_cpu_ms": 274.28999999999996,
+          "peak_rss_kib": 77268,
+          "queries_ms": 69.28475799963962,
+          "session_ms": 278.2344339999554
+        },
+        "guard-repair": {
+          "evidence_bytes": 23699,
+          "kernel_cpu_ms": 264.7245,
+          "peak_rss_kib": 80588,
+          "queries_ms": 74.81767100000525,
+          "session_ms": 265.5983700000206
+        },
+        "networkx-cold": {
+          "evidence_bytes": 23634,
+          "kernel_cpu_ms": 271.146,
+          "peak_rss_kib": 80736,
+          "queries_ms": 83.28356349989008,
+          "session_ms": 274.5528020000165
+        },
+        "ortools-cold": {
+          "evidence_bytes": 23615,
+          "kernel_cpu_ms": 240.626,
+          "peak_rss_kib": 77724,
+          "queries_ms": 51.39106350020484,
+          "session_ms": 242.82106449993535
+        }
+      },
+      "run": "maths148-primary"
+    },
+    {
+      "edges": 384,
+      "family": "cyclic",
+      "index": 5,
+      "nodes": 64,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 36052,
+          "kernel_cpu_ms": 464.11650000000003,
+          "peak_rss_kib": 79776,
+          "queries_ms": 268.30907449971164,
+          "session_ms": 466.08420749998913
+        },
+        "guard-repair": {
+          "evidence_bytes": 36044,
+          "kernel_cpu_ms": 505.5475,
+          "peak_rss_kib": 78248,
+          "queries_ms": 288.0223185002251,
+          "session_ms": 510.00278850006
+        },
+        "networkx-cold": {
+          "evidence_bytes": 36021,
+          "kernel_cpu_ms": 414.0005,
+          "peak_rss_kib": 80888,
+          "queries_ms": 199.73154599961163,
+          "session_ms": 418.8522765000471
+        },
+        "ortools-cold": {
+          "evidence_bytes": 35952,
+          "kernel_cpu_ms": 289.80300000000005,
+          "peak_rss_kib": 80740,
+          "queries_ms": 101.96304450028038,
+          "session_ms": 293.94333749985435
+        }
+      },
+      "run": "maths148-primary"
+    },
+    {
+      "edges": 24,
+      "family": "transport",
+      "index": 0,
+      "nodes": 16,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 13524,
+          "kernel_cpu_ms": 208.87699999999998,
+          "peak_rss_kib": 81712,
+          "queries_ms": 8.747862499944858,
+          "session_ms": 211.83999000004405
+        },
+        "guard-repair": {
+          "evidence_bytes": 13516,
+          "kernel_cpu_ms": 197.45499999999998,
+          "peak_rss_kib": 80060,
+          "queries_ms": 9.56197250002333,
+          "session_ms": 201.55177850006112
+        },
+        "networkx-cold": {
+          "evidence_bytes": 13534,
+          "kernel_cpu_ms": 203.9645,
+          "peak_rss_kib": 81740,
+          "queries_ms": 15.556389499352008,
+          "session_ms": 209.6890610000628
+        },
+        "ortools-cold": {
+          "evidence_bytes": 13509,
+          "kernel_cpu_ms": 211.42299999999997,
+          "peak_rss_kib": 80616,
+          "queries_ms": 9.098688500216667,
+          "session_ms": 212.1227044999614
+        }
+      },
+      "run": "maths148-replica"
+    },
+    {
+      "edges": 48,
+      "family": "transport",
+      "index": 1,
+      "nodes": 32,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 15291,
+          "kernel_cpu_ms": 218.8255,
+          "peak_rss_kib": 77728,
+          "queries_ms": 20.354012500661156,
+          "session_ms": 222.24949150006523
+        },
+        "guard-repair": {
+          "evidence_bytes": 15304,
+          "kernel_cpu_ms": 233.838,
+          "peak_rss_kib": 80880,
+          "queries_ms": 21.148414000094817,
+          "session_ms": 236.33710599995084
+        },
+        "networkx-cold": {
+          "evidence_bytes": 15292,
+          "kernel_cpu_ms": 229.44599999999997,
+          "peak_rss_kib": 77276,
+          "queries_ms": 30.828683500089937,
+          "session_ms": 232.30303650007045
+        },
+        "ortools-cold": {
+          "evidence_bytes": 15267,
+          "kernel_cpu_ms": 205.37199999999999,
+          "peak_rss_kib": 81932,
+          "queries_ms": 16.678196000270873,
+          "session_ms": 209.22826599996824
+        }
+      },
+      "run": "maths148-replica"
+    },
+    {
+      "edges": 96,
+      "family": "transport",
+      "index": 2,
+      "nodes": 64,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 19236,
+          "kernel_cpu_ms": 234.321,
+          "peak_rss_kib": 77812,
+          "queries_ms": 39.46932450025997,
+          "session_ms": 237.6201659999424
+        },
+        "guard-repair": {
+          "evidence_bytes": 19248,
+          "kernel_cpu_ms": 233.9125,
+          "peak_rss_kib": 80792,
+          "queries_ms": 42.33897400024489,
+          "session_ms": 238.07482950007852
+        },
+        "networkx-cold": {
+          "evidence_bytes": 19221,
+          "kernel_cpu_ms": 251.5155,
+          "peak_rss_kib": 80740,
+          "queries_ms": 58.56258200014963,
+          "session_ms": 256.3541665000457
+        },
+        "ortools-cold": {
+          "evidence_bytes": 19196,
+          "kernel_cpu_ms": 223.593,
+          "peak_rss_kib": 81788,
+          "queries_ms": 34.68351750029797,
+          "session_ms": 229.74069099996086
+        }
+      },
+      "run": "maths148-replica"
+    },
+    {
+      "edges": 96,
+      "family": "cyclic",
+      "index": 3,
+      "nodes": 16,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 17970,
+          "kernel_cpu_ms": 208.01649999999998,
+          "peak_rss_kib": 81908,
+          "queries_ms": 31.336470999917765,
+          "session_ms": 212.53567349992863
+        },
+        "guard-repair": {
+          "evidence_bytes": 18045,
+          "kernel_cpu_ms": 210.0005,
+          "peak_rss_kib": 80740,
+          "queries_ms": 34.15374400003657,
+          "session_ms": 214.9004464998825
+        },
+        "networkx-cold": {
+          "evidence_bytes": 17943,
+          "kernel_cpu_ms": 227.79899999999998,
+          "peak_rss_kib": 78108,
+          "queries_ms": 43.952405499339875,
+          "session_ms": 232.36511050004083
+        },
+        "ortools-cold": {
+          "evidence_bytes": 17934,
+          "kernel_cpu_ms": 206.0465,
+          "peak_rss_kib": 80144,
+          "queries_ms": 26.93216649970509,
+          "session_ms": 209.62326699998357
+        }
+      },
+      "run": "maths148-replica"
+    },
+    {
+      "edges": 192,
+      "family": "cyclic",
+      "index": 4,
+      "nodes": 32,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 23647,
+          "kernel_cpu_ms": 251.728,
+          "peak_rss_kib": 77296,
+          "queries_ms": 66.3901005000298,
+          "session_ms": 254.94864250003957
+        },
+        "guard-repair": {
+          "evidence_bytes": 23699,
+          "kernel_cpu_ms": 265.54499999999996,
+          "peak_rss_kib": 81176,
+          "queries_ms": 78.71226199949888,
+          "session_ms": 267.7624639999294
+        },
+        "networkx-cold": {
+          "evidence_bytes": 23634,
+          "kernel_cpu_ms": 264.659,
+          "peak_rss_kib": 80048,
+          "queries_ms": 83.33037549959954,
+          "session_ms": 267.9024119998985
+        },
+        "ortools-cold": {
+          "evidence_bytes": 23615,
+          "kernel_cpu_ms": 238.14999999999998,
+          "peak_rss_kib": 78168,
+          "queries_ms": 50.61959199974808,
+          "session_ms": 242.33679899998606
+        }
+      },
+      "run": "maths148-replica"
+    },
+    {
+      "edges": 384,
+      "family": "cyclic",
+      "index": 5,
+      "nodes": 64,
+      "routes": {
+        "flow-repair": {
+          "evidence_bytes": 36052,
+          "kernel_cpu_ms": 448.84049999999996,
+          "peak_rss_kib": 82608,
+          "queries_ms": 258.8198169996758,
+          "session_ms": 451.20687700000417
+        },
+        "guard-repair": {
+          "evidence_bytes": 36044,
+          "kernel_cpu_ms": 482.6645,
+          "peak_rss_kib": 77608,
+          "queries_ms": 280.2131905001488,
+          "session_ms": 485.03436949999923
+        },
+        "networkx-cold": {
+          "evidence_bytes": 36021,
+          "kernel_cpu_ms": 396.11249999999995,
+          "peak_rss_kib": 80672,
+          "queries_ms": 194.74127849980505,
+          "session_ms": 400.4048624999541
+        },
+        "ortools-cold": {
+          "evidence_bytes": 35952,
+          "kernel_cpu_ms": 286.617,
+          "peak_rss_kib": 81744,
+          "queries_ms": 97.90716649990827,
+          "session_ms": 290.7431750001024
+        }
+      },
+      "run": "maths148-replica"
+    }
+  ],
+  "runs": {
+    "maths148-primary": {
+      "actions": {
+        "certificate-admission": 64,
+        "flow-repair": 416,
+        "networkx-cold": 300,
+        "ortools-cold": 300,
+        "repair-shortage": 120
+      },
+      "audit_wall_s": 2.2647454899999957,
+      "budget_fallbacks": 0,
+      "cut_queries": 240,
+      "distinct_models": 150,
+      "distinct_proofs": 239,
+      "guard_admissions": 64,
+      "invalid_certificate_controls": 478,
+      "lower_increases_above_previous_flow": 44,
+      "passed": true,
+      "queries": 1200,
+      "recovered_after_cut": 48,
+      "transaction_controls": 30,
+      "upper_reductions_below_previous_flow": 40,
+      "workers": 48
+    },
+    "maths148-replica": {
+      "actions": {
+        "certificate-admission": 64,
+        "flow-repair": 416,
+        "networkx-cold": 300,
+        "ortools-cold": 300,
+        "repair-shortage": 120
+      },
+      "audit_wall_s": 2.4593796070000735,
+      "budget_fallbacks": 0,
+      "cut_queries": 240,
+      "distinct_models": 150,
+      "distinct_proofs": 239,
+      "guard_admissions": 64,
+      "invalid_certificate_controls": 478,
+      "lower_increases_above_previous_flow": 44,
+      "passed": true,
+      "queries": 1200,
+      "recovered_after_cut": 48,
+      "transaction_controls": 30,
+      "upper_reductions_below_previous_flow": 40,
+      "workers": 48
+    }
+  }
+}

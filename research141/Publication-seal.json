@@ -22,8 +22,8 @@
       "sha256": "d9c136ec83b2cfd17aed183a0be69c69e39ccb705b4a4e11e4927b255e5b1fce"
     },
     "README.md": {
-      "bytes": 17124,
-      "sha256": "f9ee8d3434fb97c0f660c94e9e24e3335a51c16c984a5c3d8e0b12cf5c49c219"
+      "bytes": 18116,
+      "sha256": "54064285e76d3480d804a2349b2c7a74274a5d03e3ee4ac6636e6ba670d19e23"
     },
     "research111/repairs/Publication-seal-103457d.json": {
       "bytes": 16208,
@@ -31,7 +31,7 @@
     },
     "research111/repairs/Publication-seal.json": {
       "bytes": 16208,
-      "sha256": "dba7a8696077cc07d0dff6e644454eb2cd74c6e53cc2543d25561196ee133c18"
+      "sha256": "819a8ec547a0a440e00995dd49ef8b5087e503353c055eeb3302e7ebe0e3b31e"
     },
     "research121/Publication-seal-103457d.json": {
       "bytes": 9322,
@@ -39,7 +39,7 @@
     },
     "research121/Publication-seal.json": {
       "bytes": 9322,
-      "sha256": "841d85884c171e7311d2f13aebcdaead596bbcf0f9a3a6686774e005a4f4ae79"
+      "sha256": "628b233633a4f246db8eec90a4bef39ed6e34e8e1cb91138c0e201c9549a9178"
     },
     "research131/Publication-seal-103457d.json": {
       "bytes": 10056,
@@ -47,7 +47,7 @@
     },
     "research131/Publication-seal.json": {
       "bytes": 10056,
-      "sha256": "d3fd5dc52d482bb77dafbb7303579ed4d3b10cc6901f42a4e47b3eb41315c98a"
+      "sha256": "f7e06f0b1290e621dc74ac66f1ef4389ff277c6d478161505b141efe13e57985"
     },
     "research133/Publication-seal-103457d.json": {
       "bytes": 6998,
@@ -55,7 +55,7 @@
     },
     "research133/Publication-seal.json": {
       "bytes": 6998,
-      "sha256": "a49fe7d1a7138e722c01be2f6dae794c3e78ef5760ddb2a60b0d381f89767beb"
+      "sha256": "c3cfb9b87033575e120827637b6ba42230286af88f4657732aa672868f7a27c1"
     },
     "research137/Publication-seal-103457d.json": {
       "bytes": 7197,
@@ -63,7 +63,7 @@
     },
     "research137/Publication-seal.json": {
       "bytes": 7197,
-      "sha256": "353ed19139bb346b383a5e0dd2498aa109402b64e151ee443bb0a0436948b39d"
+      "sha256": "461a4eeea4b20dcc2aff587f44f17968e55793c5a6444c1e8626418008eb2471"
     },
     "research141/Archive-manifest.json": {
       "bytes": 207306,

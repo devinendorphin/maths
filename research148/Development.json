@@ -1,0 +1,2260 @@
+{
+  "actions": {
+    "certificate-admission": 30,
+    "flow-repair": 222,
+    "networkx-cold": 150,
+    "ortools-cold": 150,
+    "repair-shortage": 48
+  },
+  "controls": {
+    "controls": [
+      "wrong-context",
+      "stale-version",
+      "boolean-version",
+      "wrong-old-model",
+      "unknown-message-field",
+      "unknown-edge-field",
+      "wrong-old-value",
+      "boolean-edge",
+      "noninteger-new",
+      "boolean-new",
+      "negative-capacity",
+      "oversized-capacity",
+      "duplicate-edge-field",
+      "unbalanced-needs",
+      "duplicate-balance",
+      "bad-node",
+      "partial-after-valid-prefix",
+      "bad-container",
+      "empty-update",
+      "too-many-changes",
+      "malformed-top-level",
+      "caller-ownership",
+      "replay-rejection",
+      "reduction-below-old-flow",
+      "atomic-joint-bounds-and-needs",
+      "checked-shortage",
+      "repair-after-infeasibility",
+      "charged-budget-fallback",
+      "new-residual-self-loop",
+      "proof-ownership"
+    ],
+    "fallback_proof": {
+      "cost_units": 2,
+      "dependency": "development-only",
+      "flow": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "kind": "optimal",
+      "model": "646008ae08209c745ead7c8f4f638326f38bf746c1d463b7a767e26f3f1ab452",
+      "pi": [
+        -2,
+        -1,
+        0
+      ]
+    },
+    "initial_proof": {
+      "cost_units": 2,
+      "dependency": "development-only",
+      "flow": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "kind": "optimal",
+      "model": "646008ae08209c745ead7c8f4f638326f38bf746c1d463b7a767e26f3f1ab452",
+      "pi": [
+        -2,
+        -1,
+        0
+      ]
+    },
+    "model": {
+      "b": [
+        2,
+        0,
+        -2
+      ],
+      "denominator": 1,
+      "edges": [
+        {
+          "a": 0,
+          "c": 1,
+          "l": 0,
+          "u": 2,
+          "z": 1
+        },
+        {
+          "a": 1,
+          "c": 1,
+          "l": 0,
+          "u": 2,
+          "z": 2
+        },
+        {
+          "a": 0,
+          "c": 7,
+          "l": 0,
+          "u": 2,
+          "z": 2
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "l": 0,
+          "u": 2,
+          "z": 1
+        }
+      ],
+      "id": "controls",
+      "n": 3
+    },
+    "passed": true,
+    "shortage_model": {
+      "b": [
+        100,
+        -1,
+        -99
+      ],
+      "denominator": 1,
+      "edges": [
+        {
+          "a": 0,
+          "c": 1,
+          "l": 3,
+          "u": 3,
+          "z": 1
+        },
+        {
+          "a": 1,
+          "c": 1,
+          "l": 0,
+          "u": 2,
+          "z": 2
+        },
+        {
+          "a": 0,
+          "c": 7,
+          "l": 0,
+          "u": 2,
+          "z": 2
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "l": 0,
+          "u": 2,
+          "z": 1
+        }
+      ],
+      "id": "controls",
+      "n": 3
+    },
+    "shortage_proof": {
+      "dependency": "development-only",
+      "kind": "cut",
+      "model": "bbfe36947bc891c9360b70b0b71dc5a3feb7f7db7eeac5e73e4967c27945f379",
+      "set": [
+        0
+      ]
+    }
+  },
+  "excluded_from_headline": true,
+  "exhaustive": [
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 0,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 1,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -3,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-0",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -2,
+          0,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 2,
+            "u": 2,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": -3,
+            "l": 0,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-1",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 1,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-2",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -1,
+          0,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 1,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-3",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -2,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 2,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -1,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-4",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 2,
+      "model": {
+        "b": [
+          1,
+          0,
+          -1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -3,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 1,
+            "u": 2,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 2,
+            "l": 0,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-5",
+        "n": 3
+      },
+      "optimum": -4
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -1,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 2,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-6",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          1,
+          0,
+          -1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-7",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -2,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-8",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 1,
+      "model": {
+        "b": [
+          0,
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 3,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-9",
+        "n": 3
+      },
+      "optimum": -4
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 1,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 1,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 2,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-10",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -2,
+          0,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -3,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": -2,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-11",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -1,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 0,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-12",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -1,
+          0,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 0,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-13",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 6,
+      "model": {
+        "b": [
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-14",
+        "n": 2
+      },
+      "optimum": -5
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -2,
+          0,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -3,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 1,
+            "u": 2,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": -2,
+            "l": 1,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-15",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-16",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -2,
+          0,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-17",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -2,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -2,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-18",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          0,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 3,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 0,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-19",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -3,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -2,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-20",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          0,
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -3,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 0,
+            "u": 1,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 1,
+            "l": 2,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-21",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 3,
+      "model": {
+        "b": [
+          1,
+          -1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 1,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 1,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-22",
+        "n": 2
+      },
+      "optimum": -5
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          1,
+          0,
+          -1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 0,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 2,
+            "u": 2,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-23",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -1,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -2,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 1,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 0,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-24",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          0,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-25",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -1,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-26",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -1,
+          0,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 3,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 1,
+            "u": 2,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 1,
+            "l": 1,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-27",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 2,
+      "model": {
+        "b": [
+          1,
+          -1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -2,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -1,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-28",
+        "n": 2
+      },
+      "optimum": -5
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -1,
+          0,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-29",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 1,
+      "model": {
+        "b": [
+          -2,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 2,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-30",
+        "n": 2
+      },
+      "optimum": -2
+    },
+    {
+      "feasible_assignments": 1,
+      "model": {
+        "b": [
+          -1,
+          0,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 2,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-31",
+        "n": 3
+      },
+      "optimum": -2
+    },
+    {
+      "feasible_assignments": 3,
+      "model": {
+        "b": [
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 1,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-32",
+        "n": 2
+      },
+      "optimum": 1
+    },
+    {
+      "feasible_assignments": 1,
+      "model": {
+        "b": [
+          -2,
+          0,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 3,
+            "l": 2,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-33",
+        "n": 3
+      },
+      "optimum": 6
+    },
+    {
+      "feasible_assignments": 1,
+      "model": {
+        "b": [
+          1,
+          -1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -3,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-34",
+        "n": 2
+      },
+      "optimum": -3
+    },
+    {
+      "feasible_assignments": 2,
+      "model": {
+        "b": [
+          0,
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 0,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 1,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 0,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-35",
+        "n": 3
+      },
+      "optimum": 0
+    },
+    {
+      "feasible_assignments": 1,
+      "model": {
+        "b": [
+          -2,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 2,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -3,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-36",
+        "n": 2
+      },
+      "optimum": -4
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          0,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 0,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 1,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": -2,
+            "l": 1,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-37",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 2,
+      "model": {
+        "b": [
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 0,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 1,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": 2,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-38",
+        "n": 2
+      },
+      "optimum": 9
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          0,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 1,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": -3,
+            "l": 1,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-39",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -1,
+          1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 0,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 1,
+            "u": 2,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-40",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          0,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -2,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 0,
+            "l": 0,
+            "u": 1,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 3,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-41",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -1,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-42",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          1,
+          0,
+          -1
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 0,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-43",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          -2,
+          2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": -1,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -2,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-44",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          0,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 1,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -2,
+            "l": 0,
+            "u": 1,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": -2,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-45",
+        "n": 3
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 0,
+      "model": {
+        "b": [
+          2,
+          -2
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 0,
+            "l": 0,
+            "u": 1,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": 2,
+            "l": 0,
+            "u": 1,
+            "z": 0
+          },
+          {
+            "a": 0,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -3,
+            "l": 2,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-46",
+        "n": 2
+      },
+      "optimum": null
+    },
+    {
+      "feasible_assignments": 2,
+      "model": {
+        "b": [
+          0,
+          0,
+          0
+        ],
+        "denominator": 1,
+        "edges": [
+          {
+            "a": 0,
+            "c": 2,
+            "l": 0,
+            "u": 0,
+            "z": 1
+          },
+          {
+            "a": 1,
+            "c": -1,
+            "l": 0,
+            "u": 0,
+            "z": 2
+          },
+          {
+            "a": 2,
+            "c": 1,
+            "l": 0,
+            "u": 0,
+            "z": 0
+          },
+          {
+            "a": 1,
+            "c": 1,
+            "l": 1,
+            "u": 2,
+            "z": 1
+          }
+        ],
+        "id": "exhaustive-47",
+        "n": 3
+      },
+      "optimum": 1
+    }
+  ],
+  "passed": true,
+  "pilot_observations": 600,
+  "total_observations": 792
+}

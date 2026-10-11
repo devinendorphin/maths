@@ -1,0 +1,39 @@
+name: Verify capacity and needs continuation
+on:
+  push:
+    paths:
+      - 'research148/**'
+      - 'archives/experiments-148-151-capacity-needs.tar.xz'
+      - 'README.md'
+      - '.github/workflows/verify-research148.yml'
+  pull_request:
+    paths:
+      - 'research148/**'
+      - 'archives/experiments-148-151-capacity-needs.tar.xz'
+      - 'README.md'
+      - '.github/workflows/verify-research148.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify full evidence without solver dependencies
+        run: PYTHONDONTWRITEBYTECODE=1 python3 research148/delivery/verify_publication.py
+      - name: Verify all preserved predecessor evidence
+        run: |
+          PYTHONDONTWRITEBYTECODE=1 python3 research145/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research141/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research137/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research133/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research131/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research121/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research111/repairs/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify_compact.py
+      - name: Require unchanged evidence
+        run: git diff --exit-code

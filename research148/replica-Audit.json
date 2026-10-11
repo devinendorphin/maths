@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "workers": 48,
+  "queries": 1200,
+  "cut_queries": 240,
+  "distinct_models": 150,
+  "distinct_proofs": 239,
+  "invalid_certificate_controls": 478,
+  "transaction_controls": 30,
+  "actions": {
+    "networkx-cold": 300,
+    "ortools-cold": 300,
+    "flow-repair": 416,
+    "repair-shortage": 120,
+    "certificate-admission": 64
+  },
+  "upper_reductions_below_previous_flow": 40,
+  "lower_increases_above_previous_flow": 44,
+  "recovered_after_cut": 48,
+  "guard_admissions": 64,
+  "budget_fallbacks": 0,
+  "audit_wall_s": 2.4593796070000735
+}
