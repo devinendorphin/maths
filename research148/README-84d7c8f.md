@@ -1,0 +1,91 @@
+# Maths experiments
+
+This repository keeps a compact working collection of the temporal-proof experiments. Complete evidence is preserved in [verified Google Drive archives](https://drive.google.com/drive/folders/1xbG-aDtuDe8cRzVX_jyGT7JF5bv6CbqJ).
+
+The small-knapsack phase ends with [two closing experiments, 131–132](research131/Synthesis.md): kernel accounting for short-lived checkers and exact two-parameter admission controls, including genuinely independent objective directions. All 28 closing records/scenarios reproduce; 34 distinct proofs pass independent checks and false-bound controls. The next direction is [affordable, auditable resource allocation as needs change](projects/certified-allocation/Problem.md), with a checked small flow example and a charter for useful work at personal, cooperative and public scales. This is a new problem formulation, not a claim of a general solution.
+
+The allocation charter now has a [bounded execution, experiments 133–136](research133/Synthesis.md): exact flow/cut certification, six update routes, explicit service floors and a separately certified max-minimum-coverage objective. Each of two directories completed 232 workers and 2,099 audited query/probe records; 227 distinct certificates passed and 1,488 invalid controls were rejected. Four held-out base networks have 4–10 nodes and 4–25 edges. All mathematical/proof identities reproduce. In 22 transitions an old plan stayed optimal while its captured potential stopped applying; the small full-session comparisons established no robust native speed winner. [The conditional bound and limits](research133/Maintenance-bound.md), [assurance](research133/Assurance-contract.md) and [recovery](research133/REPRODUCE.md) separate supported findings from broader research still open.
+
+The latest continuation, [experiments 145–147](research145/Synthesis.md), **starts the larger changing-allocation inquiry**: a retained network-simplex baseline across costs, sparse certificate admission with retained-state fallback, and explicit resets for changing capacities/needs. Each accepted directory completed 54 workers and 1,350 observations, including 36 checked shortage cuts; 225 concrete models, 270 proofs and all control/evidence identities reproduce. On the largest 256-node/16,384-edge cost-only case, the combined guard route used about 74% less complete session time than cold solving. An audited recording bug prompted a full repair and rerun; both rejected executions are retained and excluded. This adapted Python baseline is a first step, with the [larger roadmap](research145/Roadmap.md) still open.
+
+The storage question is closed by [experiments 141–144](research141/Synthesis.md). Each of two directories completed 72 workers and 3,528 observations; 294 concrete models/proofs, 588 false-certificate controls, 14 recovery controls and every raw/active identity reproduce. Shared-base compact recovery reduced active writes and peak disk in every matched cell. On the largest case it wrote 80–84% fewer active bytes; small-case timing remains mixed. Trusted complete deltas and terminal anchors remain assumptions, and flush-only writes do not establish power-loss safety. This completed bounded inquiry enabled the larger work above.
+
+The preceding continuation is [experiments 137–140](research137/Synthesis.md): a real sparse-cost update interface with charged fallback, snapshotting and recovery. Each accepted directory completed 78 workers and 1,950 certified observations on six synthetic networks up to 128 nodes and 4,096 edges; all mathematical, journal and checkpoint identities reproduce. On the largest case, buffered delta maintenance used about 37–38% less complete session time than cold solving, but wrote about twice as much journal data. Small-case timings are mixed. [The contract](research137/Mathematical-contract.md) requires complete trusted deltas and persistent plan handles; [recovery](research137/REPRODUCE.md) preserves the rejected custody run separately.
+
+The preceding campaign is [experiments 121–130](research121/Synthesis.md): compatible comparisons using the recovered CP 2024 adaptation, native/VIPR and actual exact-SCIP certificates, a separately trained policy, density/forecast controls and byte-budgeted cache maintenance. Seven base models supply 451 main records, six binding-cap controls and sixty selector-inclusive runs; 72 training records remain separate. All 517 evaluation/control records match fresh-directory mathematical outcomes and raw/final proof identities. The independent audit replays 147 distinct proofs with rejected false bounds. Process-peak memory remains partial where short native children escape sampling. [Recovery and assurance](research121/REPRODUCE.md) describe the verified compact archive and shared SDK.
+
+The previous continuation is the [aligned 111–120 continuation and repairs](research111/repairs/Synthesis.md). The [review](research111/REVIEW.md) and [alignment table](research111/Alignment.md) distinguish the published 273-worker batch, a [separately recovered historical 300-worker campaign](research101-original-300/Recovery-report.md), and the preserved provisional 284-record continuation. A separately frozen 77-record supplement, replicated from a fresh directory, adds nine independently verified native exact-SCIP certificates, isolated checker-startup amortization, compatible full-cost comparisons and integrated cache invalidation. Remaining policy and memory limitations are explicit; this is not a claim that all ten proposed comparisons are complete. Both provisional and repair evidence are preserved in compact repository archives.
+
+The [original 300-worker experiments 101–110 campaign](research101-original-300/README.md) has now been recovered and reaudited separately. All 21 distinct VeriPB proofs from the adapted official CP 2024 knapsack implementation passed again, including rejection of false-bound controls. Its [complete archive](archives/experiments-101-110-original-300-workers.tar.xz) was read back from GitHub and every recorded member checksum verified. This preserves the original comparison alongside the newer 273-worker campaign.
+
+The preceding published batch is [experiments 101–110](research101/Synthesis.md): all 273 workers completed on eight mathematical models, with a matching fresh replication and independent audits. A checked exact DP baseline beat the existing VIPR paths on all eight matched dense/sparse records. SCIP candidates passed exact external DP admission; native SCIP exact mode was unavailable in that installed wheel. Complete evidence is in a verified [repository archive](archives/experiments-101-110-complete.tar.xz).
+
+The preceding batch is [experiments 96–100](research96/Synthesis.md): all 116 workers completed on 28 input records, with a matching fresh replication and independent audit. The [rational interval theorem](research96/formal/Endpoint.lean) is Lean-checked; the [claim ledger](research96/Claim-ledger.md) specifies the remaining trusted code. Compact witnesses reduced raw transport bytes but did not establish a runtime gain over guarded reuse. Complete evidence is in a remotely verified 250 KB [repository archive](archives/experiments-96-100-complete.tar.xz).
+
+The preceding batch is [experiments 86–95](research86/Synthesis.md): all 248 workers completed on 60 input records, with independent re-audit and fresh replication. The [conditional guarantees](research86/Mathematical-guarantees.md) distinguish answer stability, proof applicability and full reuse cost. The [novelty audit](research-notes/Novelty-audit-2026-10-08.md) traces the inherited caveat and compares candidate contributions with primary literature. Complete evidence is in one small [repository archive](archives/experiments-86-95-complete.tar.xz), a fallback after two stalled Drive uploads; Drive verification is pending.
+
+The preceding batch is [experiments 76–85](research76/Synthesis.md): ten bounded comparisons, 58 input records and 508 audited workers. 461 trajectories completed; 47 runs stopped at declared limits, including ten deliberately all-failed controls. Every input has complete answers from at least one method. Lean B&B removed terminal-storage limits; a fixed solver portfolio completed every fresh transfer input. Complete evidence is in a verified 2.5 MB [Drive archive](https://drive.google.com/file/d/1STxr-EpbCkH9c-w1ZudidKEDmYscOFzG/view?usp=drivesdk).
+
+The preceding batch is [experiments 66–75](research66/Synthesis.md): ten bounded comparisons, 58 input records and 468 audited workers. 455 trajectories completed; 13 method runs reached declared storage limits, and every input has complete answers from at least one method. A simpler solver gate and crossing-guided integer queries helped selected cases; unrestricted partition reuse remained costly. Complete evidence is in a verified 1.7 MB [Drive archive](https://drive.google.com/file/d/1pgRigD7Sanz2mS6oSSYcTrmhmKApqdzy/view?usp=drivesdk).
+
+The earlier batch is [experiments 56–65](research56/Synthesis.md): ten completed comparisons, 70 input records and 420 audited workers. 402 trajectories completed; 18 method runs reached declared allocation limits, and every input has complete answers from at least one method. Normalizing weights and choosing the exact oracle mattered; integer-only querying and accumulated search partitions did not consistently help. Complete evidence is in a verified 1.1 MB [Drive archive](https://drive.google.com/file/d/1-GmLjCjz8VMGC4KZc6lBjU5M8NPjW8Hl/view?usp=drivesdk).
+
+The earlier batch is [experiments 51–55](research51/Synthesis.md): 422 audited workers and 21,942 integer-observation checks. An established exact parametric baseline reduced repeated solves, and cached certificate scheduling reduced horizon work. The production SCIP comparison remains outstanding. Complete evidence and pinned dependencies are in a verified 1.9 MB [Drive archive](https://drive.google.com/file/d/17iUMVbYRiHrfIgIpQ3Oj7DBgyM-ufQfi/view?usp=drivesdk).
+
+The earlier batch is [experiments 46–50](research46/Synthesis.md), following the [frozen roadmap](research46/Roadmap.md): 110 input records and 261,852 independently checked integer-time answers. Wider gates helped on one held set, but repeated proof rebuilding did not repay its cost; all 54 later forced failures recovered safely. Detailed evidence is in one verified 15.5 MB [Drive archive](https://drive.google.com/file/d/1JxXvlbXUz6YikNEj-xAUHKCD-uLYdBy3/view?usp=drivesdk).
+
+The earlier batch is [experiments 41–45](research41/Synthesis.md): 105 inputs, five completed experiments, and 121,746 independently checked integer-time answers. Detailed evidence occupies one verified 16 MB [Drive archive](https://drive.google.com/file/d/1Ux66N1gnn2gcUCYrImgbtTGcDR_Tecy4/view).
+
+For the preceding batch, start with the [36–40 synthesis](research36-rebuild/Synthesis.md), [comparison with the retained prior reports](research36-rebuild/Comparison.md), and [interpretation](analyses/experiments-36-40-rebuild/Interpretation.md). For the full proof records, read [storage and recovery instructions](STORAGE.md).
+
+The recovered 31–35 campaign is the baseline. The rebuilt 36–40 campaign completed 832 unique trajectories, 3,328 headline policy paths, 1,152 timing workers and 216 selector-tuning workers. All headline observation windows completed; 40 capped frontier constructions remain incomplete. [Final audit](research36-rebuild/Final-audit.json).
+
+The rebuilt 36–40 results broadly agree with the retained prior summaries: indexed pruning reduced proof work and avoided the declared frontier caps, while rolling rebuilds reduced proof size but added CPU work on the repeated subsets. Some aggregates and the timing-selected threshold differ. The old 36–40 detailed archive is still unavailable; its surviving reports do not establish proof-by-proof agreement. These are finite experimental results.
+
+A [literature review dated 5 October 2026](research-notes/Literature-review-2026-10-05.md) identifies established parametric methods, reoptimization and proof-checking tools that should guide the next comparisons. The [original proposal for experiments 51–55](research-notes/Roadmap-after-literature.md) is followed by the completed bounded comparisons linked above.
+
+A [review of OpenAI's 6 October mathematics release](research-notes/OpenAI-mathematics-review-2026-10-08.md) recommends checking the endpoint-to-interval theorem, compact exact witnesses, and dependency-aware proof admission. Its [proposal for experiments 96–100](research-notes/Roadmap-after-OpenAI-review.md) is now followed by the completed batch linked above.
+
+## Working files
+
+- `research145/`: first executed stage of the larger changing-allocation inquiry. [Findings](research145/Synthesis.md), [roadmap](research145/Roadmap.md), [recovery](research145/REPRODUCE.md).
+- `research141/`: closed compact recovery-storage inquiry. [Findings](research141/Synthesis.md), [recovery](research141/REPRODUCE.md).
+- `research137/`: sparse update continuation, scale comparisons and recovery/boundary controls. [Findings](research137/Synthesis.md), [alignment](research137/Alignment.md), [recovery](research137/REPRODUCE.md).
+- `research133/`: bounded execution of the four allocation research stages. [Findings](research133/Synthesis.md), [alignment](research133/Alignment.md), [recovery](research133/REPRODUCE.md).
+- `research131/`: closure of the small-instance experimental phase. [Findings](research131/Synthesis.md), [recovery](research131/REPRODUCE.md).
+- `projects/certified-allocation/`: larger research question, established mathematical core, checked example and participation principles.
+- `research121/`: next ten experiments, compatible CP/exact-SCIP production, trained reuse policy and audited maintenance controls. [Findings](research121/Synthesis.md), [recovery](research121/REPRODUCE.md).
+- `research111/`: preserved provisional continuation, evidence reconciliation, frozen bounded repairs and their explicit assurance limits. [Findings](research111/repairs/Synthesis.md), [recovery](research111/REPRODUCE.md).
+
+- `research101/`: checked DP and production candidate comparisons, resource/admission controls and full-cost evidence. [Findings](research101/Synthesis.md).
+
+- `research96/`: Lean-checked rational interval theorem, scoped admission and interruption controls, cost comparisons and compact evidence recovery. [Findings](research96/Synthesis.md).
+- `research86/`: frozen experiments 86–95, exact applicability controls, verification-cost findings and complete archive recovery. [Findings](research86/Synthesis.md).
+- `research76/`: frozen experiments 76–85, lean search, query-depth controls, capped solver fallback and scoped proof-cache checks. [Findings](research76/Synthesis.md).
+- `research66/`: frozen experiments 66–75, exact solver/query comparisons, resource-limit findings and verified recovery. [Findings](research66/Synthesis.md).
+- `research56/`: frozen experiments 56–65, exact comparisons, resource-limit results and recovery instructions. [Findings](research56/Synthesis.md).
+- `research51/`: literature-informed comparisons, frozen inputs, exact audits and recovery instructions. [Findings](research51/Synthesis.md).
+- `research-notes/`: sourced literature review and proposed future comparisons.
+- `research46/`: roadmap, frozen inputs and audited experiments 46–50. [Findings](research46/Synthesis.md) and [recovery receipt](research46/Archive-storage.json).
+- `research41/`: new bounded experiments, frozen inputs, reproducible code and compact results. [Recovery receipt](research41/Archive-storage.json).
+- `research36-rebuild/`: unchanged mathematical sources, frozen stage snapshots, protocols, inputs and reports.
+- `campaigns/experiments-31-35/`: selected original sources and readable reports; restore the baseline archive before executing the campaign.
+- `analyses/experiments-36-40-rebuild/`: compact summaries, retrospective diagnoses and the separately counted supplemental fixture.
+- `results/experiments-36-40/`: the three retained reports of the lost prior campaign.
+- [Archive-storage.json](Archive-storage.json): Drive locations and every recovery-piece checksum.
+- [Drive-archive-verification.json](Drive-archive-verification.json): completed download/reassembly/member verification.
+- [REPRODUCE-36-40.md](REPRODUCE-36-40.md): recovery and fresh-run instructions.
+
+The [423 KB review kit](analyses/experiments-36-40-rebuild/Maths-36-40-review-kit.tar.xz) is convenient for reading code, inputs and findings. It excludes the detailed proof and checkpoint history; keep access to the complete archives.
+
+For a small checkout that omits older Git versions:
+
+```sh
+git clone --depth 1 https://github.com/devinendorphin/maths.git
+cd maths
+python3 scripts/verify_compact.py
+```
+
+Git history starts from the verified compact collection. Complete experiment evidence remains in the checked Drive archives. Read [STORAGE.md](STORAGE.md) before accessing detailed evidence or reproducing the experiments.
+
+

@@ -1,0 +1,38 @@
+{
+  "context": "1412e3da4b0bfe3cbd1c7f536b0dc44438b928fbc9e2192894796563ee8ab3cd",
+  "environment": {
+    "native": {
+      ".libs/libortools.so.9": "fd6d636fef2ab609cf3731ac58631b738b7a358734e3e219ad69bd0054fdec7e",
+      "graph/python/min_cost_flow.cpython-312-x86_64-linux-gnu.so": "8e0debfe3f0e5475d19ae7c06057fdeccf918d3e416490493c31b4f7b059df24"
+    },
+    "network_simplex_sha256": "df6b9eb686568feffb28f3b6389a6eb4fd05a53aec43fa89c67b42f17c4856bd",
+    "networkx": "3.4.2",
+    "ortools": "9.14.6206",
+    "python": "3.12.14"
+  },
+  "files": {
+    "Development.json": "5cbf081dc080925489b7f12f0a978bdceb60677ec465e7850a5f834f0e9b6071",
+    "Inputs.json": "5da22fbde567851f173b95712d9dd947ee4caea4d7d07ae169a1d6a0d5aaa8bb",
+    "Protocol.md": "9b0905782346e582a00e0c6d4adbf34fcf4caa6871ea9dc1cee7d396734bc1d8",
+    "Requirements.txt": "3d1b9302766065a4b17f349a394f7d6905296cfd5d25d2889e606083e087a659",
+    "Sources.md": "49886cce6b37e74270b129868309b0f591c8b73e908f985957b59b732379068c",
+    "Upstream-OR-Tools-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "Upstream-min_cost_flow.cc": "55562d99612f0ae15959a6de6641b7a7cbca3100134948057465ec8cdf8f0188",
+    "Upstream-min_cost_flow.h": "389ac554cb58f790d287da16d5feae7cd22cada73cab69f025b12541a7a16b01",
+    "code/audit.py": "fb40c05f145b578f9ef60f17d2014661aee78d5343e87a4f32fe3fb55500d7bd",
+    "code/campaign.py": "388d12e80b24800a0b98c04542f2d4a0ca83fdf32181ca3270c35d08f4b7590c",
+    "code/checker.py": "f43523429c9318b5d3ca0f21903496576cddc3b411a3897a9055462677f651d6",
+    "code/controls.py": "e8027d20dda6ded986d688fdd4aa72e4b3debb17a2bcbc966e788241172d5533",
+    "code/development.py": "1dc9c1070f4c9acf62ac96d30d8936e9046a40685f0166927596e2dde4a5e98a",
+    "code/engine.py": "2e34cdfd25187431e7070fa72c9ece7a492d3dc7c443df877a6d18908d5c76fa",
+    "code/environment.py": "25428a1abd77fb5f5a386448e5fd07bdc17723507e63912009aef3aecdbe29f4",
+    "code/freeze.py": "15322defd6f218f11ac525ef1982194804ecba0f491f57a78bb3f03acc519577",
+    "code/producer.py": "86cfcc8837b8c6f52e68ee62001639e142351dc8ad067637e2452733073062fb",
+    "code/suite.py": "1a5221eb80c635cb5f7ebf7b09fe5eaba0fd3592a807297e03788971f0751854",
+    "code/summarize.py": "9ccc2599ae8869be8c0d9ff23f649df300a76899c0c785b87cb1d3a78e4c3188",
+    "code/transaction.py": "ff730ff25a49ba2450e4c50c2c6b85858eaea086d8f0c28db46b6f28eab0dde6",
+    "code/worker.py": "ff3026494ea7d0ab627d1a12a63e378c42e58fa15f794fc05c6e3118ae1a3414"
+  },
+  "headline_not_executed_at_freeze": true,
+  "predecessor": "84d7c8f1395b8fcf76960789e93fa2ba0dc402bf"
+}

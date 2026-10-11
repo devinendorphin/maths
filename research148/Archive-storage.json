@@ -1,0 +1,17 @@
+{
+  "bytes": 286652,
+  "excluded": [
+    "external virtualenv and wheels; pinned requirements/native module hashes/upstream sources retained",
+    "Python bytecode",
+    "redundant Sessions-progress.json"
+  ],
+  "members": 475,
+  "path": "archives/experiments-148-151-capacity-needs.tar.xz",
+  "roots": [
+    "primary",
+    "replica",
+    "reports"
+  ],
+  "sha256": "eb856559481d19d0004f34028a3a9564bd2ab6239255516e12bafa7f5b2f159f",
+  "uncompressed_bytes": 18942235
+}
