@@ -1,0 +1,17 @@
+{
+  "bytes": 430372,
+  "excluded": [
+    "external virtualenv; pinned source/module version/hash and license retained",
+    "Python bytecode",
+    "redundant Sessions-progress.json"
+  ],
+  "members": 1216,
+  "path": "archives/experiments-141-144-recovery.tar.xz",
+  "roots": [
+    "primary",
+    "replica",
+    "reports"
+  ],
+  "sha256": "25b607af6222df04bc762af7859deb133f56ea263c90c77379e771af9da57817",
+  "uncompressed_bytes": 100548438
+}

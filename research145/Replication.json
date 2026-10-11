@@ -1,0 +1,50 @@
+{
+  "audits": {
+    "primary": {
+      "actions": {
+        "basis-rebuild": 12,
+        "certificate-patch": 330,
+        "cold": 408,
+        "initial": 54,
+        "model-reset": 72,
+        "retained-basis": 474
+      },
+      "adapter_controls": 16,
+      "audit_wall_s": 20.17508811400012,
+      "cut_queries": 36,
+      "distinct_models": 225,
+      "distinct_proofs": 270,
+      "invalid_certificate_controls": 540,
+      "passed": true,
+      "queries": 1350,
+      "workers": 54
+    },
+    "replica": {
+      "actions": {
+        "basis-rebuild": 12,
+        "certificate-patch": 330,
+        "cold": 408,
+        "initial": 54,
+        "model-reset": 72,
+        "retained-basis": 474
+      },
+      "adapter_controls": 16,
+      "audit_wall_s": 19.391281003999893,
+      "cut_queries": 36,
+      "distinct_models": 225,
+      "distinct_proofs": 270,
+      "invalid_certificate_controls": 540,
+      "passed": true,
+      "queries": 1350,
+      "workers": 54
+    }
+  },
+  "exact_files": {
+    "Controls.json": "41a780465a66b399c3b93c78de99c5a04748d29a3543ffb4b83185a8bbca02bf",
+    "Freeze.json": "9c311b1acf3abc3eb36a762f6f60558d3d9be10d62759c4c302ca66c05d21fb3",
+    "Inputs.json": "a4cd8689f3854ae00338693ebee11723c6909c2431e340bda31ea4c307209e11",
+    "Logical.json": "e2eea1fd119b2334112279e06b9afcd4ac2ff06c2634c041846d259839e7b77e"
+  },
+  "passed": true,
+  "scope": "fresh directories in shared pinned installation; resource measurements intentionally differ"
+}

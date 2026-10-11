@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "workers": 54,
+  "queries": 1350,
+  "cut_queries": 36,
+  "distinct_models": 225,
+  "distinct_proofs": 270,
+  "invalid_certificate_controls": 540,
+  "adapter_controls": 16,
+  "actions": {
+    "initial": 54,
+    "cold": 408,
+    "retained-basis": 474,
+    "certificate-patch": 330,
+    "model-reset": 72,
+    "basis-rebuild": 12
+  },
+  "audit_wall_s": 20.17508811400012
+}

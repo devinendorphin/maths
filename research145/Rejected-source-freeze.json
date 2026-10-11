@@ -1,0 +1,35 @@
+{
+  "context": "a34cd9a4147b813e3dc413adc0310e8a847e4a470d372420a95a62079f8e5c25",
+  "environment": {
+    "networksimplex_sha256": "df6b9eb686568feffb28f3b6389a6eb4fd05a53aec43fa89c67b42f17c4856bd",
+    "networkx": "3.4.2",
+    "python": "3.12.14"
+  },
+  "files": {
+    "Development.json": "b29110dbd3c8012c76e248f619d223554064db7cf0f852d080257e3478fd8e51",
+    "Inputs.json": "a4cd8689f3854ae00338693ebee11723c6909c2431e340bda31ea4c307209e11",
+    "Protocol.md": "bf9aa813bcc6f449c4d879406efb4b92e36cefa54a5c0b446e5820fa59911132",
+    "Upstream-NetworkX-LICENSE.txt": "5b433b90f755eb9bbd06feff1d1a4f5f232c5208a185694199e45fa95d762792",
+    "Upstream-network-simplex.py": "df6b9eb686568feffb28f3b6389a6eb4fd05a53aec43fa89c67b42f17c4856bd",
+    "code/audit.py": "b969004f94690977ab52691d34c1b26eebbeb6573996f4f0785ef74aec072409",
+    "code/basis.py": "dfba62fcd2bf2c73916e4e2043fb8e84f3cbb009203df97ce2a32b02b0e434f3",
+    "code/campaign.py": "a5d0f2f8354a5ee67fffcad62f5a3ea0f0d14301ecf72097202d1b16cffbafa3",
+    "code/checker.py": "33bc74b2daed07940e656bf849cc281bbc27dc50b65db664f0dade0b3b85e72d",
+    "code/controls.py": "bfc517769c0d490ca4856bb3ca3f65bad86da11be130c498e06c983f31bd1079",
+    "code/delta.py": "5d0ec2c16b3ecc05bc0e7e56f6a4a3bab416f0606e9699d7a21d443853b3c8a7",
+    "code/development.py": "613509771a8563cf339dbc66c9647f467a4e8884722a5e5f187d3585910e57b3",
+    "code/predecessor_suite.py": "1ad4824db7f628cde56dbd2aa675c792c8bb7c75c2f22b46cf38099b941fc083",
+    "code/predecessor_worker.py": "64fd02e639988bce668e913a353b796125561a40696a733286781629d299078b",
+    "code/producer.py": "86cfcc8837b8c6f52e68ee62001639e142351dc8ad067637e2452733073062fb",
+    "code/recovery_suite.py": "d3a895fd812e1322238e9c1fcaef5fdb0d6888e798f7ef245181bcccdf086f8d",
+    "code/suite.py": "4f66e4a1bea04f014db5954e40eb5b44a1f5e599f12b885fbb436e770129f031",
+    "code/worker.py": "4372e4dd6b81b239aa9574077d9e9f0db64c7513965df95896fb35ad5b910479"
+  },
+  "headline_not_executed_at_freeze": true,
+  "predecessor": "103457dbc99f79f4c01d512017cc3d53c392a903",
+  "storage_closure": {
+    "exact_logical_replication": true,
+    "primary_audit_sha256": "ff4ed831f8087d445776274efa5a20d3c4ec36855ec58921d8ea140c22e20d73",
+    "replica_audit_sha256": "3cd295612711a295ebe35fadbb121ea47e4daa28e2e98d8b3942ea2c2a0aaceb"
+  }
+}

@@ -1,0 +1,4564 @@
+{
+  "adapter_controls": {
+    "controls": [
+      "capacity",
+      "lower-bound",
+      "balance",
+      "topology",
+      "identity",
+      "denomination",
+      "stale-cost",
+      "duplicate",
+      "boolean-index",
+      "boolean-cost",
+      "out-of-range",
+      "outside-domain",
+      "extra-field",
+      "late-error-atomicity",
+      "loop-refusal",
+      "false-cost"
+    ],
+    "initial_proof": {
+      "cost_units": -40,
+      "dependency": "development-only",
+      "flow": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "kind": "optimal",
+      "model": "c5cca5e0020828a0603a36e902593c57bd5084f4eab90070aa7fb3b5db5c8cec",
+      "pi": [
+        0,
+        0,
+        0,
+        0,
+        -5,
+        -5,
+        -5,
+        -5
+      ]
+    },
+    "model": {
+      "b": [
+        2,
+        2,
+        2,
+        2,
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "denominator": 3,
+      "edges": [
+        {
+          "a": 0,
+          "c": -5,
+          "l": 0,
+          "u": 3,
+          "z": 4
+        },
+        {
+          "a": 0,
+          "c": 3,
+          "l": 0,
+          "u": 3,
+          "z": 5
+        },
+        {
+          "a": 0,
+          "c": 8,
+          "l": 0,
+          "u": 3,
+          "z": 7
+        },
+        {
+          "a": 1,
+          "c": 3,
+          "l": 0,
+          "u": 3,
+          "z": 4
+        },
+        {
+          "a": 1,
+          "c": -5,
+          "l": 0,
+          "u": 3,
+          "z": 5
+        },
+        {
+          "a": 1,
+          "c": 5,
+          "l": 0,
+          "u": 3,
+          "z": 6
+        },
+        {
+          "a": 2,
+          "c": 5,
+          "l": 0,
+          "u": 3,
+          "z": 5
+        },
+        {
+          "a": 2,
+          "c": -5,
+          "l": 0,
+          "u": 3,
+          "z": 6
+        },
+        {
+          "a": 2,
+          "c": 7,
+          "l": 0,
+          "u": 3,
+          "z": 7
+        },
+        {
+          "a": 3,
+          "c": 6,
+          "l": 0,
+          "u": 3,
+          "z": 4
+        },
+        {
+          "a": 3,
+          "c": 3,
+          "l": 0,
+          "u": 3,
+          "z": 6
+        },
+        {
+          "a": 3,
+          "c": -5,
+          "l": 0,
+          "u": 3,
+          "z": 7
+        }
+      ],
+      "id": "4-False-914145",
+      "n": 8
+    },
+    "passed": true,
+    "scope": "loop-free cost-only basis; noncost updates require reset"
+  },
+  "all_75_mixed_raw_records_equal_returned_records": true,
+  "excluded_from_headline": true,
+  "general_directed_multigraph_observations": 180,
+  "mixed_pilot": {
+    "basis": {
+      "context": "development-only",
+      "evidence_bytes": 9898,
+      "final_model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+      "final_proof": "d9b18db40035b895f740b1884ad290226f3110d9ca51c318cf066bdcb21f5764",
+      "index": 0,
+      "records": [
+        {
+          "action": "initial",
+          "edge_checks": 0,
+          "model": "82c2fc63f367f127e15da12f5274c2767f3600a018f8dde5ed8ba452822be99e",
+          "pivots": 6,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "82c2fc63f367f127e15da12f5274c2767f3600a018f8dde5ed8ba452822be99e",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 0
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "03e049dadfffce9e58978980095e8ec8327ac6fab6133791493898dd1231d570",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "03e049dadfffce9e58978980095e8ec8327ac6fab6133791493898dd1231d570",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 1
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "b3eb4a9e888e702ebe5d9fd28940ab0717b5f21c598ba08cda58c6e4516c4d16",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "b3eb4a9e888e702ebe5d9fd28940ab0717b5f21c598ba08cda58c6e4516c4d16",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 2
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "3b8462a6209d38a311f8abda6e45fc7fa9751ce31a04ac00f7833e053aae27ce",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "3b8462a6209d38a311f8abda6e45fc7fa9751ce31a04ac00f7833e053aae27ce",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 3
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "c3e6d054590d5b226bbf38041ab5267ef81170f737e7e5f66128a00f9b6a94b8",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "c3e6d054590d5b226bbf38041ab5267ef81170f737e7e5f66128a00f9b6a94b8",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 4
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "1a59802a0f6939dc850f281d0fae40c7b9df3e67e4c23eb39ada65b921c5315e",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "1a59802a0f6939dc850f281d0fae40c7b9df3e67e4c23eb39ada65b921c5315e",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 5
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "35990351404c8d66299cad3cd654f05e67331331d918c4826bbbb4288cd9d19c",
+          "pivots": 12,
+          "proof": {
+            "cost_units": -36,
+            "dependency": "development-only",
+            "flow": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "35990351404c8d66299cad3cd654f05e67331331d918c4826bbbb4288cd9d19c",
+            "pi": [
+              -19,
+              -8,
+              0,
+              -5,
+              0,
+              -4,
+              0,
+              -13,
+              -5,
+              -10,
+              -5,
+              -9
+            ]
+          },
+          "step": 6
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "f1c1b4157d1239fb27a4da26c6729a552e201627a535dc6ea9db1e732dad2bb1",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -36,
+            "dependency": "development-only",
+            "flow": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "f1c1b4157d1239fb27a4da26c6729a552e201627a535dc6ea9db1e732dad2bb1",
+            "pi": [
+              -19,
+              -8,
+              0,
+              -5,
+              0,
+              -4,
+              0,
+              -13,
+              -5,
+              -10,
+              -5,
+              -9
+            ]
+          },
+          "step": 7
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "72f7b100df573621a4c7513b32a3fbd0b24939e1ec8ddfe5b1c2d1cd8a370151",
+          "pivots": 2,
+          "proof": {
+            "cost_units": -8,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "72f7b100df573621a4c7513b32a3fbd0b24939e1ec8ddfe5b1c2d1cd8a370151",
+            "pi": [
+              -21,
+              -8,
+              0,
+              -7,
+              0,
+              -6,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -11
+            ]
+          },
+          "step": 8
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "a0f443576986fa5f4409b396dafef40b7e186b32c5a6d2b5aad6fc68753ca5ba",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -4,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "a0f443576986fa5f4409b396dafef40b7e186b32c5a6d2b5aad6fc68753ca5ba",
+            "pi": [
+              -23,
+              -9,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -14,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 9
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "6c9eb90e229e8848806edc03fca69b4919185a22218e9074a3979d8abcccf7a1",
+          "pivots": 1,
+          "proof": {
+            "cost_units": -4,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "6c9eb90e229e8848806edc03fca69b4919185a22218e9074a3979d8abcccf7a1",
+            "pi": [
+              -23,
+              -9,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -14,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 10
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "3d223cae4058e740233f38392d50cc42bb7394799f018de886f576136df375ca",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -4,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "3d223cae4058e740233f38392d50cc42bb7394799f018de886f576136df375ca",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 11
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "ccb85675923740a8375e87e2a8d0a832e03c41fe6204059db787292abc7d8037",
+          "pivots": 10,
+          "proof": {
+            "cost_units": -9,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "ccb85675923740a8375e87e2a8d0a832e03c41fe6204059db787292abc7d8037",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 12
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "fa327f5fb37cebf4a3d3482b439f51824b2faf54bac11a6006b1efbafee455e2",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -9,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "fa327f5fb37cebf4a3d3482b439f51824b2faf54bac11a6006b1efbafee455e2",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 13
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "04a867b5af4f327acc69c6ff6eff74d28e61825780292520cfff66747bbc5a9d",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -9,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "04a867b5af4f327acc69c6ff6eff74d28e61825780292520cfff66747bbc5a9d",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -6,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -11
+            ]
+          },
+          "step": 14
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "9c3c04b74d3ec6157271d6f7887b571709043683cdfc989c251c713de3a17f2c",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -7,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "9c3c04b74d3ec6157271d6f7887b571709043683cdfc989c251c713de3a17f2c",
+            "pi": [
+              -24,
+              -9,
+              0,
+              -8,
+              0,
+              -7,
+              0,
+              -14,
+              -5,
+              -13,
+              -5,
+              -12
+            ]
+          },
+          "step": 15
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "59685c698c9a348c30a91d79bc78b1e959e4428fe6e8c0ffae3396ff1b745faf",
+          "pivots": 8,
+          "proof": {
+            "cost_units": 28,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "59685c698c9a348c30a91d79bc78b1e959e4428fe6e8c0ffae3396ff1b745faf",
+            "pi": [
+              -10,
+              -20,
+              -7,
+              0,
+              -8,
+              0,
+              -6,
+              0,
+              -12,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 16
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "a2a3ca115ca1c4f961c8808b586c64b4ebf45dd60027a2441f65748e10985989",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 31,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "a2a3ca115ca1c4f961c8808b586c64b4ebf45dd60027a2441f65748e10985989",
+            "pi": [
+              -11,
+              -21,
+              -8,
+              0,
+              -9,
+              0,
+              -7,
+              0,
+              -13,
+              -5,
+              -14,
+              -5
+            ]
+          },
+          "step": 17
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "cut",
+          "model": "caf3e7624200343e8d76815b15ecdc3c556a2ddab47ac72a90c88aa98024a1a3",
+          "pivots": 10,
+          "proof": {
+            "dependency": "development-only",
+            "kind": "cut",
+            "model": "caf3e7624200343e8d76815b15ecdc3c556a2ddab47ac72a90c88aa98024a1a3",
+            "set": [
+              0
+            ]
+          },
+          "step": 18
+        },
+        {
+          "action": "basis-rebuild",
+          "edge_checks": 0,
+          "kind": "cut",
+          "model": "b4d65191f148d880736a7652adbf2819e48e9f4ef59c175547c0fd2e17f4183c",
+          "pivots": 10,
+          "proof": {
+            "dependency": "development-only",
+            "kind": "cut",
+            "model": "b4d65191f148d880736a7652adbf2819e48e9f4ef59c175547c0fd2e17f4183c",
+            "set": [
+              0
+            ]
+          },
+          "step": 19
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "4ea870654c8fd56a282eae48b1f2c9537efbf212b97881cf99e19d9103a8b047",
+          "pivots": 13,
+          "proof": {
+            "cost_units": 31,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "4ea870654c8fd56a282eae48b1f2c9537efbf212b97881cf99e19d9103a8b047",
+            "pi": [
+              -11,
+              -21,
+              -8,
+              0,
+              -9,
+              0,
+              -7,
+              0,
+              -13,
+              -5,
+              -14,
+              -5
+            ]
+          },
+          "step": 20
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "49105b5a54838bd2aba7c96c03a050be5f1cc84f9cd17aa119fde056c5d563b5",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 35,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "49105b5a54838bd2aba7c96c03a050be5f1cc84f9cd17aa119fde056c5d563b5",
+            "pi": [
+              -11,
+              -23,
+              -10,
+              0,
+              -8,
+              0,
+              -8,
+              0,
+              -15,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 21
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "fea462ee6884632bbb24cfbd2b47733e7ac83619b0fb139f892bfc38ea00ba77",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 35,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "fea462ee6884632bbb24cfbd2b47733e7ac83619b0fb139f892bfc38ea00ba77",
+            "pi": [
+              -11,
+              -23,
+              -10,
+              0,
+              -8,
+              0,
+              -8,
+              0,
+              -15,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 22
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "2df4ab37c12637138e20eb9882df12efd218ee88564bb242d6398de526fdc465",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 35,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "2df4ab37c12637138e20eb9882df12efd218ee88564bb242d6398de526fdc465",
+            "pi": [
+              -11,
+              -23,
+              -10,
+              0,
+              -8,
+              0,
+              -8,
+              0,
+              -15,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 23
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+          "pivots": 2,
+          "proof": {
+            "cost_units": 57,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+            "pi": [
+              -23,
+              -15,
+              -23,
+              -8,
+              0,
+              -5,
+              0,
+              -12,
+              -7,
+              -13,
+              -5,
+              -10
+            ]
+          },
+          "step": 24
+        }
+      ],
+      "repetition": 0,
+      "route": "basis",
+      "worker_cpu_s": 0.012516189000000066,
+      "worker_maxrss_kib": 39720,
+      "worker_wall_s": 0.012515554000174234
+    },
+    "cold": {
+      "context": "development-only",
+      "evidence_bytes": 9694,
+      "final_model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+      "final_proof": "d9b18db40035b895f740b1884ad290226f3110d9ca51c318cf066bdcb21f5764",
+      "index": 0,
+      "records": [
+        {
+          "action": "initial",
+          "edge_checks": 0,
+          "model": "82c2fc63f367f127e15da12f5274c2767f3600a018f8dde5ed8ba452822be99e",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "82c2fc63f367f127e15da12f5274c2767f3600a018f8dde5ed8ba452822be99e",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 0
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "03e049dadfffce9e58978980095e8ec8327ac6fab6133791493898dd1231d570",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "03e049dadfffce9e58978980095e8ec8327ac6fab6133791493898dd1231d570",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 1
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "b3eb4a9e888e702ebe5d9fd28940ab0717b5f21c598ba08cda58c6e4516c4d16",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "b3eb4a9e888e702ebe5d9fd28940ab0717b5f21c598ba08cda58c6e4516c4d16",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 2
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "3b8462a6209d38a311f8abda6e45fc7fa9751ce31a04ac00f7833e053aae27ce",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "3b8462a6209d38a311f8abda6e45fc7fa9751ce31a04ac00f7833e053aae27ce",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 3
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "c3e6d054590d5b226bbf38041ab5267ef81170f737e7e5f66128a00f9b6a94b8",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "c3e6d054590d5b226bbf38041ab5267ef81170f737e7e5f66128a00f9b6a94b8",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 4
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "1a59802a0f6939dc850f281d0fae40c7b9df3e67e4c23eb39ada65b921c5315e",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "1a59802a0f6939dc850f281d0fae40c7b9df3e67e4c23eb39ada65b921c5315e",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 5
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "35990351404c8d66299cad3cd654f05e67331331d918c4826bbbb4288cd9d19c",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -36,
+            "dependency": "development-only",
+            "flow": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "35990351404c8d66299cad3cd654f05e67331331d918c4826bbbb4288cd9d19c",
+            "pi": [
+              -19,
+              -8,
+              0,
+              -5,
+              0,
+              -4,
+              0,
+              -13,
+              -5,
+              -10,
+              -5,
+              -9
+            ]
+          },
+          "step": 6
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "f1c1b4157d1239fb27a4da26c6729a552e201627a535dc6ea9db1e732dad2bb1",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -36,
+            "dependency": "development-only",
+            "flow": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "f1c1b4157d1239fb27a4da26c6729a552e201627a535dc6ea9db1e732dad2bb1",
+            "pi": [
+              -19,
+              -8,
+              0,
+              -5,
+              0,
+              -4,
+              0,
+              -13,
+              -5,
+              -10,
+              -5,
+              -9
+            ]
+          },
+          "step": 7
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "72f7b100df573621a4c7513b32a3fbd0b24939e1ec8ddfe5b1c2d1cd8a370151",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -8,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "72f7b100df573621a4c7513b32a3fbd0b24939e1ec8ddfe5b1c2d1cd8a370151",
+            "pi": [
+              -21,
+              -8,
+              0,
+              -7,
+              0,
+              -6,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -11
+            ]
+          },
+          "step": 8
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "a0f443576986fa5f4409b396dafef40b7e186b32c5a6d2b5aad6fc68753ca5ba",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -4,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "a0f443576986fa5f4409b396dafef40b7e186b32c5a6d2b5aad6fc68753ca5ba",
+            "pi": [
+              -23,
+              -9,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -14,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 9
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "6c9eb90e229e8848806edc03fca69b4919185a22218e9074a3979d8abcccf7a1",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -4,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "6c9eb90e229e8848806edc03fca69b4919185a22218e9074a3979d8abcccf7a1",
+            "pi": [
+              -23,
+              -9,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -14,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 10
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "3d223cae4058e740233f38392d50cc42bb7394799f018de886f576136df375ca",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -4,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "3d223cae4058e740233f38392d50cc42bb7394799f018de886f576136df375ca",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 11
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "ccb85675923740a8375e87e2a8d0a832e03c41fe6204059db787292abc7d8037",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -9,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "ccb85675923740a8375e87e2a8d0a832e03c41fe6204059db787292abc7d8037",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 12
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "fa327f5fb37cebf4a3d3482b439f51824b2faf54bac11a6006b1efbafee455e2",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -9,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "fa327f5fb37cebf4a3d3482b439f51824b2faf54bac11a6006b1efbafee455e2",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 13
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "04a867b5af4f327acc69c6ff6eff74d28e61825780292520cfff66747bbc5a9d",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -9,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "04a867b5af4f327acc69c6ff6eff74d28e61825780292520cfff66747bbc5a9d",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -6,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -11
+            ]
+          },
+          "step": 14
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "9c3c04b74d3ec6157271d6f7887b571709043683cdfc989c251c713de3a17f2c",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -7,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "9c3c04b74d3ec6157271d6f7887b571709043683cdfc989c251c713de3a17f2c",
+            "pi": [
+              -24,
+              -9,
+              0,
+              -8,
+              0,
+              -7,
+              0,
+              -14,
+              -5,
+              -13,
+              -5,
+              -12
+            ]
+          },
+          "step": 15
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "59685c698c9a348c30a91d79bc78b1e959e4428fe6e8c0ffae3396ff1b745faf",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 28,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "59685c698c9a348c30a91d79bc78b1e959e4428fe6e8c0ffae3396ff1b745faf",
+            "pi": [
+              -10,
+              -20,
+              -7,
+              0,
+              -8,
+              0,
+              -6,
+              0,
+              -12,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 16
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "a2a3ca115ca1c4f961c8808b586c64b4ebf45dd60027a2441f65748e10985989",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 31,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "a2a3ca115ca1c4f961c8808b586c64b4ebf45dd60027a2441f65748e10985989",
+            "pi": [
+              -11,
+              -21,
+              -8,
+              0,
+              -9,
+              0,
+              -7,
+              0,
+              -13,
+              -5,
+              -14,
+              -5
+            ]
+          },
+          "step": 17
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "cut",
+          "model": "caf3e7624200343e8d76815b15ecdc3c556a2ddab47ac72a90c88aa98024a1a3",
+          "pivots": 0,
+          "proof": {
+            "dependency": "development-only",
+            "kind": "cut",
+            "model": "caf3e7624200343e8d76815b15ecdc3c556a2ddab47ac72a90c88aa98024a1a3",
+            "set": [
+              0
+            ]
+          },
+          "step": 18
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "cut",
+          "model": "b4d65191f148d880736a7652adbf2819e48e9f4ef59c175547c0fd2e17f4183c",
+          "pivots": 0,
+          "proof": {
+            "dependency": "development-only",
+            "kind": "cut",
+            "model": "b4d65191f148d880736a7652adbf2819e48e9f4ef59c175547c0fd2e17f4183c",
+            "set": [
+              0
+            ]
+          },
+          "step": 19
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "4ea870654c8fd56a282eae48b1f2c9537efbf212b97881cf99e19d9103a8b047",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 31,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "4ea870654c8fd56a282eae48b1f2c9537efbf212b97881cf99e19d9103a8b047",
+            "pi": [
+              -11,
+              -21,
+              -8,
+              0,
+              -9,
+              0,
+              -7,
+              0,
+              -13,
+              -5,
+              -14,
+              -5
+            ]
+          },
+          "step": 20
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "49105b5a54838bd2aba7c96c03a050be5f1cc84f9cd17aa119fde056c5d563b5",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 35,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "49105b5a54838bd2aba7c96c03a050be5f1cc84f9cd17aa119fde056c5d563b5",
+            "pi": [
+              -11,
+              -23,
+              -10,
+              0,
+              -8,
+              0,
+              -8,
+              0,
+              -15,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 21
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "fea462ee6884632bbb24cfbd2b47733e7ac83619b0fb139f892bfc38ea00ba77",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 35,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "fea462ee6884632bbb24cfbd2b47733e7ac83619b0fb139f892bfc38ea00ba77",
+            "pi": [
+              -11,
+              -23,
+              -10,
+              0,
+              -8,
+              0,
+              -8,
+              0,
+              -15,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 22
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "2df4ab37c12637138e20eb9882df12efd218ee88564bb242d6398de526fdc465",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 35,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "2df4ab37c12637138e20eb9882df12efd218ee88564bb242d6398de526fdc465",
+            "pi": [
+              -11,
+              -23,
+              -10,
+              0,
+              -8,
+              0,
+              -8,
+              0,
+              -15,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 23
+        },
+        {
+          "action": "cold",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 57,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+            "pi": [
+              -23,
+              -15,
+              -23,
+              -8,
+              0,
+              -5,
+              0,
+              -12,
+              -7,
+              -13,
+              -5,
+              -10
+            ]
+          },
+          "step": 24
+        }
+      ],
+      "repetition": 0,
+      "route": "cold",
+      "worker_cpu_s": 0.016448942999999994,
+      "worker_maxrss_kib": 39720,
+      "worker_wall_s": 0.016466325999999754
+    },
+    "guard": {
+      "context": "development-only",
+      "evidence_bytes": 7148,
+      "final_model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+      "final_proof": "d9b18db40035b895f740b1884ad290226f3110d9ca51c318cf066bdcb21f5764",
+      "index": 0,
+      "records": [
+        {
+          "action": "initial",
+          "edge_checks": 0,
+          "model": "82c2fc63f367f127e15da12f5274c2767f3600a018f8dde5ed8ba452822be99e",
+          "pivots": 6,
+          "proof": {
+            "cost_units": -60,
+            "dependency": "development-only",
+            "flow": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "82c2fc63f367f127e15da12f5274c2767f3600a018f8dde5ed8ba452822be99e",
+            "pi": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5
+            ]
+          },
+          "step": 0
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -60,
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "03e049dadfffce9e58978980095e8ec8327ac6fab6133791493898dd1231d570",
+          "pivots": 0,
+          "step": 1
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -60,
+          "edge_checks": 4,
+          "kind": "optimal",
+          "model": "b3eb4a9e888e702ebe5d9fd28940ab0717b5f21c598ba08cda58c6e4516c4d16",
+          "pivots": 0,
+          "step": 2
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -60,
+          "edge_checks": 8,
+          "kind": "optimal",
+          "model": "3b8462a6209d38a311f8abda6e45fc7fa9751ce31a04ac00f7833e053aae27ce",
+          "pivots": 0,
+          "step": 3
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -60,
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "c3e6d054590d5b226bbf38041ab5267ef81170f737e7e5f66128a00f9b6a94b8",
+          "pivots": 0,
+          "step": 4
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -60,
+          "edge_checks": 4,
+          "kind": "optimal",
+          "model": "1a59802a0f6939dc850f281d0fae40c7b9df3e67e4c23eb39ada65b921c5315e",
+          "pivots": 0,
+          "step": 5
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "35990351404c8d66299cad3cd654f05e67331331d918c4826bbbb4288cd9d19c",
+          "pivots": 12,
+          "proof": {
+            "cost_units": -36,
+            "dependency": "development-only",
+            "flow": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "35990351404c8d66299cad3cd654f05e67331331d918c4826bbbb4288cd9d19c",
+            "pi": [
+              -19,
+              -8,
+              0,
+              -5,
+              0,
+              -4,
+              0,
+              -13,
+              -5,
+              -10,
+              -5,
+              -9
+            ]
+          },
+          "step": 6
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -36,
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "f1c1b4157d1239fb27a4da26c6729a552e201627a535dc6ea9db1e732dad2bb1",
+          "pivots": 0,
+          "step": 7
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "72f7b100df573621a4c7513b32a3fbd0b24939e1ec8ddfe5b1c2d1cd8a370151",
+          "pivots": 2,
+          "proof": {
+            "cost_units": -8,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "72f7b100df573621a4c7513b32a3fbd0b24939e1ec8ddfe5b1c2d1cd8a370151",
+            "pi": [
+              -21,
+              -8,
+              0,
+              -7,
+              0,
+              -6,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -11
+            ]
+          },
+          "step": 8
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 4,
+          "kind": "optimal",
+          "model": "a0f443576986fa5f4409b396dafef40b7e186b32c5a6d2b5aad6fc68753ca5ba",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -4,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "a0f443576986fa5f4409b396dafef40b7e186b32c5a6d2b5aad6fc68753ca5ba",
+            "pi": [
+              -23,
+              -9,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -14,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 9
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -4,
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "6c9eb90e229e8848806edc03fca69b4919185a22218e9074a3979d8abcccf7a1",
+          "pivots": 0,
+          "step": 10
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -4,
+          "edge_checks": 4,
+          "kind": "optimal",
+          "model": "3d223cae4058e740233f38392d50cc42bb7394799f018de886f576136df375ca",
+          "pivots": 0,
+          "step": 11
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "ccb85675923740a8375e87e2a8d0a832e03c41fe6204059db787292abc7d8037",
+          "pivots": 10,
+          "proof": {
+            "cost_units": -9,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "ccb85675923740a8375e87e2a8d0a832e03c41fe6204059db787292abc7d8037",
+            "pi": [
+              -23,
+              -8,
+              0,
+              -7,
+              0,
+              -8,
+              0,
+              -13,
+              -5,
+              -12,
+              -5,
+              -13
+            ]
+          },
+          "step": 12
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -9,
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "fa327f5fb37cebf4a3d3482b439f51824b2faf54bac11a6006b1efbafee455e2",
+          "pivots": 0,
+          "step": 13
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": -9,
+          "edge_checks": 4,
+          "kind": "optimal",
+          "model": "04a867b5af4f327acc69c6ff6eff74d28e61825780292520cfff66747bbc5a9d",
+          "pivots": 0,
+          "step": 14
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 3,
+          "kind": "optimal",
+          "model": "9c3c04b74d3ec6157271d6f7887b571709043683cdfc989c251c713de3a17f2c",
+          "pivots": 0,
+          "proof": {
+            "cost_units": -7,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "9c3c04b74d3ec6157271d6f7887b571709043683cdfc989c251c713de3a17f2c",
+            "pi": [
+              -24,
+              -9,
+              0,
+              -8,
+              0,
+              -7,
+              0,
+              -14,
+              -5,
+              -13,
+              -5,
+              -12
+            ]
+          },
+          "step": 15
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "59685c698c9a348c30a91d79bc78b1e959e4428fe6e8c0ffae3396ff1b745faf",
+          "pivots": 8,
+          "proof": {
+            "cost_units": 28,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "59685c698c9a348c30a91d79bc78b1e959e4428fe6e8c0ffae3396ff1b745faf",
+            "pi": [
+              -10,
+              -20,
+              -7,
+              0,
+              -8,
+              0,
+              -6,
+              0,
+              -12,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 16
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 2,
+          "kind": "optimal",
+          "model": "a2a3ca115ca1c4f961c8808b586c64b4ebf45dd60027a2441f65748e10985989",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 31,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "a2a3ca115ca1c4f961c8808b586c64b4ebf45dd60027a2441f65748e10985989",
+            "pi": [
+              -11,
+              -21,
+              -8,
+              0,
+              -9,
+              0,
+              -7,
+              0,
+              -13,
+              -5,
+              -14,
+              -5
+            ]
+          },
+          "step": 17
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "cut",
+          "model": "caf3e7624200343e8d76815b15ecdc3c556a2ddab47ac72a90c88aa98024a1a3",
+          "pivots": 10,
+          "proof": {
+            "dependency": "development-only",
+            "kind": "cut",
+            "model": "caf3e7624200343e8d76815b15ecdc3c556a2ddab47ac72a90c88aa98024a1a3",
+            "set": [
+              0
+            ]
+          },
+          "step": 18
+        },
+        {
+          "action": "basis-rebuild",
+          "edge_checks": 0,
+          "kind": "cut",
+          "model": "b4d65191f148d880736a7652adbf2819e48e9f4ef59c175547c0fd2e17f4183c",
+          "pivots": 10,
+          "proof": {
+            "dependency": "development-only",
+            "kind": "cut",
+            "model": "b4d65191f148d880736a7652adbf2819e48e9f4ef59c175547c0fd2e17f4183c",
+            "set": [
+              0
+            ]
+          },
+          "step": 19
+        },
+        {
+          "action": "model-reset",
+          "edge_checks": 0,
+          "kind": "optimal",
+          "model": "4ea870654c8fd56a282eae48b1f2c9537efbf212b97881cf99e19d9103a8b047",
+          "pivots": 13,
+          "proof": {
+            "cost_units": 31,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "4ea870654c8fd56a282eae48b1f2c9537efbf212b97881cf99e19d9103a8b047",
+            "pi": [
+              -11,
+              -21,
+              -8,
+              0,
+              -9,
+              0,
+              -7,
+              0,
+              -13,
+              -5,
+              -14,
+              -5
+            ]
+          },
+          "step": 20
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 2,
+          "kind": "optimal",
+          "model": "49105b5a54838bd2aba7c96c03a050be5f1cc84f9cd17aa119fde056c5d563b5",
+          "pivots": 0,
+          "proof": {
+            "cost_units": 35,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "49105b5a54838bd2aba7c96c03a050be5f1cc84f9cd17aa119fde056c5d563b5",
+            "pi": [
+              -11,
+              -23,
+              -10,
+              0,
+              -8,
+              0,
+              -8,
+              0,
+              -15,
+              -5,
+              -13,
+              -5
+            ]
+          },
+          "step": 21
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": 35,
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "fea462ee6884632bbb24cfbd2b47733e7ac83619b0fb139f892bfc38ea00ba77",
+          "pivots": 0,
+          "step": 22
+        },
+        {
+          "action": "certificate-patch",
+          "cost_units": 35,
+          "edge_checks": 4,
+          "kind": "optimal",
+          "model": "2df4ab37c12637138e20eb9882df12efd218ee88564bb242d6398de526fdc465",
+          "pivots": 0,
+          "step": 23
+        },
+        {
+          "action": "retained-basis",
+          "edge_checks": 1,
+          "kind": "optimal",
+          "model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+          "pivots": 2,
+          "proof": {
+            "cost_units": 57,
+            "dependency": "development-only",
+            "flow": [
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            "kind": "optimal",
+            "model": "aa585a14c8b7418cf627ab4cf2f4bd8b75f5ce479827f82c9f33a719bfe52acf",
+            "pi": [
+              -23,
+              -15,
+              -23,
+              -8,
+              0,
+              -5,
+              0,
+              -12,
+              -7,
+              -13,
+              -5,
+              -10
+            ]
+          },
+          "step": 24
+        }
+      ],
+      "repetition": 0,
+      "route": "guard",
+      "worker_cpu_s": 0.009542223000000072,
+      "worker_maxrss_kib": 39720,
+      "worker_wall_s": 0.009542188000068563
+    }
+  },
+  "passed": true,
+  "records": [
+    {
+      "pivots": 3,
+      "seed": 0,
+      "step": 0,
+      "value": -34
+    },
+    {
+      "pivots": 1,
+      "seed": 0,
+      "step": 1,
+      "value": -4
+    },
+    {
+      "pivots": 0,
+      "seed": 0,
+      "step": 2,
+      "value": 8
+    },
+    {
+      "pivots": 1,
+      "seed": 0,
+      "step": 3,
+      "value": 1
+    },
+    {
+      "pivots": 1,
+      "seed": 0,
+      "step": 4,
+      "value": 34
+    },
+    {
+      "pivots": 0,
+      "seed": 0,
+      "step": 5,
+      "value": 36
+    },
+    {
+      "pivots": 0,
+      "seed": 0,
+      "step": 6,
+      "value": 42
+    },
+    {
+      "pivots": 1,
+      "seed": 0,
+      "step": 7,
+      "value": 31
+    },
+    {
+      "pivots": 2,
+      "seed": 0,
+      "step": 8,
+      "value": 7
+    },
+    {
+      "pivots": 7,
+      "seed": 1,
+      "step": 0,
+      "value": -32
+    },
+    {
+      "pivots": 0,
+      "seed": 1,
+      "step": 1,
+      "value": -80
+    },
+    {
+      "pivots": 0,
+      "seed": 1,
+      "step": 2,
+      "value": -44
+    },
+    {
+      "pivots": 1,
+      "seed": 1,
+      "step": 3,
+      "value": -82
+    },
+    {
+      "pivots": 3,
+      "seed": 1,
+      "step": 4,
+      "value": -141
+    },
+    {
+      "pivots": 0,
+      "seed": 1,
+      "step": 5,
+      "value": -134
+    },
+    {
+      "pivots": 1,
+      "seed": 1,
+      "step": 6,
+      "value": -62
+    },
+    {
+      "pivots": 1,
+      "seed": 1,
+      "step": 7,
+      "value": -102
+    },
+    {
+      "pivots": 0,
+      "seed": 1,
+      "step": 8,
+      "value": -106
+    },
+    {
+      "pivots": 6,
+      "seed": 2,
+      "step": 0,
+      "value": -27
+    },
+    {
+      "pivots": 1,
+      "seed": 2,
+      "step": 1,
+      "value": -73
+    },
+    {
+      "pivots": 0,
+      "seed": 2,
+      "step": 2,
+      "value": -73
+    },
+    {
+      "pivots": 1,
+      "seed": 2,
+      "step": 3,
+      "value": -7
+    },
+    {
+      "pivots": 0,
+      "seed": 2,
+      "step": 4,
+      "value": -7
+    },
+    {
+      "pivots": 3,
+      "seed": 2,
+      "step": 5,
+      "value": -87
+    },
+    {
+      "pivots": 2,
+      "seed": 2,
+      "step": 6,
+      "value": -19
+    },
+    {
+      "pivots": 2,
+      "seed": 2,
+      "step": 7,
+      "value": -46
+    },
+    {
+      "pivots": 3,
+      "seed": 2,
+      "step": 8,
+      "value": -11
+    },
+    {
+      "pivots": 8,
+      "seed": 3,
+      "step": 0,
+      "value": -9
+    },
+    {
+      "pivots": 2,
+      "seed": 3,
+      "step": 1,
+      "value": 29
+    },
+    {
+      "pivots": 2,
+      "seed": 3,
+      "step": 2,
+      "value": -13
+    },
+    {
+      "pivots": 0,
+      "seed": 3,
+      "step": 3,
+      "value": -25
+    },
+    {
+      "pivots": 0,
+      "seed": 3,
+      "step": 4,
+      "value": -33
+    },
+    {
+      "pivots": 1,
+      "seed": 3,
+      "step": 5,
+      "value": -57
+    },
+    {
+      "pivots": 0,
+      "seed": 3,
+      "step": 6,
+      "value": -57
+    },
+    {
+      "pivots": 0,
+      "seed": 3,
+      "step": 7,
+      "value": -29
+    },
+    {
+      "pivots": 0,
+      "seed": 3,
+      "step": 8,
+      "value": -79
+    },
+    {
+      "pivots": 15,
+      "seed": 4,
+      "step": 0,
+      "value": -44
+    },
+    {
+      "pivots": 0,
+      "seed": 4,
+      "step": 1,
+      "value": -41
+    },
+    {
+      "pivots": 0,
+      "seed": 4,
+      "step": 2,
+      "value": -25
+    },
+    {
+      "pivots": 0,
+      "seed": 4,
+      "step": 3,
+      "value": -7
+    },
+    {
+      "pivots": 5,
+      "seed": 4,
+      "step": 4,
+      "value": -55
+    },
+    {
+      "pivots": 0,
+      "seed": 4,
+      "step": 5,
+      "value": -45
+    },
+    {
+      "pivots": 0,
+      "seed": 4,
+      "step": 6,
+      "value": -51
+    },
+    {
+      "pivots": 0,
+      "seed": 4,
+      "step": 7,
+      "value": -51
+    },
+    {
+      "pivots": 0,
+      "seed": 4,
+      "step": 8,
+      "value": -75
+    },
+    {
+      "pivots": 13,
+      "seed": 5,
+      "step": 0,
+      "value": 2
+    },
+    {
+      "pivots": 1,
+      "seed": 5,
+      "step": 1,
+      "value": -4
+    },
+    {
+      "pivots": 1,
+      "seed": 5,
+      "step": 2,
+      "value": -15
+    },
+    {
+      "pivots": 0,
+      "seed": 5,
+      "step": 3,
+      "value": -27
+    },
+    {
+      "pivots": 0,
+      "seed": 5,
+      "step": 4,
+      "value": -35
+    },
+    {
+      "pivots": 3,
+      "seed": 5,
+      "step": 5,
+      "value": -41
+    },
+    {
+      "pivots": 3,
+      "seed": 5,
+      "step": 6,
+      "value": -35
+    },
+    {
+      "pivots": 1,
+      "seed": 5,
+      "step": 7,
+      "value": -29
+    },
+    {
+      "pivots": 1,
+      "seed": 5,
+      "step": 8,
+      "value": -38
+    },
+    {
+      "pivots": 18,
+      "seed": 6,
+      "step": 0,
+      "value": -84
+    },
+    {
+      "pivots": 1,
+      "seed": 6,
+      "step": 1,
+      "value": -89
+    },
+    {
+      "pivots": 0,
+      "seed": 6,
+      "step": 2,
+      "value": -73
+    },
+    {
+      "pivots": 0,
+      "seed": 6,
+      "step": 3,
+      "value": -77
+    },
+    {
+      "pivots": 0,
+      "seed": 6,
+      "step": 4,
+      "value": -77
+    },
+    {
+      "pivots": 0,
+      "seed": 6,
+      "step": 5,
+      "value": -76
+    },
+    {
+      "pivots": 1,
+      "seed": 6,
+      "step": 6,
+      "value": -70
+    },
+    {
+      "pivots": 1,
+      "seed": 6,
+      "step": 7,
+      "value": -82
+    },
+    {
+      "pivots": 0,
+      "seed": 6,
+      "step": 8,
+      "value": -80
+    },
+    {
+      "pivots": 24,
+      "seed": 7,
+      "step": 0,
+      "value": 54
+    },
+    {
+      "pivots": 0,
+      "seed": 7,
+      "step": 1,
+      "value": 39
+    },
+    {
+      "pivots": 0,
+      "seed": 7,
+      "step": 2,
+      "value": 39
+    },
+    {
+      "pivots": 3,
+      "seed": 7,
+      "step": 3,
+      "value": 107
+    },
+    {
+      "pivots": 3,
+      "seed": 7,
+      "step": 4,
+      "value": 77
+    },
+    {
+      "pivots": 2,
+      "seed": 7,
+      "step": 5,
+      "value": -28
+    },
+    {
+      "pivots": 0,
+      "seed": 7,
+      "step": 6,
+      "value": -7
+    },
+    {
+      "pivots": 0,
+      "seed": 7,
+      "step": 7,
+      "value": 8
+    },
+    {
+      "pivots": 0,
+      "seed": 7,
+      "step": 8,
+      "value": -32
+    },
+    {
+      "pivots": 18,
+      "seed": 8,
+      "step": 0,
+      "value": -97
+    },
+    {
+      "pivots": 0,
+      "seed": 8,
+      "step": 1,
+      "value": -111
+    },
+    {
+      "pivots": 0,
+      "seed": 8,
+      "step": 2,
+      "value": -26
+    },
+    {
+      "pivots": 0,
+      "seed": 8,
+      "step": 3,
+      "value": -22
+    },
+    {
+      "pivots": 0,
+      "seed": 8,
+      "step": 4,
+      "value": -9
+    },
+    {
+      "pivots": 0,
+      "seed": 8,
+      "step": 5,
+      "value": -13
+    },
+    {
+      "pivots": 0,
+      "seed": 8,
+      "step": 6,
+      "value": -37
+    },
+    {
+      "pivots": 0,
+      "seed": 8,
+      "step": 7,
+      "value": -27
+    },
+    {
+      "pivots": 0,
+      "seed": 8,
+      "step": 8,
+      "value": -23
+    },
+    {
+      "pivots": 4,
+      "seed": 9,
+      "step": 0,
+      "value": -17
+    },
+    {
+      "pivots": 0,
+      "seed": 9,
+      "step": 1,
+      "value": -19
+    },
+    {
+      "pivots": 0,
+      "seed": 9,
+      "step": 2,
+      "value": -20
+    },
+    {
+      "pivots": 1,
+      "seed": 9,
+      "step": 3,
+      "value": -34
+    },
+    {
+      "pivots": 1,
+      "seed": 9,
+      "step": 4,
+      "value": -47
+    },
+    {
+      "pivots": 0,
+      "seed": 9,
+      "step": 5,
+      "value": -65
+    },
+    {
+      "pivots": 0,
+      "seed": 9,
+      "step": 6,
+      "value": -23
+    },
+    {
+      "pivots": 0,
+      "seed": 9,
+      "step": 7,
+      "value": 3
+    },
+    {
+      "pivots": 0,
+      "seed": 9,
+      "step": 8,
+      "value": 3
+    },
+    {
+      "pivots": 8,
+      "seed": 10,
+      "step": 0,
+      "value": -18
+    },
+    {
+      "pivots": 0,
+      "seed": 10,
+      "step": 1,
+      "value": -2
+    },
+    {
+      "pivots": 1,
+      "seed": 10,
+      "step": 2,
+      "value": 36
+    },
+    {
+      "pivots": 0,
+      "seed": 10,
+      "step": 3,
+      "value": 4
+    },
+    {
+      "pivots": 0,
+      "seed": 10,
+      "step": 4,
+      "value": 7
+    },
+    {
+      "pivots": 0,
+      "seed": 10,
+      "step": 5,
+      "value": -28
+    },
+    {
+      "pivots": 0,
+      "seed": 10,
+      "step": 6,
+      "value": -28
+    },
+    {
+      "pivots": 0,
+      "seed": 10,
+      "step": 7,
+      "value": -104
+    },
+    {
+      "pivots": 0,
+      "seed": 10,
+      "step": 8,
+      "value": -104
+    },
+    {
+      "pivots": 11,
+      "seed": 11,
+      "step": 0,
+      "value": -49
+    },
+    {
+      "pivots": 2,
+      "seed": 11,
+      "step": 1,
+      "value": -69
+    },
+    {
+      "pivots": 1,
+      "seed": 11,
+      "step": 2,
+      "value": -41
+    },
+    {
+      "pivots": 0,
+      "seed": 11,
+      "step": 3,
+      "value": -45
+    },
+    {
+      "pivots": 0,
+      "seed": 11,
+      "step": 4,
+      "value": -55
+    },
+    {
+      "pivots": 0,
+      "seed": 11,
+      "step": 5,
+      "value": -51
+    },
+    {
+      "pivots": 3,
+      "seed": 11,
+      "step": 6,
+      "value": -17
+    },
+    {
+      "pivots": 0,
+      "seed": 11,
+      "step": 7,
+      "value": -7
+    },
+    {
+      "pivots": 0,
+      "seed": 11,
+      "step": 8,
+      "value": -7
+    },
+    {
+      "pivots": 9,
+      "seed": 12,
+      "step": 0,
+      "value": -76
+    },
+    {
+      "pivots": 1,
+      "seed": 12,
+      "step": 1,
+      "value": -72
+    },
+    {
+      "pivots": 1,
+      "seed": 12,
+      "step": 2,
+      "value": -72
+    },
+    {
+      "pivots": 0,
+      "seed": 12,
+      "step": 3,
+      "value": -82
+    },
+    {
+      "pivots": 0,
+      "seed": 12,
+      "step": 4,
+      "value": -78
+    },
+    {
+      "pivots": 0,
+      "seed": 12,
+      "step": 5,
+      "value": -86
+    },
+    {
+      "pivots": 0,
+      "seed": 12,
+      "step": 6,
+      "value": -87
+    },
+    {
+      "pivots": 0,
+      "seed": 12,
+      "step": 7,
+      "value": -83
+    },
+    {
+      "pivots": 0,
+      "seed": 12,
+      "step": 8,
+      "value": -50
+    },
+    {
+      "pivots": 10,
+      "seed": 13,
+      "step": 0,
+      "value": -9
+    },
+    {
+      "pivots": 3,
+      "seed": 13,
+      "step": 1,
+      "value": -32
+    },
+    {
+      "pivots": 0,
+      "seed": 13,
+      "step": 2,
+      "value": 4
+    },
+    {
+      "pivots": 0,
+      "seed": 13,
+      "step": 3,
+      "value": 4
+    },
+    {
+      "pivots": 0,
+      "seed": 13,
+      "step": 4,
+      "value": -32
+    },
+    {
+      "pivots": 0,
+      "seed": 13,
+      "step": 5,
+      "value": -32
+    },
+    {
+      "pivots": 3,
+      "seed": 13,
+      "step": 6,
+      "value": -64
+    },
+    {
+      "pivots": 0,
+      "seed": 13,
+      "step": 7,
+      "value": -64
+    },
+    {
+      "pivots": 0,
+      "seed": 13,
+      "step": 8,
+      "value": -56
+    },
+    {
+      "pivots": 16,
+      "seed": 14,
+      "step": 0,
+      "value": -53
+    },
+    {
+      "pivots": 2,
+      "seed": 14,
+      "step": 1,
+      "value": -134
+    },
+    {
+      "pivots": 0,
+      "seed": 14,
+      "step": 2,
+      "value": -134
+    },
+    {
+      "pivots": 0,
+      "seed": 14,
+      "step": 3,
+      "value": -124
+    },
+    {
+      "pivots": 1,
+      "seed": 14,
+      "step": 4,
+      "value": -48
+    },
+    {
+      "pivots": 2,
+      "seed": 14,
+      "step": 5,
+      "value": 0
+    },
+    {
+      "pivots": 0,
+      "seed": 14,
+      "step": 6,
+      "value": 3
+    },
+    {
+      "pivots": 0,
+      "seed": 14,
+      "step": 7,
+      "value": 2
+    },
+    {
+      "pivots": 1,
+      "seed": 14,
+      "step": 8,
+      "value": -13
+    },
+    {
+      "pivots": 13,
+      "seed": 15,
+      "step": 0,
+      "value": -156
+    },
+    {
+      "pivots": 0,
+      "seed": 15,
+      "step": 1,
+      "value": -170
+    },
+    {
+      "pivots": 0,
+      "seed": 15,
+      "step": 2,
+      "value": -149
+    },
+    {
+      "pivots": 0,
+      "seed": 15,
+      "step": 3,
+      "value": -71
+    },
+    {
+      "pivots": 0,
+      "seed": 15,
+      "step": 4,
+      "value": -71
+    },
+    {
+      "pivots": 0,
+      "seed": 15,
+      "step": 5,
+      "value": -85
+    },
+    {
+      "pivots": 1,
+      "seed": 15,
+      "step": 6,
+      "value": -85
+    },
+    {
+      "pivots": 0,
+      "seed": 15,
+      "step": 7,
+      "value": -93
+    },
+    {
+      "pivots": 1,
+      "seed": 15,
+      "step": 8,
+      "value": -81
+    },
+    {
+      "pivots": 17,
+      "seed": 16,
+      "step": 0,
+      "value": -74
+    },
+    {
+      "pivots": 0,
+      "seed": 16,
+      "step": 1,
+      "value": -58
+    },
+    {
+      "pivots": 0,
+      "seed": 16,
+      "step": 2,
+      "value": -64
+    },
+    {
+      "pivots": 1,
+      "seed": 16,
+      "step": 3,
+      "value": -58
+    },
+    {
+      "pivots": 0,
+      "seed": 16,
+      "step": 4,
+      "value": -49
+    },
+    {
+      "pivots": 0,
+      "seed": 16,
+      "step": 5,
+      "value": -49
+    },
+    {
+      "pivots": 0,
+      "seed": 16,
+      "step": 6,
+      "value": -91
+    },
+    {
+      "pivots": 0,
+      "seed": 16,
+      "step": 7,
+      "value": -91
+    },
+    {
+      "pivots": 1,
+      "seed": 16,
+      "step": 8,
+      "value": -87
+    },
+    {
+      "pivots": 15,
+      "seed": 17,
+      "step": 0,
+      "value": -53
+    },
+    {
+      "pivots": 2,
+      "seed": 17,
+      "step": 1,
+      "value": -74
+    },
+    {
+      "pivots": 3,
+      "seed": 17,
+      "step": 2,
+      "value": -60
+    },
+    {
+      "pivots": 0,
+      "seed": 17,
+      "step": 3,
+      "value": -66
+    },
+    {
+      "pivots": 2,
+      "seed": 17,
+      "step": 4,
+      "value": -63
+    },
+    {
+      "pivots": 2,
+      "seed": 17,
+      "step": 5,
+      "value": -124
+    },
+    {
+      "pivots": 0,
+      "seed": 17,
+      "step": 6,
+      "value": -124
+    },
+    {
+      "pivots": 0,
+      "seed": 17,
+      "step": 7,
+      "value": -124
+    },
+    {
+      "pivots": 0,
+      "seed": 17,
+      "step": 8,
+      "value": -124
+    },
+    {
+      "pivots": 4,
+      "seed": 18,
+      "step": 0,
+      "value": -22
+    },
+    {
+      "pivots": 2,
+      "seed": 18,
+      "step": 1,
+      "value": -55
+    },
+    {
+      "pivots": 0,
+      "seed": 18,
+      "step": 2,
+      "value": -49
+    },
+    {
+      "pivots": 0,
+      "seed": 18,
+      "step": 3,
+      "value": -85
+    },
+    {
+      "pivots": 2,
+      "seed": 18,
+      "step": 4,
+      "value": -121
+    },
+    {
+      "pivots": 0,
+      "seed": 18,
+      "step": 5,
+      "value": -106
+    },
+    {
+      "pivots": 1,
+      "seed": 18,
+      "step": 6,
+      "value": -102
+    },
+    {
+      "pivots": 0,
+      "seed": 18,
+      "step": 7,
+      "value": -93
+    },
+    {
+      "pivots": 2,
+      "seed": 18,
+      "step": 8,
+      "value": -108
+    },
+    {
+      "pivots": 4,
+      "seed": 19,
+      "step": 0,
+      "value": -20
+    },
+    {
+      "pivots": 0,
+      "seed": 19,
+      "step": 1,
+      "value": -18
+    },
+    {
+      "pivots": 0,
+      "seed": 19,
+      "step": 2,
+      "value": -6
+    },
+    {
+      "pivots": 0,
+      "seed": 19,
+      "step": 3,
+      "value": -3
+    },
+    {
+      "pivots": 0,
+      "seed": 19,
+      "step": 4,
+      "value": 0
+    },
+    {
+      "pivots": 1,
+      "seed": 19,
+      "step": 5,
+      "value": -14
+    },
+    {
+      "pivots": 2,
+      "seed": 19,
+      "step": 6,
+      "value": -26
+    },
+    {
+      "pivots": 0,
+      "seed": 19,
+      "step": 7,
+      "value": -34
+    },
+    {
+      "pivots": 0,
+      "seed": 19,
+      "step": 8,
+      "value": -85
+    }
+  ]
+}
