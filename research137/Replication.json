@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "workers_per_directory": 78,
+  "mathematical_records_equal": true,
+  "controls_equal": true,
+  "frozen_context_equal": true,
+  "all_journal_checkpoint_identities_equal": true,
+  "excluded_fields": {
+    "Sessions.json": [
+      "wall_s",
+      "kernel_cpu_s",
+      "kernel_maxrss_kib"
+    ],
+    "Worker.json": [
+      "timing",
+      "journal_io_s",
+      "worker_wall_s",
+      "worker_cpu_s",
+      "worker_peak_rss_kib"
+    ],
+    "Audit.json": [
+      "audit_wall_s"
+    ]
+  },
+  "reason": "Measured observations cannot match bytewise; both are retained. All decisions, costs, flow/potential identities, logs, bytes and controls compare.",
+  "mathematical_sha256": "3d066e86945414011794a5a712b87029744046a47aa78f87a3b78f80332b6c67"
+}

@@ -1,0 +1,18 @@
+{
+  "bytes": 416264,
+  "excluded": [
+    "external venv; exact environment and installed optimizer module identity/source retained",
+    "Python bytecode",
+    "redundant Sessions-progress.json"
+  ],
+  "members": 1251,
+  "path": "archives/experiments-137-140-allocation.tar.xz",
+  "roots": [
+    "primary",
+    "replica",
+    "reports",
+    "rejected-custody"
+  ],
+  "sha256": "3ab57ff31a57cad486acddf22a025ab2ab08bb6342033754ecf55a84afb696b7",
+  "uncompressed_bytes": 129925684
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "workers": 78,
+  "queries_checked": 1950,
+  "distinct_models": 150,
+  "distinct_proofs": 175,
+  "invalid_certificate_controls": 887,
+  "transaction_controls": 12,
+  "recovery_controls": 10,
+  "noncost_controls": 3,
+  "patch_records": 805,
+  "fallback_records": 290,
+  "compaction_records": 115,
+  "tiny_enumerated_assignments": 256,
+  "audit_wall_s": 17.97979608699984
+}

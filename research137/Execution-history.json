@@ -1,0 +1,33 @@
+{
+  "rejected_run": "rejected-custody/",
+  "reason": "Raw journal sizes disagreed with worker counters; primary audit stopped before acceptance.",
+  "cause": "not established",
+  "mismatches": [
+    {
+      "worker": "4-full-recheck-1-4096",
+      "reported_bytes": 59423,
+      "retained_bytes": 0
+    },
+    {
+      "worker": "5-cold-2-4096",
+      "reported_bytes": 361897,
+      "retained_bytes": 282471
+    },
+    {
+      "worker": "1-delta-buffered-2-4096",
+      "reported_bytes": 25737,
+      "retained_bytes": 0
+    },
+    {
+      "worker": "5-delta-fsync-0-4096",
+      "reported_bytes": 757586,
+      "retained_bytes": 152693
+    }
+  ],
+  "accepted_runs": [
+    "primary/",
+    "replica/"
+  ],
+  "rejected_measurements_excluded": true,
+  "new_campaign_caps_unchanged": true
+}

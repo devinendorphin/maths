@@ -1,0 +1,54 @@
+{
+  "predecessor": "aff30ba",
+  "old_readme_copy": "research137/Predecessor-README.md",
+  "updates": [
+    {
+      "active_seal": "research121/Publication-seal.json",
+      "preserved_original": "research121/Publication-seal-aff30ba.json",
+      "old_readme": {
+        "bytes": 14353,
+        "sha256": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+      },
+      "new_readme": {
+        "bytes": 15421,
+        "sha256": "b2b4138bd185d2413a4b0a2c718535a7aeaa323a723682dd221c4fc951e38a1f"
+      },
+      "only_changed_entry": "files.README.md"
+    },
+    {
+      "active_seal": "research131/Publication-seal.json",
+      "preserved_original": "research131/Publication-seal-aff30ba.json",
+      "old_readme": {
+        "bytes": 14353,
+        "sha256": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+      },
+      "new_readme": {
+        "bytes": 15421,
+        "sha256": "b2b4138bd185d2413a4b0a2c718535a7aeaa323a723682dd221c4fc951e38a1f"
+      },
+      "only_changed_entry": "files.README.md"
+    },
+    {
+      "active_seal": "research133/Publication-seal.json",
+      "preserved_original": "research133/Publication-seal-aff30ba.json",
+      "old_readme": {
+        "bytes": 14353,
+        "sha256": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+      },
+      "new_readme": {
+        "bytes": 15421,
+        "sha256": "b2b4138bd185d2413a4b0a2c718535a7aeaa323a723682dd221c4fc951e38a1f"
+      },
+      "only_changed_entry": "files.README.md"
+    },
+    {
+      "active_seal": "research111/repairs/Publication-seal.json",
+      "preserved_original": "research111/repairs/Publication-seal-aff30ba.json",
+      "old_readme": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e",
+      "new_readme": "b2b4138bd185d2413a4b0a2c718535a7aeaa323a723682dd221c4fc951e38a1f",
+      "only_changed_entry": "files.README.md"
+    }
+  ],
+  "all_other_seal_entries_unchanged": true,
+  "older_archives_sources_and_results_unchanged": true
+}

@@ -1,0 +1,686 @@
+{
+  "no_full_scan_control": true,
+  "noncost_cases": [
+    {
+      "model": {
+        "b": [
+          2,
+          2,
+          2,
+          2,
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "denominator": 3,
+        "edges": [
+          {
+            "a": 0,
+            "c": -5,
+            "l": 0,
+            "u": 0,
+            "z": 4
+          },
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 0,
+            "c": 9,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          },
+          {
+            "a": 1,
+            "c": 7,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 1,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 1,
+            "c": 8,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 2,
+            "c": 4,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 2,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 2,
+            "c": 5,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          },
+          {
+            "a": 3,
+            "c": 8,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 3,
+            "c": 7,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 3,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          }
+        ],
+        "id": "4-False-72",
+        "n": 8
+      },
+      "name": "capacity",
+      "proof": {
+        "cost_units": 0,
+        "dependency": "06b5f45665e6b53db74b1f1660e9193dd70ff5a16cbcc07d07ae51294e6302f1",
+        "flow": [
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "kind": "optimal",
+        "model": "a0497702397eb2f3ebd5f49ac7ca2187f19b1e8888afa2d55a2213b626ce98c5",
+        "pi": [
+          -15,
+          -7,
+          0,
+          -1,
+          0,
+          -12,
+          -5,
+          -6
+        ]
+      }
+    },
+    {
+      "model": {
+        "b": [
+          3,
+          2,
+          2,
+          2,
+          -3,
+          -2,
+          -2,
+          -2
+        ],
+        "denominator": 3,
+        "edges": [
+          {
+            "a": 0,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 0,
+            "c": 9,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          },
+          {
+            "a": 1,
+            "c": 7,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 1,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 1,
+            "c": 8,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 2,
+            "c": 4,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 2,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 2,
+            "c": 5,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          },
+          {
+            "a": 3,
+            "c": 8,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 3,
+            "c": 7,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 3,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          }
+        ],
+        "id": "4-False-72",
+        "n": 8
+      },
+      "name": "balance",
+      "proof": {
+        "cost_units": -45,
+        "dependency": "06b5f45665e6b53db74b1f1660e9193dd70ff5a16cbcc07d07ae51294e6302f1",
+        "flow": [
+          3,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "kind": "optimal",
+        "model": "49b0d6ab2a5dd02bf263af8ba18b8c29efd56ebb90a4c0dc7208f2305034b16a",
+        "pi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -5,
+          -5,
+          -5
+        ]
+      }
+    },
+    {
+      "model": {
+        "b": [
+          2,
+          2,
+          2,
+          2,
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "denominator": 3,
+        "edges": [
+          {
+            "a": 0,
+            "c": -5,
+            "l": 0,
+            "u": 0,
+            "z": 4
+          },
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 0,
+            "z": 5
+          },
+          {
+            "a": 0,
+            "c": 9,
+            "l": 0,
+            "u": 0,
+            "z": 7
+          },
+          {
+            "a": 1,
+            "c": 7,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 1,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 1,
+            "c": 8,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 2,
+            "c": 4,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 2,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 2,
+            "c": 5,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          },
+          {
+            "a": 3,
+            "c": 8,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 3,
+            "c": 7,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 3,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          }
+        ],
+        "id": "4-False-72",
+        "n": 8
+      },
+      "name": "shortage",
+      "proof": {
+        "dependency": "06b5f45665e6b53db74b1f1660e9193dd70ff5a16cbcc07d07ae51294e6302f1",
+        "kind": "cut",
+        "model": "e36d3a855d90d95fdefe9796c658aa4d8fbaf4edff010b3314366a25d138a779",
+        "set": [
+          0
+        ]
+      }
+    }
+  ],
+  "omitted_delta_limit": {
+    "authoritative_rebind_rejected": true,
+    "owned_model_unchanged": true,
+    "unanchored_valid_prefix_accepted": true
+  },
+  "ownership_control": true,
+  "recovery_bundle": {
+    "base": {
+      "budget": 4096,
+      "context": "06b5f45665e6b53db74b1f1660e9193dd70ff5a16cbcc07d07ae51294e6302f1",
+      "model": {
+        "b": [
+          2,
+          2,
+          2,
+          2,
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "denominator": 3,
+        "edges": [
+          {
+            "a": 0,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 0,
+            "c": 3,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 0,
+            "c": 9,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          },
+          {
+            "a": 1,
+            "c": 7,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 1,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 1,
+            "c": 8,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 2,
+            "c": 4,
+            "l": 0,
+            "u": 3,
+            "z": 5
+          },
+          {
+            "a": 2,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 2,
+            "c": 5,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          },
+          {
+            "a": 3,
+            "c": 8,
+            "l": 0,
+            "u": 3,
+            "z": 4
+          },
+          {
+            "a": 3,
+            "c": 7,
+            "l": 0,
+            "u": 3,
+            "z": 6
+          },
+          {
+            "a": 3,
+            "c": -5,
+            "l": 0,
+            "u": 3,
+            "z": 7
+          }
+        ],
+        "id": "4-False-72",
+        "n": 8
+      },
+      "proof": {
+        "cost_units": -40,
+        "dependency": "06b5f45665e6b53db74b1f1660e9193dd70ff5a16cbcc07d07ae51294e6302f1",
+        "flow": [
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "kind": "optimal",
+        "model": "a1d480750647ea4b4fc2eb7c44c8328ba5c50a1b90d3d135a07126bc295d16cf",
+        "pi": [
+          0,
+          0,
+          0,
+          0,
+          -5,
+          -5,
+          -5,
+          -5
+        ]
+      },
+      "version": 0
+    },
+    "events": [
+      {
+        "cost_units": -40,
+        "head": "5328f75b5cd4104f30452076d65b8647c38e3c8f28c465d4e435876790a3a54d",
+        "message": {
+          "changes": [
+            {
+              "edge": 1,
+              "new": 4,
+              "old": 3
+            }
+          ],
+          "context": "06b5f45665e6b53db74b1f1660e9193dd70ff5a16cbcc07d07ae51294e6302f1",
+          "version": 0
+        },
+        "previous": "bc4e845b911425fc76611debd42cd479a577a1dd588972205dba2892cf451325"
+      },
+      {
+        "cost_units": -40,
+        "head": "f76b90317ed8138f5524a6c0376501b9713ad301bc164c3227518edc4ff76d5f",
+        "message": {
+          "changes": [
+            {
+              "edge": 1,
+              "new": 5,
+              "old": 4
+            }
+          ],
+          "context": "06b5f45665e6b53db74b1f1660e9193dd70ff5a16cbcc07d07ae51294e6302f1",
+          "version": 1
+        },
+        "previous": "5328f75b5cd4104f30452076d65b8647c38e3c8f28c465d4e435876790a3a54d"
+      },
+      {
+        "cost_units": -40,
+        "head": "8506e3a55674599f436be9cf053e7f8242761c46e7df2e2e30ec738f09083d71",
+        "message": {
+          "changes": [
+            {
+              "edge": 1,
+              "new": 6,
+              "old": 5
+            }
+          ],
+          "context": "06b5f45665e6b53db74b1f1660e9193dd70ff5a16cbcc07d07ae51294e6302f1",
+          "version": 2
+        },
+        "previous": "f76b90317ed8138f5524a6c0376501b9713ad301bc164c3227518edc4ff76d5f"
+      }
+    ],
+    "head": "8506e3a55674599f436be9cf053e7f8242761c46e7df2e2e30ec738f09083d71",
+    "version": 3
+  },
+  "recovery_controls": [
+    {
+      "name": "edited-cost",
+      "rejected": true
+    },
+    {
+      "name": "deleted-event",
+      "rejected": true
+    },
+    {
+      "name": "reordered",
+      "rejected": true
+    },
+    {
+      "name": "false-value",
+      "rejected": true
+    },
+    {
+      "name": "wrong-head",
+      "rejected": true
+    },
+    {
+      "name": "wrong-version",
+      "rejected": true
+    },
+    {
+      "name": "bad-base",
+      "rejected": true
+    },
+    {
+      "name": "restore-context",
+      "rejected": true
+    },
+    {
+      "name": "valid-prefix-rollback-with-trusted-anchor",
+      "rejected": true
+    },
+    {
+      "name": "truncated-checkpoint-bytes",
+      "rejected": true
+    }
+  ],
+  "transaction_controls": [
+    {
+      "name": "stale",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "wrong-context",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "wrong-old",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "duplicate",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "out-of-range",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "noninteger",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "cost-limit",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "capacity-message",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "malformed",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "extra-field",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "late-invalid-atomicity",
+      "rejected": true,
+      "unchanged": true
+    },
+    {
+      "name": "failed-sign-atomicity",
+      "rejected": true,
+      "unchanged": true
+    }
+  ],
+  "valid_recovery": true
+}
