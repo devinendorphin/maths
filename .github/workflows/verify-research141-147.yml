@@ -1,0 +1,43 @@
+name: Verify recovery closure and larger allocation inquiry
+on:
+  push:
+    paths:
+      - 'research141/**'
+      - 'research145/**'
+      - 'archives/experiments-141-144-recovery.tar.xz'
+      - 'archives/experiments-145-147-dynamic-allocation.tar.xz'
+      - 'README.md'
+      - '.github/workflows/verify-research141-147.yml'
+  pull_request:
+    paths:
+      - 'research141/**'
+      - 'research145/**'
+      - 'archives/experiments-141-144-recovery.tar.xz'
+      - 'archives/experiments-145-147-dynamic-allocation.tar.xz'
+      - 'README.md'
+      - '.github/workflows/verify-research141-147.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify full recovery and dynamic-allocation evidence
+        run: |
+          PYTHONDONTWRITEBYTECODE=1 python3 research141/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research145/code/verify_publication.py
+      - name: Verify preserved predecessor evidence
+        run: |
+          PYTHONDONTWRITEBYTECODE=1 python3 research137/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research133/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research131/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research121/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 research111/repairs/code/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify_compact.py
+      - name: Require unchanged evidence
+        run: git diff --exit-code

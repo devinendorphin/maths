@@ -1,0 +1,34 @@
+{
+  "audits": {
+    "primary": {
+      "audit_wall_s": 37.562239452000085,
+      "distinct_models": 294,
+      "distinct_proofs": 294,
+      "invalid_certificate_controls": 588,
+      "passed": true,
+      "queries": 3528,
+      "recovery_controls": 14,
+      "snapshots_replayed": 826,
+      "workers": 72
+    },
+    "replica": {
+      "audit_wall_s": 36.953025375999914,
+      "distinct_models": 294,
+      "distinct_proofs": 294,
+      "invalid_certificate_controls": 588,
+      "passed": true,
+      "queries": 3528,
+      "recovery_controls": 14,
+      "snapshots_replayed": 826,
+      "workers": 72
+    }
+  },
+  "exact_files": {
+    "Controls.json": "4bbc520412c4502ac5c5cb0dfb417c16c960727eba1331142b41e1a0d1ab888f",
+    "Freeze.json": "4c6e53c70238eeaa5bd9d8e91956e8ff8f8dd16ff77f1bdef1ef3c16b3a1f752",
+    "Inputs.json": "de590fd097f19dffdaff5c8a89baf198bdd72b55f478de27ae992733da52ae14",
+    "Logical.json": "d766be83aa1a490b222571893b013c578bee92ae4bd4ae406a44f35e6af4f92e"
+  },
+  "passed": true,
+  "scope": "fresh directories in shared pinned installation; resource measurements intentionally differ"
+}

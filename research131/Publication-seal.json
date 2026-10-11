@@ -177,8 +177,8 @@
       "sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b"
     },
     "README.md": {
-      "bytes": 15421,
-      "sha256": "b2b4138bd185d2413a4b0a2c718535a7aeaa323a723682dd221c4fc951e38a1f"
+      "bytes": 17124,
+      "sha256": "f9ee8d3434fb97c0f660c94e9e24e3335a51c16c984a5c3d8e0b12cf5c49c219"
     },
     ".github/workflows/verify-research131.yml": {
       "bytes": 1131,

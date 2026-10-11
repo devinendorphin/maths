@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "workers": 72,
+  "queries": 3528,
+  "distinct_models": 294,
+  "distinct_proofs": 294,
+  "invalid_certificate_controls": 588,
+  "recovery_controls": 14,
+  "snapshots_replayed": 826,
+  "audit_wall_s": 37.562239452000085
+}

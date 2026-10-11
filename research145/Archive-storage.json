@@ -1,0 +1,19 @@
+{
+  "bytes": 558020,
+  "excluded": [
+    "external virtualenv; pinned source/module version/hash and license retained",
+    "Python bytecode",
+    "redundant Sessions-progress.json"
+  ],
+  "members": 990,
+  "path": "archives/experiments-145-147-dynamic-allocation.tar.xz",
+  "roots": [
+    "primary",
+    "replica",
+    "rejected-record-ownership/primary",
+    "rejected-record-ownership/replica",
+    "reports"
+  ],
+  "sha256": "cc6a447c52de69477753134c93216c0b732da3d60e23be477745dda3bcfd90fc",
+  "uncompressed_bytes": 245689184
+}

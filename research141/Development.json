@@ -1,0 +1,17 @@
+{
+  "excluded_from_headline": true,
+  "context": "development-only",
+  "input": "six-supplier separate development seed; 16 cost updates",
+  "replay": "both formats passed",
+  "refusal_controls": 14,
+  "full": {
+    "snapshots": 10,
+    "peak_bytes": 4303,
+    "written_bytes": 18177
+  },
+  "compact": {
+    "snapshots": 8,
+    "peak_bytes": 3024,
+    "written_bytes": 10676
+  }
+}

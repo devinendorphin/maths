@@ -1,0 +1,26 @@
+{
+  "context": "dbd589b6dc35be65a06abcd9f051d051aa1a1209bfa8a5c492a057a957fe29e9",
+  "environment": {
+    "networksimplex_sha256": "df6b9eb686568feffb28f3b6389a6eb4fd05a53aec43fa89c67b42f17c4856bd",
+    "networkx": "3.4.2",
+    "python": "3.12.14"
+  },
+  "files": {
+    "Development.json": "b13235ab1601dc2196bbe50ce8f64895dd296399b64eb631bc11f6bc777d1449",
+    "Inputs.json": "de590fd097f19dffdaff5c8a89baf198bdd72b55f478de27ae992733da52ae14",
+    "Protocol.md": "ebe10bb1f5c4419048884b9d49a47cb3e62261b36bfbc909ebb14ab314c985c4",
+    "code/audit.py": "44fb86a1849219e720d83f9e4867b3f1bdc91e0341c42f5c791516c417312ed3",
+    "code/campaign.py": "cd62000df55765911585384f3c06d4a7ee3b56dfc974fdc9919dfba9513a7474",
+    "code/checker.py": "38e20307f154774fc0286349fd8d9d3cce50fa1412a126b5259b661bcb22ff4a",
+    "code/controls.py": "962303be620fc95ae494bf020acd77a1b39208b50d9e22c05958cc53845f8038",
+    "code/delta.py": "5d0ec2c16b3ecc05bc0e7e56f6a4a3bab416f0606e9699d7a21d443853b3c8a7",
+    "code/predecessor_suite.py": "1ad4824db7f628cde56dbd2aa675c792c8bb7c75c2f22b46cf38099b941fc083",
+    "code/predecessor_worker.py": "64fd02e639988bce668e913a353b796125561a40696a733286781629d299078b",
+    "code/producer.py": "86cfcc8837b8c6f52e68ee62001639e142351dc8ad067637e2452733073062fb",
+    "code/recovery.py": "6b2f6f32b13ae635f2e269f9bf9dc5c818c023e2e15509cedbd5eec774d09790",
+    "code/suite.py": "d3a895fd812e1322238e9c1fcaef5fdb0d6888e798f7ef245181bcccdf086f8d",
+    "code/worker.py": "c50153f5a148a54f5fc68e5a9f360aee911010122e99a409dfe56230434de86d"
+  },
+  "headline_not_executed_at_freeze": true,
+  "predecessor": "103457dbc99f79f4c01d512017cc3d53c392a903"
+}

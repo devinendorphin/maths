@@ -1,0 +1,96 @@
+{
+  "amendments": [
+    {
+      "after": {
+        "bytes": 16208,
+        "sha256": "dba7a8696077cc07d0dff6e644454eb2cd74c6e53cc2543d25561196ee133c18"
+      },
+      "before": {
+        "bytes": 16208,
+        "sha256": "6e225e2de52865bb8f012d4eb5e6327c9f0af1f80ca81e43b9467645bec46c34"
+      },
+      "changed_entries": [
+        "README.md"
+      ],
+      "path": "research111/repairs/Publication-seal.json"
+    },
+    {
+      "after": {
+        "bytes": 9322,
+        "sha256": "841d85884c171e7311d2f13aebcdaead596bbcf0f9a3a6686774e005a4f4ae79"
+      },
+      "before": {
+        "bytes": 9322,
+        "sha256": "09d20f0f223a8adcc27acf5f30d9d6722464b44a0b9fceff57eff2600788b014"
+      },
+      "changed_entries": [
+        "README.md"
+      ],
+      "path": "research121/Publication-seal.json"
+    },
+    {
+      "after": {
+        "bytes": 10056,
+        "sha256": "d3fd5dc52d482bb77dafbb7303579ed4d3b10cc6901f42a4e47b3eb41315c98a"
+      },
+      "before": {
+        "bytes": 10056,
+        "sha256": "8fab635088cc558b16b471f01f732963ef96f34c77c7c2a9cd2a591fd33024cc"
+      },
+      "changed_entries": [
+        "README.md"
+      ],
+      "path": "research131/Publication-seal.json"
+    },
+    {
+      "after": {
+        "bytes": 6998,
+        "sha256": "a49fe7d1a7138e722c01be2f6dae794c3e78ef5760ddb2a60b0d381f89767beb"
+      },
+      "before": {
+        "bytes": 6998,
+        "sha256": "b8fb587ca5b34ce192d141d0427fd2751e37b6c42e6c3650a6ae9efd94dfd87a"
+      },
+      "changed_entries": [
+        "README.md"
+      ],
+      "path": "research133/Publication-seal.json"
+    },
+    {
+      "after": {
+        "bytes": 7197,
+        "sha256": "353ed19139bb346b383a5e0dd2498aa109402b64e151ee443bb0a0436948b39d"
+      },
+      "before": {
+        "bytes": 7197,
+        "sha256": "a4a194ccdb05cf7566b16dfc516ae50518749b8bfaf3968c6b6a797118d633f4"
+      },
+      "changed_entries": [
+        "README.md",
+        "research111/repairs/Publication-seal.json",
+        "research121/Publication-seal.json",
+        "research131/Publication-seal.json",
+        "research133/Publication-seal.json"
+      ],
+      "path": "research137/Publication-seal.json"
+    }
+  ],
+  "new_README": {
+    "bytes": 17124,
+    "sha256": "f9ee8d3434fb97c0f660c94e9e24e3335a51c16c984a5c3d8e0b12cf5c49c219"
+  },
+  "old_README": {
+    "bytes": 15421,
+    "sha256": "b2b4138bd185d2413a4b0a2c718535a7aeaa323a723682dd221c4fc951e38a1f"
+  },
+  "original_seals": [
+    "research111/repairs/Publication-seal-103457d.json",
+    "research121/Publication-seal-103457d.json",
+    "research131/Publication-seal-103457d.json",
+    "research133/Publication-seal-103457d.json",
+    "research137/Publication-seal-103457d.json"
+  ],
+  "predecessor": "103457dbc99f79f4c01d512017cc3d53c392a903",
+  "preserved_README": "research141/README-103457d.md",
+  "scientific_files_and_archives": "unchanged; only navigation entries and dependent current-seal hashes updated"
+}
