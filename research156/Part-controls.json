@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "excluded_from_headline": true,
+  "controls": [
+    "reject-reordered-pieces",
+    "reject-missing-piece",
+    "reject-corrupt-piece",
+    "reject-wrong-whole-archive"
+  ]
+}

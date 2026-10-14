@@ -1,0 +1,13 @@
+{
+  "accounted_sessions": 72,
+  "all_query_and_worker_interval_sums_exact": true,
+  "audit_wall_ns": 23682817491,
+  "cuts": 2016,
+  "development_excluded": false,
+  "distinct_models": 294,
+  "distinct_proofs": 627,
+  "observations": 7056,
+  "observer_modes_and_repetitions_scientifically_identical": true,
+  "passed": true,
+  "workers": 144
+}

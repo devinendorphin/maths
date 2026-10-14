@@ -1,0 +1,31 @@
+name: Verify exhaustive allocation cost accounting
+on:
+  push:
+    paths:
+      - 'research156/**'
+      - 'archives/experiments-156-159-cost-accounting.tar.xz*'
+      - '.github/workflows/verify-research156.yml'
+  pull_request:
+    paths:
+      - 'research156/**'
+      - 'archives/experiments-156-159-cost-accounting.tar.xz*'
+      - '.github/workflows/verify-research156.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify exact proofs and all accounting intervals
+        run: PYTHONDONTWRITEBYTECODE=1 python3 research156/delivery/verify_publication.py
+      - name: Verify unchanged specialist predecessor and compact custody
+        run: |
+          PYTHONDONTWRITEBYTECODE=1 python3 research152/delivery/verify_publication.py
+          PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify_compact.py
+      - name: Require unchanged checkout
+        run: git diff --exit-code

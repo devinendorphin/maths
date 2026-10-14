@@ -1,0 +1,25 @@
+{
+  "accepted": false,
+  "excluded_from_headline": true,
+  "reason": "Independent audit detected incomplete visible Evidence.jsonl despite full 49-record Worker.json and successful process exits. Cause not established. No existing journal was reconstructed or accepted. Both headline directories will rerun after changing custody publication to closed-file, full-byte checked atomic writes.",
+  "workers_completed": 144,
+  "bad_journals": [
+    {
+      "name": "5-simple-cold-accounted-1",
+      "rows": 25,
+      "bytes": 61593,
+      "declared_bytes": 120390
+    },
+    {
+      "name": "5-guard-generic-accounted-1",
+      "rows": 26,
+      "bytes": 251539,
+      "declared_bytes": 471387
+    }
+  ],
+  "retained_roots": [
+    "rejected/primary-1",
+    "rejected/development-source-1"
+  ],
+  "old_context": "a610628963ffe35fe0c22d7cdf9c796c08588fc3910591ef87500a1843eb603e"
+}
