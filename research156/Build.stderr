@@ -1,0 +1,23 @@
+In file included from /workspace/scratch/fa22180e3e2d/ortools-cpp-9.14/or-tools_x86_64_Ubuntu-22.04_cpp_v9.14.6206/include/ortools/graph/graph.h:181,
+                 from /workspace/scratch/fa22180e3e2d/maths/research152/code/bridge.cc:7:
+/workspace/scratch/fa22180e3e2d/ortools-cpp-9.14/or-tools_x86_64_Ubuntu-22.04_cpp_v9.14.6206/include/ortools/graph/iterators.h:128:19: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  128 |     : public std::iterator<std::input_iterator_tag, IntegerType>
+      |                   ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from /workspace/scratch/fa22180e3e2d/maths/research152/code/bridge.cc:3:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+/workspace/scratch/fa22180e3e2d/ortools-cpp-9.14/or-tools_x86_64_Ubuntu-22.04_cpp_v9.14.6206/include/ortools/graph/iterators.h:247:19: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  247 |     : public std::iterator<std::input_iterator_tag, IndexT>
+      |                   ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+/workspace/scratch/fa22180e3e2d/ortools-cpp-9.14/or-tools_x86_64_Ubuntu-22.04_cpp_v9.14.6206/include/ortools/graph/graph.h:319:19: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  319 |     : public std::iterator<std::input_iterator_tag, PropertyT>
+      |                   ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~

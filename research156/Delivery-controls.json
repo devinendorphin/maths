@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "excluded_from_headline": true,
+  "controls": [
+    "missing-root-refuses-before-write",
+    "missing-worker-refuses-before-write"
+  ],
+  "tested_candidate_before_and_after_sha256": "1c6cd04cae5940e02dc8931c216f2536dea9ae5dd515323b934b13d87837f656"
+}

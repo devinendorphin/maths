@@ -1,0 +1,118 @@
+{
+  "archive": {
+    "bytes": 10171800,
+    "excluded": [
+      "SDK libraries and virtualenv",
+      "bytecode",
+      "redundant progress files"
+    ],
+    "members": 3148,
+    "path": "archives/experiments-156-159-cost-accounting.tar.xz",
+    "sha256": "0c562482902af5968bc5bee2f5f6a2bc2aa31ff8efd2e88511e206788af23e2a",
+    "uncompressed_bytes": 458540220
+  },
+  "parts": [
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part001",
+      "bytes": 512000,
+      "sha256": "b10b2523302f40616e6b1ed5060aaf74d989e7f3bee0e5dec8cdb8dfd109559e"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part002",
+      "bytes": 512000,
+      "sha256": "22b0b712bfcd579c45cfc4bd853818f871d59c2821d9b4f81bc22fa7936ffbaa"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part003",
+      "bytes": 512000,
+      "sha256": "56a27aaf389c16f408a32106ddb399c1adbc2ca0e66203a5e58844fa5cc1f6cb"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part004",
+      "bytes": 512000,
+      "sha256": "6844be7ead363b97f01aa37c22ee6d4bb9b2c5769ee144801dbb388dc483bc7c"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part005",
+      "bytes": 512000,
+      "sha256": "41399aba0e2d762f92a335416f29ea6d2ebd65f38be3d4259418c05aa54f4147"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part006",
+      "bytes": 512000,
+      "sha256": "031025f3d804e8725b6901014e1406a9428a784914408624a1efd1576eb2acb3"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part007",
+      "bytes": 512000,
+      "sha256": "aca00b4914f5816616e798ba7eea3662860500e35cd4f98144f512c3e81122ce"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part008",
+      "bytes": 512000,
+      "sha256": "c991789e3984e725175cd3a0f27e7341a5c4560076d1464140451aa03e8b4366"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part009",
+      "bytes": 512000,
+      "sha256": "a375d709de0a39fad73f5b06f5f92dfbd7ed42c0f96ab869d7df8bf457deea4a"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part010",
+      "bytes": 512000,
+      "sha256": "1e0aede77b489477dd0516a70ca7c99ded9de86688c66f946300afef16fdb5aa"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part011",
+      "bytes": 512000,
+      "sha256": "813ca4ef2f48ede2a56866e1902606affb6a2b656dfad7445339b1f4201a77ae"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part012",
+      "bytes": 512000,
+      "sha256": "a299f53903b458a8a0c96651a1419cc89d9144d0d06d09e5402d1012e4d483c3"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part013",
+      "bytes": 512000,
+      "sha256": "c3077b77dc5a993aaec1e4f0e5b2bf0710e7ec263234d1b8c873070041b2ecd5"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part014",
+      "bytes": 512000,
+      "sha256": "31808b047aba50e63b6962cd8b6ee1411141b24c33e5aad38a58d961c096ed35"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part015",
+      "bytes": 512000,
+      "sha256": "75a0c916096405fb2548194e07d107e9efe629e90b76e3bd3dfa67bc02fa05da"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part016",
+      "bytes": 512000,
+      "sha256": "ab0501088506603babd0c4860605983f8e184c050777bd3015c579bdd8340ce3"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part017",
+      "bytes": 512000,
+      "sha256": "e7fff2908493777dbd432d380706883675ba7b138a89321b80996dc7cff536fe"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part018",
+      "bytes": 512000,
+      "sha256": "93477364aa6352361bba95e48e1af6abe79791187e8ede26af31b41f9acb2046"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part019",
+      "bytes": 512000,
+      "sha256": "29e7df74666fba81eb6b11e3db5de428c8ab368b364c06394ea7f7b23e82ad70"
+    },
+    {
+      "path": "archives/experiments-156-159-cost-accounting.tar.xz.part020",
+      "bytes": 443800,
+      "sha256": "90cc8850ec1f74c53e7dd7e925172cba3117fbdeba292a9fe58925146f5578f7"
+    }
+  ],
+  "layout": "Exact ordered transport pieces of the approved archive",
+  "original_local_commit": "d19e8043f28922fe4dcb0395dd414f8067e8f5e3"
+}

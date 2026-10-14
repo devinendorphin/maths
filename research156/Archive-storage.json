@@ -1,0 +1,12 @@
+{
+  "bytes": 10171800,
+  "excluded": [
+    "SDK libraries and virtualenv",
+    "bytecode",
+    "redundant progress files"
+  ],
+  "members": 3148,
+  "path": "archives/experiments-156-159-cost-accounting.tar.xz",
+  "sha256": "0c562482902af5968bc5bee2f5f6a2bc2aa31ff8efd2e88511e206788af23e2a",
+  "uncompressed_bytes": 458540220
+}
