@@ -1,2 +1,2 @@
-pyscipopt==6.0.0
+pyscipopt==6.3.0
 numpy==2.5.3
