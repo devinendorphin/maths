@@ -1,0 +1,9 @@
+# Secret-scan config: gitleaks defaults, plus one allowlisted path.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Build manifests"
+# Build.json maps library filenames to sha256 checksums; names like
+# libabsl_cordz_sample_token.so trip the generic API-key rule.
+paths = ['''(^|/)Build\.json$''']
