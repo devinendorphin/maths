@@ -22,7 +22,7 @@ jobs:
         run: python3 scripts/verify_compact.py
       - name: Save compact size report
         run: python3 scripts/verify_compact.py > compact-verification.json
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: maths-compact-verification
           path: compact-verification.json
