@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "version": "Lean (version 4.24.0, x86_64-unknown-linux-gnu, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)",
+  "binary_sha256": "8fadc3ed92cc9decb94c96ee9c0876e91e03a3a5e69138f32114f02789e2766c",
+  "preload_sha256": "f38bbf6757816fc8bf0d36070410e882d2e54ea92f440a6a35a83e9ce2340f21",
+  "checks": [
+    {
+      "source": "Flow.lean",
+      "expected_success": true,
+      "returncode": 0,
+      "stdout": "'Allocation.delta_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Allocation.objective_update' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Allocation.certificate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Allocation.delta_signs' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "Spec.lean",
+      "expected_success": true,
+      "returncode": 0,
+      "stdout": "'checked_contract' depends on axioms: [propext, Classical.choice, Quot.sound]\n'missing_reverse_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]\n'missing_balance_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]\n'independent_ranges_do_not_compose' depends on axioms: [propext]\n",
+      "stderr": ""
+    },
+    {
+      "source": "RejectedStatement.lean",
+      "expected_success": false,
+      "returncode": 1,
+      "stdout": "<checkout>/research137/formal/RejectedStatement.lean:3:60: error: Tactic `decide` failed for proposition\n  0 \u2264 1 * (0 - 1)\nbecause its `Decidable` instance\n  Rat.instDecidableLe 0 (1 * (0 - 1))\ndid not reduce to `isTrue` or `isFalse`.\n\nAfter unfolding the instances `instDecidableEqBool`, `Bool.decEq`, `Int.decLt`, `Int.decNonneg`, and `Rat.instDecidableLe`, reduction got stuck at the `Decidable` instance\n  match (1 * (0 - 1)).blt 0, false with\n  | false, false => isTrue \u22ef\n  | false, true => isFalse \u22ef\n  | true, false => isFalse \u22ef\n  | true, true => isTrue \u22ef\n<checkout>/research137/formal/RejectedStatement.lean:4:60: error: Tactic `decide` proved that the proposition\n  2 \u2264 0\nis false\n",
+      "stderr": ""
+    }
+  ],
+  "no_sorryAx_in_successful_proofs": true
+}

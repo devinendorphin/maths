@@ -22,8 +22,8 @@
       "sha256": "5f4ce233eef5b989f25342dedac7a95f58eb93ca8e56641a13b3302fee7047ec"
     },
     "README.md": {
-      "bytes": 14353,
-      "sha256": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+      "bytes": 15507,
+      "sha256": "b47f03650b73d20d0107c061661668a569fdb7596da1095f9acc8375b8b90f6b"
     },
     "research133/Alignment.md": {
       "bytes": 4096,
@@ -188,6 +188,10 @@
     "research133/code/worker.py": {
       "bytes": 5069,
       "sha256": "5b6d94ed3d0eade0cd2ca47d6636d54662869996c5613c8f369da834dd726a49"
+    },
+    "research133/Publication-seal-156cfed.json": {
+      "bytes": 6998,
+      "sha256": "5797122fc0b65aa61ec634e2436b6aa1f38cbc4ab5145aec75f8217eeeb6376d"
     }
   }
 }

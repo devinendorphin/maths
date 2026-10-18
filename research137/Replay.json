@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "serialized_intervals_rechecked": 217,
+  "serialized_queries_rechecked": 1070,
+  "all_optimal_flows_rechecked": 34,
+  "all_optimal_intervals_rechecked": 115,
+  "recreated_rejected_controls": 369,
+  "results_sha256": "f2373b658182d5287e51b163efa7448a39741fafc75c1af396452165746562f6"
+}

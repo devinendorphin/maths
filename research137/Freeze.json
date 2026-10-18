@@ -1,0 +1,21 @@
+{
+  "base_commit": "156cfedf1b89e72b5568c5a6dd0279a7c9122b17",
+  "files": {
+    "research137/code/audit.py": "f8270798c2fb441afff9f018ceb5476bebb68c4d9cd4c3e8df28e654107e455c",
+    "research137/code/formal_check.py": "a42594601ebe913f6a2e47ba10723313c279757e1ec7ba52fda67af04f5355c6",
+    "research137/code/make_inputs.py": "be2775fcaebf903aaed1b7c6e5eb3f0f468a541beb5138c7e27403bd3fa38830",
+    "research137/code/proc_path.c": "8b813c0c31581bb557bab3ec27fe4a0246ba39cbe200baf2414c0cb5e3aecd4f",
+    "research137/code/replay.py": "a164eca01115d08cb0de1106eca5b80631cc9e7591e1f70ae1275ba1e6c2a8cb",
+    "research137/code/run.py": "01dd83d847acdcd2a23834992b5c63aa724de56e12c72b2178688360f1cd5527",
+    "research137/code/sensitivity.py": "b2925f9f5cf9b1bd5e1ad795307074a7e3a9f305bf004fa0d9aa9e9b3cc19b0e",
+    "research137/formal/Flow.lean": "9afcbc90561d61d62ce7f4af9454c4743738b434176250b1d1fa936808f64470",
+    "research137/formal/RejectedStatement.lean": "e652001bb563a0261f557e7a0e9076ca288b340f8a4017d356e118c5cbe8e973",
+    "research137/formal/Spec.lean": "fe09a6adb75f705a6cbe5ab9ebc9d3ef57b046583c3ad1b6eb6ef8f2662c5826",
+    "research137/Inputs.json": "1d2f84c2e94cd0956adcd2a1c4a23fa132f3433a1eca07a4a2dc938bde31fe47",
+    "research133/code/producer.py": "86cfcc8837b8c6f52e68ee62001639e142351dc8ad067637e2452733073062fb",
+    "research133/code/checker.py": "d23aa4153146079df91eb90f0bc96ecf87146a6030fa97f9ee18785700826a54"
+  },
+  "headline_started": false,
+  "frozen_inputs": true,
+  "restored_from_conversation": true
+}
