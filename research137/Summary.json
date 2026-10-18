@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "counts": {
+    "models": 39,
+    "intervals": 217,
+    "enumerated_flows": 121,
+    "query_checks": 1070,
+    "strict_competitors": 165,
+    "rejected_controls": 801,
+    "proof_gap_queries": 290,
+    "all_optimal_flows": 34,
+    "all_optimal_intervals": 115
+  },
+  "tiny_models": 31,
+  "inherited_starting_models": 8,
+  "inherited_graph_families": 4,
+  "mathematical_results_byte_identical": true,
+  "results_bytes": 567235,
+  "results_sha256": "f2373b658182d5287e51b163efa7448a39741fafc75c1af396452165746562f6",
+  "matches_pre_reset_results_sha256": true,
+  "formal_results_identical_after_deployment_path_normalization": true,
+  "normalization": "Only absolute source checkout paths in deliberately rejected control diagnostics.",
+  "assurance": "General rational certificate and trusted-delta soundness are Lean checked. General sharp path interval theorem is a written proof with exact witnesses and finite validation. Python is not formally verified.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "same_interpreter_and_lean_installation": true
+}

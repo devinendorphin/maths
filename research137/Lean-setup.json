@@ -1,0 +1,15 @@
+{
+  "lean_version": "4.24.0",
+  "archive_url": "https://github.com/leanprover/lean4/releases/download/v4.24.0/lean-4.24.0-linux.tar.zst",
+  "archive_sha256": "b14f5e5159219dd1a1956c3b806813319f5e94ccd5bdfd56f54520609a5bb5ec",
+  "archive_bytes": 459625674,
+  "binary_sha256": "8fadc3ed92cc9decb94c96ee9c0876e91e03a3a5e69138f32114f02789e2766c",
+  "proc_compatibility_source": "code/proc_path.c",
+  "proc_compatibility_binary_sha256": "f38bbf6757816fc8bf0d36070410e882d2e54ea92f440a6a35a83e9ce2340f21",
+  "compile_command": "gcc -shared -fPIC research137/code/proc_path.c -o <outside-repo>/proc_path.so -ldl",
+  "compiler_version": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "extra_environment": "LD_PRELOAD=<outside-repo>/proc_path.so, only on hosts with the documented numeric /proc PID mismatch",
+  "proof_modules_unmodified": true,
+  "mathlib_required": false,
+  "expected_archive_sha256_source": "research96/Lean-setup.json; reverified official release bytes during restoration"
+}
