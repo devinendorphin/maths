@@ -1,0 +1,75 @@
+{
+  "reason": "The experiments 137\u2013139 repository index intentionally updates README.md. Active historical publication seals must track the current index; previous seals remain byte-for-byte preserved, following the repository existing seal-backup convention.",
+  "source_main_commit": "156cfedf1b89e72b5568c5a6dd0279a7c9122b17",
+  "continuation_head": "4f02b556fd724b6f0269120ff95de3a1d691a144",
+  "updated_readme": {
+    "bytes": 15507,
+    "sha256": "b47f03650b73d20d0107c061661668a569fdb7596da1095f9acc8375b8b90f6b"
+  },
+  "updates": [
+    {
+      "seal": "research121/Publication-seal.json",
+      "preserved_previous_seal": "research121/Publication-seal-156cfed.json",
+      "previous_seal": {
+        "bytes": 9322,
+        "sha256": "3f3c4287edb19c74d13dd9ba42647e81d56049ba03937b425e23bffde33c99e6"
+      },
+      "updated_seal": {
+        "bytes": 9484,
+        "sha256": "baf4d0e406d2673de29bc3ff6d7b20a8220e87f1ed1a2150797d1489d2ccba64"
+      },
+      "previous_readme_entry": {
+        "bytes": 14353,
+        "sha256": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+      }
+    },
+    {
+      "seal": "research131/Publication-seal.json",
+      "preserved_previous_seal": "research131/Publication-seal-156cfed.json",
+      "previous_seal": {
+        "bytes": 10056,
+        "sha256": "d5a2d03ad60920f383e736425a02abf85f9e736760c2fced138aba099a6a5ce2"
+      },
+      "updated_seal": {
+        "bytes": 10219,
+        "sha256": "5cd717ad945f740b9a0c9df0938581e822640b1c4fa2f8c659c99fa4d66e86fc"
+      },
+      "previous_readme_entry": {
+        "bytes": 14353,
+        "sha256": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+      }
+    },
+    {
+      "seal": "research133/Publication-seal.json",
+      "preserved_previous_seal": "research133/Publication-seal-156cfed.json",
+      "previous_seal": {
+        "bytes": 6998,
+        "sha256": "5797122fc0b65aa61ec634e2436b6aa1f38cbc4ab5145aec75f8217eeeb6376d"
+      },
+      "updated_seal": {
+        "bytes": 7160,
+        "sha256": "f013d2bfc830763b2e9241ed3560ce23d1abe36ceef6e778fa771c36f3d46ed8"
+      },
+      "previous_readme_entry": {
+        "bytes": 14353,
+        "sha256": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+      }
+    },
+    {
+      "seal": "research111/repairs/Publication-seal.json",
+      "preserved_previous_seal": "research111/repairs/Publication-seal-156cfed.json",
+      "previous_seal": {
+        "bytes": 16208,
+        "sha256": "c7ca37630dc5409fe19cf7589c78db48dfcbf97b8f7e59408ab13d30febb90ea"
+      },
+      "updated_seal": {
+        "bytes": 16333,
+        "sha256": "36cd3956c9b55f2bb0a30da6bdc09bc5ac70934e598596b38240ed7003721fad"
+      },
+      "previous_readme_entry": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+    }
+  ],
+  "all_existing_non_readme_entries_preserved": true,
+  "all_archive_receipts_preserved": true,
+  "experimental_sources_or_results_changed": false
+}

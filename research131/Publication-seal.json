@@ -177,8 +177,8 @@
       "sha256": "9c080d2ad0bbd62bded48ec7d7dc0e7e39cf8fa6b8f27cdf72885aac7113de1b"
     },
     "README.md": {
-      "bytes": 14353,
-      "sha256": "96a62454ae1dcd474c965f6fa7c8725b267950b2392def50eaa5b440e0de9c0e"
+      "bytes": 15507,
+      "sha256": "b47f03650b73d20d0107c061661668a569fdb7596da1095f9acc8375b8b90f6b"
     },
     ".github/workflows/verify-research131.yml": {
       "bytes": 1131,
@@ -235,6 +235,10 @@
     "research131/Publication-seal-eb1222d.json": {
       "bytes": 9894,
       "sha256": "d743bbe1829e935e3e95f8c255a5b2caa3f5c1a85843dd756d3fbe056fb629e1"
+    },
+    "research131/Publication-seal-156cfed.json": {
+      "bytes": 10056,
+      "sha256": "d5a2d03ad60920f383e736425a02abf85f9e736760c2fced138aba099a6a5ce2"
     }
   },
   "archive": {
